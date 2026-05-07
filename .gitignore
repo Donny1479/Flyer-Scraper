@@ -14,6 +14,13 @@ venv/
 # Streamlit local secrets
 .streamlit/secrets.toml
 
+# One-time backfill helpers (not needed at runtime)
+fetch_historical.py
+write_history.py
+data/historical_manifest.json
+data/download_plan.json
+data/tmp_images/
+
 # OS
 .DS_Store
 Thumbs.db
