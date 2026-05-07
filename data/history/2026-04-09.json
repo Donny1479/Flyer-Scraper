@@ -1,0 +1,80 @@
+{
+  "scraped_at": "2026-05-07T12:00:00",
+  "week_start": "2026-04-09",
+  "week_end": "2026-04-15",
+  "retailers": [
+    {
+      "name": "Walmart",
+      "flyers": [],
+      "products": []
+    },
+    {
+      "name": "Sobeys",
+      "flyers": [],
+      "products": []
+    },
+    {
+      "name": "No Frills",
+      "flyers": [
+        {
+          "title": "no-frills-on-flyer-april-9-to-152",
+          "url": "https://flyers.smartcanucks.ca/canada/no-frills-on-flyer-april-9-to-152",
+          "pages_scanned": 6,
+          "products_found": 0
+        }
+      ],
+      "products": []
+    },
+    {
+      "name": "FreshCo",
+      "flyers": [],
+      "products": []
+    },
+    {
+      "name": "RCSS",
+      "flyers": [
+        {
+          "title": "real-canadian-superstore-on-flyer-april-9-to-152",
+          "url": "https://flyers.smartcanucks.ca/canada/real-canadian-superstore-on-flyer-april-9-to-152",
+          "pages_scanned": 6,
+          "products_found": 0
+        }
+      ],
+      "products": []
+    },
+    {
+      "name": "Loblaws",
+      "flyers": [
+        {
+          "title": "loblaws-on-flyer-april-9-to-152",
+          "url": "https://flyers.smartcanucks.ca/canada/loblaws-on-flyer-april-9-to-152",
+          "pages_scanned": 6,
+          "products_found": 0
+        }
+      ],
+      "products": []
+    },
+    {
+      "name": "Metro",
+      "flyers": [],
+      "products": []
+    },
+    {
+      "name": "Food Basics",
+      "flyers": [
+        {
+          "title": "food-basics-flyer-april-9-to-152",
+          "url": "https://flyers.smartcanucks.ca/canada/food-basics-flyer-april-9-to-152",
+          "pages_scanned": 6,
+          "products_found": 0
+        }
+      ],
+      "products": []
+    },
+    {
+      "name": "Canadian Tire",
+      "flyers": [],
+      "products": []
+    }
+  ]
+}

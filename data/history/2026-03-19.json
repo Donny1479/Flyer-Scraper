@@ -1,0 +1,59 @@
+{
+  "scraped_at": "2026-05-07T12:00:00",
+  "week_start": "2026-03-19",
+  "week_end": "2026-03-25",
+  "retailers": [
+    {
+      "name": "Walmart",
+      "flyers": [],
+      "products": []
+    },
+    {
+      "name": "Sobeys",
+      "flyers": [],
+      "products": []
+    },
+    {
+      "name": "No Frills",
+      "flyers": [],
+      "products": []
+    },
+    {
+      "name": "FreshCo",
+      "flyers": [],
+      "products": []
+    },
+    {
+      "name": "RCSS",
+      "flyers": [],
+      "products": []
+    },
+    {
+      "name": "Loblaws",
+      "flyers": [],
+      "products": []
+    },
+    {
+      "name": "Metro",
+      "flyers": [],
+      "products": []
+    },
+    {
+      "name": "Food Basics",
+      "flyers": [
+        {
+          "title": "food-basics-flyer-march-19-to-252",
+          "url": "https://flyers.smartcanucks.ca/canada/food-basics-flyer-march-19-to-252",
+          "pages_scanned": 6,
+          "products_found": 0
+        }
+      ],
+      "products": []
+    },
+    {
+      "name": "Canadian Tire",
+      "flyers": [],
+      "products": []
+    }
+  ]
+}

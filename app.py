@@ -81,7 +81,7 @@ def run_with_progress() -> list[dict]:
         status.text(msg)
         bar.progress(min(float(pct), 1.0))
 
-    results = run_historical_scan(n_weeks=4, progress_callback=cb)
+    results = run_historical_scan(n_weeks=8, progress_callback=cb)
     bar.progress(1.0)
     status.success("Scan complete!")
     return results
@@ -166,7 +166,7 @@ with st.sidebar:
         type="primary",
         use_container_width=True,
         help=(
-            "Checks the last 4 flyer cycles. Skips any already in the registry "
+            "Checks the last 8 flyer cycles. Skips any already in the registry "
             "so you only pay for genuinely new flyers."
         ),
     )
@@ -175,7 +175,7 @@ with st.sidebar:
         force_rescan = st.checkbox(
             "Ignore registry (rescan everything)",
             value=False,
-            help="Forces re-analysis of all flyers in the last 4 weeks, even if already scanned.",
+            help="Forces re-analysis of all flyers in the last 8 weeks, even if already scanned.",
         )
 
     st.divider()

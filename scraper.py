@@ -90,6 +90,11 @@ RETAILERS = [
         # No regional split — one national flyer covers Ontario
         "url_patterns": ["/canada/food-basics-flyer-"],
     },
+    {
+        "name": "Canadian Tire",
+        "listing_url": f"{BASE_URL}/canadian-tire-canada",
+        "url_patterns": ["/canada/canadian-tire-on-flyer-"],
+    },
 ]
 
 VISION_MODEL = "claude-sonnet-4-6"
@@ -581,7 +586,7 @@ def run_scraper(
     return results
 
 
-def run_historical_scan(n_weeks: int = 4, progress_callback=None) -> list[dict]:
+def run_historical_scan(n_weeks: int = 8, progress_callback=None) -> list[dict]:
     """
     Scan the last n flyer cycles (Thursday–Wednesday weeks), skipping any
     flyer URLs already in the scanned registry to avoid redundant API calls.
@@ -619,4 +624,4 @@ def run_historical_scan(n_weeks: int = 4, progress_callback=None) -> list[dict]:
 
 
 if __name__ == "__main__":
-    run_historical_scan(n_weeks=4)
+    run_historical_scan(n_weeks=8)

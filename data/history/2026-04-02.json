@@ -1,0 +1,66 @@
+{
+  "scraped_at": "2026-05-07T12:00:00",
+  "week_start": "2026-04-02",
+  "week_end": "2026-04-08",
+  "retailers": [
+    {
+      "name": "Walmart",
+      "flyers": [],
+      "products": []
+    },
+    {
+      "name": "Sobeys",
+      "flyers": [],
+      "products": []
+    },
+    {
+      "name": "No Frills",
+      "flyers": [],
+      "products": []
+    },
+    {
+      "name": "FreshCo",
+      "flyers": [],
+      "products": []
+    },
+    {
+      "name": "RCSS",
+      "flyers": [
+        {
+          "title": "real-canadian-superstore-on-flyer-april-2-to-82",
+          "url": "https://flyers.smartcanucks.ca/canada/real-canadian-superstore-on-flyer-april-2-to-82",
+          "pages_scanned": 6,
+          "products_found": 0
+        }
+      ],
+      "products": []
+    },
+    {
+      "name": "Loblaws",
+      "flyers": [],
+      "products": []
+    },
+    {
+      "name": "Metro",
+      "flyers": [],
+      "products": []
+    },
+    {
+      "name": "Food Basics",
+      "flyers": [
+        {
+          "title": "food-basics-flyer-april-2-to-82",
+          "url": "https://flyers.smartcanucks.ca/canada/food-basics-flyer-april-2-to-82",
+          "pages_scanned": 6,
+          "products_found": 0
+        }
+      ],
+      "products": []
+    },
+    {
+      "name": "Canadian Tire",
+      "flyers": [],
+      "products": []
+    }
+  ]
+}
