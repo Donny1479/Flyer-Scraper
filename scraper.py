@@ -95,29 +95,45 @@ RETAILERS = [
     },
 ]
 
-VISION_MODEL = "claude-haiku-4-5-20251001"
+VISION_MODEL = "claude-sonnet-4-6"
 
 EXTRACTION_PROMPT = """\
-Analyze this Canadian grocery store flyer page image.
+You are analyzing a Canadian grocery store flyer page image.
 
-YOUR TASK: Locate product blocks where the brand name "Tim Hortons" is EXPLICITLY printed as readable text.
+GOAL: Find products where the brand name "Tim Hortons" is EXPLICITLY printed and clearly readable on the product packaging or product label.
 
-STRICT CRITERIA — a block qualifies ONLY if:
-• The words "Tim Hortons" appear as clearly readable text on the product or its label, OR
-• The Tim Hortons logo (red circle with "Tim Hortons" lettering) is unambiguously visible
+VERIFICATION PROCESS — for every candidate product, you MUST:
+1. Read the brand text directly from the product packaging in the image (do NOT guess or infer from context)
+2. Quote that text VERBATIM in the "brand_text_seen" field
+3. The quoted text MUST literally contain the words "Tim Hortons"
+4. If you cannot clearly read the words "Tim Hortons" on the product itself, EXCLUDE it
 
-DO NOT include any other brand, even if coffee-related:
-• Maxwell House, Folgers, Nescafé, Starbucks, Keurig, McCafé, Lavazza, etc.
-• Generic K-Cups or coffee pods without explicit "Tim Hortons" text
-• Products that are merely near a Tim Hortons product
+REJECT — these are NOT Tim Hortons (do not return them under any circumstances):
+• Maxwell House, Folgers, Nescafé, Starbucks, Keurig, McCafé, Lavazza
+• Nespresso, Nabob, Van Houtte, Kicking Horse, Kirkland, Mother Parkers
+• PC / President's Choice, No Name, Selection, Compliments, Great Value
+• Any generic K-Cup, coffee pod, ground coffee, or instant coffee box that does not show "Tim Hortons" branding
 
-For each qualifying Tim Hortons product block, return its bounding box as fractions of the total image dimensions (0.0 = left/top edge, 1.0 = right/bottom edge). The box should cover the full product block including the product image, name, and price.
+For each VERIFIED Tim Hortons product, return a JSON object with these fields:
+{
+  "brand_text_seen": "<exact text quoted from the product packaging — must include 'Tim Hortons'>",
+  "product_name":    "<full product name including size/quantity if shown>",
+  "price":           "<price as displayed, e.g. '$5.99', '2 for $10.00', 'Sale $7.99'>",
+  "deal_details":    "<any extra info like 'Save $2.00', 'with PC Optimum', 'limit 2', or empty string>"
+}
 
-Respond ONLY with a valid JSON array. No explanation, no markdown.
-If no Tim Hortons products are found: []
+If you have ANY doubt about whether the words "Tim Hortons" are visible on the product, EXCLUDE it.
 
-Example (one product block found):
-[{"x1": 0.02, "y1": 0.34, "x2": 0.49, "y2": 0.67}]
+Respond ONLY with a valid JSON array. No explanation, no markdown fences.
+If no Tim Hortons products are visible: []
+
+Example response:
+[{
+  "brand_text_seen": "Tim Hortons Original Blend",
+  "product_name":    "Tim Hortons Original Blend Coffee Pods 30pk",
+  "price":           "$9.99",
+  "deal_details":    "Save $3.00"
+}]
 """
 
 
@@ -224,9 +240,14 @@ def analyze_page_for_tim_hortons(
     image_url: str, client: anthropic.Anthropic
 ) -> list[dict]:
     """
-    Download a flyer page image and use Claude Vision to locate Tim Hortons
-    product blocks. Returns a list of bounding box dicts with keys x1, y1, x2,
-    y2 as fractions (0.0–1.0) of the image dimensions.
+    Download a flyer page image and use Claude Vision to identify Tim Hortons
+    products. Returns a list of verified product dicts with keys
+    product_name, price, deal_details.
+
+    Each product is server-side verified: Claude is required to quote the
+    brand text it sees in `brand_text_seen`, and any product whose quoted
+    text does not literally contain "tim hortons" is dropped — this catches
+    hallucinated brand attributions.
     """
     try:
         img_resp = requests.get(image_url, headers=HEADERS, timeout=30)
@@ -248,7 +269,7 @@ def analyze_page_for_tim_hortons(
     try:
         response = client.messages.create(
             model=VISION_MODEL,
-            max_tokens=512,
+            max_tokens=1024,
             messages=[
                 {
                     "role": "user",
@@ -279,29 +300,33 @@ def analyze_page_for_tim_hortons(
         end = len(lines) - 1 if lines[-1].strip() == "```" else len(lines)
         raw = "\n".join(lines[start:end]).strip()
 
-    def _parse_boxes(text: str) -> list[dict]:
-        boxes = json.loads(text)
-        if not isinstance(boxes, list):
+    def _parse(text: str) -> list[dict]:
+        items = json.loads(text)
+        if not isinstance(items, list):
             return []
-        valid = []
-        for b in boxes:
-            if isinstance(b, dict) and all(k in b for k in ("x1", "y1", "x2", "y2")):
-                valid.append({
-                    # Normalize so x1 < x2 and y1 < y2, clamp to [0, 1]
-                    "x1": max(0.0, min(float(b["x1"]), float(b["x2"]))),
-                    "y1": max(0.0, min(float(b["y1"]), float(b["y2"]))),
-                    "x2": min(1.0, max(float(b["x1"]), float(b["x2"]))),
-                    "y2": min(1.0, max(float(b["y1"]), float(b["y2"]))),
-                })
-        return valid
+        verified: list[dict] = []
+        for item in items:
+            if not isinstance(item, dict):
+                continue
+            brand_text = str(item.get("brand_text_seen", "")).lower()
+            # Hard gate: the quoted brand text must literally contain "tim hortons"
+            if "tim hortons" not in brand_text:
+                continue
+            verified.append({
+                "product_name":    str(item.get("product_name", "")).strip(),
+                "price":           str(item.get("price", "")).strip(),
+                "deal_details":    str(item.get("deal_details", "")).strip(),
+                "brand_text_seen": str(item.get("brand_text_seen", "")).strip(),
+            })
+        return verified
 
     try:
-        return _parse_boxes(raw)
+        return _parse(raw)
     except (json.JSONDecodeError, ValueError, TypeError):
-        match = re.search(r"\[.*?\]", raw, re.DOTALL)
+        match = re.search(r"\[.*\]", raw, re.DOTALL)
         if match:
             try:
-                return _parse_boxes(match.group())
+                return _parse(match.group())
             except (json.JSONDecodeError, ValueError, TypeError):
                 pass
 
@@ -395,25 +420,23 @@ def run_scraper(progress_callback=None) -> dict:
                     flush=True,
                 )
 
-                boxes = analyze_page_for_tim_hortons(image_url, client)
+                products = analyze_page_for_tim_hortons(image_url, client)
 
-                if boxes:
-                    print(f"✓ {len(boxes)} block(s) found")
+                if products:
+                    print(f"✓ {len(products)} product(s) verified")
                 else:
                     print("—")
 
                 # SmartCanucks single-page view is 0-indexed: page N → /single/{N-1}
                 page_url = f"{flyer['url'].rstrip('/')}/single/{page_num - 1}"
 
-                for crop_box in boxes:
-                    flyer_products.append({
-                        "page_number": page_num,
-                        "page_url": page_url,
-                        "image_url": image_url,
-                        "crop_box": crop_box,
-                        "flyer_title": flyer["title"],
-                        "flyer_url": flyer["url"],
-                    })
+                for product in products:
+                    product["page_number"] = page_num
+                    product["page_url"]    = page_url
+                    product["image_url"]   = image_url
+                    product["flyer_title"] = flyer["title"]
+                    product["flyer_url"]   = flyer["url"]
+                    flyer_products.append(product)
 
                 # Be polite to the server and the API
                 time.sleep(0.4)

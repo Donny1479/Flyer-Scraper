@@ -1,28 +1,20 @@
 """
 Tim Hortons Flyer Scanner — Streamlit UI
-Displays cropped flyer images of Tim Hortons product blocks found across
-Ontario grocery flyers. Click any image to jump to the exact SmartCanucks page.
+Displays Tim Hortons products found across Ontario grocery flyers.
 """
 
-import io
 import json
-import base64
 import sys
 from pathlib import Path
 from datetime import datetime
 
-import requests
 import pandas as pd
 import streamlit as st
-from PIL import Image
 
 sys.path.insert(0, str(Path(__file__).parent))
-from scraper import run_scraper, RETAILERS, HEADERS
+from scraper import run_scraper, RETAILERS
 
 RESULTS_FILE = Path(__file__).parent / "data" / "results.json"
-
-# Padding added around each detected product block (pixels)
-CROP_PADDING = 24
 
 # ── Page config ───────────────────────────────────────────────────────────────
 st.set_page_config(
@@ -45,14 +37,22 @@ st.markdown(
     .th-banner h1 { margin: 0; font-size: 1.8rem; }
     .th-banner p  { margin: 0.25rem 0 0; opacity: 0.88; font-size: 0.95rem; }
 
-    .flyer-img-link img {
-        border-radius: 8px;
-        border: 2px solid #E0E0E0;
-        cursor: pointer;
-        transition: border-color 0.15s;
-        width: 100%;
+    .price-pill {
+        display: inline-block;
+        background: #C8102E;
+        color: white;
+        padding: 0.18rem 0.7rem;
+        border-radius: 99px;
+        font-weight: 700;
+        font-size: 0.88rem;
+        white-space: nowrap;
     }
-    .flyer-img-link img:hover { border-color: #C8102E; }
+
+    .row-divider {
+        border: none;
+        border-top: 1px solid #EEE;
+        margin: 0.25rem 0;
+    }
 
     [data-testid="metric-container"] {
         border-left: 3px solid #C8102E;
@@ -91,54 +91,18 @@ def run_with_progress() -> dict:
     return results
 
 
-@st.cache_data(ttl=60 * 60 * 24 * 7, show_spinner=False)
-def fetch_and_crop(image_url: str, x1: float, y1: float, x2: float, y2: float) -> bytes:
-    """
-    Download a flyer page image and crop it to the bounding box with padding.
-    Results are cached for 7 days so revisiting the app is instant.
-    """
-    resp = requests.get(image_url, headers=HEADERS, timeout=30)
-    resp.raise_for_status()
-
-    img = Image.open(io.BytesIO(resp.content)).convert("RGB")
-    w, h = img.size
-
-    left   = max(0, int(x1 * w) - CROP_PADDING)
-    top    = max(0, int(y1 * h) - CROP_PADDING)
-    right  = min(w, int(x2 * w) + CROP_PADDING)
-    bottom = min(h, int(y2 * h) + CROP_PADDING)
-
-    cropped = img.crop((left, top, right, bottom))
-    buf = io.BytesIO()
-    cropped.save(buf, format="JPEG", quality=88)
-    return buf.getvalue()
-
-
-def clickable_image(img_bytes: bytes, href: str, caption: str) -> None:
-    """Render a cropped flyer image that links to the exact SmartCanucks page."""
-    b64 = base64.b64encode(img_bytes).decode()
-    data_url = f"data:image/jpeg;base64,{b64}"
-    st.markdown(
-        f'<div class="flyer-img-link">'
-        f'<a href="{href}" target="_blank" title="View on SmartCanucks">'
-        f'<img src="{data_url}" alt="Tim Hortons product block" />'
-        f'</a></div>',
-        unsafe_allow_html=True,
-    )
-    st.caption(caption)
-
-
 def flatten_products(results: dict) -> list[dict]:
     rows = []
     for r in results["retailers"]:
         for p in r["products"]:
             rows.append({
-                "Retailer":     r["name"],
-                "Flyer":        p.get("flyer_title", ""),
-                "Page":         p.get("page_number", ""),
-                "Page URL":     p.get("page_url", p.get("flyer_url", "")),
-                "Image URL":    p.get("image_url", ""),
-                "crop_box":     p.get("crop_box", {}),
+                "Retailer":      r["name"],
+                "Product":       p.get("product_name", ""),
+                "Price":         p.get("price", ""),
+                "Deal Details":  p.get("deal_details", "") or "—",
+                "Flyer":         p.get("flyer_title", ""),
+                "Page":          p.get("page_number", ""),
+                "Page URL":      p.get("page_url", p.get("flyer_url", "")),
             })
     return rows
 
@@ -159,7 +123,7 @@ with st.sidebar:
         "🔄 Scan Flyers Now",
         type="primary",
         use_container_width=True,
-        help="Analyzes the latest Ontario flyer images via Claude Vision (~5–10 min).",
+        help="Analyzes the latest Ontario flyer images via Claude Sonnet (~5–10 min).",
     )
 
     st.divider()
@@ -170,7 +134,7 @@ with st.sidebar:
     st.divider()
     st.caption(
         "Flyers from [SmartCanucks.ca](https://flyers.smartcanucks.ca) · "
-        "Detection by Claude Vision"
+        "Detection by Claude Sonnet 4.6"
     )
 
 
@@ -178,7 +142,7 @@ with st.sidebar:
 st.markdown(
     '<div class="th-banner">'
     "<h1>☕ Tim Hortons Flyer Scanner</h1>"
-    "<p>Ontario grocery flyer monitor · Click any product image to view the exact flyer page</p>"
+    "<p>Ontario grocery flyer monitor · Click any page link to view the exact flyer page on SmartCanucks</p>"
     "</div>",
     unsafe_allow_html=True,
 )
@@ -194,11 +158,12 @@ if not results:
     st.info(
         "No scan data found. Click **Scan Flyers Now** in the sidebar to start.\n\n"
         "The scanner will fetch the current Ontario flyer for each retailer, analyze "
-        "every page with Claude Vision, and highlight any Tim Hortons product blocks."
+        "every page with Claude Vision, and verify each Tim Hortons product by reading "
+        "the brand text directly from the packaging."
     )
     st.stop()
 
-# ── Flatten all products ──────────────────────────────────────────────────────
+# ── Flatten ───────────────────────────────────────────────────────────────────
 all_products = flatten_products(results)
 
 # ── Summary metrics ───────────────────────────────────────────────────────────
@@ -211,14 +176,14 @@ total_pages = sum(
 )
 
 c1, c2, c3, c4 = st.columns(4)
-c1.metric("🛒 Tim Hortons Blocks Found", len(all_products))
+c1.metric("🛒 Tim Hortons Deals", len(all_products))
 c2.metric("🏪 Retailers with Deals", f"{retailers_with_deals} / 8")
 c3.metric("📰 Flyers Scanned", total_flyers)
 c4.metric("📄 Pages Analyzed", total_pages)
 
 st.divider()
 
-# ── Retailer filter ───────────────────────────────────────────────────────────
+# ── Filter ────────────────────────────────────────────────────────────────────
 all_retailer_names = [r["name"] for r in RETAILERS]
 selected_retailers = st.multiselect(
     "Filter by Retailer",
@@ -255,7 +220,7 @@ else:
         )
 
         if r_products:
-            label = f"🛒 **{r_name}** — {len(r_products)} Tim Hortons block(s) found"
+            label = f"🛒 **{r_name}** — {len(r_products)} Tim Hortons deal(s)"
         else:
             label = f"🛒 **{r_name}** — no deals found this week"
 
@@ -270,40 +235,36 @@ else:
                     st.caption("No Ontario flyer found for this retailer.")
                 continue
 
-            # Display cropped product images in a 2-column grid
-            cols = st.columns(2)
-            for idx, p in enumerate(r_products):
-                box = p["crop_box"]
-                try:
-                    img_bytes = fetch_and_crop(
-                        p["Image URL"],
-                        box["x1"], box["y1"],
-                        box["x2"], box["y2"],
-                    )
-                except Exception as e:
-                    cols[idx % 2].warning(f"Could not load image: {e}")
-                    continue
+            # Column headers
+            hcols = st.columns([4, 1.5, 2.5, 1.5])
+            hcols[0].markdown("**Product**")
+            hcols[1].markdown("**Price**")
+            hcols[2].markdown("**Deal Details**")
+            hcols[3].markdown("**Flyer Page**")
+            st.markdown('<hr class="row-divider">', unsafe_allow_html=True)
 
-                caption = f"{p['Flyer']} · Page {p['Page']}"
-                with cols[idx % 2]:
-                    clickable_image(img_bytes, p["Page URL"], caption)
+            for p in r_products:
+                cols = st.columns([4, 1.5, 2.5, 1.5])
+                cols[0].markdown(p["Product"])
+                cols[1].markdown(
+                    f'<span class="price-pill">{p["Price"]}</span>',
+                    unsafe_allow_html=True,
+                )
+                cols[2].caption(p["Deal Details"])
+                cols[3].markdown(f"[Page {p['Page']} ↗]({p['Page URL']})")
+                st.markdown('<hr class="row-divider">', unsafe_allow_html=True)
 
 # ── CSV export ────────────────────────────────────────────────────────────────
 if all_products:
     st.divider()
-    export_df = pd.DataFrame([
-        {
-            "Retailer": p["Retailer"],
-            "Flyer":    p["Flyer"],
-            "Page":     p["Page"],
-            "SmartCanucks URL": p["Page URL"],
-        }
-        for p in all_products
-    ])
+    df = pd.DataFrame(all_products).drop(columns=["Page URL"])
+    csv_bytes = df.to_csv(index=False).encode("utf-8")
+    scan_date = results["scraped_at"][:10]
+
     st.download_button(
         label="⬇ Download Results as CSV",
-        data=export_df.to_csv(index=False).encode("utf-8"),
-        file_name=f"tim_hortons_deals_{results['scraped_at'][:10]}.csv",
+        data=csv_bytes,
+        file_name=f"tim_hortons_deals_{scan_date}.csv",
         mime="text/csv",
     )
 
