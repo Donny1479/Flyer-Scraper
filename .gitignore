@@ -1,0 +1,19 @@
+# Local secrets — never commit the real key
+.env
+
+# Cached scan results — regenerated at runtime
+data/results.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Streamlit local secrets
+.streamlit/secrets.toml
+
+# OS
+.DS_Store
+Thumbs.db
