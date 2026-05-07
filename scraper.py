@@ -98,27 +98,26 @@ RETAILERS = [
 VISION_MODEL = "claude-haiku-4-5-20251001"
 
 EXTRACTION_PROMPT = """\
-You are analyzing a Canadian grocery store flyer page image.
+Analyze this Canadian grocery store flyer page image.
 
-Your task: Identify ALL Tim Hortons branded products visible on this page.
+YOUR TASK: Locate product blocks where the brand name "Tim Hortons" is EXPLICITLY printed as readable text.
 
-Tim Hortons products include (but are not limited to):
-- Ground coffee, whole bean coffee, instant coffee
-- K-Cup pods / coffee pods / espresso capsules
-- Steeped tea bags, iced tea, hot chocolate
-- Timbiebs merchandise or collab products
-- Any product that displays the Tim Hortons name or logo
+STRICT CRITERIA — a block qualifies ONLY if:
+• The words "Tim Hortons" appear as clearly readable text on the product or its label, OR
+• The Tim Hortons logo (red circle with "Tim Hortons" lettering) is unambiguously visible
 
-For each Tim Hortons product found, return a JSON object with:
-  "product_name"  — full product name as printed (include size/quantity/variety if shown)
-  "price"         — price as displayed (e.g. "$5.99", "2 for $10.00", "Sale $7.99")
-  "deal_details"  — any extra context (e.g. "Save $2.00", "with PC Optimum", "limit 2 per customer"), or ""
+DO NOT include any other brand, even if coffee-related:
+• Maxwell House, Folgers, Nescafé, Starbucks, Keurig, McCafé, Lavazza, etc.
+• Generic K-Cups or coffee pods without explicit "Tim Hortons" text
+• Products that are merely near a Tim Hortons product
 
-Respond ONLY with a valid JSON array. No prose, no markdown fences.
-If no Tim Hortons products are visible, respond with exactly: []
+For each qualifying Tim Hortons product block, return its bounding box as fractions of the total image dimensions (0.0 = left/top edge, 1.0 = right/bottom edge). The box should cover the full product block including the product image, name, and price.
 
-Example:
-[{"product_name": "Tim Hortons Original Blend K-Cup Coffee Pods 30pk", "price": "$9.99", "deal_details": "Save $3.00"}]
+Respond ONLY with a valid JSON array. No explanation, no markdown.
+If no Tim Hortons products are found: []
+
+Example (one product block found):
+[{"x1": 0.02, "y1": 0.34, "x2": 0.49, "y2": 0.67}]
 """
 
 
@@ -225,8 +224,9 @@ def analyze_page_for_tim_hortons(
     image_url: str, client: anthropic.Anthropic
 ) -> list[dict]:
     """
-    Download a flyer page image and use Claude Vision to identify Tim Hortons
-    products. Returns a (possibly empty) list of product dicts.
+    Download a flyer page image and use Claude Vision to locate Tim Hortons
+    product blocks. Returns a list of bounding box dicts with keys x1, y1, x2,
+    y2 as fractions (0.0–1.0) of the image dimensions.
     """
     try:
         img_resp = requests.get(image_url, headers=HEADERS, timeout=30)
@@ -242,15 +242,13 @@ def analyze_page_for_tim_hortons(
         media_type = "image/png"
     elif "webp" in content_type:
         media_type = "image/webp"
-    elif "gif" in content_type:
-        media_type = "image/gif"
     else:
         media_type = "image/jpeg"
 
     try:
         response = client.messages.create(
             model=VISION_MODEL,
-            max_tokens=1024,
+            max_tokens=512,
             messages=[
                 {
                     "role": "user",
@@ -281,19 +279,30 @@ def analyze_page_for_tim_hortons(
         end = len(lines) - 1 if lines[-1].strip() == "```" else len(lines)
         raw = "\n".join(lines[start:end]).strip()
 
+    def _parse_boxes(text: str) -> list[dict]:
+        boxes = json.loads(text)
+        if not isinstance(boxes, list):
+            return []
+        valid = []
+        for b in boxes:
+            if isinstance(b, dict) and all(k in b for k in ("x1", "y1", "x2", "y2")):
+                valid.append({
+                    # Normalize so x1 < x2 and y1 < y2, clamp to [0, 1]
+                    "x1": max(0.0, min(float(b["x1"]), float(b["x2"]))),
+                    "y1": max(0.0, min(float(b["y1"]), float(b["y2"]))),
+                    "x2": min(1.0, max(float(b["x1"]), float(b["x2"]))),
+                    "y2": min(1.0, max(float(b["y1"]), float(b["y2"]))),
+                })
+        return valid
+
     try:
-        products = json.loads(raw)
-        if isinstance(products, list):
-            return products
-    except json.JSONDecodeError:
-        # Last-ditch attempt: find a JSON array anywhere in the response
+        return _parse_boxes(raw)
+    except (json.JSONDecodeError, ValueError, TypeError):
         match = re.search(r"\[.*?\]", raw, re.DOTALL)
         if match:
             try:
-                products = json.loads(match.group())
-                if isinstance(products, list):
-                    return products
-            except json.JSONDecodeError:
+                return _parse_boxes(match.group())
+            except (json.JSONDecodeError, ValueError, TypeError):
                 pass
 
     return []
@@ -386,19 +395,25 @@ def run_scraper(progress_callback=None) -> dict:
                     flush=True,
                 )
 
-                products = analyze_page_for_tim_hortons(image_url, client)
+                boxes = analyze_page_for_tim_hortons(image_url, client)
 
-                if products:
-                    print(f"✓ {len(products)} product(s) found")
+                if boxes:
+                    print(f"✓ {len(boxes)} block(s) found")
                 else:
                     print("—")
 
-                for p in products:
-                    p["page_number"] = page_num
-                    p["image_url"] = image_url
-                    p["flyer_title"] = flyer["title"]
-                    p["flyer_url"] = flyer["url"]
-                    flyer_products.append(p)
+                # SmartCanucks single-page view is 0-indexed: page N → /single/{N-1}
+                page_url = f"{flyer['url'].rstrip('/')}/single/{page_num - 1}"
+
+                for crop_box in boxes:
+                    flyer_products.append({
+                        "page_number": page_num,
+                        "page_url": page_url,
+                        "image_url": image_url,
+                        "crop_box": crop_box,
+                        "flyer_title": flyer["title"],
+                        "flyer_url": flyer["url"],
+                    })
 
                 # Be polite to the server and the API
                 time.sleep(0.4)
