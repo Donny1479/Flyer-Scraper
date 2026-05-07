@@ -100,42 +100,47 @@ RETAILERS = [
 VISION_MODEL = "claude-sonnet-4-6"
 
 EXTRACTION_PROMPT = """\
-You are analyzing a Canadian grocery store flyer page image.
+You are analyzing a Canadian grocery or retail store flyer page image.
 
-GOAL: Find products where the brand name "Tim Hortons" is EXPLICITLY printed and clearly readable on the product packaging or product label.
+GOAL: Find ANY product branded as "Tim Hortons" — including but not limited to coffee, tea,
+hot chocolate, K-Cups/pods, ground coffee, instant coffee, espresso, canned coffee, travel
+mugs, tumblers, thermoses, lunchboxes, gift sets, or any other merchandise.
 
-VERIFICATION PROCESS — for every candidate product, you MUST:
-1. Read the brand text directly from the product packaging in the image (do NOT guess or infer from context)
-2. Quote that text VERBATIM in the "brand_text_seen" field
-3. The quoted text MUST literally contain the words "Tim Hortons"
-4. If you cannot clearly read the words "Tim Hortons" on the product itself, EXCLUDE it
+HOW TO FIND THEM — read the TEXT CAPTIONS printed in the flyer, not just the packaging:
+Flyer pages have product images with text labels/captions alongside them that name the product
+and brand. The words "Tim Hortons" will appear EITHER on the product packaging OR in the
+printed product name/caption text in the flyer. Read both.
 
-REJECT — these are NOT Tim Hortons (do not return them under any circumstances):
-• Maxwell House, Folgers, Nescafé, Starbucks, Keurig, McCafé, Lavazza
+VERIFICATION — for every candidate you MUST:
+1. Locate the product name or caption text printed next to the product in the flyer
+2. Confirm the words "Tim Hortons" appear in that caption text or on the product packaging
+3. Quote the exact text you read in "brand_text_seen"
+4. The quoted text MUST contain the words "Tim Hortons" — if it does not, EXCLUDE it
+
+REJECT entirely — these brands are NOT Tim Hortons:
+• Timothy's, Maxwell House, Folgers, Nescafé, Starbucks, Keurig, McCafé, Lavazza
 • Nespresso, Nabob, Van Houtte, Kicking Horse, Kirkland, Mother Parkers
 • PC / President's Choice, No Name, Selection, Compliments, Great Value
-• Any generic K-Cup, coffee pod, ground coffee, or instant coffee box that does not show "Tim Hortons" branding
+• Any product whose name or packaging does NOT contain the words "Tim Hortons"
 
-For each VERIFIED Tim Hortons product, return a JSON object with these fields:
+For each VERIFIED Tim Hortons product return a JSON object:
 {
-  "brand_text_seen": "<exact text quoted from the product packaging — must include 'Tim Hortons'>",
-  "product_name":    "<full product name including size/quantity if shown>",
-  "price":           "<price as displayed, e.g. '$5.99', '2 for $10.00', 'Sale $7.99'>",
-  "deal_details":    "<any extra info like 'Save $2.00', 'with PC Optimum', 'limit 2', or empty string>"
+  "brand_text_seen": "<exact text read from the flyer caption or packaging that contains 'Tim Hortons'>",
+  "product_name":    "<full product name with size/quantity as printed in the flyer>",
+  "price":           "<price as shown, e.g. '$22.86', 'Rollback $9.97', '2 for $10.00'>",
+  "deal_details":    "<savings info, loyalty points, limit, or empty string>"
 }
 
-If you have ANY doubt about whether the words "Tim Hortons" are visible on the product, EXCLUDE it.
-
 Respond ONLY with a valid JSON array. No explanation, no markdown fences.
-If no Tim Hortons products are visible: []
+If no Tim Hortons products are found: []
 
-Example response:
-[{
-  "brand_text_seen": "Tim Hortons Original Blend",
-  "product_name":    "Tim Hortons Original Blend Coffee Pods 30pk",
-  "price":           "$9.99",
-  "deal_details":    "Save $3.00"
-}]
+Examples of valid Tim Hortons products to capture:
+- Tim Hortons Ground Coffee 930g — $22.86 (Rollback)
+- Tim Hortons Original Blend K-Cups 30pk — $9.97
+- Tim Hortons Steeped Tea Pods 16pk — $7.99
+- Tim Hortons Dark Roast Coffee Pods — $11.99
+- Tim Hortons Travel Mug 470mL — $14.99
+- Tim Hortons Hot Chocolate Mix 450g — $8.99
 """
 
 # Month names used to build the URL slugs SmartCanucks embeds in flyer URLs
@@ -233,16 +238,49 @@ def load_all_history() -> list[dict]:
 
 # ── Core scraping ─────────────────────────────────────────────────────────────
 
+def _build_direct_flyer_url(url_pattern: str, week_start: _date) -> str | None:
+    """
+    Directly construct a flyer URL from a URL pattern and week start date.
+
+    SmartCanucks embeds start/end dates in flyer slugs. Listing pages only
+    show ~2 recent weeks, but older flyer pages remain accessible by direct
+    URL. This function tries suffix variants ("2", "1", "", "3") that
+    SmartCanucks appends after the end-day to distinguish regional editions.
+    Returns the first URL that resolves and contains flyer images, or None.
+    """
+    week_end = get_week_end(week_start)
+    start_slug = date_to_url_slug(week_start)
+
+    if week_start.month == week_end.month:
+        end_part = str(week_end.day)
+    else:
+        end_part = date_to_url_slug(week_end)   # e.g. "april-1" for cross-month
+
+    # url_pattern looks like "/canada/walmart-on-flyer-"
+    base = BASE_URL + url_pattern + start_slug + "-to-" + end_part
+
+    for suffix in ("2", "1", "3", ""):
+        candidate = base + suffix
+        try:
+            resp = requests.get(candidate, headers=HEADERS, timeout=15)
+            if resp.status_code == 200 and "uploads/pages" in resp.text:
+                return candidate
+        except requests.RequestException:
+            continue
+    return None
+
+
 def get_current_ontario_flyers(
     retailer: dict, week_start: _date | None = None
 ) -> list[dict]:
     """
-    Fetch the retailer's SmartCanucks listing page and return Ontario flyers.
+    Return Ontario flyers for a retailer for the given week.
 
-    If week_start is provided, only flyers whose URL contains that date slug
-    are returned (e.g. '-may-7-' for May 7). This allows finding historical
-    (now-expired) flyers. Without week_start, returns the first/most-recent
-    flyer per URL pattern — the current week's flyer.
+    Strategy:
+    1. Scrape the retailer's listing page (works for the most recent 1-2 weeks).
+    2. For any URL pattern that yielded no result from the listing page, fall back
+       to direct URL construction — SmartCanucks keeps archived flyer pages even
+       after removing them from the listing, so this recovers historical weeks.
     """
     print(f"  Fetching: {retailer['listing_url']}")
     try:
@@ -268,12 +306,9 @@ def get_current_ontario_flyers(
         if not matched_pattern:
             continue
 
-        # Historical week filter: the URL must contain the date slug
-        # e.g. "-may-7-" for May 7, "-april-30-" for April 30
         if date_slug and f"-{date_slug}-" not in href:
             continue
 
-        # One result per URL pattern (first hit = most recent / target week)
         if matched_pattern in seen_patterns:
             continue
 
@@ -287,6 +322,24 @@ def get_current_ontario_flyers(
         slug = href.rstrip("/").split("/")[-1]
         title = slug.replace("-", " ").title()
         flyers.append({"title": title, "url": full_url})
+
+    # Fallback: for historical weeks, try direct URL construction for any
+    # pattern that the listing page didn't return a result for.
+    if week_start:
+        matched_via_listing = {
+            next((pat for pat in retailer["url_patterns"] if pat in f["url"]), None)
+            for f in flyers
+        }
+        for pat in retailer["url_patterns"]:
+            if pat in matched_via_listing:
+                continue
+            direct_url = _build_direct_flyer_url(pat, week_start)
+            if direct_url and direct_url not in seen_urls:
+                seen_urls.add(direct_url)
+                slug = direct_url.rstrip("/").split("/")[-1]
+                title = slug.replace("-", " ").title()
+                flyers.append({"title": title, "url": direct_url})
+                print(f"  (direct URL fallback) {title}")
 
     return flyers
 

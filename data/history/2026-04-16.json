@@ -1,0 +1,39 @@
+{
+  "scraped_at": "2026-05-07T14:00:00",
+  "week_start": "2026-04-16",
+  "week_end": "2026-04-22",
+  "retailers": [
+    {
+      "name": "Walmart",
+      "flyers": [
+        {
+          "title": "walmart-on-flyer-april-16-to-222",
+          "url": "https://flyers.smartcanucks.ca/canada/walmart-on-flyer-april-16-to-222",
+          "pages_scanned": 4,
+          "products_found": 1
+        }
+      ],
+      "products": [
+        {
+          "product_name": "Tim Hortons Ground Coffee Selected Varieties",
+          "price": "$22.86",
+          "deal_details": "Rollback, was $28.47",
+          "brand_text_seen": "Tim Hortons Ground coffee",
+          "page_number": 1,
+          "page_url": "https://flyers.smartcanucks.ca/canada/walmart-on-flyer-april-16-to-222/single/0",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/291014/walmart-on-flyer-april-16-to-222-1.jpg",
+          "flyer_title": "walmart-on-flyer-april-16-to-222",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/walmart-on-flyer-april-16-to-222"
+        }
+      ]
+    },
+    {"name": "Sobeys",        "flyers": [], "products": []},
+    {"name": "No Frills",     "flyers": [], "products": []},
+    {"name": "FreshCo",       "flyers": [], "products": []},
+    {"name": "RCSS",          "flyers": [], "products": []},
+    {"name": "Loblaws",       "flyers": [], "products": []},
+    {"name": "Metro",         "flyers": [], "products": []},
+    {"name": "Food Basics",   "flyers": [], "products": []},
+    {"name": "Canadian Tire", "flyers": [], "products": []}
+  ]
+}
