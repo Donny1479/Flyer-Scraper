@@ -19,6 +19,19 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
+
+def _get_api_key() -> str:
+    """Return the Anthropic API key from Streamlit secrets (cloud) or .env (local)."""
+    try:
+        import streamlit as st
+        key = st.secrets.get("ANTHROPIC_API_KEY", "")
+        if key:
+            return key
+    except Exception:
+        pass
+    return os.getenv("ANTHROPIC_API_KEY", "")
+
+
 BASE_URL = "https://flyers.smartcanucks.ca"
 DATA_DIR = Path(__file__).parent / "data"
 RESULTS_FILE = DATA_DIR / "results.json"
@@ -301,11 +314,12 @@ def run_scraper(progress_callback=None) -> dict:
     """
     DATA_DIR.mkdir(exist_ok=True)
 
-    api_key = os.getenv("ANTHROPIC_API_KEY")
+    api_key = _get_api_key()
     if not api_key:
         raise ValueError(
             "ANTHROPIC_API_KEY is not set. "
-            "Copy .env.example to .env and add your key."
+            "Local: copy .env.example to .env and add your key. "
+            "Streamlit Cloud: add it under App Settings → Secrets."
         )
 
     client = anthropic.Anthropic(api_key=api_key)
