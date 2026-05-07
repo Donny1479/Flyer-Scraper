@@ -1,6 +1,6 @@
 """
 Tim Hortons Flyer Scanner — Streamlit UI
-Displays Tim Hortons products found across Ontario grocery flyers.
+Weekly flyer monitor with full history, product search, and smart incremental scanning.
 """
 
 import json
@@ -12,9 +12,14 @@ import pandas as pd
 import streamlit as st
 
 sys.path.insert(0, str(Path(__file__).parent))
-from scraper import run_scraper, RETAILERS
-
-RESULTS_FILE = Path(__file__).parent / "data" / "results.json"
+from scraper import (
+    run_historical_scan,
+    load_all_history,
+    load_scanned_registry,
+    format_week_label,
+    get_past_week_starts,
+    RETAILERS,
+)
 
 # ── Page config ───────────────────────────────────────────────────────────────
 st.set_page_config(
@@ -47,13 +52,11 @@ st.markdown(
         font-size: 0.88rem;
         white-space: nowrap;
     }
-
     .row-divider {
         border: none;
         border-top: 1px solid #EEE;
         margin: 0.25rem 0;
     }
-
     [data-testid="metric-container"] {
         border-left: 3px solid #C8102E;
         padding-left: 0.75rem;
@@ -66,176 +69,64 @@ st.markdown(
 
 # ── Helpers ───────────────────────────────────────────────────────────────────
 
-def load_results() -> dict | None:
-    if RESULTS_FILE.exists():
-        with open(RESULTS_FILE) as f:
-            return json.load(f)
-    return None
-
-
 def format_ts(iso: str) -> str:
-    return datetime.fromisoformat(iso).strftime("%B %d, %Y — %I:%M %p")
+    return datetime.fromisoformat(iso).strftime("%b %d, %Y — %I:%M %p")
 
 
-def run_with_progress() -> dict:
-    bar = st.progress(0.0)
+def run_with_progress() -> list[dict]:
+    bar    = st.progress(0.0)
     status = st.empty()
 
     def cb(msg: str, pct: float) -> None:
         status.text(msg)
         bar.progress(min(float(pct), 1.0))
 
-    results = run_scraper(progress_callback=cb)
+    results = run_historical_scan(n_weeks=4, progress_callback=cb)
     bar.progress(1.0)
     status.success("Scan complete!")
     return results
 
 
-def flatten_products(results: dict) -> list[dict]:
+def build_dataframe(history: list[dict]) -> pd.DataFrame:
+    """Flatten all history into a single DataFrame for search / table views."""
     rows = []
-    for r in results["retailers"]:
-        for p in r["products"]:
-            rows.append({
-                "Retailer":      r["name"],
-                "Product":       p.get("product_name", ""),
-                "Price":         p.get("price", ""),
-                "Deal Details":  p.get("deal_details", "") or "—",
-                "Flyer":         p.get("flyer_title", ""),
-                "Page":          p.get("page_number", ""),
-                "Page URL":      p.get("page_url", p.get("flyer_url", "")),
-            })
-    return rows
-
-
-# ── Sidebar ───────────────────────────────────────────────────────────────────
-with st.sidebar:
-    st.markdown("### ☕ Tim Hortons Flyer Scanner")
-    st.divider()
-
-    results = load_results()
-
-    if results:
-        st.success(f"**Last scanned:**\n{format_ts(results['scraped_at'])}")
-    else:
-        st.info("No scan data yet. Run your first scan!")
-
-    refresh = st.button(
-        "🔄 Scan Flyers Now",
-        type="primary",
-        use_container_width=True,
-        help="Analyzes the latest Ontario flyer images via Claude Sonnet (~5–10 min).",
-    )
-
-    st.divider()
-    st.markdown("**Retailers monitored (Ontario)**")
-    for r in RETAILERS:
-        st.caption(f"• {r['name']}")
-
-    st.divider()
-    st.caption(
-        "Flyers from [SmartCanucks.ca](https://flyers.smartcanucks.ca) · "
-        "Detection by Claude Sonnet 4.6"
-    )
-
-
-# ── Banner ────────────────────────────────────────────────────────────────────
-st.markdown(
-    '<div class="th-banner">'
-    "<h1>☕ Tim Hortons Flyer Scanner</h1>"
-    "<p>Ontario grocery flyer monitor · Click any page link to view the exact flyer page on SmartCanucks</p>"
-    "</div>",
-    unsafe_allow_html=True,
-)
-
-# ── Handle refresh ────────────────────────────────────────────────────────────
-if refresh:
-    with st.spinner("Scanning flyers — this may take a few minutes…"):
-        results = run_with_progress()
-    st.rerun()
-
-# ── No data state ─────────────────────────────────────────────────────────────
-if not results:
-    st.info(
-        "No scan data found. Click **Scan Flyers Now** in the sidebar to start.\n\n"
-        "The scanner will fetch the current Ontario flyer for each retailer, analyze "
-        "every page with Claude Vision, and verify each Tim Hortons product by reading "
-        "the brand text directly from the packaging."
-    )
-    st.stop()
-
-# ── Flatten ───────────────────────────────────────────────────────────────────
-all_products = flatten_products(results)
-
-# ── Summary metrics ───────────────────────────────────────────────────────────
-retailers_with_deals = sum(1 for r in results["retailers"] if r["products"])
-total_flyers = sum(len(r["flyers"]) for r in results["retailers"])
-total_pages = sum(
-    f.get("pages_scanned", 0)
-    for r in results["retailers"]
-    for f in r["flyers"]
-)
-
-c1, c2, c3, c4 = st.columns(4)
-c1.metric("🛒 Tim Hortons Deals", len(all_products))
-c2.metric("🏪 Retailers with Deals", f"{retailers_with_deals} / 8")
-c3.metric("📰 Flyers Scanned", total_flyers)
-c4.metric("📄 Pages Analyzed", total_pages)
-
-st.divider()
-
-# ── Filter ────────────────────────────────────────────────────────────────────
-all_retailer_names = [r["name"] for r in RETAILERS]
-selected_retailers = st.multiselect(
-    "Filter by Retailer",
-    options=all_retailer_names,
-    default=all_retailer_names,
-    key="retailer_filter",
-)
-
-filtered = [p for p in all_products if p["Retailer"] in selected_retailers]
-
-# ── Results ───────────────────────────────────────────────────────────────────
-if not all_products:
-    st.warning(
-        "No Tim Hortons products were detected in this week's flyers. "
-        "Try again on Monday when new flyers post, or hit **Scan Flyers Now** to re-run."
-    )
-
-elif not filtered:
-    st.info("No products match the selected retailer filter.")
-
-else:
-    scan_date = results["scraped_at"][:10]
-    st.markdown(f"### Week of {scan_date}")
-
-    for retailer_cfg in RETAILERS:
-        r_name = retailer_cfg["name"]
-        if r_name not in selected_retailers:
-            continue
-
-        r_products = [p for p in filtered if p["Retailer"] == r_name]
-        r_meta = next((r for r in results["retailers"] if r["name"] == r_name), None)
-        pages_scanned = (
-            sum(f.get("pages_scanned", 0) for f in r_meta["flyers"]) if r_meta else 0
+    for week_data in history:
+        week_label = format_week_label(
+            week_data.get("week_start", ""),
+            week_data.get("week_end"),
         )
+        for r in week_data.get("retailers", []):
+            for p in r.get("products", []):
+                rows.append({
+                    "week_start":    week_data.get("week_start", ""),
+                    "Week":          week_label,
+                    "Retailer":      r["name"],
+                    "Product":       p.get("product_name", ""),
+                    "Price":         p.get("price", ""),
+                    "Deal Details":  p.get("deal_details", "") or "—",
+                    "Page":          p.get("page_number", ""),
+                    "View":          p.get("page_url", p.get("flyer_url", "")),
+                })
+    cols = ["week_start", "Week", "Retailer", "Product", "Price", "Deal Details", "Page", "View"]
+    return pd.DataFrame(rows, columns=cols) if rows else pd.DataFrame(columns=cols)
+
+
+def retailer_sections(products: list[dict], week_label: str) -> None:
+    """Render per-retailer expandable sections for a given product list."""
+    for retailer_cfg in RETAILERS:
+        r_name    = retailer_cfg["name"]
+        r_products = [p for p in products if p["Retailer"] == r_name]
 
         if r_products:
-            label = f"🛒 **{r_name}** — {len(r_products)} Tim Hortons deal(s)"
+            label = f"🛒 **{r_name}** — {len(r_products)} deal(s)"
         else:
-            label = f"🛒 **{r_name}** — no deals found this week"
+            label = f"🛒 **{r_name}** — no deals this week"
 
         with st.expander(label, expanded=bool(r_products)):
             if not r_products:
-                if pages_scanned:
-                    st.caption(
-                        f"Scanned {pages_scanned} page(s) — "
-                        "no Tim Hortons products detected."
-                    )
-                else:
-                    st.caption("No Ontario flyer found for this retailer.")
+                st.caption("No Tim Hortons products detected in this retailer's flyer.")
                 continue
 
-            # Column headers
             hcols = st.columns([4, 1.5, 2.5, 1.5])
             hcols[0].markdown("**Product**")
             hcols[1].markdown("**Price**")
@@ -251,27 +142,280 @@ else:
                     unsafe_allow_html=True,
                 )
                 cols[2].caption(p["Deal Details"])
-                cols[3].markdown(f"[Page {p['Page']} ↗]({p['Page URL']})")
+                cols[3].markdown(f"[Page {p['Page']} ↗]({p['View']})")
                 st.markdown('<hr class="row-divider">', unsafe_allow_html=True)
 
-# ── CSV export ────────────────────────────────────────────────────────────────
-if all_products:
-    st.divider()
-    df = pd.DataFrame(all_products).drop(columns=["Page URL"])
-    csv_bytes = df.to_csv(index=False).encode("utf-8")
-    scan_date = results["scraped_at"][:10]
 
-    st.download_button(
-        label="⬇ Download Results as CSV",
-        data=csv_bytes,
-        file_name=f"tim_hortons_deals_{scan_date}.csv",
-        mime="text/csv",
+# ── Sidebar ───────────────────────────────────────────────────────────────────
+with st.sidebar:
+    st.markdown("### ☕ Tim Hortons Flyer Scanner")
+    st.divider()
+
+    history = load_all_history()
+    scanned_count = len(load_scanned_registry())
+
+    if history:
+        latest_ts = max(w.get("scraped_at", "") for w in history)
+        st.success(f"**{len(history)} week(s)** in history\nLast scan: {format_ts(latest_ts)}")
+        st.caption(f"{scanned_count} flyer(s) in registry")
+    else:
+        st.info("No history yet. Click **Scan New Flyers** to start.")
+
+    scan_btn = st.button(
+        "🔄 Scan New Flyers",
+        type="primary",
+        use_container_width=True,
+        help=(
+            "Checks the last 4 flyer cycles. Skips any already in the registry "
+            "so you only pay for genuinely new flyers."
+        ),
     )
+
+    with st.expander("⚙ Advanced"):
+        force_rescan = st.checkbox(
+            "Ignore registry (rescan everything)",
+            value=False,
+            help="Forces re-analysis of all flyers in the last 4 weeks, even if already scanned.",
+        )
+
+    st.divider()
+    st.markdown("**Retailers monitored (Ontario)**")
+    for r in RETAILERS:
+        st.caption(f"• {r['name']}")
+    st.divider()
+    st.caption("Data from [SmartCanucks.ca](https://flyers.smartcanucks.ca) · Claude Sonnet 4.6")
+
+
+# ── Banner ────────────────────────────────────────────────────────────────────
+st.markdown(
+    '<div class="th-banner">'
+    "<h1>☕ Tim Hortons Flyer Scanner</h1>"
+    "<p>Ontario grocery flyer monitor · 4-week history · Smart incremental scanning</p>"
+    "</div>",
+    unsafe_allow_html=True,
+)
+
+# ── Handle scan button ────────────────────────────────────────────────────────
+if scan_btn:
+    if force_rescan:
+        # Wipe the registry so everything gets re-scanned
+        from scraper import save_scanned_registry
+        save_scanned_registry(set())
+
+    with st.spinner("Scanning flyers — this may take several minutes…"):
+        run_with_progress()
+    st.rerun()
+
+# ── No history yet ────────────────────────────────────────────────────────────
+if not history:
+    st.info(
+        "No scan data found.\n\n"
+        "Click **Scan New Flyers** in the sidebar. On first run it will scan the "
+        "last 4 flyer cycles (Thu–Wed weeks) and build a history. "
+        "Subsequent scans only process new, unscanned flyers."
+    )
+    st.stop()
+
+# ── Global metrics (across all history) ──────────────────────────────────────
+full_df = build_dataframe(history)
+
+total_products   = len(full_df)
+weeks_tracked    = len(history)
+retailers_active = full_df["Retailer"].nunique() if not full_df.empty else 0
+total_pages      = sum(
+    f.get("pages_scanned", 0)
+    for w in history
+    for r in w.get("retailers", [])
+    for f in r.get("flyers", [])
+)
+
+c1, c2, c3, c4 = st.columns(4)
+c1.metric("🛒 Total TH Deals Found",   total_products)
+c2.metric("📅 Weeks of History",        weeks_tracked)
+c3.metric("🏪 Retailers with Deals",    retailers_active)
+c4.metric("📄 Total Pages Analyzed",    total_pages)
+
+st.divider()
+
+# ── Tabs ──────────────────────────────────────────────────────────────────────
+tab_weekly, tab_history = st.tabs(["📅 Weekly Review", "🔍 Product History"])
+
+
+# ══════════════════════════════════════════════════════════════════════════════
+# TAB 1 — WEEKLY REVIEW
+# Shows the retailer-section UI for a single selected week.
+# ══════════════════════════════════════════════════════════════════════════════
+with tab_weekly:
+    week_labels = [
+        format_week_label(w.get("week_start", ""), w.get("week_end"))
+        for w in history
+    ]
+
+    col_week, col_retailer = st.columns([2, 3])
+
+    with col_week:
+        selected_week_label = st.selectbox(
+            "Flyer Cycle",
+            options=week_labels,
+            index=0,
+            key="weekly_week",
+        )
+
+    # Find the corresponding week data
+    week_data = next(
+        (w for w in history
+         if format_week_label(w.get("week_start", ""), w.get("week_end")) == selected_week_label),
+        None,
+    )
+
+    # Build product list for this week
+    week_products: list[dict] = []
+    if week_data:
+        for r in week_data.get("retailers", []):
+            for p in r.get("products", []):
+                week_products.append({
+                    "Retailer":     r["name"],
+                    "Product":      p.get("product_name", ""),
+                    "Price":        p.get("price", ""),
+                    "Deal Details": p.get("deal_details", "") or "—",
+                    "Page":         p.get("page_number", ""),
+                    "View":         p.get("page_url", p.get("flyer_url", "")),
+                })
+
+    with col_retailer:
+        retailer_names     = [r["name"] for r in RETAILERS]
+        selected_retailers = st.multiselect(
+            "Retailer",
+            options=retailer_names,
+            default=retailer_names,
+            key="weekly_retailer",
+        )
+
+    filtered_week = [p for p in week_products if p["Retailer"] in selected_retailers]
+
+    if week_data:
+        scraped_at = week_data.get("scraped_at", "")
+        st.caption(f"**{selected_week_label}** · Scanned {format_ts(scraped_at) if scraped_at else 'unknown'} · {len(filtered_week)} deal(s)")
+
+    if not filtered_week:
+        st.info("No Tim Hortons products found for the selected week and retailer filter.")
+    else:
+        retailer_sections(filtered_week, selected_week_label)
+
+    # Per-week CSV download
+    if filtered_week:
+        df_week = pd.DataFrame(filtered_week).drop(columns=["View"])
+        st.download_button(
+            "⬇ Download This Week as CSV",
+            data=df_week.to_csv(index=False).encode("utf-8"),
+            file_name=f"tim_hortons_{selected_week_label.replace(' ', '_').replace('–','to')}.csv",
+            mime="text/csv",
+            key="csv_weekly",
+        )
+
+
+# ══════════════════════════════════════════════════════════════════════════════
+# TAB 2 — PRODUCT HISTORY
+# Searchable, filterable flat table across all weeks.
+# ══════════════════════════════════════════════════════════════════════════════
+with tab_history:
+    if full_df.empty:
+        st.info("No product history yet. Run a scan first.")
+        st.stop()
+
+    # Filters
+    fcol1, fcol2, fcol3 = st.columns([2, 2, 3])
+
+    with fcol1:
+        all_week_labels    = week_labels  # already ordered newest first
+        selected_hist_weeks = st.multiselect(
+            "Flyer Cycle(s)",
+            options=all_week_labels,
+            default=all_week_labels,
+            key="hist_weeks",
+            help="Select one or more flyer cycles to include.",
+        )
+
+    with fcol2:
+        retailer_names_all  = [r["name"] for r in RETAILERS]
+        selected_hist_retailers = st.multiselect(
+            "Retailer(s)",
+            options=retailer_names_all,
+            default=retailer_names_all,
+            key="hist_retailers",
+        )
+
+    with fcol3:
+        search_query = st.text_input(
+            "Search Products",
+            placeholder="e.g. K-Cup, Dark Roast, Steeped Tea…",
+            key="hist_search",
+        )
+
+    # Apply filters
+    filtered_df = full_df.copy()
+
+    if selected_hist_weeks:
+        filtered_df = filtered_df[filtered_df["Week"].isin(selected_hist_weeks)]
+
+    if selected_hist_retailers:
+        filtered_df = filtered_df[filtered_df["Retailer"].isin(selected_hist_retailers)]
+
+    if search_query.strip():
+        q = search_query.strip()
+        filtered_df = filtered_df[
+            filtered_df["Product"].str.contains(q, case=False, na=False)
+        ]
+
+    st.caption(f"{len(filtered_df)} deal(s) match the current filters")
+
+    if filtered_df.empty:
+        st.info("No results match the current filters.")
+    else:
+        # Show flat interactive table — Week, Retailer, Product, Price, Deal Details, link
+        display_df = (
+            filtered_df[["Week", "Retailer", "Product", "Price", "Deal Details", "View"]]
+            .sort_values(["week_start", "Retailer", "Product"], ascending=[False, True, True])
+            .reset_index(drop=True)
+        )
+        # Remove internal sort column before display
+        display_df = filtered_df[
+            ["Week", "Retailer", "Product", "Price", "Deal Details", "View"]
+        ].sort_values(
+            by=["Week", "Retailer"],
+            ascending=[False, True],
+            key=lambda col: col if col.name != "Week" else col.map(
+                {label: i for i, label in enumerate(week_labels)}
+            ),
+        ).reset_index(drop=True)
+
+        st.dataframe(
+            display_df,
+            column_config={
+                "View": st.column_config.LinkColumn(
+                    "Flyer Page",
+                    display_text="View ↗",
+                    help="Opens the exact SmartCanucks flyer page.",
+                ),
+            },
+            use_container_width=True,
+            hide_index=True,
+        )
+
+        # Full history CSV download
+        csv_df = filtered_df[["Week", "Retailer", "Product", "Price", "Deal Details", "View"]]
+        st.download_button(
+            "⬇ Download Filtered History as CSV",
+            data=csv_df.to_csv(index=False).encode("utf-8"),
+            file_name="tim_hortons_flyer_history.csv",
+            mime="text/csv",
+            key="csv_history",
+        )
 
 # ── Footer ────────────────────────────────────────────────────────────────────
 st.divider()
 st.caption(
     "Tim Hortons Canada CPG Team · "
     "Data from [SmartCanucks.ca](https://flyers.smartcanucks.ca) · "
-    "Runs every Monday for the upcoming week's flyers"
+    "New flyers scan every Monday · Powered by Claude Sonnet 4.6"
 )
