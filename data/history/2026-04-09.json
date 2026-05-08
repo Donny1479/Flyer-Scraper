@@ -5,12 +5,26 @@
   "retailers": [
     {
       "name": "Walmart",
-      "flyers": [],
+      "flyers": [
+        {
+          "title": "walmart-on-flyer-april-9-to-151",
+          "url": "https://flyers.smartcanucks.ca/canada/walmart-on-flyer-april-9-to-151",
+          "pages_scanned": 6,
+          "products_found": 0
+        }
+      ],
       "products": []
     },
     {
       "name": "Sobeys",
-      "flyers": [],
+      "flyers": [
+        {
+          "title": "sobeys-on-flyer-april-9-to-152",
+          "url": "https://flyers.smartcanucks.ca/canada/sobeys-on-flyer-april-9-to-152",
+          "pages_scanned": 6,
+          "products_found": 0
+        }
+      ],
       "products": []
     },
     {
@@ -27,8 +41,27 @@
     },
     {
       "name": "FreshCo",
-      "flyers": [],
-      "products": []
+      "flyers": [
+        {
+          "title": "freshco-on-flyer-april-9-to-152",
+          "url": "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-april-9-to-152",
+          "pages_scanned": 6,
+          "products_found": 1
+        }
+      ],
+      "products": [
+        {
+          "product_name": "Tim Hortons Ground Coffee",
+          "price": "$11.99",
+          "deal_details": "Save $1",
+          "brand_text_seen": "Tim Hortons Ground coffee",
+          "page_number": 4,
+          "page_url": "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-april-9-to-152/single/3",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/290533/freshco-on-flyer-april-9-to-152-4.jpg",
+          "flyer_title": "freshco-on-flyer-april-9-to-152",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-april-9-to-152"
+        }
+      ]
     },
     {
       "name": "RCSS",
@@ -56,7 +89,14 @@
     },
     {
       "name": "Metro",
-      "flyers": [],
+      "flyers": [
+        {
+          "title": "metro-on-flyer-april-9-to-151",
+          "url": "https://flyers.smartcanucks.ca/canada/metro-on-flyer-april-9-to-151",
+          "pages_scanned": 6,
+          "products_found": 0
+        }
+      ],
       "products": []
     },
     {
@@ -73,7 +113,14 @@
     },
     {
       "name": "Canadian Tire",
-      "flyers": [],
+      "flyers": [
+        {
+          "title": "canadian-tire-on-flyer-april-9-to-15",
+          "url": "https://flyers.smartcanucks.ca/canada/canadian-tire-on-flyer-april-9-to-15",
+          "pages_scanned": 6,
+          "products_found": 0
+        }
+      ],
       "products": []
     }
   ]

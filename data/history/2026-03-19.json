@@ -5,37 +5,86 @@
   "retailers": [
     {
       "name": "Walmart",
-      "flyers": [],
+      "flyers": [
+        {
+          "title": "walmart-on-flyer-march-19-to-251",
+          "url": "https://flyers.smartcanucks.ca/canada/walmart-on-flyer-march-19-to-251",
+          "pages_scanned": 6,
+          "products_found": 0
+        }
+      ],
       "products": []
     },
     {
       "name": "Sobeys",
-      "flyers": [],
+      "flyers": [
+        {
+          "title": "sobeys-on-flyer-march-19-to-251",
+          "url": "https://flyers.smartcanucks.ca/canada/sobeys-on-flyer-march-19-to-251",
+          "pages_scanned": 6,
+          "products_found": 0
+        }
+      ],
       "products": []
     },
     {
       "name": "No Frills",
-      "flyers": [],
+      "flyers": [
+        {
+          "title": "no-frills-on-flyer-march-19-to-252",
+          "url": "https://flyers.smartcanucks.ca/canada/no-frills-on-flyer-march-19-to-252",
+          "pages_scanned": 6,
+          "products_found": 0
+        }
+      ],
       "products": []
     },
     {
       "name": "FreshCo",
-      "flyers": [],
+      "flyers": [
+        {
+          "title": "freshco-on-flyer-march-19-to-252",
+          "url": "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-march-19-to-252",
+          "pages_scanned": 6,
+          "products_found": 0
+        }
+      ],
       "products": []
     },
     {
       "name": "RCSS",
-      "flyers": [],
+      "flyers": [
+        {
+          "title": "real-canadian-superstore-on-flyer-march-19-to-252",
+          "url": "https://flyers.smartcanucks.ca/canada/real-canadian-superstore-on-flyer-march-19-to-252",
+          "pages_scanned": 6,
+          "products_found": 0
+        }
+      ],
       "products": []
     },
     {
       "name": "Loblaws",
-      "flyers": [],
+      "flyers": [
+        {
+          "title": "loblaws-on-flyer-march-19-to-252",
+          "url": "https://flyers.smartcanucks.ca/canada/loblaws-on-flyer-march-19-to-252",
+          "pages_scanned": 6,
+          "products_found": 0
+        }
+      ],
       "products": []
     },
     {
       "name": "Metro",
-      "flyers": [],
+      "flyers": [
+        {
+          "title": "metro-on-flyer-march-19-to-252",
+          "url": "https://flyers.smartcanucks.ca/canada/metro-on-flyer-march-19-to-252",
+          "pages_scanned": 6,
+          "products_found": 0
+        }
+      ],
       "products": []
     },
     {
@@ -52,7 +101,14 @@
     },
     {
       "name": "Canadian Tire",
-      "flyers": [],
+      "flyers": [
+        {
+          "title": "canadian-tire-on-flyer-march-19-to-25",
+          "url": "https://flyers.smartcanucks.ca/canada/canadian-tire-on-flyer-march-19-to-25",
+          "pages_scanned": 6,
+          "products_found": 0
+        }
+      ],
       "products": []
     }
   ]
