@@ -1,0 +1,127 @@
+{
+  "scraped_at": "2026-05-07T12:00:00",
+  "week_start": "2026-03-26",
+  "week_end": "2026-04-01",
+  "retailers": [
+    {
+      "name": "Walmart",
+      "flyers": [
+        {
+          "title": "walmart-on-flyer-march-26-to-april-11",
+          "url": "https://flyers.smartcanucks.ca/canada/walmart-on-flyer-march-26-to-april-11",
+          "pages_scanned": 6,
+          "products_found": 0
+        }
+      ],
+      "products": []
+    },
+    {
+      "name": "Sobeys",
+      "flyers": [
+        {
+          "title": "sobeys-on-flyer-march-26-to-april-11",
+          "url": "https://flyers.smartcanucks.ca/canada/sobeys-on-flyer-march-26-to-april-11",
+          "pages_scanned": 6,
+          "products_found": 0
+        }
+      ],
+      "products": []
+    },
+    {
+      "name": "No Frills",
+      "flyers": [
+        {
+          "title": "no-frills-on-flyer-march-26-to-april-12",
+          "url": "https://flyers.smartcanucks.ca/canada/no-frills-on-flyer-march-26-to-april-12",
+          "pages_scanned": 6,
+          "products_found": 0
+        }
+      ],
+      "products": []
+    },
+    {
+      "name": "FreshCo",
+      "flyers": [
+        {
+          "title": "freshco-on-flyer-march-26-to-april-12",
+          "url": "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-march-26-to-april-12",
+          "pages_scanned": 6,
+          "products_found": 1
+        }
+      ],
+      "products": [
+        {
+          "product_name": "Tim Hortons Single Serve K-Cups 30 pk",
+          "price": "$19.99",
+          "deal_details": "Save $8.00, was $27.99",
+          "brand_text_seen": "Tim Hortons Single Serve K-Cups 30 pk",
+          "page_number": 4,
+          "page_url": "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-march-26-to-april-12/single/3",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/289552/freshco-on-flyer-march-26-to-april-12-4.jpg",
+          "flyer_title": "freshco-on-flyer-march-26-to-april-12",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-march-26-to-april-12"
+        }
+      ]
+    },
+    {
+      "name": "RCSS",
+      "flyers": [
+        {
+          "title": "real-canadian-superstore-on-flyer-march-26-to-april-12",
+          "url": "https://flyers.smartcanucks.ca/canada/real-canadian-superstore-on-flyer-march-26-to-april-12",
+          "pages_scanned": 6,
+          "products_found": 0
+        }
+      ],
+      "products": []
+    },
+    {
+      "name": "Loblaws",
+      "flyers": [
+        {
+          "title": "loblaws-on-flyer-march-26-to-april-12",
+          "url": "https://flyers.smartcanucks.ca/canada/loblaws-on-flyer-march-26-to-april-12",
+          "pages_scanned": 6,
+          "products_found": 0
+        }
+      ],
+      "products": []
+    },
+    {
+      "name": "Metro",
+      "flyers": [
+        {
+          "title": "metro-on-flyer-march-26-to-april-12",
+          "url": "https://flyers.smartcanucks.ca/canada/metro-on-flyer-march-26-to-april-12",
+          "pages_scanned": 6,
+          "products_found": 0
+        }
+      ],
+      "products": []
+    },
+    {
+      "name": "Food Basics",
+      "flyers": [
+        {
+          "title": "food-basics-flyer-march-26-to-april-12",
+          "url": "https://flyers.smartcanucks.ca/canada/food-basics-flyer-march-26-to-april-12",
+          "pages_scanned": 6,
+          "products_found": 0
+        }
+      ],
+      "products": []
+    },
+    {
+      "name": "Canadian Tire",
+      "flyers": [
+        {
+          "title": "canadian-tire-on-flyer-march-26-to-april-1",
+          "url": "https://flyers.smartcanucks.ca/canada/canadian-tire-on-flyer-march-26-to-april-1",
+          "pages_scanned": 6,
+          "products_found": 0
+        }
+      ],
+      "products": []
+    }
+  ]
+}
