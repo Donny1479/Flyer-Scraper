@@ -1,0 +1,126 @@
+{
+    "scraped_at":  "2026-05-11T12:00:00",
+    "week_start":  "2026-01-01",
+    "week_end":  "2026-01-07",
+    "retailers":  [
+                      {
+                          "name":  "Walmart",
+                          "flyers":  [
+                                         {
+                                             "title":  "walmart-on-flyer-january-1-to-7",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/walmart-on-flyer-january-1-to-7",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "Sobeys",
+                          "flyers":  [
+                                         {
+                                             "title":  "sobeys-on-flyer-january-1-to-72",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/sobeys-on-flyer-january-1-to-72",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "FreshCo",
+                          "flyers":  [
+                                         {
+                                             "title":  "freshco-on-flyer-january-1-to-7",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-january-1-to-7",
+                                             "pages_scanned":  10,
+                                             "products_found":  2
+                                         }
+                                     ],
+                          "products":  [
+                                           {
+                                               "product_name":  "Tim Hortons Ground Coffee, 300 g",
+                                               "price":  "$10.99",
+                                               "deal_details":  "Save $3; shared offer with single serve K-Cups",
+                                               "brand_text_seen":  "Tim Hortons ground coffee 300 g",
+                                               "page_number":  10,
+                                               "page_url":  "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-january-1-to-7/single/9",
+                                               "image_url":  "https://flyers.smartcanucks.ca/uploads/pages/283957/freshco-on-flyer-january-1-to-7-10.jpg",
+                                               "flyer_title":  "freshco-on-flyer-january-1-to-7",
+                                               "flyer_url":  "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-january-1-to-7"
+                                           },
+                                           {
+                                               "product_name":  "Tim Hortons Single Serve K-Cups, 10-12 pack",
+                                               "price":  "$10.99",
+                                               "deal_details":  "Save $3; shared offer with ground coffee",
+                                               "brand_text_seen":  "Tim Hortons single serve K-Cups 10-12 pk",
+                                               "page_number":  10,
+                                               "page_url":  "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-january-1-to-7/single/9",
+                                               "image_url":  "https://flyers.smartcanucks.ca/uploads/pages/283957/freshco-on-flyer-january-1-to-7-10.jpg",
+                                               "flyer_title":  "freshco-on-flyer-january-1-to-7",
+                                               "flyer_url":  "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-january-1-to-7"
+                                           }
+                                       ]
+                      },
+                      {
+                          "name":  "RCSS",
+                          "flyers":  [
+                                         {
+                                             "title":  "real-canadian-superstore-on-flyer-january-1-to-7",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/real-canadian-superstore-on-flyer-january-1-to-7",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "Loblaws",
+                          "flyers":  [
+                                         {
+                                             "title":  "loblaws-on-flyer-january-1-to-7",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/loblaws-on-flyer-january-1-to-7",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "Metro",
+                          "flyers":  [
+                                         {
+                                             "title":  "metro-on-flyer-january-1-to-7",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/metro-on-flyer-january-1-to-7",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "Food Basics",
+                          "flyers":  [
+                                         {
+                                             "title":  "food-basics-flyer-january-1-to-7",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/food-basics-flyer-january-1-to-7",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      }
+                  ]
+}

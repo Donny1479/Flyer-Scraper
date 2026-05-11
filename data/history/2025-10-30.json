@@ -1,0 +1,115 @@
+{
+    "scraped_at":  "2026-05-11T12:00:00",
+    "week_start":  "2025-10-30",
+    "week_end":  "2025-11-05",
+    "retailers":  [
+                      {
+                          "name":  "Walmart",
+                          "flyers":  [
+                                         {
+                                             "title":  "walmart-on-flyer-october-30-to-november-51",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/walmart-on-flyer-october-30-to-november-51",
+                                             "pages_scanned":  10,
+                                             "products_found":  1
+                                         }
+                                     ],
+                          "products":  [
+                                           {
+                                               "product_name":  "Tim Hortons Instant Coffee, 100 g",
+                                               "price":  "$6.47",
+                                               "deal_details":  "Rollback; was $8.97; selected varieties",
+                                               "brand_text_seen":  "Tim Hortons instant coffee 100 g",
+                                               "page_number":  1,
+                                               "page_url":  "https://flyers.smartcanucks.ca/canada/walmart-on-flyer-october-30-to-november-51/single",
+                                               "image_url":  "https://flyers.smartcanucks.ca/uploads/pages/279633/walmart-on-flyer-october-30-to-november-51-1.jpg",
+                                               "flyer_title":  "walmart-on-flyer-october-30-to-november-51",
+                                               "flyer_url":  "https://flyers.smartcanucks.ca/canada/walmart-on-flyer-october-30-to-november-51"
+                                           }
+                                       ]
+                      },
+                      {
+                          "name":  "No Frills",
+                          "flyers":  [
+                                         {
+                                             "title":  "no-frills-on-flyer-october-30-to-november-51",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/no-frills-on-flyer-october-30-to-november-51",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "FreshCo",
+                          "flyers":  [
+                                         {
+                                             "title":  "freshco-on-flyer-october-30-to-november-5",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-october-30-to-november-5",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "RCSS",
+                          "flyers":  [
+                                         {
+                                             "title":  "real-canadian-superstore-on-flyer-october-30-to-november-52",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/real-canadian-superstore-on-flyer-october-30-to-november-52",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "Loblaws",
+                          "flyers":  [
+                                         {
+                                             "title":  "loblaws-on-flyer-october-30-to-november-52",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/loblaws-on-flyer-october-30-to-november-52",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "Metro",
+                          "flyers":  [
+                                         {
+                                             "title":  "metro-on-flyer-october-30-to-november-5",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/metro-on-flyer-october-30-to-november-5",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "Food Basics",
+                          "flyers":  [
+                                         {
+                                             "title":  "food-basics-flyer-october-30-to-november-5",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/food-basics-flyer-october-30-to-november-5",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      }
+                  ]
+}

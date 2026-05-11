@@ -1,0 +1,150 @@
+{
+    "scraped_at":  "2026-05-11T12:00:00",
+    "week_start":  "2025-12-18",
+    "week_end":  "2025-12-24",
+    "retailers":  [
+                      {
+                          "name":  "Walmart",
+                          "flyers":  [
+                                         {
+                                             "title":  "walmart-on-flyer-december-18-to-241",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/walmart-on-flyer-december-18-to-241",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "Sobeys",
+                          "flyers":  [
+                                         {
+                                             "title":  "sobeys-on-flyer-december-18-to-241",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/sobeys-on-flyer-december-18-to-241",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "No Frills",
+                          "flyers":  [
+                                         {
+                                             "title":  "no-frills-on-flyer-december-18-to-24",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/no-frills-on-flyer-december-18-to-24",
+                                             "pages_scanned":  10,
+                                             "products_found":  1
+                                         }
+                                     ],
+                          "products":  [
+                                           {
+                                               "product_name":  "Tim Hortons Soup, 540 mL",
+                                               "price":  "$2.50",
+                                               "deal_details":  "Selected varieties",
+                                               "brand_text_seen":  "Tim Hortons soup 540 mL",
+                                               "page_number":  9,
+                                               "page_url":  "https://flyers.smartcanucks.ca/canada/no-frills-on-flyer-december-18-to-24/single/8",
+                                               "image_url":  "https://flyers.smartcanucks.ca/uploads/pages/283055/no-frills-on-flyer-december-18-to-24-9.jpg",
+                                               "flyer_title":  "no-frills-on-flyer-december-18-to-24",
+                                               "flyer_url":  "https://flyers.smartcanucks.ca/canada/no-frills-on-flyer-december-18-to-24"
+                                           }
+                                       ]
+                      },
+                      {
+                          "name":  "FreshCo",
+                          "flyers":  [
+                                         {
+                                             "title":  "freshco-on-flyer-december-18-to-24",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-december-18-to-24",
+                                             "pages_scanned":  10,
+                                             "products_found":  2
+                                         }
+                                     ],
+                          "products":  [
+                                           {
+                                               "product_name":  "Tim Hortons Single Serve K-Cups, 30 pack",
+                                               "price":  "$19.99 Scene+ member price / $26.99 without Scene+ card",
+                                               "deal_details":  "Scene+ member pricing; shared offer with ground coffee",
+                                               "brand_text_seen":  "Tim Hortons single serve K-Cups 30 pk",
+                                               "page_number":  2,
+                                               "page_url":  "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-december-18-to-24/single/1",
+                                               "image_url":  "https://flyers.smartcanucks.ca/uploads/pages/283079/freshco-on-flyer-december-18-to-24-2.jpg",
+                                               "flyer_title":  "freshco-on-flyer-december-18-to-24",
+                                               "flyer_url":  "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-december-18-to-24"
+                                           },
+                                           {
+                                               "product_name":  "Tim Hortons Ground Coffee, 825-875 g",
+                                               "price":  "$19.99 Scene+ member price / $26.99 without Scene+ card",
+                                               "deal_details":  "Scene+ member pricing; shared offer with single serve K-Cups",
+                                               "brand_text_seen":  "Tim Hortons ground coffee 825-875 g",
+                                               "page_number":  2,
+                                               "page_url":  "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-december-18-to-24/single/1",
+                                               "image_url":  "https://flyers.smartcanucks.ca/uploads/pages/283079/freshco-on-flyer-december-18-to-24-2.jpg",
+                                               "flyer_title":  "freshco-on-flyer-december-18-to-24",
+                                               "flyer_url":  "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-december-18-to-24"
+                                           }
+                                       ]
+                      },
+                      {
+                          "name":  "RCSS",
+                          "flyers":  [
+                                         {
+                                             "title":  "real-canadian-superstore-on-flyer-december-18-to-242",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/real-canadian-superstore-on-flyer-december-18-to-242",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "Loblaws",
+                          "flyers":  [
+                                         {
+                                             "title":  "loblaws-on-flyer-december-18-to-242",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/loblaws-on-flyer-december-18-to-242",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "Metro",
+                          "flyers":  [
+                                         {
+                                             "title":  "metro-on-flyer-december-18-to-24",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/metro-on-flyer-december-18-to-24",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "Food Basics",
+                          "flyers":  [
+                                         {
+                                             "title":  "food-basics-flyer-december-18-to-24",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/food-basics-flyer-december-18-to-24",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      }
+                  ]
+}

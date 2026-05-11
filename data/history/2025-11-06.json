@@ -1,0 +1,136 @@
+{
+    "scraped_at":  "2026-05-11T12:00:00",
+    "week_start":  "2025-11-06",
+    "week_end":  "2025-11-12",
+    "retailers":  [
+                      {
+                          "name":  "Walmart",
+                          "flyers":  [
+                                         {
+                                             "title":  "walmart-on-flyer-november-6-to-121",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/walmart-on-flyer-november-6-to-121",
+                                             "pages_scanned":  10,
+                                             "products_found":  1
+                                         }
+                                     ],
+                          "products":  [
+                                           {
+                                               "product_name":  "Tim Hortons Instant Coffee, 100 g",
+                                               "price":  "$6.47",
+                                               "deal_details":  "Rollback; was $8.97; selected varieties",
+                                               "brand_text_seen":  "Tim Hortons instant coffee 100 g",
+                                               "page_number":  2,
+                                               "page_url":  "https://flyers.smartcanucks.ca/canada/walmart-on-flyer-november-6-to-121/single/1",
+                                               "image_url":  "https://flyers.smartcanucks.ca/uploads/pages/280122/walmart-on-flyer-november-6-to-121-2.jpg",
+                                               "flyer_title":  "walmart-on-flyer-november-6-to-121",
+                                               "flyer_url":  "https://flyers.smartcanucks.ca/canada/walmart-on-flyer-november-6-to-121"
+                                           }
+                                       ]
+                      },
+                      {
+                          "name":  "No Frills",
+                          "flyers":  [
+                                         {
+                                             "title":  "no-frills-on-flyer-november-6-to-122",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/no-frills-on-flyer-november-6-to-122",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "FreshCo",
+                          "flyers":  [
+                                         {
+                                             "title":  "freshco-on-flyer-november-6-to-12",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-november-6-to-12",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "RCSS",
+                          "flyers":  [
+                                         {
+                                             "title":  "real-canadian-superstore-on-flyer-november-6-to-122",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/real-canadian-superstore-on-flyer-november-6-to-122",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "Loblaws",
+                          "flyers":  [
+                                         {
+                                             "title":  "loblaws-on-flyer-november-6-to-122",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/loblaws-on-flyer-november-6-to-122",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "Metro",
+                          "flyers":  [
+                                         {
+                                             "title":  "metro-on-flyer-november-6-to-12",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/metro-on-flyer-november-6-to-12",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "Food Basics",
+                          "flyers":  [
+                                         {
+                                             "title":  "food-basics-flyer-november-6-to-12",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/food-basics-flyer-november-6-to-12",
+                                             "pages_scanned":  10,
+                                             "products_found":  2
+                                         }
+                                     ],
+                          "products":  [
+                                           {
+                                               "product_name":  "Tim Hortons Ground Coffee, 300 g",
+                                               "price":  "$11.49",
+                                               "deal_details":  "55 points; selected varieties",
+                                               "brand_text_seen":  "Tim Hortons ground coffee 300 g",
+                                               "page_number":  5,
+                                               "page_url":  "https://flyers.smartcanucks.ca/canada/food-basics-flyer-november-6-to-12/single/4",
+                                               "image_url":  "https://flyers.smartcanucks.ca/uploads/pages/280117/food-basics-flyer-november-6-to-12-5.jpg",
+                                               "flyer_title":  "food-basics-flyer-november-6-to-12",
+                                               "flyer_url":  "https://flyers.smartcanucks.ca/canada/food-basics-flyer-november-6-to-12"
+                                           },
+                                           {
+                                               "product_name":  "Tim Hortons Ground Coffee, 300 g",
+                                               "price":  "$11.49",
+                                               "deal_details":  "Repeat placement on page 10; 55 points; selected varieties",
+                                               "brand_text_seen":  "Tim Hortons ground coffee 300 g",
+                                               "page_number":  10,
+                                               "page_url":  "https://flyers.smartcanucks.ca/canada/food-basics-flyer-november-6-to-12/single/9",
+                                               "image_url":  "https://flyers.smartcanucks.ca/uploads/pages/280117/food-basics-flyer-november-6-to-12-10.jpg",
+                                               "flyer_title":  "food-basics-flyer-november-6-to-12",
+                                               "flyer_url":  "https://flyers.smartcanucks.ca/canada/food-basics-flyer-november-6-to-12"
+                                           }
+                                       ]
+                      }
+                  ]
+}

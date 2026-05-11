@@ -1,0 +1,148 @@
+{
+    "scraped_at":  "2026-05-11T12:00:00",
+    "week_start":  "2025-11-13",
+    "week_end":  "2025-11-19",
+    "retailers":  [
+                      {
+                          "name":  "Walmart",
+                          "flyers":  [
+                                         {
+                                             "title":  "walmart-on-flyer-november-13-to-191",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/walmart-on-flyer-november-13-to-191",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "No Frills",
+                          "flyers":  [
+                                         {
+                                             "title":  "no-frills-on-flyer-november-13-to-191",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/no-frills-on-flyer-november-13-to-191",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "FreshCo",
+                          "flyers":  [
+                                         {
+                                             "title":  "freshco-on-flyer-november-13-to-19",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-november-13-to-19",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "RCSS",
+                          "flyers":  [
+                                         {
+                                             "title":  "real-canadian-superstore-on-flyer-november-13-to-192",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/real-canadian-superstore-on-flyer-november-13-to-192",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "Loblaws",
+                          "flyers":  [
+                                         {
+                                             "title":  "loblaws-on-flyer-november-13-to-192",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/loblaws-on-flyer-november-13-to-192",
+                                             "pages_scanned":  10,
+                                             "products_found":  4
+                                         }
+                                     ],
+                          "products":  [
+                                           {
+                                               "product_name":  "Tim Hortons Hot Chocolate Tins, 500 g",
+                                               "price":  "$7",
+                                               "deal_details":  "Selected varieties",
+                                               "brand_text_seen":  "Tim Hortons hot chocolate tins 500 g",
+                                               "page_number":  9,
+                                               "page_url":  "https://flyers.smartcanucks.ca/canada/loblaws-on-flyer-november-13-to-192/single/8",
+                                               "image_url":  "https://flyers.smartcanucks.ca/uploads/pages/280599/loblaws-on-flyer-november-13-to-192-9.jpg",
+                                               "flyer_title":  "loblaws-on-flyer-november-13-to-192",
+                                               "flyer_url":  "https://flyers.smartcanucks.ca/canada/loblaws-on-flyer-november-13-to-192"
+                                           },
+                                           {
+                                               "product_name":  "Tim Hortons Hot Chocolate Packets, 8-count",
+                                               "price":  "$6",
+                                               "deal_details":  "Selected varieties",
+                                               "brand_text_seen":  "Tim Hortons hot chocolate packets 8s",
+                                               "page_number":  9,
+                                               "page_url":  "https://flyers.smartcanucks.ca/canada/loblaws-on-flyer-november-13-to-192/single/8",
+                                               "image_url":  "https://flyers.smartcanucks.ca/uploads/pages/280599/loblaws-on-flyer-november-13-to-192-9.jpg",
+                                               "flyer_title":  "loblaws-on-flyer-november-13-to-192",
+                                               "flyer_url":  "https://flyers.smartcanucks.ca/canada/loblaws-on-flyer-november-13-to-192"
+                                           },
+                                           {
+                                               "product_name":  "Tim Hortons Nespresso Compatible Capsules, 10-count",
+                                               "price":  "$7",
+                                               "deal_details":  "Selected varieties",
+                                               "brand_text_seen":  "Tim Hortons Nespresso compatible capsules 10s",
+                                               "page_number":  9,
+                                               "page_url":  "https://flyers.smartcanucks.ca/canada/loblaws-on-flyer-november-13-to-192/single/8",
+                                               "image_url":  "https://flyers.smartcanucks.ca/uploads/pages/280599/loblaws-on-flyer-november-13-to-192-9.jpg",
+                                               "flyer_title":  "loblaws-on-flyer-november-13-to-192",
+                                               "flyer_url":  "https://flyers.smartcanucks.ca/canada/loblaws-on-flyer-november-13-to-192"
+                                           },
+                                           {
+                                               "product_name":  "Tim Hortons Instant Coffee, 100 g",
+                                               "price":  "$9",
+                                               "deal_details":  "Selected varieties",
+                                               "brand_text_seen":  "Tim Hortons instant coffee 100 g",
+                                               "page_number":  9,
+                                               "page_url":  "https://flyers.smartcanucks.ca/canada/loblaws-on-flyer-november-13-to-192/single/8",
+                                               "image_url":  "https://flyers.smartcanucks.ca/uploads/pages/280599/loblaws-on-flyer-november-13-to-192-9.jpg",
+                                               "flyer_title":  "loblaws-on-flyer-november-13-to-192",
+                                               "flyer_url":  "https://flyers.smartcanucks.ca/canada/loblaws-on-flyer-november-13-to-192"
+                                           }
+                                       ]
+                      },
+                      {
+                          "name":  "Metro",
+                          "flyers":  [
+                                         {
+                                             "title":  "metro-on-flyer-november-13-to-19",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/metro-on-flyer-november-13-to-19",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "Food Basics",
+                          "flyers":  [
+                                         {
+                                             "title":  "food-basics-flyer-november-13-to-19",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/food-basics-flyer-november-13-to-19",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      }
+                  ]
+}

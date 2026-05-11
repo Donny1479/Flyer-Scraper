@@ -1,0 +1,160 @@
+{
+    "scraped_at":  "2026-05-11T12:00:00",
+    "week_start":  "2025-11-20",
+    "week_end":  "2025-11-26",
+    "retailers":  [
+                      {
+                          "name":  "Walmart",
+                          "flyers":  [
+                                         {
+                                             "title":  "walmart-on-flyer-november-20-to-261",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/walmart-on-flyer-november-20-to-261",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "Sobeys",
+                          "flyers":  [
+                                         {
+                                             "title":  "sobeys-on-flyer-november-20-to-262",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/sobeys-on-flyer-november-20-to-262",
+                                             "pages_scanned":  10,
+                                             "products_found":  1
+                                         }
+                                     ],
+                          "products":  [
+                                           {
+                                               "product_name":  "Tim Hortons Single Serve Coffee Cups, 24-30 pack",
+                                               "price":  "$19.99",
+                                               "deal_details":  "Selected varieties",
+                                               "brand_text_seen":  "Tim Hortons single serve coffee cups 24-30 pk",
+                                               "page_number":  3,
+                                               "page_url":  "https://flyers.smartcanucks.ca/canada/sobeys-on-flyer-november-20-to-262/single/2",
+                                               "image_url":  "https://flyers.smartcanucks.ca/uploads/pages/281044/sobeys-on-flyer-november-20-to-262-3.jpg",
+                                               "flyer_title":  "sobeys-on-flyer-november-20-to-262",
+                                               "flyer_url":  "https://flyers.smartcanucks.ca/canada/sobeys-on-flyer-november-20-to-262"
+                                           }
+                                       ]
+                      },
+                      {
+                          "name":  "No Frills",
+                          "flyers":  [
+                                         {
+                                             "title":  "no-frills-on-flyer-november-20-to-262",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/no-frills-on-flyer-november-20-to-262",
+                                             "pages_scanned":  10,
+                                             "products_found":  2
+                                         }
+                                     ],
+                          "products":  [
+                                           {
+                                               "product_name":  "Tim Hortons Roast and Ground Coffee, 825/875 g",
+                                               "price":  "$22.99",
+                                               "deal_details":  "Shared offer with pods; selected varieties",
+                                               "brand_text_seen":  "Tim Hortons roast and ground coffee 825/875 g",
+                                               "page_number":  6,
+                                               "page_url":  "https://flyers.smartcanucks.ca/canada/no-frills-on-flyer-november-20-to-262/single/5",
+                                               "image_url":  "https://flyers.smartcanucks.ca/uploads/pages/281065/no-frills-on-flyer-november-20-to-262-6.jpg",
+                                               "flyer_title":  "no-frills-on-flyer-november-20-to-262",
+                                               "flyer_url":  "https://flyers.smartcanucks.ca/canada/no-frills-on-flyer-november-20-to-262"
+                                           },
+                                           {
+                                               "product_name":  "Tim Hortons Coffee Pods, 24/30-count",
+                                               "price":  "$22.99",
+                                               "deal_details":  "Shared offer with roast and ground coffee; selected varieties",
+                                               "brand_text_seen":  "Tim Hortons pods 24/30s",
+                                               "page_number":  6,
+                                               "page_url":  "https://flyers.smartcanucks.ca/canada/no-frills-on-flyer-november-20-to-262/single/5",
+                                               "image_url":  "https://flyers.smartcanucks.ca/uploads/pages/281065/no-frills-on-flyer-november-20-to-262-6.jpg",
+                                               "flyer_title":  "no-frills-on-flyer-november-20-to-262",
+                                               "flyer_url":  "https://flyers.smartcanucks.ca/canada/no-frills-on-flyer-november-20-to-262"
+                                           }
+                                       ]
+                      },
+                      {
+                          "name":  "FreshCo",
+                          "flyers":  [
+                                         {
+                                             "title":  "freshco-on-flyer-november-20-to-26",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-november-20-to-26",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "RCSS",
+                          "flyers":  [
+                                         {
+                                             "title":  "real-canadian-superstore-on-flyer-november-20-to-27",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/real-canadian-superstore-on-flyer-november-20-to-27",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "Loblaws",
+                          "flyers":  [
+                                         {
+                                             "title":  "loblaws-on-flyer-november-20-to-262",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/loblaws-on-flyer-november-20-to-262",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "Metro",
+                          "flyers":  [
+                                         {
+                                             "title":  "metro-on-flyer-november-20-to-26",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/metro-on-flyer-november-20-to-26",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "Food Basics",
+                          "flyers":  [
+                                         {
+                                             "title":  "food-basics-flyer-november-20-to-26",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/food-basics-flyer-november-20-to-26",
+                                             "pages_scanned":  10,
+                                             "products_found":  1
+                                         }
+                                     ],
+                          "products":  [
+                                           {
+                                               "product_name":  "Tim Hortons Hot Chocolate, 450-500 g",
+                                               "price":  "$6.99",
+                                               "deal_details":  "Selected varieties",
+                                               "brand_text_seen":  "Tim Hortons hot chocolate 450-500 g",
+                                               "page_number":  9,
+                                               "page_url":  "https://flyers.smartcanucks.ca/canada/food-basics-flyer-november-20-to-26/single/8",
+                                               "image_url":  "https://flyers.smartcanucks.ca/uploads/pages/281094/food-basics-flyer-november-20-to-26-9.jpg",
+                                               "flyer_title":  "food-basics-flyer-november-20-to-26",
+                                               "flyer_url":  "https://flyers.smartcanucks.ca/canada/food-basics-flyer-november-20-to-26"
+                                           }
+                                       ]
+                      }
+                  ]
+}

@@ -1,0 +1,101 @@
+{
+    "scraped_at":  "2026-05-11T12:00:00",
+    "week_start":  "2025-11-27",
+    "week_end":  "2025-12-03",
+    "retailers":  [
+                      {
+                          "name":  "Sobeys",
+                          "flyers":  [
+                                         {
+                                             "title":  "sobeys-on-flyer-november-27-to-december-32",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/sobeys-on-flyer-november-27-to-december-32",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "No Frills",
+                          "flyers":  [
+                                         {
+                                             "title":  "no-frills-on-flyer-november-27-to-december-32",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/no-frills-on-flyer-november-27-to-december-32",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "FreshCo",
+                          "flyers":  [
+                                         {
+                                             "title":  "freshco-on-flyer-november-27-to-december-3",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-november-27-to-december-3",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "Loblaws",
+                          "flyers":  [
+                                         {
+                                             "title":  "loblaws-on-flyer-november-27-to-december-3",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/loblaws-on-flyer-november-27-to-december-3",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "Metro",
+                          "flyers":  [
+                                         {
+                                             "title":  "metro-on-flyer-november-27-to-december-3",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/metro-on-flyer-november-27-to-december-3",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "Food Basics",
+                          "flyers":  [
+                                         {
+                                             "title":  "food-basics-flyer-november-27-to-december-3",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/food-basics-flyer-november-27-to-december-3",
+                                             "pages_scanned":  10,
+                                             "products_found":  1
+                                         }
+                                     ],
+                          "products":  [
+                                           {
+                                               "product_name":  "Tim Hortons Ready to Serve Soup, 540 mL",
+                                               "price":  "$2.48",
+                                               "deal_details":  "Shared soup offer; selected varieties; flyer range shown as 515-796 mL",
+                                               "brand_text_seen":  "Habitant, Tim Hortons or Campbell\u0027s Chunky or ready to serve soup",
+                                               "page_number":  3,
+                                               "page_url":  "https://flyers.smartcanucks.ca/canada/food-basics-flyer-november-27-to-december-3/single/2",
+                                               "image_url":  "https://flyers.smartcanucks.ca/uploads/pages/281611/food-basics-flyer-november-27-to-december-3-3.jpg",
+                                               "flyer_title":  "food-basics-flyer-november-27-to-december-3",
+                                               "flyer_url":  "https://flyers.smartcanucks.ca/canada/food-basics-flyer-november-27-to-december-3"
+                                           }
+                                       ]
+                      }
+                  ]
+}
