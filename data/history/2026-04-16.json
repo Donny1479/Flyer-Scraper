@@ -27,13 +27,137 @@
         }
       ]
     },
-    {"name": "Sobeys",        "flyers": [], "products": []},
-    {"name": "No Frills",     "flyers": [], "products": []},
-    {"name": "FreshCo",       "flyers": [], "products": []},
-    {"name": "RCSS",          "flyers": [], "products": []},
-    {"name": "Loblaws",       "flyers": [], "products": []},
-    {"name": "Metro",         "flyers": [], "products": []},
-    {"name": "Food Basics",   "flyers": [], "products": []},
-    {"name": "Canadian Tire", "flyers": [], "products": []}
+    {
+      "name": "Sobeys",
+      "flyers": [
+        {
+          "title": "sobeys-on-flyer-april-16-to-222",
+          "url": "https://flyers.smartcanucks.ca/canada/sobeys-on-flyer-april-16-to-222",
+          "pages_scanned": 6,
+          "products_found": 0
+        }
+      ],
+      "products": []
+    },
+    {
+      "name": "No Frills",
+      "flyers": [
+        {
+          "title": "no-frills-on-flyer-april-16-to-221",
+          "url": "https://flyers.smartcanucks.ca/canada/no-frills-on-flyer-april-16-to-221",
+          "pages_scanned": 6,
+          "products_found": 0
+        }
+      ],
+      "products": []
+    },
+    {
+      "name": "FreshCo",
+      "flyers": [
+        {
+          "title": "freshco-on-flyer-april-16-to-222",
+          "url": "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-april-16-to-222",
+          "pages_scanned": 6,
+          "products_found": 1
+        }
+      ],
+      "products": [
+        {
+          "product_name": "Tim Hortons Ground Coffee",
+          "price": "$22.99",
+          "deal_details": "Save $5.00",
+          "brand_text_seen": "Tim Hortons Ground Coffee",
+          "page_number": 4,
+          "page_url": "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-april-16-to-222/single/3",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/291001/freshco-on-flyer-april-16-to-222-4.jpg",
+          "flyer_title": "freshco-on-flyer-april-16-to-222",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-april-16-to-222"
+        }
+      ]
+    },
+    {
+      "name": "RCSS",
+      "flyers": [
+        {
+          "title": "real-canadian-superstore-on-flyer-april-16-to-222",
+          "url": "https://flyers.smartcanucks.ca/canada/real-canadian-superstore-on-flyer-april-16-to-222",
+          "pages_scanned": 6,
+          "products_found": 0
+        }
+      ],
+      "products": []
+    },
+    {
+      "name": "Loblaws",
+      "flyers": [
+        {
+          "title": "loblaws-on-flyer-april-16-to-222",
+          "url": "https://flyers.smartcanucks.ca/canada/loblaws-on-flyer-april-16-to-222",
+          "pages_scanned": 6,
+          "products_found": 0
+        }
+      ],
+      "products": []
+    },
+    {
+      "name": "Metro",
+      "flyers": [
+        {
+          "title": "metro-on-flyer-april-16-to-222",
+          "url": "https://flyers.smartcanucks.ca/canada/metro-on-flyer-april-16-to-222",
+          "pages_scanned": 6,
+          "products_found": 1
+        }
+      ],
+      "products": [
+        {
+          "product_name": "Tim Hortons Ground Coffee",
+          "price": "$6.99",
+          "deal_details": "Save $1.30",
+          "brand_text_seen": "Van Houtte Ground or K-Cup Coffee Capsules or Tim Hortons Ground Coffee",
+          "page_number": 2,
+          "page_url": "https://flyers.smartcanucks.ca/canada/metro-on-flyer-april-16-to-222/single/1",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/147721/metro-on-flyer-april-16-to-222-2.jpg",
+          "flyer_title": "metro-on-flyer-april-16-to-222",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/metro-on-flyer-april-16-to-222"
+        }
+      ]
+    },
+    {
+      "name": "Food Basics",
+      "flyers": [
+        {
+          "title": "food-basics-flyer-april-16-to-222",
+          "url": "https://flyers.smartcanucks.ca/canada/food-basics-flyer-april-16-to-222",
+          "pages_scanned": 6,
+          "products_found": 1
+        }
+      ],
+      "products": [
+        {
+          "product_name": "Tim Hortons Ground Coffee",
+          "price": "$24.99",
+          "deal_details": "Earn 70 MOI rewards points",
+          "brand_text_seen": "Tim Hortons Ground Coffee",
+          "page_number": 4,
+          "page_url": "https://flyers.smartcanucks.ca/canada/food-basics-flyer-april-16-to-222/single/3",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/291006/food-basics-flyer-april-16-to-222-4.jpg",
+          "flyer_title": "food-basics-flyer-april-16-to-222",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/food-basics-flyer-april-16-to-222"
+        }
+      ]
+    },
+    {
+      "name": "Canadian Tire",
+      "flyers": [
+        {
+          "title": "canadian-tire-on-flyer-april-16-to-22",
+          "url": "https://flyers.smartcanucks.ca/canada/canadian-tire-on-flyer-april-16-to-22",
+          "pages_scanned": 6,
+          "products_found": 0
+        }
+      ],
+      "products": []
+    }
   ]
 }
