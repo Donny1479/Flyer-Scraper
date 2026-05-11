@@ -1,0 +1,87 @@
+{
+    "scraped_at":  "2026-05-11T12:00:00",
+    "week_start":  "2025-07-03",
+    "week_end":  "2025-07-09",
+    "retailers":  [
+                      {
+                          "name":  "RCSS",
+                          "flyers":  [
+                                         {
+                                             "title":  "real-canadian-superstore-on-flyer-july-3-to-91",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/real-canadian-superstore-on-flyer-july-3-to-91",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "No Frills",
+                          "flyers":  [
+                                         {
+                                             "title":  "no-frills-on-flyer-july-3-to-91",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/no-frills-on-flyer-july-3-to-91",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "Metro",
+                          "flyers":  [
+                                         {
+                                             "title":  "metro-on-flyer-july-3-to-9",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/metro-on-flyer-july-3-to-9",
+                                             "pages_scanned":  10,
+                                             "products_found":  1
+                                         }
+                                     ],
+                          "products":  [
+                                           {
+                                               "product_name":  "Tim Hortons Ground Coffee, 300 g",
+                                               "price":  "$11.49",
+                                               "deal_details":  "35 points; selected varieties",
+                                               "brand_text_seen":  "Tim Hortons ground coffee 300 g",
+                                               "page_number":  10,
+                                               "page_url":  "https://flyers.smartcanucks.ca/canada/metro-on-flyer-july-3-to-9/single/9",
+                                               "image_url":  "https://flyers.smartcanucks.ca/uploads/pages/271455/metro-on-flyer-july-3-to-9-10.jpg",
+                                               "flyer_title":  "metro-on-flyer-july-3-to-9",
+                                               "flyer_url":  "https://flyers.smartcanucks.ca/canada/metro-on-flyer-july-3-to-9"
+                                           }
+                                       ]
+                      },
+                      {
+                          "name":  "Food Basics",
+                          "flyers":  [
+                                         {
+                                             "title":  "food-basics-flyer-july-3-to-91",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/food-basics-flyer-july-3-to-91",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "Loblaws",
+                          "flyers":  [
+                                         {
+                                             "title":  "loblaws-on-flyer-july-3-to-91",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/loblaws-on-flyer-july-3-to-91",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      }
+                  ]
+}
