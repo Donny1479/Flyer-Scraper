@@ -1,0 +1,105 @@
+{
+    "scraped_at":  "2026-05-11T12:00:00",
+    "week_start":  "2025-08-14",
+    "week_end":  "2025-08-20",
+    "retailers":  [
+                      {
+                          "name":  "Walmart",
+                          "flyers":  [
+                                         {
+                                             "title":  "walmart-on-flyer-august-14-to-20",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/walmart-on-flyer-august-14-to-20",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "RCSS",
+                          "flyers":  [
+                                         {
+                                             "title":  "real-canadian-superstore-on-flyer-august-14-to-201",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/real-canadian-superstore-on-flyer-august-14-to-201",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "No Frills",
+                          "flyers":  [
+                                         {
+                                             "title":  "no-frills-on-flyer-august-14-to-202",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/no-frills-on-flyer-august-14-to-202",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "Metro",
+                          "flyers":  [
+                                         {
+                                             "title":  "metro-on-flyer-august-14-to-20",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/metro-on-flyer-august-14-to-20",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "Food Basics",
+                          "flyers":  [
+                                         {
+                                             "title":  "food-basics-flyer-august-14-to-20",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/food-basics-flyer-august-14-to-20",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "FreshCo",
+                          "flyers":  [
+                                         {
+                                             "title":  "freshco-on-flyer-august-14-to-20",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-august-14-to-20",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "Loblaws",
+                          "flyers":  [
+                                         {
+                                             "title":  "loblaws-on-flyer-august-14-to-202",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/loblaws-on-flyer-august-14-to-202",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      }
+                  ]
+}

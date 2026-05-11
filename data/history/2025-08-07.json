@@ -1,0 +1,101 @@
+{
+    "scraped_at":  "2026-05-11T12:00:00",
+    "week_start":  "2025-08-07",
+    "week_end":  "2025-08-13",
+    "retailers":  [
+                      {
+                          "name":  "RCSS",
+                          "flyers":  [
+                                         {
+                                             "title":  "real-canadian-superstore-on-flyer-august-7-to-131",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/real-canadian-superstore-on-flyer-august-7-to-131",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "No Frills",
+                          "flyers":  [
+                                         {
+                                             "title":  "no-frills-on-flyer-august-7-to-132",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/no-frills-on-flyer-august-7-to-132",
+                                             "pages_scanned":  10,
+                                             "products_found":  1
+                                         }
+                                     ],
+                          "products":  [
+                                           {
+                                               "product_name":  "Tim Hortons Instant Coffee, 100 g",
+                                               "price":  "$6.99",
+                                               "deal_details":  "Save 22%; selected varieties",
+                                               "brand_text_seen":  "Tim Hortons instant coffee 100 g",
+                                               "page_number":  3,
+                                               "page_url":  "https://flyers.smartcanucks.ca/canada/no-frills-on-flyer-august-7-to-132/single/2",
+                                               "image_url":  "https://flyers.smartcanucks.ca/uploads/pages/273846/no-frills-on-flyer-august-7-to-132-3.jpg",
+                                               "flyer_title":  "no-frills-on-flyer-august-7-to-132",
+                                               "flyer_url":  "https://flyers.smartcanucks.ca/canada/no-frills-on-flyer-august-7-to-132"
+                                           }
+                                       ]
+                      },
+                      {
+                          "name":  "Metro",
+                          "flyers":  [
+                                         {
+                                             "title":  "metro-on-flyer-august-7-to-13",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/metro-on-flyer-august-7-to-13",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "Food Basics",
+                          "flyers":  [
+                                         {
+                                             "title":  "food-basics-flyer-august-7-to-13",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/food-basics-flyer-august-7-to-13",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "FreshCo",
+                          "flyers":  [
+                                         {
+                                             "title":  "freshco-on-flyer-august-7-to-13",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-august-7-to-13",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "Loblaws",
+                          "flyers":  [
+                                         {
+                                             "title":  "loblaws-on-flyer-august-7-to-132",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/loblaws-on-flyer-august-7-to-132",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      }
+                  ]
+}

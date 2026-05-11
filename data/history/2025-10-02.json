@@ -1,0 +1,112 @@
+{
+    "scraped_at":  "2026-05-11T12:00:00",
+    "week_start":  "2025-10-02",
+    "week_end":  "2025-10-08",
+    "retailers":  [
+                      {
+                          "name":  "Walmart",
+                          "flyers":  [
+                                         {
+                                             "title":  "walmart-on-flyer-october-2-to-81",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/walmart-on-flyer-october-2-to-81",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "RCSS",
+                          "flyers":  [
+                                         {
+                                             "title":  "real-canadian-superstore-on-flyer-october-2-to-82",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/real-canadian-superstore-on-flyer-october-2-to-82",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "Metro",
+                          "flyers":  [
+                                         {
+                                             "title":  "metro-on-flyer-october-2-to-8",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/metro-on-flyer-october-2-to-8",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "Food Basics",
+                          "flyers":  [
+                                         {
+                                             "title":  "food-basics-flyer-october-2-to-8",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/food-basics-flyer-october-2-to-8",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "FreshCo",
+                          "flyers":  [
+                                         {
+                                             "title":  "freshco-on-flyer-october-2-to-8",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-october-2-to-8",
+                                             "pages_scanned":  10,
+                                             "products_found":  2
+                                         }
+                                     ],
+                          "products":  [
+                                           {
+                                               "product_name":  "Tim Hortons Single-Serve K-Cups, 30-count",
+                                               "price":  "$19.99 member / $26.99-$27.99 without Scene+ card",
+                                               "deal_details":  "Scene+ member pricing; save up to $8; selected varieties",
+                                               "brand_text_seen":  "Tim Hortons Single Serve K-Cups 30 pk",
+                                               "page_number":  2,
+                                               "page_url":  "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-october-2-to-8/single/1",
+                                               "image_url":  "https://flyers.smartcanucks.ca/uploads/pages/277691/freshco-on-flyer-october-2-to-8-2.jpg",
+                                               "flyer_title":  "freshco-on-flyer-october-2-to-8",
+                                               "flyer_url":  "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-october-2-to-8"
+                                           },
+                                           {
+                                               "product_name":  "Tim Hortons Ground Coffee, 825-875 g",
+                                               "price":  "$19.99 member / $26.99-$27.99 without Scene+ card",
+                                               "deal_details":  "Scene+ member pricing; save up to $8; selected varieties",
+                                               "brand_text_seen":  "Tim Hortons Ground Coffee 825-875 g",
+                                               "page_number":  2,
+                                               "page_url":  "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-october-2-to-8/single/1",
+                                               "image_url":  "https://flyers.smartcanucks.ca/uploads/pages/277691/freshco-on-flyer-october-2-to-8-2.jpg",
+                                               "flyer_title":  "freshco-on-flyer-october-2-to-8",
+                                               "flyer_url":  "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-october-2-to-8"
+                                           }
+                                       ]
+                      },
+                      {
+                          "name":  "Loblaws",
+                          "flyers":  [
+                                         {
+                                             "title":  "loblaws-on-flyer-october-2-to-82",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/loblaws-on-flyer-october-2-to-82",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      }
+                  ]
+}

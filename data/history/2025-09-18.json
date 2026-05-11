@@ -1,0 +1,123 @@
+{
+    "scraped_at":  "2026-05-11T12:00:00",
+    "week_start":  "2025-09-18",
+    "week_end":  "2025-09-24",
+    "retailers":  [
+                      {
+                          "name":  "Walmart",
+                          "flyers":  [
+                                         {
+                                             "title":  "walmart-on-flyer-september-18-to-24",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/walmart-on-flyer-september-18-to-24",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "RCSS",
+                          "flyers":  [
+                                         {
+                                             "title":  "real-canadian-superstore-on-flyer-september-18-to-242",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/real-canadian-superstore-on-flyer-september-18-to-242",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "Metro",
+                          "flyers":  [
+                                         {
+                                             "title":  "metro-on-flyer-september-18-to-24",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/metro-on-flyer-september-18-to-24",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "Food Basics",
+                          "flyers":  [
+                                         {
+                                             "title":  "food-basics-flyer-september-18-to-24",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/food-basics-flyer-september-18-to-24",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "FreshCo",
+                          "flyers":  [
+                                         {
+                                             "title":  "freshco-on-flyer-september-18-to-24",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-september-18-to-24",
+                                             "pages_scanned":  10,
+                                             "products_found":  3
+                                         }
+                                     ],
+                          "products":  [
+                                           {
+                                               "product_name":  "Tim Hortons Ground Coffee, 300 g",
+                                               "price":  "$10.99",
+                                               "deal_details":  "200 Scene+ points when you buy 2; save $3",
+                                               "brand_text_seen":  "Tim Hortons Ground Coffee 300 g",
+                                               "page_number":  5,
+                                               "page_url":  "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-september-18-to-24/single/4",
+                                               "image_url":  "https://flyers.smartcanucks.ca/uploads/pages/276730/freshco-on-flyer-september-18-to-24-5.jpg",
+                                               "flyer_title":  "freshco-on-flyer-september-18-to-24",
+                                               "flyer_url":  "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-september-18-to-24"
+                                           },
+                                           {
+                                               "product_name":  "Tim Hortons Single Serve K-Cups, 10-12-count",
+                                               "price":  "$10.99",
+                                               "deal_details":  "200 Scene+ points when you buy 2; save $3",
+                                               "brand_text_seen":  "Tim Hortons Single Serve K-Cups 10-12 pk",
+                                               "page_number":  5,
+                                               "page_url":  "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-september-18-to-24/single/4",
+                                               "image_url":  "https://flyers.smartcanucks.ca/uploads/pages/276730/freshco-on-flyer-september-18-to-24-5.jpg",
+                                               "flyer_title":  "freshco-on-flyer-september-18-to-24",
+                                               "flyer_url":  "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-september-18-to-24"
+                                           },
+                                           {
+                                               "product_name":  "Tim Hortons Hot Chocolate, 500 g",
+                                               "price":  "$5.99",
+                                               "deal_details":  "Save $2",
+                                               "brand_text_seen":  "Tim Hortons Hot Chocolate 500 g",
+                                               "page_number":  5,
+                                               "page_url":  "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-september-18-to-24/single/4",
+                                               "image_url":  "https://flyers.smartcanucks.ca/uploads/pages/276730/freshco-on-flyer-september-18-to-24-5.jpg",
+                                               "flyer_title":  "freshco-on-flyer-september-18-to-24",
+                                               "flyer_url":  "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-september-18-to-24"
+                                           }
+                                       ]
+                      },
+                      {
+                          "name":  "Loblaws",
+                          "flyers":  [
+                                         {
+                                             "title":  "loblaws-on-flyer-september-18-to-242",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/loblaws-on-flyer-september-18-to-242",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      }
+                  ]
+}

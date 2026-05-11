@@ -1,0 +1,91 @@
+{
+    "scraped_at":  "2026-05-11T12:00:00",
+    "week_start":  "2025-07-17",
+    "week_end":  "2025-07-23",
+    "retailers":  [
+                      {
+                          "name":  "RCSS",
+                          "flyers":  [
+                                         {
+                                             "title":  "real-canadian-superstore-on-flyer-july-17-to-231",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/real-canadian-superstore-on-flyer-july-17-to-231",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "No Frills",
+                          "flyers":  [
+                                         {
+                                             "title":  "no-frills-on-flyer-july-17-to-231",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/no-frills-on-flyer-july-17-to-231",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "Metro",
+                          "flyers":  [
+                                         {
+                                             "title":  "metro-on-flyer-july-17-to-23",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/metro-on-flyer-july-17-to-23",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "Food Basics",
+                          "flyers":  [
+                                         {
+                                             "title":  "food-basics-flyer-july-17-to-23",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/food-basics-flyer-july-17-to-23",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "FreshCo",
+                          "flyers":  [
+                                         {
+                                             "title":  "freshco-on-flyer-july-17-to-23",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-july-17-to-23",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "Loblaws",
+                          "flyers":  [
+                                         {
+                                             "title":  "loblaws-on-flyer-july-17-to-231",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/loblaws-on-flyer-july-17-to-231",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      }
+                  ]
+}

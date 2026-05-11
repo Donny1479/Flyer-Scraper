@@ -1,0 +1,91 @@
+{
+    "scraped_at":  "2026-05-11T12:00:00",
+    "week_start":  "2025-07-31",
+    "week_end":  "2025-08-06",
+    "retailers":  [
+                      {
+                          "name":  "RCSS",
+                          "flyers":  [
+                                         {
+                                             "title":  "real-canadian-superstore-on-flyer-july-31-to-august-61",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/real-canadian-superstore-on-flyer-july-31-to-august-61",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "No Frills",
+                          "flyers":  [
+                                         {
+                                             "title":  "no-frills-on-flyer-july-31-to-august-62",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/no-frills-on-flyer-july-31-to-august-62",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "Metro",
+                          "flyers":  [
+                                         {
+                                             "title":  "metro-on-flyer-july-31-to-august-6",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/metro-on-flyer-july-31-to-august-6",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "Food Basics",
+                          "flyers":  [
+                                         {
+                                             "title":  "food-basics-flyer-july-31-to-august-6",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/food-basics-flyer-july-31-to-august-6",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "FreshCo",
+                          "flyers":  [
+                                         {
+                                             "title":  "freshco-on-flyer-july-31-to-august-6",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-july-31-to-august-6",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "Loblaws",
+                          "flyers":  [
+                                         {
+                                             "title":  "loblaws-on-flyer-july-31-to-august-61",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/loblaws-on-flyer-july-31-to-august-61",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      }
+                  ]
+}

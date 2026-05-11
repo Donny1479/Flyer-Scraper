@@ -1,0 +1,178 @@
+{
+    "scraped_at":  "2026-05-11T12:00:00",
+    "week_start":  "2025-08-28",
+    "week_end":  "2025-09-03",
+    "retailers":  [
+                      {
+                          "name":  "Walmart",
+                          "flyers":  [
+                                         {
+                                             "title":  "walmart-on-flyer-august-28-to-september-31",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/walmart-on-flyer-august-28-to-september-31",
+                                             "pages_scanned":  10,
+                                             "products_found":  2
+                                         }
+                                     ],
+                          "products":  [
+                                           {
+                                               "product_name":  "Tim Hortons Ground Coffee, 875-930 g",
+                                               "price":  "$19.97",
+                                               "deal_details":  "Rollback; was $25.97; selected varieties",
+                                               "brand_text_seen":  "Tim Hortons ground coffee 875 g-930 g",
+                                               "page_number":  1,
+                                               "page_url":  "https://flyers.smartcanucks.ca/canada/walmart-on-flyer-august-28-to-september-31/single",
+                                               "image_url":  "https://flyers.smartcanucks.ca/uploads/pages/275284/walmart-on-flyer-august-28-to-september-31-1.jpg",
+                                               "flyer_title":  "walmart-on-flyer-august-28-to-september-31",
+                                               "flyer_url":  "https://flyers.smartcanucks.ca/canada/walmart-on-flyer-august-28-to-september-31"
+                                           },
+                                           {
+                                               "product_name":  "Tim Hortons Coffee K-Cups, 30-count",
+                                               "price":  "$24.44",
+                                               "deal_details":  "315 g; selected varieties",
+                                               "brand_text_seen":  "Tim Hortons coffee K-Cup 30s, 315 g",
+                                               "page_number":  2,
+                                               "page_url":  "https://flyers.smartcanucks.ca/canada/walmart-on-flyer-august-28-to-september-31/single/1",
+                                               "image_url":  "https://flyers.smartcanucks.ca/uploads/pages/275284/walmart-on-flyer-august-28-to-september-31-2.jpg",
+                                               "flyer_title":  "walmart-on-flyer-august-28-to-september-31",
+                                               "flyer_url":  "https://flyers.smartcanucks.ca/canada/walmart-on-flyer-august-28-to-september-31"
+                                           }
+                                       ]
+                      },
+                      {
+                          "name":  "RCSS",
+                          "flyers":  [
+                                         {
+                                             "title":  "real-canadian-superstore-on-flyer-august-28-to-september-31",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/real-canadian-superstore-on-flyer-august-28-to-september-31",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "No Frills",
+                          "flyers":  [
+                                         {
+                                             "title":  "no-frills-on-flyer-august-28-to-september-32",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/no-frills-on-flyer-august-28-to-september-32",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "Metro",
+                          "flyers":  [
+                                         {
+                                             "title":  "metro-on-flyer-august-28-to-september-3",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/metro-on-flyer-august-28-to-september-3",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "Food Basics",
+                          "flyers":  [
+                                         {
+                                             "title":  "food-basics-flyer-august-28-to-september-3",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/food-basics-flyer-august-28-to-september-3",
+                                             "pages_scanned":  10,
+                                             "products_found":  2
+                                         }
+                                     ],
+                          "products":  [
+                                           {
+                                               "product_name":  "Tim Hortons Ground Coffee, 825-875 g",
+                                               "price":  "$22.99",
+                                               "deal_details":  "Selected varieties",
+                                               "brand_text_seen":  "Tim Hortons ground coffee 825-875 g",
+                                               "page_number":  8,
+                                               "page_url":  "https://flyers.smartcanucks.ca/canada/food-basics-flyer-august-28-to-september-3/single/7",
+                                               "image_url":  "https://flyers.smartcanucks.ca/uploads/pages/275279/food-basics-flyer-august-28-to-september-3-8.jpg",
+                                               "flyer_title":  "food-basics-flyer-august-28-to-september-3",
+                                               "flyer_url":  "https://flyers.smartcanucks.ca/canada/food-basics-flyer-august-28-to-september-3"
+                                           },
+                                           {
+                                               "product_name":  "Tim Hortons Ready to Serve Soup, 540 mL",
+                                               "price":  "$2.99",
+                                               "deal_details":  "Selected varieties",
+                                               "brand_text_seen":  "Tim Hortons ready to serve soup 540 mL",
+                                               "page_number":  8,
+                                               "page_url":  "https://flyers.smartcanucks.ca/canada/food-basics-flyer-august-28-to-september-3/single/7",
+                                               "image_url":  "https://flyers.smartcanucks.ca/uploads/pages/275279/food-basics-flyer-august-28-to-september-3-8.jpg",
+                                               "flyer_title":  "food-basics-flyer-august-28-to-september-3",
+                                               "flyer_url":  "https://flyers.smartcanucks.ca/canada/food-basics-flyer-august-28-to-september-3"
+                                           }
+                                       ]
+                      },
+                      {
+                          "name":  "FreshCo",
+                          "flyers":  [
+                                         {
+                                             "title":  "freshco-on-flyer-august-28-to-september-3",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-august-28-to-september-3",
+                                             "pages_scanned":  10,
+                                             "products_found":  2
+                                         }
+                                     ],
+                          "products":  [
+                                           {
+                                               "product_name":  "Tim Hortons Single-Serve K-Cups, 30-count",
+                                               "price":  "$19.99 member / $26.99-$27.99 without Scene+ card",
+                                               "deal_details":  "Scene+ member pricing; selected varieties",
+                                               "brand_text_seen":  "Tim Hortons Single Serve K-Cups 30 pk",
+                                               "page_number":  4,
+                                               "page_url":  "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-august-28-to-september-3/single/3",
+                                               "image_url":  "https://flyers.smartcanucks.ca/uploads/pages/275274/freshco-on-flyer-august-28-to-september-3-4.jpg",
+                                               "flyer_title":  "freshco-on-flyer-august-28-to-september-3",
+                                               "flyer_url":  "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-august-28-to-september-3"
+                                           },
+                                           {
+                                               "product_name":  "Tim Hortons Ground Coffee, 825-875 g",
+                                               "price":  "$19.99 member / $26.99-$27.99 without Scene+ card",
+                                               "deal_details":  "Scene+ member pricing; selected varieties",
+                                               "brand_text_seen":  "Tim Hortons Ground Coffee 825-875 g",
+                                               "page_number":  4,
+                                               "page_url":  "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-august-28-to-september-3/single/3",
+                                               "image_url":  "https://flyers.smartcanucks.ca/uploads/pages/275274/freshco-on-flyer-august-28-to-september-3-4.jpg",
+                                               "flyer_title":  "freshco-on-flyer-august-28-to-september-3",
+                                               "flyer_url":  "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-august-28-to-september-3"
+                                           }
+                                       ]
+                      },
+                      {
+                          "name":  "Loblaws",
+                          "flyers":  [
+                                         {
+                                             "title":  "loblaws-on-flyer-august-28-to-september-32",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/loblaws-on-flyer-august-28-to-september-32",
+                                             "pages_scanned":  10,
+                                             "products_found":  1
+                                         }
+                                     ],
+                          "products":  [
+                                           {
+                                               "product_name":  "Tim Hortons Condensed Soups, 284 mL",
+                                               "price":  "$2.25",
+                                               "deal_details":  "PC Optimum members get 1,000 points when you buy 2; selected varieties",
+                                               "brand_text_seen":  "Tim Horton\u0027s condensed soups 284 mL",
+                                               "page_number":  9,
+                                               "page_url":  "https://flyers.smartcanucks.ca/canada/loblaws-on-flyer-august-28-to-september-32/single/8",
+                                               "image_url":  "https://flyers.smartcanucks.ca/uploads/pages/275256/loblaws-on-flyer-august-28-to-september-32-9.jpg",
+                                               "flyer_title":  "loblaws-on-flyer-august-28-to-september-32",
+                                               "flyer_url":  "https://flyers.smartcanucks.ca/canada/loblaws-on-flyer-august-28-to-september-32"
+                                           }
+                                       ]
+                      }
+                  ]
+}

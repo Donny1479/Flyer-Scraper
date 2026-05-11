@@ -1,0 +1,105 @@
+{
+    "scraped_at":  "2026-05-11T12:00:00",
+    "week_start":  "2025-10-09",
+    "week_end":  "2025-10-15",
+    "retailers":  [
+                      {
+                          "name":  "Metro",
+                          "flyers":  [
+                                         {
+                                             "title":  "metro-on-flyer-october-9-to-15",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/metro-on-flyer-october-9-to-15",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "Food Basics",
+                          "flyers":  [
+                                         {
+                                             "title":  "food-basics-flyer-october-9-to-15",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/food-basics-flyer-october-9-to-15",
+                                             "pages_scanned":  10,
+                                             "products_found":  2
+                                         }
+                                     ],
+                          "products":  [
+                                           {
+                                               "product_name":  "Tim Hortons Ground Coffee, 300 g",
+                                               "price":  "$11.49",
+                                               "deal_details":  "55 points; selected varieties",
+                                               "brand_text_seen":  "Tim Hortons ground coffee 300 g",
+                                               "page_number":  9,
+                                               "page_url":  "https://flyers.smartcanucks.ca/canada/food-basics-flyer-october-9-to-15/single/8",
+                                               "image_url":  "https://flyers.smartcanucks.ca/uploads/pages/278200/food-basics-flyer-october-9-to-15-9.jpg",
+                                               "flyer_title":  "food-basics-flyer-october-9-to-15",
+                                               "flyer_url":  "https://flyers.smartcanucks.ca/canada/food-basics-flyer-october-9-to-15"
+                                           },
+                                           {
+                                               "product_name":  "Tim Hortons Ready to Serve Soup, 540 mL",
+                                               "price":  "$2.99",
+                                               "deal_details":  "15 points; selected varieties",
+                                               "brand_text_seen":  "Tim Hortons ready to serve soup 540 mL",
+                                               "page_number":  9,
+                                               "page_url":  "https://flyers.smartcanucks.ca/canada/food-basics-flyer-october-9-to-15/single/8",
+                                               "image_url":  "https://flyers.smartcanucks.ca/uploads/pages/278200/food-basics-flyer-october-9-to-15-9.jpg",
+                                               "flyer_title":  "food-basics-flyer-october-9-to-15",
+                                               "flyer_url":  "https://flyers.smartcanucks.ca/canada/food-basics-flyer-october-9-to-15"
+                                           }
+                                       ]
+                      },
+                      {
+                          "name":  "FreshCo",
+                          "flyers":  [
+                                         {
+                                             "title":  "freshco-on-flyer-october-9-to-15",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-october-9-to-15",
+                                             "pages_scanned":  10,
+                                             "products_found":  2
+                                         }
+                                     ],
+                          "products":  [
+                                           {
+                                               "product_name":  "Tim Hortons Single-Serve K-Cups, 30-count",
+                                               "price":  "$19.99 member / $26.99-$27.99 without Scene+ card",
+                                               "deal_details":  "Scene+ member pricing; save up to $8; selected varieties",
+                                               "brand_text_seen":  "Tim Hortons Single-Serve K-Cups 30 pk",
+                                               "page_number":  2,
+                                               "page_url":  "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-october-9-to-15/single/1",
+                                               "image_url":  "https://flyers.smartcanucks.ca/uploads/pages/278194/freshco-on-flyer-october-9-to-15-2.jpg",
+                                               "flyer_title":  "freshco-on-flyer-october-9-to-15",
+                                               "flyer_url":  "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-october-9-to-15"
+                                           },
+                                           {
+                                               "product_name":  "Tim Hortons Ground Coffee, 825-875 g",
+                                               "price":  "$19.99 member / $26.99-$27.99 without Scene+ card",
+                                               "deal_details":  "Scene+ member pricing; save up to $8; selected varieties",
+                                               "brand_text_seen":  "Tim Hortons Ground Coffee 825-875 g",
+                                               "page_number":  2,
+                                               "page_url":  "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-october-9-to-15/single/1",
+                                               "image_url":  "https://flyers.smartcanucks.ca/uploads/pages/278194/freshco-on-flyer-october-9-to-15-2.jpg",
+                                               "flyer_title":  "freshco-on-flyer-october-9-to-15",
+                                               "flyer_url":  "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-october-9-to-15"
+                                           }
+                                       ]
+                      },
+                      {
+                          "name":  "Loblaws",
+                          "flyers":  [
+                                         {
+                                             "title":  "loblaws-on-flyer-october-9-to-152",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/loblaws-on-flyer-october-9-to-152",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      }
+                  ]
+}

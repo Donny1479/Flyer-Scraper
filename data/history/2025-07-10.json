@@ -1,0 +1,101 @@
+{
+    "scraped_at":  "2026-05-11T12:00:00",
+    "week_start":  "2025-07-10",
+    "week_end":  "2025-07-16",
+    "retailers":  [
+                      {
+                          "name":  "RCSS",
+                          "flyers":  [
+                                         {
+                                             "title":  "real-canadian-superstore-on-flyer-july-10-to-161",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/real-canadian-superstore-on-flyer-july-10-to-161",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "No Frills",
+                          "flyers":  [
+                                         {
+                                             "title":  "no-frills-on-flyer-july-10-to-161",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/no-frills-on-flyer-july-10-to-161",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "Metro",
+                          "flyers":  [
+                                         {
+                                             "title":  "metro-on-flyer-july-10-to-16",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/metro-on-flyer-july-10-to-16",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "Food Basics",
+                          "flyers":  [
+                                         {
+                                             "title":  "food-basics-flyer-july-10-to-16",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/food-basics-flyer-july-10-to-16",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "FreshCo",
+                          "flyers":  [
+                                         {
+                                             "title":  "freshco-on-flyer-july-10-to-16",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-july-10-to-16",
+                                             "pages_scanned":  10,
+                                             "products_found":  1
+                                         }
+                                     ],
+                          "products":  [
+                                           {
+                                               "product_name":  "Tim Hortons Single-Serve K-Cups, 30-count",
+                                               "price":  "$19.99 member / $26.99 without Scene+ card",
+                                               "deal_details":  "Scene+ member pricing; save $7",
+                                               "brand_text_seen":  "Tim Hortons Single Serve K-Cups 30 pk",
+                                               "page_number":  4,
+                                               "page_url":  "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-july-10-to-16/single/3",
+                                               "image_url":  "https://flyers.smartcanucks.ca/uploads/pages/271972/freshco-on-flyer-july-10-to-16-4.jpg",
+                                               "flyer_title":  "freshco-on-flyer-july-10-to-16",
+                                               "flyer_url":  "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-july-10-to-16"
+                                           }
+                                       ]
+                      },
+                      {
+                          "name":  "Loblaws",
+                          "flyers":  [
+                                         {
+                                             "title":  "loblaws-on-flyer-july-10-to-161",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/loblaws-on-flyer-july-10-to-161",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      }
+                  ]
+}

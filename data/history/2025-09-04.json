@@ -1,0 +1,105 @@
+{
+    "scraped_at":  "2026-05-11T12:00:00",
+    "week_start":  "2025-09-04",
+    "week_end":  "2025-09-10",
+    "retailers":  [
+                      {
+                          "name":  "Walmart",
+                          "flyers":  [
+                                         {
+                                             "title":  "walmart-on-flyer-september-4-to-101",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/walmart-on-flyer-september-4-to-101",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "RCSS",
+                          "flyers":  [
+                                         {
+                                             "title":  "real-canadian-superstore-on-flyer-september-4-to-102",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/real-canadian-superstore-on-flyer-september-4-to-102",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "No Frills",
+                          "flyers":  [
+                                         {
+                                             "title":  "no-frills-on-flyer-september-4-to-102",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/no-frills-on-flyer-september-4-to-102",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "Metro",
+                          "flyers":  [
+                                         {
+                                             "title":  "metro-on-flyer-september-4-to-10",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/metro-on-flyer-september-4-to-10",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "Food Basics",
+                          "flyers":  [
+                                         {
+                                             "title":  "food-basics-flyer-september-4-to-10",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/food-basics-flyer-september-4-to-10",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "FreshCo",
+                          "flyers":  [
+                                         {
+                                             "title":  "freshco-on-flyer-september-4-to-10",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-september-4-to-10",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "Loblaws",
+                          "flyers":  [
+                                         {
+                                             "title":  "loblaws-on-flyer-september-4-to-102",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/loblaws-on-flyer-september-4-to-102",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      }
+                  ]
+}
