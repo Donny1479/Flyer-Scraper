@@ -18,6 +18,7 @@ venv/
 fetch_historical.py
 write_history.py
 data/historical_manifest.json
+data/recent_manifest.json
 data/download_plan.json
 data/tmp_images/
 
