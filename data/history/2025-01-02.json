@@ -1,0 +1,149 @@
+{
+    "scraped_at":  "2026-05-11T15:40:36",
+    "week_start":  "2025-01-02",
+    "week_end":  "2025-01-08",
+    "retailers":  [
+                      {
+                          "name":  "Walmart",
+                          "flyers":  [
+                                         {
+                                             "title":  "walmart-on-flyer-january-2-to-8",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/walmart-on-flyer-january-2-to-8",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "RCSS",
+                          "flyers":  [
+                                         {
+                                             "title":  "real-canadian-superstore-on-flyer-january-2-to-81",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/real-canadian-superstore-on-flyer-january-2-to-81",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "No Frills",
+                          "flyers":  [
+                                         {
+                                             "title":  "no-frills-on-flyer-january-2-to-81",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/no-frills-on-flyer-january-2-to-81",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "Metro",
+                          "flyers":  [
+                                         {
+                                             "title":  "metro-on-flyer-january-2-to-83",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/metro-on-flyer-january-2-to-83",
+                                             "pages_scanned":  10,
+                                             "products_found":  1
+                                         }
+                                     ],
+                          "products":  [
+                                           {
+                                               "product_name":  "Tim Hortons Coffee Capsules, 10-count",
+                                               "price":  "$6.99",
+                                               "deal_details":  "Selected varieties",
+                                               "brand_text_seen":  "Tim Hortons coffee capsules 10-count",
+                                               "page_number":  9,
+                                               "page_url":  "https://flyers.smartcanucks.ca/canada/metro-on-flyer-january-2-to-83/single/8",
+                                               "image_url":  "https://flyers.smartcanucks.ca/uploads/pages/258883/metro-on-flyer-january-2-to-83-8.jpg",
+                                               "flyer_title":  "metro-on-flyer-january-2-to-83",
+                                               "flyer_url":  "https://flyers.smartcanucks.ca/canada/metro-on-flyer-january-2-to-83"
+                                           }
+                                       ]
+                      },
+                      {
+                          "name":  "Food Basics",
+                          "flyers":  [
+                                         {
+                                             "title":  "food-basics-flyer-january-2-to-83",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/food-basics-flyer-january-2-to-83",
+                                             "pages_scanned":  10,
+                                             "products_found":  1
+                                         }
+                                     ],
+                          "products":  [
+                                           {
+                                               "product_name":  "Tim Hortons Coffee Capsules, 48-count",
+                                               "price":  "$30.99",
+                                               "deal_details":  "Selected varieties",
+                                               "brand_text_seen":  "Tim Hortons coffee capsules 48-count",
+                                               "page_number":  8,
+                                               "page_url":  "https://flyers.smartcanucks.ca/canada/food-basics-flyer-january-2-to-83/single/7",
+                                               "image_url":  "https://flyers.smartcanucks.ca/uploads/pages/258916/food-basics-flyer-january-2-to-83-8.jpg",
+                                               "flyer_title":  "food-basics-flyer-january-2-to-83",
+                                               "flyer_url":  "https://flyers.smartcanucks.ca/canada/food-basics-flyer-january-2-to-83"
+                                           }
+                                       ]
+                      },
+                      {
+                          "name":  "Sobeys",
+                          "flyers":  [
+                                         {
+                                             "title":  "sobeys-on-flyer-january-2-to-83",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/sobeys-on-flyer-january-2-to-83",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "FreshCo",
+                          "flyers":  [
+                                         {
+                                             "title":  "freshco-on-flyer-january-2-to-82",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-january-2-to-82",
+                                             "pages_scanned":  10,
+                                             "products_found":  1
+                                         }
+                                     ],
+                          "products":  [
+                                           {
+                                               "product_name":  "Tim Hortons Single Serve K-Cups, 10-12 pack",
+                                               "price":  "$8.99",
+                                               "deal_details":  "Save $3",
+                                               "brand_text_seen":  "Tim Hortons single serve K-Cups 10-12 pk",
+                                               "page_number":  6,
+                                               "page_url":  "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-january-2-to-82/single/5",
+                                               "image_url":  "https://flyers.smartcanucks.ca/uploads/pages/258910/freshco-on-flyer-january-2-to-82-6.jpg",
+                                               "flyer_title":  "freshco-on-flyer-january-2-to-82",
+                                               "flyer_url":  "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-january-2-to-82"
+                                           }
+                                       ]
+                      },
+                      {
+                          "name":  "Loblaws",
+                          "flyers":  [
+                                         {
+                                             "title":  "loblaws-on-flyer-january-2-to-81",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/loblaws-on-flyer-january-2-to-81",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      }
+                  ]
+}

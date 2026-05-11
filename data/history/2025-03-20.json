@@ -1,0 +1,191 @@
+{
+    "scraped_at":  "2026-05-11T15:40:36",
+    "week_start":  "2025-03-20",
+    "week_end":  "2025-03-26",
+    "retailers":  [
+                      {
+                          "name":  "Walmart",
+                          "flyers":  [
+                                         {
+                                             "title":  "walmart-on-flyer-march-20-to-26",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/walmart-on-flyer-march-20-to-26",
+                                             "pages_scanned":  10,
+                                             "products_found":  1
+                                         }
+                                     ],
+                          "products":  [
+                                           {
+                                               "product_name":  "Tim Hortons K-Cup Coffee Pods, 30-count",
+                                               "price":  "$18.97",
+                                               "deal_details":  "Save 17%; save $4; selected varieties; 315 g",
+                                               "brand_text_seen":  "Tim Hortons K-Cup Coffee Pods 30s 315 g",
+                                               "page_number":  1,
+                                               "page_url":  "https://flyers.smartcanucks.ca/canada/walmart-on-flyer-march-20-to-26/single",
+                                               "image_url":  "https://flyers.smartcanucks.ca/uploads/pages/264223/walmart-on-flyer-march-20-to-26-1.jpg",
+                                               "flyer_title":  "walmart-on-flyer-march-20-to-26",
+                                               "flyer_url":  "https://flyers.smartcanucks.ca/canada/walmart-on-flyer-march-20-to-26"
+                                           }
+                                       ]
+                      },
+                      {
+                          "name":  "RCSS",
+                          "flyers":  [
+                                         {
+                                             "title":  "real-canadian-superstore-on-flyer-march-20-to-262",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/real-canadian-superstore-on-flyer-march-20-to-262",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "No Frills",
+                          "flyers":  [
+                                         {
+                                             "title":  "no-frills-on-flyer-march-20-to-261",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/no-frills-on-flyer-march-20-to-261",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "Metro",
+                          "flyers":  [
+                                         {
+                                             "title":  "metro-on-flyer-march-20-to-26",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/metro-on-flyer-march-20-to-26",
+                                             "pages_scanned":  10,
+                                             "products_found":  1
+                                         }
+                                     ],
+                          "products":  [
+                                           {
+                                               "product_name":  "Tim Hortons Ready to Serve Soup, 540 mL",
+                                               "price":  "$3.49",
+                                               "deal_details":  "Selected varieties; shared offer with Stagg Chili 425 g",
+                                               "brand_text_seen":  "Tim Hortons ready to serve soup 540 mL",
+                                               "page_number":  4,
+                                               "page_url":  "https://flyers.smartcanucks.ca/canada/metro-on-flyer-march-20-to-26/single/3",
+                                               "image_url":  "https://flyers.smartcanucks.ca/uploads/pages/264192/metro-on-flyer-march-20-to-26-10.jpg",
+                                               "flyer_title":  "metro-on-flyer-march-20-to-26",
+                                               "flyer_url":  "https://flyers.smartcanucks.ca/canada/metro-on-flyer-march-20-to-26"
+                                           }
+                                       ]
+                      },
+                      {
+                          "name":  "Food Basics",
+                          "flyers":  [
+                                         {
+                                             "title":  "food-basics-flyer-march-20-to-26",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/food-basics-flyer-march-20-to-26",
+                                             "pages_scanned":  10,
+                                             "products_found":  1
+                                         }
+                                     ],
+                          "products":  [
+                                           {
+                                               "product_name":  "Tim Hortons Ready to Serve Soup, 540 mL",
+                                               "price":  "$2.99",
+                                               "deal_details":  "15 points; selected varieties",
+                                               "brand_text_seen":  "Tim Hortons ready to serve soup 540 mL",
+                                               "page_number":  7,
+                                               "page_url":  "https://flyers.smartcanucks.ca/canada/food-basics-flyer-march-20-to-26/single/6",
+                                               "image_url":  "https://flyers.smartcanucks.ca/uploads/pages/264219/food-basics-flyer-march-20-to-26-7.jpg",
+                                               "flyer_title":  "food-basics-flyer-march-20-to-26",
+                                               "flyer_url":  "https://flyers.smartcanucks.ca/canada/food-basics-flyer-march-20-to-26"
+                                           }
+                                       ]
+                      },
+                      {
+                          "name":  "Sobeys",
+                          "flyers":  [
+                                         {
+                                             "title":  "sobeys-on-flyer-march-20-to-262",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/sobeys-on-flyer-march-20-to-262",
+                                             "pages_scanned":  10,
+                                             "products_found":  2
+                                         }
+                                     ],
+                          "products":  [
+                                           {
+                                               "product_name":  "Tim Hortons Roast and Ground Coffee, 875-930 g",
+                                               "price":  "$17.99 member pricing / $19.99 without Scene+ card",
+                                               "deal_details":  "Selected varieties",
+                                               "brand_text_seen":  "Tim Hortons roast \u0026 ground coffee 875-930 g",
+                                               "page_number":  1,
+                                               "page_url":  "https://flyers.smartcanucks.ca/canada/sobeys-on-flyer-march-20-to-262/single",
+                                               "image_url":  "https://flyers.smartcanucks.ca/uploads/pages/264169/sobeys-on-flyer-march-20-to-262-1.jpg",
+                                               "flyer_title":  "sobeys-on-flyer-march-20-to-262",
+                                               "flyer_url":  "https://flyers.smartcanucks.ca/canada/sobeys-on-flyer-march-20-to-262"
+                                           },
+                                           {
+                                               "product_name":  "Tim Hortons Single Serve Hot Chocolate or Coffee Cups, 20-30 pack",
+                                               "price":  "$17.99 member pricing / $19.99 without Scene+ card",
+                                               "deal_details":  "Selected varieties",
+                                               "brand_text_seen":  "Tim Hortons single serve hot chocolate or coffee cups 20-30 pk",
+                                               "page_number":  1,
+                                               "page_url":  "https://flyers.smartcanucks.ca/canada/sobeys-on-flyer-march-20-to-262/single",
+                                               "image_url":  "https://flyers.smartcanucks.ca/uploads/pages/264169/sobeys-on-flyer-march-20-to-262-1.jpg",
+                                               "flyer_title":  "sobeys-on-flyer-march-20-to-262",
+                                               "flyer_url":  "https://flyers.smartcanucks.ca/canada/sobeys-on-flyer-march-20-to-262"
+                                           }
+                                       ]
+                      },
+                      {
+                          "name":  "FreshCo",
+                          "flyers":  [
+                                         {
+                                             "title":  "freshco-on-flyer-march-20-to-26",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-march-20-to-26",
+                                             "pages_scanned":  10,
+                                             "products_found":  2
+                                         }
+                                     ],
+                          "products":  [
+                                           {
+                                               "product_name":  "Tim Hortons Single Serve K-Cups, 30-pack",
+                                               "price":  "$19.99",
+                                               "deal_details":  "Regular $25.99",
+                                               "brand_text_seen":  "Tim Hortons single serve K-Cups 30 pk",
+                                               "page_number":  4,
+                                               "page_url":  "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-march-20-to-26/single/3",
+                                               "image_url":  "https://flyers.smartcanucks.ca/uploads/pages/264213/freshco-on-flyer-march-20-to-26-4.jpg",
+                                               "flyer_title":  "freshco-on-flyer-march-20-to-26",
+                                               "flyer_url":  "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-march-20-to-26"
+                                           },
+                                           {
+                                               "product_name":  "Tim Hortons Ground Coffee, 875-930 g",
+                                               "price":  "$19.99",
+                                               "deal_details":  "Regular $25.99",
+                                               "brand_text_seen":  "Tim Hortons ground coffee 875-930 g",
+                                               "page_number":  4,
+                                               "page_url":  "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-march-20-to-26/single/3",
+                                               "image_url":  "https://flyers.smartcanucks.ca/uploads/pages/264213/freshco-on-flyer-march-20-to-26-4.jpg",
+                                               "flyer_title":  "freshco-on-flyer-march-20-to-26",
+                                               "flyer_url":  "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-march-20-to-26"
+                                           }
+                                       ]
+                      },
+                      {
+                          "name":  "Loblaws",
+                          "flyers":  [
+                                         {
+                                             "title":  "loblaws-on-flyer-march-20-to-262",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/loblaws-on-flyer-march-20-to-262",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      }
+                  ]
+}

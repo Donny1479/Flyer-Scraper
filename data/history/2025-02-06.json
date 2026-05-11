@@ -1,0 +1,139 @@
+{
+    "scraped_at":  "2026-05-11T15:40:36",
+    "week_start":  "2025-02-06",
+    "week_end":  "2025-02-12",
+    "retailers":  [
+                      {
+                          "name":  "Walmart",
+                          "flyers":  [
+                                         {
+                                             "title":  "walmart-on-flyer-february-6-to-12",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/walmart-on-flyer-february-6-to-12",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "RCSS",
+                          "flyers":  [
+                                         {
+                                             "title":  "real-canadian-superstore-on-flyer-february-6-to-123",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/real-canadian-superstore-on-flyer-february-6-to-123",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "No Frills",
+                          "flyers":  [
+                                         {
+                                             "title":  "no-frills-on-flyer-february-6-to-123",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/no-frills-on-flyer-february-6-to-123",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "Metro",
+                          "flyers":  [
+                                         {
+                                             "title":  "metro-on-flyer-february-6-to-122",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/metro-on-flyer-february-6-to-122",
+                                             "pages_scanned":  10,
+                                             "products_found":  1
+                                         }
+                                     ],
+                          "products":  [
+                                           {
+                                               "product_name":  "Tim Hortons Ready to Serve Soup, 540 mL",
+                                               "price":  "$3.49",
+                                               "deal_details":  "Selected varieties; shared offer with Stagg Chili 425 g",
+                                               "brand_text_seen":  "Tim Hortons ready to serve soup 540 mL",
+                                               "page_number":  3,
+                                               "page_url":  "https://flyers.smartcanucks.ca/canada/metro-on-flyer-february-6-to-122/single/2",
+                                               "image_url":  "https://flyers.smartcanucks.ca/uploads/pages/261269/metro-on-flyer-february-6-to-122-22.jpg",
+                                               "flyer_title":  "metro-on-flyer-february-6-to-122",
+                                               "flyer_url":  "https://flyers.smartcanucks.ca/canada/metro-on-flyer-february-6-to-122"
+                                           }
+                                       ]
+                      },
+                      {
+                          "name":  "Food Basics",
+                          "flyers":  [
+                                         {
+                                             "title":  "food-basics-flyer-february-6-to-122",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/food-basics-flyer-february-6-to-122",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "Sobeys",
+                          "flyers":  [
+                                         {
+                                             "title":  "sobeys-on-flyer-february-6-to-123",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/sobeys-on-flyer-february-6-to-123",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "FreshCo",
+                          "flyers":  [
+                                         {
+                                             "title":  "freshco-on-flyer-february-6-to-122",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-february-6-to-122",
+                                             "pages_scanned":  10,
+                                             "products_found":  1
+                                         }
+                                     ],
+                          "products":  [
+                                           {
+                                               "product_name":  "Tim Hortons Single Serve K-Cups, 10-12 pack",
+                                               "price":  "$8.88",
+                                               "deal_details":  "Save up to $5.11; shared offer with Kicking Horse 284 g",
+                                               "brand_text_seen":  "Tim Hortons single serve K-Cups 10-12 pk",
+                                               "page_number":  5,
+                                               "page_url":  "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-february-6-to-122/single/4",
+                                               "image_url":  "https://flyers.smartcanucks.ca/uploads/pages/261286/freshco-on-flyer-february-6-to-122-4.jpg",
+                                               "flyer_title":  "freshco-on-flyer-february-6-to-122",
+                                               "flyer_url":  "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-february-6-to-122"
+                                           }
+                                       ]
+                      },
+                      {
+                          "name":  "Loblaws",
+                          "flyers":  [
+                                         {
+                                             "title":  "loblaws-on-flyer-february-6-to-123",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/loblaws-on-flyer-february-6-to-123",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      }
+                  ]
+}

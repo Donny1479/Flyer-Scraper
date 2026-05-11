@@ -1,0 +1,160 @@
+{
+    "scraped_at":  "2026-05-11T15:40:36",
+    "week_start":  "2025-06-26",
+    "week_end":  "2025-07-02",
+    "retailers":  [
+                      {
+                          "name":  "Walmart",
+                          "flyers":  [
+                                         {
+                                             "title":  "walmart-on-flyer-june-26-to-july-2",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/walmart-on-flyer-june-26-to-july-2",
+                                             "pages_scanned":  10,
+                                             "products_found":  2
+                                         }
+                                     ],
+                          "products":  [
+                                           {
+                                               "product_name":  "Tim Hortons Coffee K-Cup, 30-count",
+                                               "price":  "$19.97",
+                                               "deal_details":  "Selected varieties; 315 g",
+                                               "brand_text_seen":  "Tim Hortons Coffee K-cup 30s pack",
+                                               "page_number":  2,
+                                               "page_url":  "https://flyers.smartcanucks.ca/canada/walmart-on-flyer-june-26-to-july-2/single/1",
+                                               "image_url":  "https://flyers.smartcanucks.ca/uploads/pages/270960/walmart-on-flyer-june-26-to-july-2-2.jpg",
+                                               "flyer_title":  "walmart-on-flyer-june-26-to-july-2",
+                                               "flyer_url":  "https://flyers.smartcanucks.ca/canada/walmart-on-flyer-june-26-to-july-2"
+                                           },
+                                           {
+                                               "product_name":  "Tim Hortons Condensed Soup, 284 mL",
+                                               "price":  "$0.97",
+                                               "deal_details":  "Rollback; was $1.57; selected varieties",
+                                               "brand_text_seen":  "Tim Hortons condensed soup 284 mL",
+                                               "page_number":  4,
+                                               "page_url":  "https://flyers.smartcanucks.ca/canada/walmart-on-flyer-june-26-to-july-2/single/3",
+                                               "image_url":  "https://flyers.smartcanucks.ca/uploads/pages/270960/walmart-on-flyer-june-26-to-july-2-4.jpg",
+                                               "flyer_title":  "walmart-on-flyer-june-26-to-july-2",
+                                               "flyer_url":  "https://flyers.smartcanucks.ca/canada/walmart-on-flyer-june-26-to-july-2"
+                                           }
+                                       ]
+                      },
+                      {
+                          "name":  "RCSS",
+                          "flyers":  [
+                                         {
+                                             "title":  "real-canadian-superstore-on-flyer-june-26-to-july-22",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/real-canadian-superstore-on-flyer-june-26-to-july-22",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "No Frills",
+                          "flyers":  [
+                                         {
+                                             "title":  "no-frills-on-flyer-june-26-to-july-21",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/no-frills-on-flyer-june-26-to-july-21",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "Metro",
+                          "flyers":  [
+                                         {
+                                             "title":  "metro-on-flyer-june-26-to-july-2",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/metro-on-flyer-june-26-to-july-2",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "Food Basics",
+                          "flyers":  [
+                                         {
+                                             "title":  "food-basics-flyer-june-26-to-july-2",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/food-basics-flyer-june-26-to-july-2",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "Sobeys",
+                          "flyers":  [
+                                         {
+                                             "title":  "sobeys-on-flyer-june-26-to-july-21",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/sobeys-on-flyer-june-26-to-july-21",
+                                             "pages_scanned":  10,
+                                             "products_found":  1
+                                         }
+                                     ],
+                          "products":  [
+                                           {
+                                               "product_name":  "Tim Hortons Single Serve Coffee Pods, 48-pack",
+                                               "price":  "$29.99",
+                                               "deal_details":  "200 Scene+ points when you buy 1; shared offer with Van Houtte and Folgers",
+                                               "brand_text_seen":  "Tim Hortons single serve coffee pods 48 pk",
+                                               "page_number":  4,
+                                               "page_url":  "https://flyers.smartcanucks.ca/canada/sobeys-on-flyer-june-26-to-july-21/single/3",
+                                               "image_url":  "https://flyers.smartcanucks.ca/uploads/pages/270958/sobeys-on-flyer-june-26-to-july-21-4.jpg",
+                                               "flyer_title":  "sobeys-on-flyer-june-26-to-july-21",
+                                               "flyer_url":  "https://flyers.smartcanucks.ca/canada/sobeys-on-flyer-june-26-to-july-21"
+                                           }
+                                       ]
+                      },
+                      {
+                          "name":  "FreshCo",
+                          "flyers":  [
+                                         {
+                                             "title":  "freshco-on-flyer-june-26-to-july-2",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-june-26-to-july-2",
+                                             "pages_scanned":  10,
+                                             "products_found":  1
+                                         }
+                                     ],
+                          "products":  [
+                                           {
+                                               "product_name":  "Tim Hortons Single Serve K-Cups, 30-pack",
+                                               "price":  "$19.99 member pricing / $26.99 without Scene+ card",
+                                               "deal_details":  "Save $7",
+                                               "brand_text_seen":  "Tim Hortons single serve K-Cups 30 pk",
+                                               "page_number":  4,
+                                               "page_url":  "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-june-26-to-july-2/single/3",
+                                               "image_url":  "https://flyers.smartcanucks.ca/uploads/pages/270956/freshco-on-flyer-june-26-to-july-2-4.jpg",
+                                               "flyer_title":  "freshco-on-flyer-june-26-to-july-2",
+                                               "flyer_url":  "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-june-26-to-july-2"
+                                           }
+                                       ]
+                      },
+                      {
+                          "name":  "Loblaws",
+                          "flyers":  [
+                                         {
+                                             "title":  "loblaws-on-flyer-june-26-to-july-21",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/loblaws-on-flyer-june-26-to-july-21",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      }
+                  ]
+}

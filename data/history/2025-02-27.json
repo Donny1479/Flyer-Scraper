@@ -1,0 +1,149 @@
+{
+    "scraped_at":  "2026-05-11T15:40:36",
+    "week_start":  "2025-02-27",
+    "week_end":  "2025-03-05",
+    "retailers":  [
+                      {
+                          "name":  "Walmart",
+                          "flyers":  [
+                                         {
+                                             "title":  "walmart-on-flyer-february-27-to-march-5",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/walmart-on-flyer-february-27-to-march-5",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "RCSS",
+                          "flyers":  [
+                                         {
+                                             "title":  "real-canadian-superstore-on-flyer-february-27-to-march-52",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/real-canadian-superstore-on-flyer-february-27-to-march-52",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "No Frills",
+                          "flyers":  [
+                                         {
+                                             "title":  "no-frills-on-flyer-february-27-to-march-52",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/no-frills-on-flyer-february-27-to-march-52",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "Metro",
+                          "flyers":  [
+                                         {
+                                             "title":  "metro-on-flyer-february-27-to-march-52",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/metro-on-flyer-february-27-to-march-52",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "Food Basics",
+                          "flyers":  [
+                                         {
+                                             "title":  "food-basics-flyer-february-27-to-march-52",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/food-basics-flyer-february-27-to-march-52",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "Sobeys",
+                          "flyers":  [
+                                         {
+                                             "title":  "sobeys-on-flyer-february-27-to-march-52",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/sobeys-on-flyer-february-27-to-march-52",
+                                             "pages_scanned":  10,
+                                             "products_found":  1
+                                         }
+                                     ],
+                          "products":  [
+                                           {
+                                               "product_name":  "Tim Hortons Nespresso Compatible Pods, 10-pack",
+                                               "price":  "$5.99",
+                                               "deal_details":  "Hot price; shared offer with Nabob and Maxwell House",
+                                               "brand_text_seen":  "Tim Hortons Nespresso compatible pods 10 pk",
+                                               "page_number":  2,
+                                               "page_url":  "https://flyers.smartcanucks.ca/canada/sobeys-on-flyer-february-27-to-march-52/single/1",
+                                               "image_url":  "https://flyers.smartcanucks.ca/uploads/pages/262661/sobeys-on-flyer-february-27-to-march-52-2.jpg",
+                                               "flyer_title":  "sobeys-on-flyer-february-27-to-march-52",
+                                               "flyer_url":  "https://flyers.smartcanucks.ca/canada/sobeys-on-flyer-february-27-to-march-52"
+                                           }
+                                       ]
+                      },
+                      {
+                          "name":  "FreshCo",
+                          "flyers":  [
+                                         {
+                                             "title":  "freshco-on-flyer-february-27-to-march-5",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-february-27-to-march-5",
+                                             "pages_scanned":  10,
+                                             "products_found":  1
+                                         }
+                                     ],
+                          "products":  [
+                                           {
+                                               "product_name":  "Tim Hortons Single Serve K-Cups, 10-12 pack",
+                                               "price":  "$9.99",
+                                               "deal_details":  "Shared offer with Tetley Orange Pekoe Tea Bags 216 pk",
+                                               "brand_text_seen":  "Tim Hortons single serve K-Cups 10-12 pk",
+                                               "page_number":  3,
+                                               "page_url":  "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-february-27-to-march-5/single/2",
+                                               "image_url":  "https://flyers.smartcanucks.ca/uploads/pages/262704/freshco-on-flyer-february-27-to-march-5-11.jpg",
+                                               "flyer_title":  "freshco-on-flyer-february-27-to-march-5",
+                                               "flyer_url":  "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-february-27-to-march-5"
+                                           }
+                                       ]
+                      },
+                      {
+                          "name":  "Loblaws",
+                          "flyers":  [
+                                         {
+                                             "title":  "loblaws-on-flyer-february-27-to-march-52",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/loblaws-on-flyer-february-27-to-march-52",
+                                             "pages_scanned":  10,
+                                             "products_found":  1
+                                         }
+                                     ],
+                          "products":  [
+                                           {
+                                               "product_name":  "Tim Hortons Ready to Serve Soup, 540 mL",
+                                               "price":  "$2.50",
+                                               "deal_details":  "Price drop; save $1.99; selected varieties",
+                                               "brand_text_seen":  "Tim Hortons ready to serve soup 540 mL",
+                                               "page_number":  5,
+                                               "page_url":  "https://flyers.smartcanucks.ca/canada/loblaws-on-flyer-february-27-to-march-52/single/4",
+                                               "image_url":  "https://flyers.smartcanucks.ca/uploads/pages/262690/loblaws-on-flyer-february-27-to-march-52-5.jpg",
+                                               "flyer_title":  "loblaws-on-flyer-february-27-to-march-52",
+                                               "flyer_url":  "https://flyers.smartcanucks.ca/canada/loblaws-on-flyer-february-27-to-march-52"
+                                           }
+                                       ]
+                      }
+                  ]
+}

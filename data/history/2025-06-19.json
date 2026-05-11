@@ -1,0 +1,119 @@
+{
+    "scraped_at":  "2026-05-11T15:40:36",
+    "week_start":  "2025-06-19",
+    "week_end":  "2025-06-25",
+    "retailers":  [
+                      {
+                          "name":  "Walmart",
+                          "flyers":  [
+                                         {
+                                             "title":  "walmart-on-flyer-june-19-to-25",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/walmart-on-flyer-june-19-to-25",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "RCSS",
+                          "flyers":  [
+                                         {
+                                             "title":  "real-canadian-superstore-on-flyer-june-19-to-251",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/real-canadian-superstore-on-flyer-june-19-to-251",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "No Frills",
+                          "flyers":  [
+                                         {
+                                             "title":  "no-frills-on-flyer-june-19-to-251",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/no-frills-on-flyer-june-19-to-251",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "Metro",
+                          "flyers":  [
+                                         {
+                                             "title":  "metro-on-flyer-june-19-to-25",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/metro-on-flyer-june-19-to-25",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "Food Basics",
+                          "flyers":  [
+                                         {
+                                             "title":  "food-basics-flyer-june-19-to-25",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/food-basics-flyer-june-19-to-25",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "Sobeys",
+                          "flyers":  [
+                                         {
+                                             "title":  "sobeys-on-flyer-june-19-to-251",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/sobeys-on-flyer-june-19-to-251",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "FreshCo",
+                          "flyers":  [
+                                         {
+                                             "title":  "freshco-on-flyer-june-19-to-25",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-june-19-to-25",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "Loblaws",
+                          "flyers":  [
+                                         {
+                                             "title":  "loblaws-on-flyer-june-19-to-251",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/loblaws-on-flyer-june-19-to-251",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      }
+                  ]
+}

@@ -1,0 +1,150 @@
+{
+    "scraped_at":  "2026-05-11T15:40:36",
+    "week_start":  "2025-02-20",
+    "week_end":  "2025-02-26",
+    "retailers":  [
+                      {
+                          "name":  "Walmart",
+                          "flyers":  [
+                                         {
+                                             "title":  "walmart-on-flyer-february-20-to-26",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/walmart-on-flyer-february-20-to-26",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "RCSS",
+                          "flyers":  [
+                                         {
+                                             "title":  "real-canadian-superstore-on-flyer-february-20-to-263",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/real-canadian-superstore-on-flyer-february-20-to-263",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "No Frills",
+                          "flyers":  [
+                                         {
+                                             "title":  "no-frills-on-flyer-february-20-to-262",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/no-frills-on-flyer-february-20-to-262",
+                                             "pages_scanned":  10,
+                                             "products_found":  2
+                                         }
+                                     ],
+                          "products":  [
+                                           {
+                                               "product_name":  "Tim Hortons Roast and Ground Coffee, 300 g",
+                                               "price":  "$8.99",
+                                               "deal_details":  "Selected varieties",
+                                               "brand_text_seen":  "Tim Hortons roast and ground coffee 300 g",
+                                               "page_number":  6,
+                                               "page_url":  "https://flyers.smartcanucks.ca/canada/no-frills-on-flyer-february-20-to-262/single/5",
+                                               "image_url":  "https://flyers.smartcanucks.ca/uploads/pages/262213/no-frills-on-flyer-february-20-to-262-5.jpg",
+                                               "flyer_title":  "no-frills-on-flyer-february-20-to-262",
+                                               "flyer_url":  "https://flyers.smartcanucks.ca/canada/no-frills-on-flyer-february-20-to-262"
+                                           },
+                                           {
+                                               "product_name":  "Tim Hortons Coffee Pods, 10/12-count",
+                                               "price":  "$8.99",
+                                               "deal_details":  "Selected varieties",
+                                               "brand_text_seen":  "Tim Hortons coffee pods 10/12\u0027s",
+                                               "page_number":  6,
+                                               "page_url":  "https://flyers.smartcanucks.ca/canada/no-frills-on-flyer-february-20-to-262/single/5",
+                                               "image_url":  "https://flyers.smartcanucks.ca/uploads/pages/262213/no-frills-on-flyer-february-20-to-262-5.jpg",
+                                               "flyer_title":  "no-frills-on-flyer-february-20-to-262",
+                                               "flyer_url":  "https://flyers.smartcanucks.ca/canada/no-frills-on-flyer-february-20-to-262"
+                                           }
+                                       ]
+                      },
+                      {
+                          "name":  "Metro",
+                          "flyers":  [
+                                         {
+                                             "title":  "metro-on-flyer-february-20-to-261",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/metro-on-flyer-february-20-to-261",
+                                             "pages_scanned":  10,
+                                             "products_found":  1
+                                         }
+                                     ],
+                          "products":  [
+                                           {
+                                               "product_name":  "Tim Hortons Coffee, 283-300 g",
+                                               "price":  "$9.99",
+                                               "deal_details":  "Selected varieties",
+                                               "brand_text_seen":  "Tim Hortons coffee 283-300 g",
+                                               "page_number":  3,
+                                               "page_url":  "https://flyers.smartcanucks.ca/canada/metro-on-flyer-february-20-to-261/single/2",
+                                               "image_url":  "https://flyers.smartcanucks.ca/uploads/pages/262215/metro-on-flyer-february-20-to-261-3.jpg",
+                                               "flyer_title":  "metro-on-flyer-february-20-to-261",
+                                               "flyer_url":  "https://flyers.smartcanucks.ca/canada/metro-on-flyer-february-20-to-261"
+                                           }
+                                       ]
+                      },
+                      {
+                          "name":  "Food Basics",
+                          "flyers":  [
+                                         {
+                                             "title":  "food-basics-flyer-february-20-to-262",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/food-basics-flyer-february-20-to-262",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "Sobeys",
+                          "flyers":  [
+                                         {
+                                             "title":  "sobeys-on-flyer-february-20-to-263",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/sobeys-on-flyer-february-20-to-263",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "FreshCo",
+                          "flyers":  [
+                                         {
+                                             "title":  "freshco-on-flyer-february-20-to-261",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-february-20-to-261",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "Loblaws",
+                          "flyers":  [
+                                         {
+                                             "title":  "loblaws-on-flyer-february-20-to-263",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/loblaws-on-flyer-february-20-to-263",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      }
+                  ]
+}

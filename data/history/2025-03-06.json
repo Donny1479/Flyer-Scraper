@@ -1,0 +1,224 @@
+{
+    "scraped_at":  "2026-05-11T15:40:36",
+    "week_start":  "2025-03-06",
+    "week_end":  "2025-03-12",
+    "retailers":  [
+                      {
+                          "name":  "Walmart",
+                          "flyers":  [
+                                         {
+                                             "title":  "walmart-on-flyer-march-6-to-12",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/walmart-on-flyer-march-6-to-12",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "RCSS",
+                          "flyers":  [
+                                         {
+                                             "title":  "real-canadian-superstore-on-flyer-march-6-to-122",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/real-canadian-superstore-on-flyer-march-6-to-122",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "No Frills",
+                          "flyers":  [
+                                         {
+                                             "title":  "no-frills-on-flyer-march-6-to-122",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/no-frills-on-flyer-march-6-to-122",
+                                             "pages_scanned":  10,
+                                             "products_found":  2
+                                         }
+                                     ],
+                          "products":  [
+                                           {
+                                               "product_name":  "Tim Hortons Roast and Ground Coffee, 875-930 g",
+                                               "price":  "$17.99",
+                                               "deal_details":  "Selected varieties",
+                                               "brand_text_seen":  "Tim Hortons roast and ground coffee 875/930 g",
+                                               "page_number":  10,
+                                               "page_url":  "https://flyers.smartcanucks.ca/canada/no-frills-on-flyer-march-6-to-122/single/9",
+                                               "image_url":  "https://flyers.smartcanucks.ca/uploads/pages/263205/no-frills-on-flyer-march-6-to-122-10.jpg",
+                                               "flyer_title":  "no-frills-on-flyer-march-6-to-122",
+                                               "flyer_url":  "https://flyers.smartcanucks.ca/canada/no-frills-on-flyer-march-6-to-122"
+                                           },
+                                           {
+                                               "product_name":  "Tim Hortons Coffee Pods, 24/30-count",
+                                               "price":  "$17.99",
+                                               "deal_details":  "Selected varieties",
+                                               "brand_text_seen":  "Tim Hortons coffee pods 24/30\u0027s",
+                                               "page_number":  10,
+                                               "page_url":  "https://flyers.smartcanucks.ca/canada/no-frills-on-flyer-march-6-to-122/single/9",
+                                               "image_url":  "https://flyers.smartcanucks.ca/uploads/pages/263205/no-frills-on-flyer-march-6-to-122-10.jpg",
+                                               "flyer_title":  "no-frills-on-flyer-march-6-to-122",
+                                               "flyer_url":  "https://flyers.smartcanucks.ca/canada/no-frills-on-flyer-march-6-to-122"
+                                           }
+                                       ]
+                      },
+                      {
+                          "name":  "Metro",
+                          "flyers":  [
+                                         {
+                                             "title":  "metro-on-flyer-march-6-to-122",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/metro-on-flyer-march-6-to-122",
+                                             "pages_scanned":  10,
+                                             "products_found":  1
+                                         }
+                                     ],
+                          "products":  [
+                                           {
+                                               "product_name":  "Tim Hortons Ready to Serve Soup, 540 mL",
+                                               "price":  "$3.49",
+                                               "deal_details":  "Selected varieties",
+                                               "brand_text_seen":  "Tim Hortons ready to serve soup 540 mL",
+                                               "page_number":  4,
+                                               "page_url":  "https://flyers.smartcanucks.ca/canada/metro-on-flyer-march-6-to-122/single/3",
+                                               "image_url":  "https://flyers.smartcanucks.ca/uploads/pages/263207/metro-on-flyer-march-6-to-122-3.jpg",
+                                               "flyer_title":  "metro-on-flyer-march-6-to-122",
+                                               "flyer_url":  "https://flyers.smartcanucks.ca/canada/metro-on-flyer-march-6-to-122"
+                                           }
+                                       ]
+                      },
+                      {
+                          "name":  "Food Basics",
+                          "flyers":  [
+                                         {
+                                             "title":  "food-basics-flyer-march-6-to-122",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/food-basics-flyer-march-6-to-122",
+                                             "pages_scanned":  10,
+                                             "products_found":  2
+                                         }
+                                     ],
+                          "products":  [
+                                           {
+                                               "product_name":  "Tim Hortons Coffee Pods, 30-count",
+                                               "price":  "$17.99",
+                                               "deal_details":  "Selected varieties",
+                                               "brand_text_seen":  "Tim Hortons coffee pods 30-count",
+                                               "page_number":  3,
+                                               "page_url":  "https://flyers.smartcanucks.ca/canada/food-basics-flyer-march-6-to-122/single/2",
+                                               "image_url":  "https://flyers.smartcanucks.ca/uploads/pages/263237/food-basics-flyer-march-6-to-122-3.jpg",
+                                               "flyer_title":  "food-basics-flyer-march-6-to-122",
+                                               "flyer_url":  "https://flyers.smartcanucks.ca/canada/food-basics-flyer-march-6-to-122"
+                                           },
+                                           {
+                                               "product_name":  "Tim Hortons Ground Coffee, 875-930 g",
+                                               "price":  "$17.99",
+                                               "deal_details":  "Selected varieties",
+                                               "brand_text_seen":  "Tim Hortons ground coffee 875-930 g",
+                                               "page_number":  3,
+                                               "page_url":  "https://flyers.smartcanucks.ca/canada/food-basics-flyer-march-6-to-122/single/2",
+                                               "image_url":  "https://flyers.smartcanucks.ca/uploads/pages/263237/food-basics-flyer-march-6-to-122-3.jpg",
+                                               "flyer_title":  "food-basics-flyer-march-6-to-122",
+                                               "flyer_url":  "https://flyers.smartcanucks.ca/canada/food-basics-flyer-march-6-to-122"
+                                           }
+                                       ]
+                      },
+                      {
+                          "name":  "Sobeys",
+                          "flyers":  [
+                                         {
+                                             "title":  "sobeys-on-flyer-march-6-to-121",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/sobeys-on-flyer-march-6-to-121",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "FreshCo",
+                          "flyers":  [
+                                         {
+                                             "title":  "freshco-on-flyer-march-6-to-12",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-march-6-to-12",
+                                             "pages_scanned":  10,
+                                             "products_found":  2
+                                         }
+                                     ],
+                          "products":  [
+                                           {
+                                               "product_name":  "Tim Hortons Single Serve K-Cups, 30-pack",
+                                               "price":  "$19.99",
+                                               "deal_details":  "Save $6",
+                                               "brand_text_seen":  "Tim Hortons single serve K-Cups 30 pk",
+                                               "page_number":  4,
+                                               "page_url":  "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-march-6-to-12/single/3",
+                                               "image_url":  "https://flyers.smartcanucks.ca/uploads/pages/263231/freshco-on-flyer-march-6-to-12-4.jpg",
+                                               "flyer_title":  "freshco-on-flyer-march-6-to-12",
+                                               "flyer_url":  "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-march-6-to-12"
+                                           },
+                                           {
+                                               "product_name":  "Tim Hortons Ground Coffee, 875-930 g",
+                                               "price":  "$19.99",
+                                               "deal_details":  "Save $6",
+                                               "brand_text_seen":  "Tim Hortons ground coffee 875-930 g",
+                                               "page_number":  4,
+                                               "page_url":  "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-march-6-to-12/single/3",
+                                               "image_url":  "https://flyers.smartcanucks.ca/uploads/pages/263231/freshco-on-flyer-march-6-to-12-4.jpg",
+                                               "flyer_title":  "freshco-on-flyer-march-6-to-12",
+                                               "flyer_url":  "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-march-6-to-12"
+                                           }
+                                       ]
+                      },
+                      {
+                          "name":  "Loblaws",
+                          "flyers":  [
+                                         {
+                                             "title":  "loblaws-on-flyer-march-6-to-122",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/loblaws-on-flyer-march-6-to-122",
+                                             "pages_scanned":  10,
+                                             "products_found":  3
+                                         }
+                                     ],
+                          "products":  [
+                                           {
+                                               "product_name":  "Tim Hortons Coffee K-Cups, 10/12-count",
+                                               "price":  "$9.00 member pricing / $13.00 non-member",
+                                               "deal_details":  "Members save $4; selected varieties",
+                                               "brand_text_seen":  "Tim Hortons K-Cups 10/12\u0027s",
+                                               "page_number":  2,
+                                               "page_url":  "https://flyers.smartcanucks.ca/canada/loblaws-on-flyer-march-6-to-122/single/1",
+                                               "image_url":  "https://flyers.smartcanucks.ca/uploads/pages/263215/loblaws-on-flyer-march-6-to-122-2.jpg",
+                                               "flyer_title":  "loblaws-on-flyer-march-6-to-122",
+                                               "flyer_url":  "https://flyers.smartcanucks.ca/canada/loblaws-on-flyer-march-6-to-122"
+                                           },
+                                           {
+                                               "product_name":  "Tim Hortons Tea K-Cups, 10/12-count",
+                                               "price":  "$9.00 member pricing / $13.00 non-member",
+                                               "deal_details":  "Members save $4; selected varieties",
+                                               "brand_text_seen":  "Tim Hortons Tea K-Cups 10/12\u0027s",
+                                               "page_number":  2,
+                                               "page_url":  "https://flyers.smartcanucks.ca/canada/loblaws-on-flyer-march-6-to-122/single/1",
+                                               "image_url":  "https://flyers.smartcanucks.ca/uploads/pages/263215/loblaws-on-flyer-march-6-to-122-2.jpg",
+                                               "flyer_title":  "loblaws-on-flyer-march-6-to-122",
+                                               "flyer_url":  "https://flyers.smartcanucks.ca/canada/loblaws-on-flyer-march-6-to-122"
+                                           },
+                                           {
+                                               "product_name":  "Tim Hortons Ground Coffee Bags, 300 g",
+                                               "price":  "$9.00",
+                                               "deal_details":  "Selected varieties",
+                                               "brand_text_seen":  "Tim Horton\u0027s bags 300 g",
+                                               "page_number":  8,
+                                               "page_url":  "https://flyers.smartcanucks.ca/canada/loblaws-on-flyer-march-6-to-122/single/7",
+                                               "image_url":  "https://flyers.smartcanucks.ca/uploads/pages/263215/loblaws-on-flyer-march-6-to-122-8.jpg",
+                                               "flyer_title":  "loblaws-on-flyer-march-6-to-122",
+                                               "flyer_url":  "https://flyers.smartcanucks.ca/canada/loblaws-on-flyer-march-6-to-122"
+                                           }
+                                       ]
+                      }
+                  ]
+}

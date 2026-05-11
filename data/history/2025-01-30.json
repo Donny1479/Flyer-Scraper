@@ -1,0 +1,160 @@
+{
+    "scraped_at":  "2026-05-11T15:40:36",
+    "week_start":  "2025-01-30",
+    "week_end":  "2025-02-05",
+    "retailers":  [
+                      {
+                          "name":  "Walmart",
+                          "flyers":  [
+                                         {
+                                             "title":  "walmart-on-flyer-january-30-to-february-5",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/walmart-on-flyer-january-30-to-february-5",
+                                             "pages_scanned":  10,
+                                             "products_found":  1
+                                         }
+                                     ],
+                          "products":  [
+                                           {
+                                               "product_name":  "Tim Hortons K-Cup Coffee Pods, 30-count",
+                                               "price":  "$17.97",
+                                               "deal_details":  "Save $4; was $21.97-$22.97; selected varieties; 315 g",
+                                               "brand_text_seen":  "Tim Hortons K-Cup Coffee Pods 30s 315 g",
+                                               "page_number":  2,
+                                               "page_url":  "https://flyers.smartcanucks.ca/canada/walmart-on-flyer-january-30-to-february-5/single/1",
+                                               "image_url":  "https://flyers.smartcanucks.ca/uploads/pages/260794/walmart-on-flyer-january-30-to-february-5-2.jpg",
+                                               "flyer_title":  "walmart-on-flyer-january-30-to-february-5",
+                                               "flyer_url":  "https://flyers.smartcanucks.ca/canada/walmart-on-flyer-january-30-to-february-5"
+                                           }
+                                       ]
+                      },
+                      {
+                          "name":  "RCSS",
+                          "flyers":  [
+                                         {
+                                             "title":  "real-canadian-superstore-on-flyer-january-30-to-february-53",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/real-canadian-superstore-on-flyer-january-30-to-february-53",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "No Frills",
+                          "flyers":  [
+                                         {
+                                             "title":  "no-frills-on-flyer-january-30-to-february-53",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/no-frills-on-flyer-january-30-to-february-53",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "Metro",
+                          "flyers":  [
+                                         {
+                                             "title":  "metro-on-flyer-january-30-to-february-53",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/metro-on-flyer-january-30-to-february-53",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "Food Basics",
+                          "flyers":  [
+                                         {
+                                             "title":  "food-basics-flyer-january-30-to-february-52",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/food-basics-flyer-january-30-to-february-52",
+                                             "pages_scanned":  10,
+                                             "products_found":  2
+                                         }
+                                     ],
+                          "products":  [
+                                           {
+                                               "product_name":  "Tim Hortons Ready to Serve Soup, 540 mL",
+                                               "price":  "$2.99",
+                                               "deal_details":  "Selected varieties",
+                                               "brand_text_seen":  "Tim Hortons ready to serve soup 540 mL",
+                                               "page_number":  8,
+                                               "page_url":  "https://flyers.smartcanucks.ca/canada/food-basics-flyer-january-30-to-february-52/single/7",
+                                               "image_url":  "https://flyers.smartcanucks.ca/uploads/pages/260791/food-basics-flyer-january-30-to-february-52-8.jpg",
+                                               "flyer_title":  "food-basics-flyer-january-30-to-february-52",
+                                               "flyer_url":  "https://flyers.smartcanucks.ca/canada/food-basics-flyer-january-30-to-february-52"
+                                           },
+                                           {
+                                               "product_name":  "Tim Hortons Ground Coffee, 300 g",
+                                               "price":  "$9.49",
+                                               "deal_details":  "Selected varieties",
+                                               "brand_text_seen":  "Tim Hortons ground coffee 300 g",
+                                               "page_number":  8,
+                                               "page_url":  "https://flyers.smartcanucks.ca/canada/food-basics-flyer-january-30-to-february-52/single/7",
+                                               "image_url":  "https://flyers.smartcanucks.ca/uploads/pages/260791/food-basics-flyer-january-30-to-february-52-8.jpg",
+                                               "flyer_title":  "food-basics-flyer-january-30-to-february-52",
+                                               "flyer_url":  "https://flyers.smartcanucks.ca/canada/food-basics-flyer-january-30-to-february-52"
+                                           }
+                                       ]
+                      },
+                      {
+                          "name":  "Sobeys",
+                          "flyers":  [
+                                         {
+                                             "title":  "sobeys-on-flyer-january-30-to-february-51",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/sobeys-on-flyer-january-30-to-february-51",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "FreshCo",
+                          "flyers":  [
+                                         {
+                                             "title":  "freshco-on-flyer-january-30-to-february-52",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-january-30-to-february-52",
+                                             "pages_scanned":  10,
+                                             "products_found":  1
+                                         }
+                                     ],
+                          "products":  [
+                                           {
+                                               "product_name":  "Tim Hortons Ground Coffee, 300 g",
+                                               "price":  "$7.99",
+                                               "deal_details":  "Save up to $2; shared offer with Folgers K-Cups 12 pk and Twinings tea 50 pk",
+                                               "brand_text_seen":  "Tim Hortons ground coffee 300 g",
+                                               "page_number":  3,
+                                               "page_url":  "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-january-30-to-february-52/single/2",
+                                               "image_url":  "https://flyers.smartcanucks.ca/uploads/pages/260786/freshco-on-flyer-january-30-to-february-52-3.jpg",
+                                               "flyer_title":  "freshco-on-flyer-january-30-to-february-52",
+                                               "flyer_url":  "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-january-30-to-february-52"
+                                           }
+                                       ]
+                      },
+                      {
+                          "name":  "Loblaws",
+                          "flyers":  [
+                                         {
+                                             "title":  "loblaws-on-flyer-january-30-to-february-53",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/loblaws-on-flyer-january-30-to-february-53",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      }
+                  ]
+}

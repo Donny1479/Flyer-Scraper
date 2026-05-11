@@ -1,0 +1,149 @@
+{
+    "scraped_at":  "2026-05-11T15:40:36",
+    "week_start":  "2025-03-27",
+    "week_end":  "2025-04-02",
+    "retailers":  [
+                      {
+                          "name":  "Walmart",
+                          "flyers":  [
+                                         {
+                                             "title":  "walmart-on-flyer-march-27-to-april-2",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/walmart-on-flyer-march-27-to-april-2",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "RCSS",
+                          "flyers":  [
+                                         {
+                                             "title":  "real-canadian-superstore-on-flyer-march-27-to-april-2",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/real-canadian-superstore-on-flyer-march-27-to-april-2",
+                                             "pages_scanned":  10,
+                                             "products_found":  1
+                                         }
+                                     ],
+                          "products":  [
+                                           {
+                                               "product_name":  "Tim Hortons Tomato, Chicken Noodle or Vegetable Condensed Soup, 284 mL",
+                                               "price":  "1,000 PC Optimum points ($1 value)",
+                                               "deal_details":  "App exclusive daily deal; Wednesday April 2; selected varieties",
+                                               "brand_text_seen":  "Tim Horton\u0027s tomato, chicken noodle or vegetable condensed soup 284 mL",
+                                               "page_number":  1,
+                                               "page_url":  "https://flyers.smartcanucks.ca/canada/real-canadian-superstore-on-flyer-march-27-to-april-2/single",
+                                               "image_url":  "https://flyers.smartcanucks.ca/uploads/pages/264663/real-canadian-superstore-on-flyer-march-27-to-april-2-1.jpg",
+                                               "flyer_title":  "real-canadian-superstore-on-flyer-march-27-to-april-2",
+                                               "flyer_url":  "https://flyers.smartcanucks.ca/canada/real-canadian-superstore-on-flyer-march-27-to-april-2"
+                                           }
+                                       ]
+                      },
+                      {
+                          "name":  "No Frills",
+                          "flyers":  [
+                                         {
+                                             "title":  "no-frills-on-flyer-march-27-to-april-22",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/no-frills-on-flyer-march-27-to-april-22",
+                                             "pages_scanned":  10,
+                                             "products_found":  1
+                                         }
+                                     ],
+                          "products":  [
+                                           {
+                                               "product_name":  "Tim Hortons Instant Coffee, 100 g",
+                                               "price":  "$4.99",
+                                               "deal_details":  "Selected varieties; shared offer with Red Rose Orange Pekoe Tea 72\u0027s",
+                                               "brand_text_seen":  "Tim Hortons instant coffee 100 g",
+                                               "page_number":  10,
+                                               "page_url":  "https://flyers.smartcanucks.ca/canada/no-frills-on-flyer-march-27-to-april-22/single/9",
+                                               "image_url":  "https://flyers.smartcanucks.ca/uploads/pages/264665/no-frills-on-flyer-march-27-to-april-22-10.jpg",
+                                               "flyer_title":  "no-frills-on-flyer-march-27-to-april-22",
+                                               "flyer_url":  "https://flyers.smartcanucks.ca/canada/no-frills-on-flyer-march-27-to-april-22"
+                                           }
+                                       ]
+                      },
+                      {
+                          "name":  "Metro",
+                          "flyers":  [
+                                         {
+                                             "title":  "metro-on-flyer-march-27-to-april-2",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/metro-on-flyer-march-27-to-april-2",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "Food Basics",
+                          "flyers":  [
+                                         {
+                                             "title":  "food-basics-flyer-march-27-to-april-2",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/food-basics-flyer-march-27-to-april-2",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "Sobeys",
+                          "flyers":  [
+                                         {
+                                             "title":  "sobeys-on-flyer-march-27-to-april-22",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/sobeys-on-flyer-march-27-to-april-22",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "FreshCo",
+                          "flyers":  [
+                                         {
+                                             "title":  "freshco-on-flyer-march-27-to-april-2",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-march-27-to-april-2",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "Loblaws",
+                          "flyers":  [
+                                         {
+                                             "title":  "loblaws-on-flyer-march-27-to-april-22",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/loblaws-on-flyer-march-27-to-april-22",
+                                             "pages_scanned":  10,
+                                             "products_found":  1
+                                         }
+                                     ],
+                          "products":  [
+                                           {
+                                               "product_name":  "Tim Hortons Tomato, Chicken Noodle or Vegetable Condensed Soup, 284 mL",
+                                               "price":  "1,000 PC Optimum points ($1 value)",
+                                               "deal_details":  "App exclusive daily deal; Wednesday April 2; selected varieties",
+                                               "brand_text_seen":  "Tim Horton\u0027s tomato, chicken noodle or vegetable condensed soup 284 mL",
+                                               "page_number":  1,
+                                               "page_url":  "https://flyers.smartcanucks.ca/canada/loblaws-on-flyer-march-27-to-april-22/single",
+                                               "image_url":  "https://flyers.smartcanucks.ca/uploads/pages/264677/loblaws-on-flyer-march-27-to-april-22-1.jpg",
+                                               "flyer_title":  "loblaws-on-flyer-march-27-to-april-22",
+                                               "flyer_url":  "https://flyers.smartcanucks.ca/canada/loblaws-on-flyer-march-27-to-april-22"
+                                           }
+                                       ]
+                      }
+                  ]
+}

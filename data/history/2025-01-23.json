@@ -1,0 +1,150 @@
+{
+    "scraped_at":  "2026-05-11T15:40:36",
+    "week_start":  "2025-01-23",
+    "week_end":  "2025-01-29",
+    "retailers":  [
+                      {
+                          "name":  "Walmart",
+                          "flyers":  [
+                                         {
+                                             "title":  "walmart-on-flyer-january-23-to-29",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/walmart-on-flyer-january-23-to-29",
+                                             "pages_scanned":  10,
+                                             "products_found":  1
+                                         }
+                                     ],
+                          "products":  [
+                                           {
+                                               "product_name":  "Tim Hortons Instant Coffee, 100 g",
+                                               "price":  "$4.97",
+                                               "deal_details":  "Save $3; selected varieties",
+                                               "brand_text_seen":  "Tim Hortons instant coffee 100 g",
+                                               "page_number":  1,
+                                               "page_url":  "https://flyers.smartcanucks.ca/canada/walmart-on-flyer-january-23-to-29/single",
+                                               "image_url":  "https://flyers.smartcanucks.ca/uploads/pages/260335/walmart-on-flyer-january-23-to-29-1.jpg",
+                                               "flyer_title":  "walmart-on-flyer-january-23-to-29",
+                                               "flyer_url":  "https://flyers.smartcanucks.ca/canada/walmart-on-flyer-january-23-to-29"
+                                           }
+                                       ]
+                      },
+                      {
+                          "name":  "RCSS",
+                          "flyers":  [
+                                         {
+                                             "title":  "real-canadian-superstore-on-flyer-january-23-to-293",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/real-canadian-superstore-on-flyer-january-23-to-293",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "No Frills",
+                          "flyers":  [
+                                         {
+                                             "title":  "no-frills-on-flyer-january-23-to-293",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/no-frills-on-flyer-january-23-to-293",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "Metro",
+                          "flyers":  [
+                                         {
+                                             "title":  "metro-on-flyer-january-23-to-293",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/metro-on-flyer-january-23-to-293",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "Food Basics",
+                          "flyers":  [
+                                         {
+                                             "title":  "food-basics-flyer-january-23-to-292",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/food-basics-flyer-january-23-to-292",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "Sobeys",
+                          "flyers":  [
+                                         {
+                                             "title":  "sobeys-on-flyer-january-23-to-293",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/sobeys-on-flyer-january-23-to-293",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "FreshCo",
+                          "flyers":  [
+                                         {
+                                             "title":  "freshco-on-flyer-january-23-to-292",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-january-23-to-292",
+                                             "pages_scanned":  10,
+                                             "products_found":  2
+                                         }
+                                     ],
+                          "products":  [
+                                           {
+                                               "product_name":  "Tim Hortons Single Serve K-Cups, 30-pack",
+                                               "price":  "$19.99",
+                                               "deal_details":  "Save $4; regular $23.99",
+                                               "brand_text_seen":  "Tim Hortons single serve K-Cups 30 pk",
+                                               "page_number":  4,
+                                               "page_url":  "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-january-23-to-292/single/3",
+                                               "image_url":  "https://flyers.smartcanucks.ca/uploads/pages/260327/freshco-on-flyer-january-23-to-292-4.jpg",
+                                               "flyer_title":  "freshco-on-flyer-january-23-to-292",
+                                               "flyer_url":  "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-january-23-to-292"
+                                           },
+                                           {
+                                               "product_name":  "Tim Hortons Ground Coffee, 875-930 g",
+                                               "price":  "$19.99",
+                                               "deal_details":  "Save $4; regular $23.99",
+                                               "brand_text_seen":  "Tim Hortons ground coffee 875-930 g",
+                                               "page_number":  4,
+                                               "page_url":  "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-january-23-to-292/single/3",
+                                               "image_url":  "https://flyers.smartcanucks.ca/uploads/pages/260327/freshco-on-flyer-january-23-to-292-4.jpg",
+                                               "flyer_title":  "freshco-on-flyer-january-23-to-292",
+                                               "flyer_url":  "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-january-23-to-292"
+                                           }
+                                       ]
+                      },
+                      {
+                          "name":  "Loblaws",
+                          "flyers":  [
+                                         {
+                                             "title":  "loblaws-on-flyer-january-23-to-293",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/loblaws-on-flyer-january-23-to-293",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      }
+                  ]
+}

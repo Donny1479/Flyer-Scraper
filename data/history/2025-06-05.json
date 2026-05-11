@@ -1,0 +1,129 @@
+{
+    "scraped_at":  "2026-05-11T15:40:36",
+    "week_start":  "2025-06-05",
+    "week_end":  "2025-06-11",
+    "retailers":  [
+                      {
+                          "name":  "Walmart",
+                          "flyers":  [
+                                         {
+                                             "title":  "walmart-on-flyer-june-5-to-11",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/walmart-on-flyer-june-5-to-11",
+                                             "pages_scanned":  10,
+                                             "products_found":  1
+                                         }
+                                     ],
+                          "products":  [
+                                           {
+                                               "product_name":  "Tim Hortons Coffee K-Cup, 30-count",
+                                               "price":  "$18.97",
+                                               "deal_details":  "Rollback; was $23.97; selected varieties; 315 g",
+                                               "brand_text_seen":  "Tim Hortons Coffee K-cup 30s pack",
+                                               "page_number":  1,
+                                               "page_url":  "https://flyers.smartcanucks.ca/canada/walmart-on-flyer-june-5-to-11/single",
+                                               "image_url":  "https://flyers.smartcanucks.ca/uploads/pages/269528/walmart-on-flyer-june-5-to-11-1.jpg",
+                                               "flyer_title":  "walmart-on-flyer-june-5-to-11",
+                                               "flyer_url":  "https://flyers.smartcanucks.ca/canada/walmart-on-flyer-june-5-to-11"
+                                           }
+                                       ]
+                      },
+                      {
+                          "name":  "RCSS",
+                          "flyers":  [
+                                         {
+                                             "title":  "real-canadian-superstore-on-flyer-june-5-to-111",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/real-canadian-superstore-on-flyer-june-5-to-111",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "No Frills",
+                          "flyers":  [
+                                         {
+                                             "title":  "no-frills-on-flyer-june-5-to-111",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/no-frills-on-flyer-june-5-to-111",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "Metro",
+                          "flyers":  [
+                                         {
+                                             "title":  "metro-on-flyer-june-5-to-11",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/metro-on-flyer-june-5-to-11",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "Food Basics",
+                          "flyers":  [
+                                         {
+                                             "title":  "food-basics-flyer-june-5-to-11",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/food-basics-flyer-june-5-to-11",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "Sobeys",
+                          "flyers":  [
+                                         {
+                                             "title":  "sobeys-on-flyer-june-5-to-111",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/sobeys-on-flyer-june-5-to-111",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "FreshCo",
+                          "flyers":  [
+                                         {
+                                             "title":  "freshco-on-flyer-june-5-to-11",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-june-5-to-11",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "Loblaws",
+                          "flyers":  [
+                                         {
+                                             "title":  "loblaws-on-flyer-june-5-to-111",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/loblaws-on-flyer-june-5-to-111",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      }
+                  ]
+}

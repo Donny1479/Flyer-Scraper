@@ -1,0 +1,119 @@
+{
+    "scraped_at":  "2026-05-11T15:40:36",
+    "week_start":  "2025-04-24",
+    "week_end":  "2025-04-30",
+    "retailers":  [
+                      {
+                          "name":  "Walmart",
+                          "flyers":  [
+                                         {
+                                             "title":  "walmart-on-flyer-april-24-to-30",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/walmart-on-flyer-april-24-to-30",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "RCSS",
+                          "flyers":  [
+                                         {
+                                             "title":  "real-canadian-superstore-on-flyer-april-24-to-301",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/real-canadian-superstore-on-flyer-april-24-to-301",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "No Frills",
+                          "flyers":  [
+                                         {
+                                             "title":  "no-frills-on-flyer-april-24-to-301",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/no-frills-on-flyer-april-24-to-301",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "Metro",
+                          "flyers":  [
+                                         {
+                                             "title":  "metro-on-flyer-april-24-to-30",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/metro-on-flyer-april-24-to-30",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "Food Basics",
+                          "flyers":  [
+                                         {
+                                             "title":  "food-basics-flyer-april-24-to-30",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/food-basics-flyer-april-24-to-30",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "Sobeys",
+                          "flyers":  [
+                                         {
+                                             "title":  "sobeys-on-flyer-april-24-to-302",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/sobeys-on-flyer-april-24-to-302",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "FreshCo",
+                          "flyers":  [
+                                         {
+                                             "title":  "freshco-on-flyer-april-24-to-30",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-april-24-to-30",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "Loblaws",
+                          "flyers":  [
+                                         {
+                                             "title":  "loblaws-on-flyer-april-24-to-301",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/loblaws-on-flyer-april-24-to-301",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      }
+                  ]
+}
