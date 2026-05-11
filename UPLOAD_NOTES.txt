@@ -1,0 +1,14 @@
+Upload these files to GitHub using the same repo paths:
+
+- data/scanned_registry.json
+- data/history/2026-04-09.json
+- data/history/2026-04-16.json
+- data/history/2026-04-23.json
+- data/history/2026-04-30.json
+- data/history/2026-05-07.json
+
+Delete these old files from GitHub data/history if they still exist:
+
+- data/history/2026-03-19.json
+- data/history/2026-03-26.json
+- data/history/2026-04-02.json

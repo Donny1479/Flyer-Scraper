@@ -1,115 +1,119 @@
 {
-  "scraped_at": "2026-05-11T12:00:00",
-  "week_start": "2026-05-07",
-  "week_end": "2026-05-13",
-  "retailers": [
-    {
-      "name": "Walmart",
-      "flyers": [
-        {
-          "title": "walmart-on-flyer-may-7-to-132",
-          "url": "https://flyers.smartcanucks.ca/canada/walmart-on-flyer-may-7-to-132",
-          "pages_scanned": 6,
-          "products_found": 0
-        }
-      ],
-      "products": []
-    },
-    {
-      "name": "Sobeys",
-      "flyers": [
-        {
-          "title": "sobeys-on-flyer-may-7-to-132",
-          "url": "https://flyers.smartcanucks.ca/canada/sobeys-on-flyer-may-7-to-132",
-          "pages_scanned": 6,
-          "products_found": 0
-        }
-      ],
-      "products": []
-    },
-    {
-      "name": "No Frills",
-      "flyers": [
-        {
-          "title": "no-frills-on-flyer-may-7-to-131",
-          "url": "https://flyers.smartcanucks.ca/canada/no-frills-on-flyer-may-7-to-131",
-          "pages_scanned": 6,
-          "products_found": 0
-        }
-      ],
-      "products": []
-    },
-    {
-      "name": "FreshCo",
-      "flyers": [
-        {
-          "title": "freshco-on-flyer-may-7-to-132",
-          "url": "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-may-7-to-132",
-          "pages_scanned": 6,
-          "products_found": 0
-        }
-      ],
-      "products": []
-    },
-    {
-      "name": "RCSS",
-      "flyers": [
-        {
-          "title": "real-canadian-superstore-on-flyer-may-7-to-132",
-          "url": "https://flyers.smartcanucks.ca/canada/real-canadian-superstore-on-flyer-may-7-to-132",
-          "pages_scanned": 6,
-          "products_found": 0
-        }
-      ],
-      "products": []
-    },
-    {
-      "name": "Loblaws",
-      "flyers": [
-        {
-          "title": "loblaws-on-flyer-may-7-to-132",
-          "url": "https://flyers.smartcanucks.ca/canada/loblaws-on-flyer-may-7-to-132",
-          "pages_scanned": 6,
-          "products_found": 0
-        }
-      ],
-      "products": []
-    },
-    {
-      "name": "Metro",
-      "flyers": [
-        {
-          "title": "metro-on-flyer-may-7-to-132",
-          "url": "https://flyers.smartcanucks.ca/canada/metro-on-flyer-may-7-to-132",
-          "pages_scanned": 6,
-          "products_found": 0
-        }
-      ],
-      "products": []
-    },
-    {
-      "name": "Food Basics",
-      "flyers": [
-        {
-          "title": "food-basics-flyer-may-7-to-132",
-          "url": "https://flyers.smartcanucks.ca/canada/food-basics-flyer-may-7-to-132",
-          "pages_scanned": 6,
-          "products_found": 0
-        }
-      ],
-      "products": []
-    },
-    {
-      "name": "Canadian Tire",
-      "flyers": [
-        {
-          "title": "canadian-tire-on-flyer-may-7-to-13",
-          "url": "https://flyers.smartcanucks.ca/canada/canadian-tire-on-flyer-may-7-to-13",
-          "pages_scanned": 6,
-          "products_found": 0
-        }
-      ],
-      "products": []
-    }
-  ]
+    "scraped_at":  "2026-05-11T12:00:00",
+    "week_start":  "2026-05-07",
+    "week_end":  "2026-05-13",
+    "retailers":  [
+                      {
+                          "name":  "Walmart",
+                          "flyers":  [
+                                         {
+                                             "title":  "walmart-on-flyer-may-7-to-132",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/walmart-on-flyer-may-7-to-132",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "RCSS",
+                          "flyers":  [
+                                         {
+                                             "title":  "real-canadian-superstore-on-flyer-may-7-to-132",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/real-canadian-superstore-on-flyer-may-7-to-132",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "No Frills",
+                          "flyers":  [
+                                         {
+                                             "title":  "no-frills-on-flyer-may-7-to-131",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/no-frills-on-flyer-may-7-to-131",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "Metro",
+                          "flyers":  [
+                                         {
+                                             "title":  "metro-on-flyer-may-7-to-134",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/metro-on-flyer-may-7-to-134",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "Food Basics",
+                          "flyers":  [
+                                         {
+                                             "title":  "food-basics-flyer-may-7-to-132",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/food-basics-flyer-may-7-to-132",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "Sobeys",
+                          "flyers":  [
+                                         {
+                                             "title":  "sobeys-on-flyer-may-7-to-132",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/sobeys-on-flyer-may-7-to-132",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "FreshCo",
+                          "flyers":  [
+                                         {
+                                             "title":  "freshco-on-flyer-may-7-to-132",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-may-7-to-132",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "Loblaws",
+                          "flyers":  [
+                                         {
+                                             "title":  "loblaws-on-flyer-may-7-to-132",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/loblaws-on-flyer-may-7-to-132",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      }
+                  ]
 }
