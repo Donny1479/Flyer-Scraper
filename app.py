@@ -372,13 +372,6 @@ with tab_history:
     if filtered_df.empty:
         st.info("No results match the current filters.")
     else:
-        # Show flat interactive table — Week, Retailer, Product, Price, Deal Details, link
-        display_df = (
-            filtered_df[["Week", "Retailer", "Product", "Price", "Deal Details", "View"]]
-            .sort_values(["week_start", "Retailer", "Product"], ascending=[False, True, True])
-            .reset_index(drop=True)
-        )
-        # Remove internal sort column before display
         display_df = filtered_df[
             ["Week", "Retailer", "Product", "Price", "Deal Details", "View"]
         ].sort_values(
