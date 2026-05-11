@@ -1,0 +1,171 @@
+{
+    "scraped_at":  "2026-05-11T12:00:00",
+    "week_start":  "2026-02-19",
+    "week_end":  "2026-02-25",
+    "retailers":  [
+                      {
+                          "name":  "Walmart",
+                          "flyers":  [
+                                         {
+                                             "title":  "walmart-on-flyer-february-19-to-251",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/walmart-on-flyer-february-19-to-251",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "RCSS",
+                          "flyers":  [
+                                         {
+                                             "title":  "real-canadian-superstore-on-flyer-february-19-to-252",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/real-canadian-superstore-on-flyer-february-19-to-252",
+                                             "pages_scanned":  10,
+                                             "products_found":  1
+                                         }
+                                     ],
+                          "products":  [
+                                           {
+                                               "product_name":  "Tim Hortons Condensed Soup, 284 mL",
+                                               "price":  "$1",
+                                               "deal_details":  "Tomato, chicken noodle or vegetable; selected varieties",
+                                               "brand_text_seen":  "Tim Hortons tomato, chicken noodle or vegetable condensed soup 284 mL",
+                                               "page_number":  6,
+                                               "page_url":  "https://flyers.smartcanucks.ca/canada/real-canadian-superstore-on-flyer-february-19-to-252/single/5",
+                                               "image_url":  "https://flyers.smartcanucks.ca/uploads/pages/287180/real-canadian-superstore-on-flyer-february-19-to-252-6.jpg",
+                                               "flyer_title":  "real-canadian-superstore-on-flyer-february-19-to-252",
+                                               "flyer_url":  "https://flyers.smartcanucks.ca/canada/real-canadian-superstore-on-flyer-february-19-to-252"
+                                           }
+                                       ]
+                      },
+                      {
+                          "name":  "No Frills",
+                          "flyers":  [
+                                         {
+                                             "title":  "no-frills-on-flyer-february-19-to-252",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/no-frills-on-flyer-february-19-to-252",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "Metro",
+                          "flyers":  [
+                                         {
+                                             "title":  "metro-on-flyer-february-19-to-25",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/metro-on-flyer-february-19-to-25",
+                                             "pages_scanned":  10,
+                                             "products_found":  1
+                                         }
+                                     ],
+                          "products":  [
+                                           {
+                                               "product_name":  "Tim Hortons Instant Coffee, 100 g",
+                                               "price":  "$9.99",
+                                               "deal_details":  "Selected varieties",
+                                               "brand_text_seen":  "Tim Hortons instant coffee 100 g",
+                                               "page_number":  10,
+                                               "page_url":  "https://flyers.smartcanucks.ca/canada/metro-on-flyer-february-19-to-25/single/9",
+                                               "image_url":  "https://flyers.smartcanucks.ca/uploads/pages/287189/metro-on-flyer-february-19-to-25-9.jpg",
+                                               "flyer_title":  "metro-on-flyer-february-19-to-25",
+                                               "flyer_url":  "https://flyers.smartcanucks.ca/canada/metro-on-flyer-february-19-to-25"
+                                           }
+                                       ]
+                      },
+                      {
+                          "name":  "Food Basics",
+                          "flyers":  [
+                                         {
+                                             "title":  "food-basics-flyer-february-19-to-25",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/food-basics-flyer-february-19-to-25",
+                                             "pages_scanned":  10,
+                                             "products_found":  3
+                                         }
+                                     ],
+                          "products":  [
+                                           {
+                                               "product_name":  "Tim Hortons Coffee Capsules, 12-count",
+                                               "price":  "$12.99",
+                                               "deal_details":  "12-count; selected varieties; 55 MOI points",
+                                               "brand_text_seen":  "Tim Hortons coffee capsules 12s",
+                                               "page_number":  5,
+                                               "page_url":  "https://flyers.smartcanucks.ca/canada/food-basics-flyer-february-19-to-25/single/4",
+                                               "image_url":  "https://flyers.smartcanucks.ca/uploads/pages/287213/food-basics-flyer-february-19-to-25-5.jpg",
+                                               "flyer_title":  "food-basics-flyer-february-19-to-25",
+                                               "flyer_url":  "https://flyers.smartcanucks.ca/canada/food-basics-flyer-february-19-to-25"
+                                           },
+                                           {
+                                               "product_name":  "Tim Hortons Tea Capsules, 12-count",
+                                               "price":  "$12.99",
+                                               "deal_details":  "12-count; selected varieties; 55 MOI points",
+                                               "brand_text_seen":  "Tim Hortons tea capsules 12s",
+                                               "page_number":  5,
+                                               "page_url":  "https://flyers.smartcanucks.ca/canada/food-basics-flyer-february-19-to-25/single/4",
+                                               "image_url":  "https://flyers.smartcanucks.ca/uploads/pages/287213/food-basics-flyer-february-19-to-25-5.jpg",
+                                               "flyer_title":  "food-basics-flyer-february-19-to-25",
+                                               "flyer_url":  "https://flyers.smartcanucks.ca/canada/food-basics-flyer-february-19-to-25"
+                                           },
+                                           {
+                                               "product_name":  "Tim Hortons Ground Coffee, 300 g",
+                                               "price":  "$11.49",
+                                               "deal_details":  "Selected varieties",
+                                               "brand_text_seen":  "Tim Hortons ground coffee 300 g",
+                                               "page_number":  9,
+                                               "page_url":  "https://flyers.smartcanucks.ca/canada/food-basics-flyer-february-19-to-25/single/8",
+                                               "image_url":  "https://flyers.smartcanucks.ca/uploads/pages/287213/food-basics-flyer-february-19-to-25-9.jpg",
+                                               "flyer_title":  "food-basics-flyer-february-19-to-25",
+                                               "flyer_url":  "https://flyers.smartcanucks.ca/canada/food-basics-flyer-february-19-to-25"
+                                           }
+                                       ]
+                      },
+                      {
+                          "name":  "Sobeys",
+                          "flyers":  [
+                                         {
+                                             "title":  "sobeys-on-flyer-february-19-to-252",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/sobeys-on-flyer-february-19-to-252",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "FreshCo",
+                          "flyers":  [
+                                         {
+                                             "title":  "freshco-on-flyer-february-19-to-25",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-february-19-to-25",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "Loblaws",
+                          "flyers":  [
+                                         {
+                                             "title":  "loblaws-on-flyer-february-19-to-252",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/loblaws-on-flyer-february-19-to-252",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      }
+                  ]
+}

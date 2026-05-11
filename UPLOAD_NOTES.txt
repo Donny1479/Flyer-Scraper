@@ -1,14 +1,17 @@
-Upload these files to GitHub using the same repo paths:
+Upload these files to GitHub using the same repo paths.
 
+Replace/add every JSON file in:
+- data/history/
+
+Replace:
 - data/scanned_registry.json
-- data/history/2026-04-09.json
-- data/history/2026-04-16.json
-- data/history/2026-04-23.json
-- data/history/2026-04-30.json
-- data/history/2026-05-07.json
 
-Delete these old files from GitHub data/history if they still exist:
+This bundle reflects 15 verified weekly ON/main grocery flyer scans:
+- 2026-01-29 through 2026-05-07
+- first 10 pages per available flyer
+- Walmart, RCSS, No Frills, Metro, Food Basics, Sobeys, FreshCo, and Loblaws where available on SmartCanucks
 
-- data/history/2026-03-19.json
-- data/history/2026-03-26.json
-- data/history/2026-04-02.json
+Notes:
+- Sobeys was not present in the SmartCanucks selected archive set for 2026-01-29 or 2026-02-05.
+- Metro 2026-01-29 page 10 returned 404, so that flyer records 9 pages scanned.
+- Tim Hortons products are separated into individual rows when multiple products share the same offer.

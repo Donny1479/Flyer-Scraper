@@ -1,0 +1,172 @@
+{
+    "scraped_at":  "2026-05-11T12:00:00",
+    "week_start":  "2026-02-26",
+    "week_end":  "2026-03-04",
+    "retailers":  [
+                      {
+                          "name":  "Walmart",
+                          "flyers":  [
+                                         {
+                                             "title":  "walmart-on-flyer-february-26-to-march-41",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/walmart-on-flyer-february-26-to-march-41",
+                                             "pages_scanned":  10,
+                                             "products_found":  3
+                                         }
+                                     ],
+                          "products":  [
+                                           {
+                                               "product_name":  "Tim Hortons Soup, 540 mL",
+                                               "price":  "$2.34",
+                                               "deal_details":  "Rollback; was $2.97; selected varieties",
+                                               "brand_text_seen":  "Tim Hortons soup 540 mL",
+                                               "page_number":  1,
+                                               "page_url":  "https://flyers.smartcanucks.ca/canada/walmart-on-flyer-february-26-to-march-41/single",
+                                               "image_url":  "https://flyers.smartcanucks.ca/uploads/pages/287685/walmart-on-flyer-february-26-to-march-41-1.jpg",
+                                               "flyer_title":  "walmart-on-flyer-february-26-to-march-41",
+                                               "flyer_url":  "https://flyers.smartcanucks.ca/canada/walmart-on-flyer-february-26-to-march-41"
+                                           },
+                                           {
+                                               "product_name":  "Tim Hortons Coffee K-Cup Pods, 30-count, 315 g",
+                                               "price":  "$21.97",
+                                               "deal_details":  "Rollback; was $25.47; selected varieties",
+                                               "brand_text_seen":  "Tim Hortons coffee K-Cup 30s, 315 g",
+                                               "page_number":  1,
+                                               "page_url":  "https://flyers.smartcanucks.ca/canada/walmart-on-flyer-february-26-to-march-41/single",
+                                               "image_url":  "https://flyers.smartcanucks.ca/uploads/pages/287685/walmart-on-flyer-february-26-to-march-41-1.jpg",
+                                               "flyer_title":  "walmart-on-flyer-february-26-to-march-41",
+                                               "flyer_url":  "https://flyers.smartcanucks.ca/canada/walmart-on-flyer-february-26-to-march-41"
+                                           },
+                                           {
+                                               "product_name":  "Tim Hortons Instant Coffee, 100 g",
+                                               "price":  "$6.47",
+                                               "deal_details":  "Rollback; was $9.47",
+                                               "brand_text_seen":  "Tim Hortons instant coffee 100 g",
+                                               "page_number":  2,
+                                               "page_url":  "https://flyers.smartcanucks.ca/canada/walmart-on-flyer-february-26-to-march-41/single/1",
+                                               "image_url":  "https://flyers.smartcanucks.ca/uploads/pages/287685/walmart-on-flyer-february-26-to-march-41-2.jpg",
+                                               "flyer_title":  "walmart-on-flyer-february-26-to-march-41",
+                                               "flyer_url":  "https://flyers.smartcanucks.ca/canada/walmart-on-flyer-february-26-to-march-41"
+                                           }
+                                       ]
+                      },
+                      {
+                          "name":  "RCSS",
+                          "flyers":  [
+                                         {
+                                             "title":  "real-canadian-superstore-on-flyer-february-26-to-march-4",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/real-canadian-superstore-on-flyer-february-26-to-march-4",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "No Frills",
+                          "flyers":  [
+                                         {
+                                             "title":  "no-frills-on-flyer-february-26-to-march-4",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/no-frills-on-flyer-february-26-to-march-4",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "Metro",
+                          "flyers":  [
+                                         {
+                                             "title":  "metro-on-flyer-february-26-to-march-4",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/metro-on-flyer-february-26-to-march-4",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "Food Basics",
+                          "flyers":  [
+                                         {
+                                             "title":  "food-basics-flyer-february-26-to-march-4",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/food-basics-flyer-february-26-to-march-4",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "Sobeys",
+                          "flyers":  [
+                                         {
+                                             "title":  "sobeys-on-flyer-february-26-to-march-4",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/sobeys-on-flyer-february-26-to-march-4",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      },
+                      {
+                          "name":  "FreshCo",
+                          "flyers":  [
+                                         {
+                                             "title":  "freshco-on-flyer-february-26-to-march-4",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-february-26-to-march-4",
+                                             "pages_scanned":  10,
+                                             "products_found":  2
+                                         }
+                                     ],
+                          "products":  [
+                                           {
+                                               "product_name":  "Tim Hortons Ground Coffee, 300 g",
+                                               "price":  "$11.99",
+                                               "deal_details":  "300 g; shared offer with K-Cups",
+                                               "brand_text_seen":  "Tim Hortons Ground coffee 300 g",
+                                               "page_number":  4,
+                                               "page_url":  "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-february-26-to-march-4/single/3",
+                                               "image_url":  "https://flyers.smartcanucks.ca/uploads/pages/287676/freshco-on-flyer-february-26-to-march-4-4.jpg",
+                                               "flyer_title":  "freshco-on-flyer-february-26-to-march-4",
+                                               "flyer_url":  "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-february-26-to-march-4"
+                                           },
+                                           {
+                                               "product_name":  "Tim Hortons Single Serve K-Cups, 10-12 pack",
+                                               "price":  "$11.99",
+                                               "deal_details":  "10-12 pack; shared offer with ground coffee",
+                                               "brand_text_seen":  "Tim Hortons Single Serve K-Cups 10-12 pk",
+                                               "page_number":  4,
+                                               "page_url":  "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-february-26-to-march-4/single/3",
+                                               "image_url":  "https://flyers.smartcanucks.ca/uploads/pages/287676/freshco-on-flyer-february-26-to-march-4-4.jpg",
+                                               "flyer_title":  "freshco-on-flyer-february-26-to-march-4",
+                                               "flyer_url":  "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-february-26-to-march-4"
+                                           }
+                                       ]
+                      },
+                      {
+                          "name":  "Loblaws",
+                          "flyers":  [
+                                         {
+                                             "title":  "loblaws-on-flyer-february-26-to-march-4",
+                                             "url":  "https://flyers.smartcanucks.ca/canada/loblaws-on-flyer-february-26-to-march-4",
+                                             "pages_scanned":  10,
+                                             "products_found":  0
+                                         }
+                                     ],
+                          "products":  [
+
+                                       ]
+                      }
+                  ]
+}
