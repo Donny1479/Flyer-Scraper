@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60">
+  <!-- Blue box with maple leaf -->
+  <rect x="2" y="4" width="52" height="52" rx="4" fill="#003087"/>
+  <polygon points="27,12 29.5,20 38,18 32,25 37,34 27,29 17,34 22,25 16,18 24.5,20" fill="white"/>
+  <!-- NOFRILLS text -->
+  <text x="60" y="44" font-family="Arial Black,Arial,sans-serif" font-size="26" font-weight="900" fill="#003087">NOFRILLS</text>
+</svg>
