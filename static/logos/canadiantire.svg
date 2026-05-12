@@ -1,9 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 60">
-  <!-- Red triangle -->
-  <polygon points="36,4 68,56 4,56" fill="#CC0000"/>
-  <!-- Green maple leaf in triangle -->
-  <polygon points="36,16 38,25 45,23 40,29 43,36 36,33 29,36 32,29 27,23 34,25" fill="#2E7D32"/>
-  <!-- Text -->
-  <text x="76" y="26" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="700" fill="#CC0000">CANADIAN</text>
-  <text x="76" y="46" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="700" fill="#333333">TIRE</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 112" role="img" aria-label="Canadian Tire">
+  <path d="M130 96L28 20h204z" fill="#e31b23" stroke="#111" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M130 87L44 26h172z" fill="none" stroke="#fff" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M130 4l8 22 22-10-10 22 22 8-22 8 10 22-22-10-8 22-8-22-22 10 10-22-22-8 22-8-10-22 22 10z" fill="#0a9f45" stroke="#111" stroke-width="3"/>
+  <text x="130" y="57" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-size="22" fill="#fff">CANADIAN</text>
+  <text x="130" y="80" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-size="22" fill="#fff">TIRE</text>
 </svg>

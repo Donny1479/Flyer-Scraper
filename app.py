@@ -1,6 +1,8 @@
 """
 Tim Hortons Flyer Tracker — Streamlit UI
 """
+import base64
+import html
 import re
 import sys
 from pathlib import Path
@@ -18,6 +20,9 @@ from scraper import (
     RETAILERS,
 )
 
+BASE_DIR = Path(__file__).parent
+LOGO_DIR = BASE_DIR / "static" / "logos"
+
 # ── Page config ───────────────────────────────────────────────────────────────
 st.set_page_config(
     page_title="Tim Hortons Flyer Tracker",
@@ -27,14 +32,8 @@ st.set_page_config(
 
 # ── Brand constants ───────────────────────────────────────────────────────────
 # Inline monogram — no external image dependency, always renders
-TH_MONOGRAM_HTML = (
-    '<div style="width:54px;height:54px;background:white;border-radius:50%;'
-    'display:flex;align-items:center;justify-content:center;flex-shrink:0;'
-    'font-family:Georgia,serif;font-size:1.45rem;font-weight:800;color:#C8102E;'
-    'box-shadow:0 1px 4px rgba(0,0,0,0.18);">TH</div>'
-)
-
-# Static SVG logos served by Streamlit's static file server
+# Local SVG logos are embedded as data URIs so Streamlit Cloud and localhost render
+# them consistently without relying on a separate static file route.
 _LOGO_SLUGS = {
     "Walmart":       "walmart",
     "Sobeys":        "sobeys",
@@ -74,18 +73,40 @@ RETAILER_LOGO_HTML = {
 }
 
 
-def retailer_img(name: str, height: int = 32) -> str:
-    """Return an <img> tag using the static SVG logo, with text fallback."""
+def logo_data_uri(slug: str) -> str:
+    path = LOGO_DIR / f"{slug}.svg"
+    if not path.exists():
+        return ""
+    try:
+        data = base64.b64encode(path.read_bytes()).decode("ascii")
+    except OSError:
+        return ""
+    return f"data:image/svg+xml;base64,{data}"
+
+
+def logo_img(slug: str, alt: str, height: int = 40, class_name: str = "brand-logo") -> str:
+    src = logo_data_uri(slug)
+    safe_alt = html.escape(alt, quote=True)
+    if not src:
+        return f'<span class="{class_name} logo-text-fallback">{safe_alt}</span>'
+    return (
+        f'<img class="{class_name}" src="{src}" alt="{safe_alt}" '
+        f'style="height:{height}px;">'
+    )
+
+
+def retailer_img(name: str, height: int = 32, class_name: str = "retailer-logo-img") -> str:
+    """Return a local SVG logo img tag, with compact text fallback."""
     slug = _LOGO_SLUGS.get(name)
+    safe_name = html.escape(name, quote=True)
     if slug:
-        url = f"/app/static/logos/{slug}.svg"
-        fb = RETAILER_LOGO_HTML.get(name, name).replace('"', "'")
-        return (
-            f'<img src="{url}" alt="{name}" height="{height}" '
-            f'style="max-width:160px;object-fit:contain;vertical-align:middle;" '
-            f'onerror="this.outerHTML=\'{fb}\';">'
-        )
-    return RETAILER_LOGO_HTML.get(name, name)
+        src = logo_data_uri(slug)
+        if src:
+            return (
+                f'<img class="{class_name}" src="{src}" alt="{safe_name}" '
+                f'style="height:{height}px;">'
+            )
+    return RETAILER_LOGO_HTML.get(name, safe_name)
 
 CATEGORY_RULES = [
     ("Single Serve",   ["k-cup", "kcup", "pod", "capsule", "single serve"]),
@@ -176,25 +197,89 @@ st.markdown("""
 .th-header {
     display: flex;
     align-items: center;
-    gap: 1.25rem;
-    background: linear-gradient(135deg, #C8102E 0%, #7D0A1E 100%);
-    padding: 1.1rem 1.8rem;
-    border-radius: 12px;
+    gap: 1rem;
+    background: #fff;
+    padding: 1rem 1.25rem;
+    border: 1px solid #F1D4DA;
+    border-left: 6px solid #C8102E;
+    border-radius: 10px;
     margin-bottom: 1.5rem;
-    box-shadow: 0 2px 8px rgba(200,16,46,0.25);
+    box-shadow: 0 6px 20px rgba(40,20,20,0.06);
+}
+.th-logo-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 190px;
+    min-width: 150px;
+    padding: 0.45rem 0.7rem;
+    background: #C8102E;
+    border-radius: 8px;
+}
+.th-logo,
+.sidebar-th-logo {
+    display: block;
+    max-width: 100%;
+    width: auto;
+    object-fit: contain;
 }
 .th-title h1 {
     margin: 0;
-    color: #fff;
-    font-size: 1.7rem;
+    color: #2A1717;
+    font-size: 1.65rem;
     font-weight: 800;
-    letter-spacing: -0.02em;
+    letter-spacing: 0;
     line-height: 1.15;
 }
 .th-title p {
     margin: 0.2rem 0 0;
-    color: rgba(255,255,255,0.78);
+    color: #6C5555;
     font-size: 0.88rem;
+}
+.sidebar-brand {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.55rem;
+    padding: 0.5rem 0 1rem;
+}
+.sidebar-logo-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 145px;
+    min-height: 54px;
+    padding: 0.4rem 0.65rem;
+    background: #C8102E;
+    border-radius: 8px;
+    box-shadow: 0 3px 12px rgba(200,16,46,0.22);
+}
+.sidebar-title {
+    color: #2A1717;
+    font-size: 0.88rem;
+    font-weight: 800;
+}
+.sidebar-retailer-list {
+    display: grid;
+    gap: 0.45rem;
+    margin: 0.3rem 0 0.6rem;
+}
+.sidebar-retailer-row {
+    display: flex;
+    align-items: center;
+    min-height: 26px;
+    padding: 0.2rem 0.35rem;
+    background: #fff;
+    border: 1px solid #EEE;
+    border-radius: 7px;
+}
+.sidebar-retailer-row .retailer-logo-img {
+    max-width: 112px;
+    margin: 0;
+}
+.logo-text-fallback {
+    color: #fff;
+    font-weight: 800;
 }
 
 /* ── Metrics ── */
@@ -211,22 +296,62 @@ st.markdown("""
 /* ── Retailer scorecard ── */
 .scorecard-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(132px, 1fr));
     gap: 0.75rem;
     margin-bottom: 1.25rem;
 }
 .scorecard {
     background: #fff;
     border: 1px solid #EEE;
-    border-radius: 10px;
+    border-radius: 8px;
     padding: 0.75rem 0.5rem;
     text-align: center;
-    min-height: 72px;
+    min-height: 86px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 0.4rem;
+}
+.scorecard-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 40px;
+}
+.retailer-logo-img {
+    display: block;
+    max-width: 155px;
+    width: auto;
+    object-fit: contain;
+    margin: 0 auto;
+}
+.retailer-covered-section {
+    margin: 1.35rem 0 1.1rem;
+}
+.retailer-covered-heading {
+    text-align: center;
+    margin: 0 0 0.9rem;
+    color: #2A1717;
+    font-size: 1.15rem;
+    font-weight: 800;
+    letter-spacing: 0;
+}
+.retailer-covered-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(160px, 1fr));
+    gap: 0.8rem;
+}
+.retailer-covered-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 88px;
+    background: #fff;
+    border: 1px solid #EEE;
+    border-radius: 8px;
+    box-shadow: 0 4px 16px rgba(25,20,20,0.05);
 }
 .scorecard-badge {
     display: inline-block;
@@ -273,7 +398,7 @@ st.markdown("""
 .deal-table-wrap { margin-top: 1rem; }
 .deal-table-hdr {
     display: grid;
-    grid-template-columns: 1.3fr 1.8fr 0.9fr 1.2fr 1.8fr 0.8fr;
+    grid-template-columns: minmax(120px, 1.2fr) 1.8fr 0.9fr 1.1fr 1.8fr 0.8fr;
     gap: 0.5rem;
     align-items: center;
     padding: 0.4rem 0.75rem;
@@ -287,7 +412,7 @@ st.markdown("""
 }
 .deal-table-row {
     display: grid;
-    grid-template-columns: 1.3fr 1.8fr 0.9fr 1.2fr 1.8fr 0.8fr;
+    grid-template-columns: minmax(120px, 1.2fr) 1.8fr 0.9fr 1.1fr 1.8fr 0.8fr;
     gap: 0.5rem;
     align-items: center;
     padding: 0.55rem 0.75rem;
@@ -338,6 +463,22 @@ st.markdown("""
     max-height: 540px;
     overflow-y: auto;
 }
+@media (max-width: 780px) {
+    .th-header {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .th-logo-wrap {
+        width: 170px;
+    }
+    .retailer-covered-grid {
+        grid-template-columns: repeat(2, minmax(130px, 1fr));
+    }
+    .deal-table-hdr,
+    .deal-table-row {
+        grid-template-columns: minmax(110px, 1fr) minmax(180px, 1.4fr) 80px 90px minmax(160px, 1.2fr) 70px;
+    }
+}
 </style>
 """, unsafe_allow_html=True)
 
@@ -345,12 +486,10 @@ st.markdown("""
 # ── Sidebar ───────────────────────────────────────────────────────────────────
 with st.sidebar:
     st.markdown(
-        '<div style="text-align:center;padding:0.5rem 0 1rem;">'
-        '<div style="width:72px;height:72px;background:#C8102E;border-radius:50%;'
-        'display:inline-flex;align-items:center;justify-content:center;'
-        'font-family:Georgia,serif;font-size:1.85rem;font-weight:800;color:white;'
-        'box-shadow:0 2px 8px rgba(200,16,46,0.4);">TH</div>'
-        '</div>',
+        f'<div class="sidebar-brand">'
+        f'  <div class="sidebar-logo-box">{logo_img("timhortons", "Tim Hortons", 38, "sidebar-th-logo")}</div>'
+        f'  <div class="sidebar-title">Flyer Price Tracker</div>'
+        f'</div>',
         unsafe_allow_html=True,
     )
     st.divider()
@@ -378,8 +517,14 @@ with st.sidebar:
 
     st.divider()
     st.markdown("**Retailers monitored (Ontario)**")
-    for r in RETAILERS:
-        st.caption(f"• {r['name']}")
+    sidebar_retailers = "".join(
+        f'<div class="sidebar-retailer-row">{retailer_img(r["name"], height=18)}</div>'
+        for r in RETAILERS
+    )
+    st.markdown(
+        f'<div class="sidebar-retailer-list">{sidebar_retailers}</div>',
+        unsafe_allow_html=True,
+    )
     st.divider()
     st.caption("Data from [SmartCanucks.ca](https://flyers.smartcanucks.ca) · Claude Sonnet 4.6")
 
@@ -387,10 +532,10 @@ with st.sidebar:
 # ── Header ────────────────────────────────────────────────────────────────────
 st.markdown(
     f'<div class="th-header">'
-    f'  {TH_MONOGRAM_HTML}'
+    f'  <div class="th-logo-wrap">{logo_img("timhortons", "Tim Hortons", 46, "th-logo")}</div>'
     f'  <div class="th-title">'
     f'    <h1>Flyer Price Tracker</h1>'
-    f'    <p>Ontario retail monitor — updated weekly</p>'
+    f'    <p>Ontario retail monitor for Tim Hortons CPG placements, updated weekly</p>'
     f'  </div>'
     f'</div>',
     unsafe_allow_html=True,
@@ -434,6 +579,18 @@ c1.metric("Total TH Deals Found", total_products)
 c2.metric("Weeks of History",      weeks_tracked)
 c3.metric("Retailers Scanned",     len(RETAILERS))
 c4.metric("Pages Analyzed",        f"{total_pages:,}")
+
+retailer_cards = "".join(
+    f'<div class="retailer-covered-card">{retailer_img(r["name"], height=42)}</div>'
+    for r in RETAILERS
+)
+st.markdown(
+    '<section class="retailer-covered-section">'
+    '  <h2 class="retailer-covered-heading">Retailers Covered</h2>'
+    f'  <div class="retailer-covered-grid">{retailer_cards}</div>'
+    '</section>',
+    unsafe_allow_html=True,
+)
 
 st.divider()
 
@@ -509,7 +666,7 @@ with tab_weekly:
         )
         scorecard_items += (
             f'<div class="scorecard">'
-            f'  <div>{retailer_img(r["name"], height=30)}</div>'
+            f'  <div class="scorecard-logo">{retailer_img(r["name"], height=32)}</div>'
             f'  {badge}'
             f'</div>'
         )

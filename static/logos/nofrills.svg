@@ -1,7 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60">
-  <!-- Blue box with maple leaf -->
-  <rect x="2" y="4" width="52" height="52" rx="4" fill="#003087"/>
-  <polygon points="27,12 29.5,20 38,18 32,25 37,34 27,29 17,34 22,25 16,18 24.5,20" fill="white"/>
-  <!-- NOFRILLS text -->
-  <text x="60" y="44" font-family="Arial Black,Arial,sans-serif" font-size="26" font-weight="900" fill="#003087">NOFRILLS</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 96" role="img" aria-label="No Frills">
+  <rect x="14" y="28" width="45" height="38" rx="5" fill="#0054a6"/>
+  <path d="M36 34l4 10h11l-9 6 4 10-10-7-10 7 4-10-9-6h11z" fill="#e31b23"/>
+  <text x="68" y="61" font-family="Arial Black, Arial, sans-serif" font-size="38" font-weight="900" fill="#e31b23">NO</text>
+  <text x="126" y="61" font-family="Arial Black, Arial, sans-serif" font-size="38" font-weight="900" fill="#111">FRILLS</text>
 </svg>
