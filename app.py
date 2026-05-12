@@ -1,7 +1,6 @@
 """
 Tim Hortons Flyer Tracker — Streamlit UI
 """
-import base64
 import html
 import re
 import sys
@@ -20,9 +19,6 @@ from scraper import (
     RETAILERS,
 )
 
-BASE_DIR = Path(__file__).parent
-LOGO_DIR = BASE_DIR / "static" / "logos"
-
 # ── Page config ───────────────────────────────────────────────────────────────
 st.set_page_config(
     page_title="Tim Hortons Flyer Tracker",
@@ -31,8 +27,6 @@ st.set_page_config(
 )
 
 # ── Brand constants ───────────────────────────────────────────────────────────
-# Tim Hortons brand asset is embedded as a data URI so Streamlit Cloud and
-# localhost render it consistently without relying on a static file route.
 RETAILER_ACCENTS = {
     "Walmart":       "#0071CE",
     "Sobeys":        "#0B8F2A",
@@ -44,29 +38,6 @@ RETAILER_ACCENTS = {
     "Food Basics":   "#16803A",
     "Canadian Tire": "#E31B23",
 }
-
-def logo_data_uri(slug: str) -> str:
-    path = LOGO_DIR / f"{slug}.svg"
-    if not path.exists():
-        return ""
-    try:
-        data = base64.b64encode(path.read_bytes()).decode("ascii")
-    except OSError:
-        return ""
-    return f"data:image/svg+xml;base64,{data}"
-
-
-def logo_img(slug: str, alt: str, height: int = 40, class_name: str = "brand-logo") -> str:
-    src = logo_data_uri(slug)
-    safe_alt = html.escape(alt, quote=True)
-    if not src:
-        return f'<span class="{class_name} logo-text-fallback">{safe_alt}</span>'
-    return (
-        f'<img class="{class_name}" src="{src}" alt="{safe_alt}" '
-        f'style="height:{height}px;">'
-    )
-
-
 def retailer_label(name: str, class_name: str = "retailer-name") -> str:
     """Return a styled retailer text label."""
     safe_name = html.escape(name, quote=True)
@@ -165,36 +136,58 @@ st.markdown("""
 .th-header {
     display: flex;
     align-items: center;
-    gap: 1rem;
-    background: #fff;
-    padding: 1rem 1.25rem;
-    border: 1px solid #F1D4DA;
+    justify-content: space-between;
+    gap: 1.25rem;
+    background: linear-gradient(135deg, #fff 0%, #FFF6F7 100%);
+    padding: 1.05rem 1.3rem;
+    border: 1px solid #F0D7DC;
     border-left: 6px solid #C8102E;
     border-radius: 10px;
     margin-bottom: 1.5rem;
     box-shadow: 0 6px 20px rgba(40,20,20,0.06);
 }
-.th-logo-wrap {
+.brand-lockup {
     display: flex;
     align-items: center;
-    justify-content: center;
-    width: 190px;
-    min-width: 150px;
-    padding: 0.45rem 0.7rem;
-    background: #C8102E;
-    border-radius: 8px;
+    gap: 0.95rem;
+    min-width: 0;
 }
-.th-logo,
-.sidebar-th-logo {
-    display: block;
-    max-width: 100%;
-    width: auto;
-    object-fit: contain;
+.brand-mark {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 62px;
+    height: 62px;
+    background: #C8102E;
+    color: #fff;
+    border-radius: 14px;
+    box-shadow: 0 8px 18px rgba(200,16,46,0.2);
+}
+.brand-mark-main {
+    font-size: 1.35rem;
+    font-weight: 900;
+    line-height: 1;
+}
+.brand-mark-sub {
+    margin-top: 0.18rem;
+    font-size: 0.58rem;
+    font-weight: 800;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+}
+.brand-kicker {
+    margin-bottom: 0.18rem;
+    color: #C8102E;
+    font-size: 0.72rem;
+    font-weight: 850;
+    letter-spacing: 0.11em;
+    text-transform: uppercase;
 }
 .th-title h1 {
     margin: 0;
     color: #2A1717;
-    font-size: 1.65rem;
+    font-size: 1.72rem;
     font-weight: 800;
     letter-spacing: 0;
     line-height: 1.15;
@@ -204,28 +197,57 @@ st.markdown("""
     color: #6C5555;
     font-size: 0.88rem;
 }
+.header-badge {
+    flex: 0 0 auto;
+    border: 1px solid #F0D7DC;
+    border-radius: 999px;
+    color: #7B2431;
+    background: #fff;
+    padding: 0.4rem 0.75rem;
+    font-size: 0.75rem;
+    font-weight: 800;
+}
 .sidebar-brand {
     display: flex;
     flex-direction: column;
-    align-items: center;
     gap: 0.55rem;
-    padding: 0.5rem 0 1rem;
+    padding: 0.85rem;
+    background: #fff;
+    border: 1px solid #F0D7DC;
+    border-left: 4px solid #C8102E;
+    border-radius: 10px;
 }
-.sidebar-logo-box {
+.sidebar-brand-row {
     display: flex;
     align-items: center;
+    gap: 0.65rem;
+}
+.sidebar-mini-mark {
+    display: inline-flex;
+    align-items: center;
     justify-content: center;
-    width: 145px;
-    min-height: 54px;
-    padding: 0.4rem 0.65rem;
+    width: 38px;
+    height: 38px;
     background: #C8102E;
-    border-radius: 8px;
-    box-shadow: 0 3px 12px rgba(200,16,46,0.22);
+    color: #fff;
+    border-radius: 10px;
+    font-weight: 900;
+}
+.sidebar-kicker {
+    color: #C8102E;
+    font-size: 0.66rem;
+    font-weight: 850;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
 }
 .sidebar-title {
     color: #2A1717;
-    font-size: 0.88rem;
+    font-size: 0.95rem;
     font-weight: 800;
+}
+.sidebar-subtitle {
+    color: #6C5555;
+    font-size: 0.78rem;
 }
 .sidebar-retailer-list {
     display: grid;
@@ -240,10 +262,6 @@ st.markdown("""
     background: #fff;
     border: 1px solid #EEE;
     border-radius: 7px;
-}
-.logo-text-fallback {
-    color: #fff;
-    font-weight: 800;
 }
 .retailer-name {
     display: inline-flex;
@@ -305,40 +323,13 @@ st.markdown("""
     width: 100%;
     min-height: 32px;
 }
-.scorecard-retailer .retailer-name,
-.retailer-covered-card .retailer-name {
+.scorecard-retailer .retailer-name {
     font-size: 0.96rem;
     font-weight: 800;
 }
 .deal-table-row .retailer-name,
 .th-table .retailer-name {
     font-size: 0.86rem;
-}
-.retailer-covered-section {
-    margin: 1.35rem 0 1.1rem;
-}
-.retailer-covered-heading {
-    text-align: center;
-    margin: 0 0 0.9rem;
-    color: #2A1717;
-    font-size: 1.15rem;
-    font-weight: 800;
-    letter-spacing: 0;
-}
-.retailer-covered-grid {
-    display: grid;
-    grid-template-columns: repeat(3, minmax(160px, 1fr));
-    gap: 0.8rem;
-}
-.retailer-covered-card {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 88px;
-    background: #fff;
-    border: 1px solid #EEE;
-    border-radius: 8px;
-    box-shadow: 0 4px 16px rgba(25,20,20,0.05);
 }
 .scorecard-badge {
     display: inline-block;
@@ -458,11 +449,8 @@ st.markdown("""
         align-items: flex-start;
         flex-direction: column;
     }
-    .th-logo-wrap {
-        width: 170px;
-    }
-    .retailer-covered-grid {
-        grid-template-columns: repeat(2, minmax(130px, 1fr));
+    .header-badge {
+        display: none;
     }
     .deal-table-hdr,
     .deal-table-row {
@@ -477,8 +465,14 @@ st.markdown("""
 with st.sidebar:
     st.markdown(
         f'<div class="sidebar-brand">'
-        f'  <div class="sidebar-logo-box">{logo_img("timhortons", "Tim Hortons", 38, "sidebar-th-logo")}</div>'
-        f'  <div class="sidebar-title">Flyer Price Tracker</div>'
+        f'  <div class="sidebar-brand-row">'
+        f'    <div class="sidebar-mini-mark">TH</div>'
+        f'    <div>'
+        f'      <div class="sidebar-kicker">CPG Tracker</div>'
+        f'      <div class="sidebar-title">Tim Hortons</div>'
+        f'    </div>'
+        f'  </div>'
+        f'  <div class="sidebar-subtitle">Flyer price intelligence</div>'
         f'</div>',
         unsafe_allow_html=True,
     )
@@ -522,11 +516,15 @@ with st.sidebar:
 # ── Header ────────────────────────────────────────────────────────────────────
 st.markdown(
     f'<div class="th-header">'
-    f'  <div class="th-logo-wrap">{logo_img("timhortons", "Tim Hortons", 46, "th-logo")}</div>'
-    f'  <div class="th-title">'
-    f'    <h1>Flyer Price Tracker</h1>'
-    f'    <p>Ontario retail monitor for Tim Hortons CPG placements, updated weekly</p>'
+    f'  <div class="brand-lockup">'
+    f'    <div class="brand-mark"><span class="brand-mark-main">TH</span><span class="brand-mark-sub">CPG</span></div>'
+    f'    <div class="th-title">'
+    f'      <div class="brand-kicker">Tim Hortons CPG</div>'
+    f'      <h1>Flyer Price Tracker</h1>'
+    f'      <p>Ontario retail monitor for flyer placements, pricing, and weekly deal activity</p>'
+    f'    </div>'
     f'  </div>'
+    f'  <div class="header-badge">SmartCanucks flyer scan</div>'
     f'</div>',
     unsafe_allow_html=True,
 )
@@ -569,18 +567,6 @@ c1.metric("Total TH Deals Found", total_products)
 c2.metric("Weeks of History",      weeks_tracked)
 c3.metric("Retailers Scanned",     len(RETAILERS))
 c4.metric("Pages Analyzed",        f"{total_pages:,}")
-
-retailer_cards = "".join(
-    f'<div class="retailer-covered-card">{retailer_label(r["name"])}</div>'
-    for r in RETAILERS
-)
-st.markdown(
-    '<section class="retailer-covered-section">'
-    '  <h2 class="retailer-covered-heading">Retailers Covered</h2>'
-    f'  <div class="retailer-covered-grid">{retailer_cards}</div>'
-    '</section>',
-    unsafe_allow_html=True,
-)
 
 st.divider()
 
