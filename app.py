@@ -676,9 +676,11 @@ with tab_insights:
             return f"background-color: rgb(200,{intensity},{intensity}); color: #000;"
 
         numeric_cols = [c for c in pivot.columns if c != "Total"]
+        _styler = pivot.style
+        # pandas < 2.1 uses applymap; >= 2.1 uses map
+        _applyfn = getattr(_styler, "map", None) or getattr(_styler, "applymap")
         styled = (
-            pivot.style
-            .applymap(_cell_color, subset=numeric_cols)
+            _applyfn(_cell_color, subset=numeric_cols)
             .format("{:.0f}")
             .set_properties(**{"text-align": "center"})
         )
