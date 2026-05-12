@@ -31,47 +31,19 @@ st.set_page_config(
 )
 
 # ── Brand constants ───────────────────────────────────────────────────────────
-# Inline monogram — no external image dependency, always renders
-# Local SVG logos are embedded as data URIs so Streamlit Cloud and localhost render
-# them consistently without relying on a separate static file route.
-_LOGO_SLUGS = {
-    "Walmart":       "walmart",
-    "Sobeys":        "sobeys",
-    "No Frills":     "nofrills",
-    "FreshCo":       "freshco",
-    "RCSS":          "rcss",
-    "Loblaws":       "loblaws",
-    "Metro":         "metro",
-    "Food Basics":   "foodbasics",
-    "Canadian Tire": "canadiantire",
+# Tim Hortons brand asset is embedded as a data URI so Streamlit Cloud and
+# localhost render it consistently without relying on a static file route.
+RETAILER_ACCENTS = {
+    "Walmart":       "#0071CE",
+    "Sobeys":        "#0B8F2A",
+    "No Frills":     "#E31B23",
+    "FreshCo":       "#5B8F22",
+    "RCSS":          "#004A98",
+    "Loblaws":       "#D71920",
+    "Metro":         "#E31B23",
+    "Food Basics":   "#16803A",
+    "Canadian Tire": "#E31B23",
 }
-
-# Text fallback (used in onerror and anywhere images can't render)
-RETAILER_LOGO_HTML = {
-    "Walmart":
-        '<span style="color:#0071CE;font-weight:800;font-size:0.92rem;">'
-        'Walmart <span style="color:#FFC220;">✱</span></span>',
-    "Sobeys":
-        '<span style="color:#00703C;font-weight:700;font-style:italic;font-size:0.92rem;">Sobeys</span>',
-    "No Frills":
-        '<span style="background:#003087;color:white;font-weight:900;font-size:0.82rem;'
-        'padding:2px 6px;border-radius:3px;display:inline-block;">NOFRILLS</span>',
-    "FreshCo":
-        '<span style="background:#5C7A1A;color:white;font-weight:900;font-size:0.82rem;'
-        'padding:2px 7px;border-radius:3px;display:inline-block;">FRESH CO</span>',
-    "RCSS":
-        '<span style="color:#003087;font-weight:700;font-size:0.82rem;">Real Canadian Superstore</span>',
-    "Loblaws":
-        '<span style="color:#5C1A1A;font-weight:700;font-size:0.92rem;">Loblaws</span>',
-    "Metro":
-        '<span style="color:#CC0000;font-weight:900;font-size:0.95rem;">metro</span>',
-    "Food Basics":
-        '<span style="background:#2E8B2E;color:#FFD700;font-weight:900;font-size:0.82rem;'
-        'padding:2px 6px;border-radius:3px;display:inline-block;">food Basics</span>',
-    "Canadian Tire":
-        '<span style="color:#CC0000;font-weight:700;font-size:0.9rem;">Canadian Tire</span>',
-}
-
 
 def logo_data_uri(slug: str) -> str:
     path = LOGO_DIR / f"{slug}.svg"
@@ -95,18 +67,14 @@ def logo_img(slug: str, alt: str, height: int = 40, class_name: str = "brand-log
     )
 
 
-def retailer_img(name: str, height: int = 32, class_name: str = "retailer-logo-img") -> str:
-    """Return a local SVG logo img tag, with compact text fallback."""
-    slug = _LOGO_SLUGS.get(name)
+def retailer_label(name: str, class_name: str = "retailer-name") -> str:
+    """Return a styled retailer text label."""
     safe_name = html.escape(name, quote=True)
-    if slug:
-        src = logo_data_uri(slug)
-        if src:
-            return (
-                f'<img class="{class_name}" src="{src}" alt="{safe_name}" '
-                f'style="height:{height}px;">'
-            )
-    return RETAILER_LOGO_HTML.get(name, safe_name)
+    accent = RETAILER_ACCENTS.get(name, "#C8102E")
+    return (
+        f'<span class="{class_name}" style="--retailer-color:{accent};">'
+        f'{safe_name}</span>'
+    )
 
 CATEGORY_RULES = [
     ("Single Serve",   ["k-cup", "kcup", "pod", "capsule", "single serve"]),
@@ -273,13 +241,30 @@ st.markdown("""
     border: 1px solid #EEE;
     border-radius: 7px;
 }
-.sidebar-retailer-row .retailer-logo-img {
-    max-width: 108px;
-    margin: 0;
-}
 .logo-text-fallback {
     color: #fff;
     font-weight: 800;
+}
+.retailer-name {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45rem;
+    color: #2A1717;
+    font-size: 0.9rem;
+    font-weight: 750;
+    line-height: 1.2;
+    white-space: nowrap;
+}
+.retailer-name::before {
+    content: "";
+    width: 0.45rem;
+    height: 0.45rem;
+    border-radius: 999px;
+    background: var(--retailer-color, #C8102E);
+    flex: 0 0 auto;
+}
+.sidebar-retailer-row .retailer-name {
+    font-size: 0.82rem;
 }
 
 /* ── Metrics ── */
@@ -313,29 +298,21 @@ st.markdown("""
     justify-content: center;
     gap: 0.4rem;
 }
-.scorecard-logo {
+.scorecard-retailer {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
-    min-height: 40px;
+    min-height: 32px;
 }
-.retailer-logo-img {
-    display: block;
-    max-width: 112px;
-    width: auto;
-    object-fit: contain;
-    margin: 0;
+.scorecard-retailer .retailer-name,
+.retailer-covered-card .retailer-name {
+    font-size: 0.96rem;
+    font-weight: 800;
 }
-.scorecard-logo .retailer-logo-img,
-.retailer-covered-card .retailer-logo-img {
-    max-width: 150px;
-    margin: 0 auto;
-}
-.deal-table-row .retailer-logo-img,
-.th-table .retailer-logo-img {
-    max-width: 106px;
-    margin: 0;
+.deal-table-row .retailer-name,
+.th-table .retailer-name {
+    font-size: 0.86rem;
 }
 .retailer-covered-section {
     margin: 1.35rem 0 1.1rem;
@@ -531,7 +508,7 @@ with st.sidebar:
     st.divider()
     st.markdown("**Retailers monitored (Ontario)**")
     sidebar_retailers = "".join(
-        f'<div class="sidebar-retailer-row">{retailer_img(r["name"], height=18)}</div>'
+        f'<div class="sidebar-retailer-row">{retailer_label(r["name"])}</div>'
         for r in RETAILERS
     )
     st.markdown(
@@ -594,7 +571,7 @@ c3.metric("Retailers Scanned",     len(RETAILERS))
 c4.metric("Pages Analyzed",        f"{total_pages:,}")
 
 retailer_cards = "".join(
-    f'<div class="retailer-covered-card">{retailer_img(r["name"], height=42)}</div>'
+    f'<div class="retailer-covered-card">{retailer_label(r["name"])}</div>'
     for r in RETAILERS
 )
 st.markdown(
@@ -679,7 +656,7 @@ with tab_weekly:
         )
         scorecard_items += (
             f'<div class="scorecard">'
-            f'  <div class="scorecard-logo">{retailer_img(r["name"], height=32)}</div>'
+            f'  <div class="scorecard-retailer">{retailer_label(r["name"])}</div>'
             f'  {badge}'
             f'</div>'
         )
@@ -695,7 +672,7 @@ with tab_weekly:
         for p in filtered_week:
             rows_html += (
                 f'<div class="deal-table-row">'
-                f'  <div>{retailer_img(p["Retailer"], height=24)}</div>'
+                f'  <div>{retailer_label(p["Retailer"])}</div>'
                 f'  <span>{p["Product"]}</span>'
                 f'  <span style="color:#666;">{p["Size"]}</span>'
                 f'  <span><span class="price-pill">{p["Price"]}</span></span>'
@@ -779,7 +756,7 @@ with tab_history:
         for _, row in fdf.iterrows():
             rows_html += (
                 f'<tr>'
-                f'<td>{retailer_img(row["Retailer"], height=24)}</td>'
+                f'<td>{retailer_label(row["Retailer"])}</td>'
                 f'<td>{row["Product"]}</td>'
                 f'<td style="color:#666;">{row["Size"]}</td>'
                 f'<td><span class="cat-pill">{row["Category"]}</span></td>'
@@ -880,7 +857,7 @@ with tab_insights:
         for _, row in retailer_counts.iterrows():
             rows_html += (
                 f'<tr>'
-                f'<td>{retailer_img(row["Retailer"], height=24)}</td>'
+                f'<td>{retailer_label(row["Retailer"])}</td>'
                 f'<td style="font-weight:700;color:#222;">{int(row["Deals"])}</td>'
                 f'</tr>'
             )
