@@ -667,11 +667,18 @@ with tab_insights:
     pivot = pivot[pivot["Total"] > 0]
 
     if not pivot.empty:
-        # style: highlight non-zero cells in red gradient
+        max_val = pivot.drop(columns=["Total"]).values.max() or 1
+
+        def _cell_color(val):
+            if val == 0:
+                return "background-color: #f5f5f5; color: #bbb;"
+            intensity = int(200 - (val / max_val) * 160)
+            return f"background-color: rgb(200,{intensity},{intensity}); color: #000;"
+
         numeric_cols = [c for c in pivot.columns if c != "Total"]
         styled = (
             pivot.style
-            .background_gradient(cmap="Reds", subset=numeric_cols, vmin=0)
+            .applymap(_cell_color, subset=numeric_cols)
             .format("{:.0f}")
             .set_properties(**{"text-align": "center"})
         )
