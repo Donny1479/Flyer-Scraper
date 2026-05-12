@@ -34,30 +34,58 @@ TH_MONOGRAM_HTML = (
     'box-shadow:0 1px 4px rgba(0,0,0,0.18);">TH</div>'
 )
 
-# Brand-styled text logos — replaces favicon + plain name in every table
+# Static SVG logos served by Streamlit's static file server
+_LOGO_SLUGS = {
+    "Walmart":       "walmart",
+    "Sobeys":        "sobeys",
+    "No Frills":     "nofrills",
+    "FreshCo":       "freshco",
+    "RCSS":          "rcss",
+    "Loblaws":       "loblaws",
+    "Metro":         "metro",
+    "Food Basics":   "foodbasics",
+    "Canadian Tire": "canadiantire",
+}
+
+# Text fallback (used in onerror and anywhere images can't render)
 RETAILER_LOGO_HTML = {
     "Walmart":
-        '<span style="color:#0071CE;font-weight:800;font-size:0.92rem;letter-spacing:-0.01em;">'
-        'Walmart <span style="color:#FFC220;">✦</span></span>',
+        '<span style="color:#0071CE;font-weight:800;font-size:0.92rem;">'
+        'Walmart <span style="color:#FFC220;">✱</span></span>',
     "Sobeys":
         '<span style="color:#00703C;font-weight:700;font-style:italic;font-size:0.92rem;">Sobeys</span>',
     "No Frills":
-        '<span style="background:#FFD700;color:#111;font-weight:900;font-size:0.82rem;'
-        'padding:2px 6px;border-radius:3px;display:inline-block;">no frills</span>',
+        '<span style="background:#003087;color:white;font-weight:900;font-size:0.82rem;'
+        'padding:2px 6px;border-radius:3px;display:inline-block;">NOFRILLS</span>',
     "FreshCo":
-        '<span style="color:#00843D;font-weight:700;font-size:0.92rem;">FreshCo</span>',
+        '<span style="background:#5C7A1A;color:white;font-weight:900;font-size:0.82rem;'
+        'padding:2px 7px;border-radius:3px;display:inline-block;">FRESH CO</span>',
     "RCSS":
-        '<span style="color:#CC0000;font-weight:700;font-size:0.82rem;line-height:1.2;">'
-        'Real Canadian<br>Superstore</span>',
+        '<span style="color:#003087;font-weight:700;font-size:0.82rem;">Real Canadian Superstore</span>',
     "Loblaws":
-        '<span style="color:#6E2B2B;font-weight:700;font-size:0.92rem;">Loblaws</span>',
+        '<span style="color:#5C1A1A;font-weight:700;font-size:0.92rem;">Loblaws</span>',
     "Metro":
-        '<span style="color:#003DA5;font-weight:900;font-size:0.95rem;">metro</span>',
+        '<span style="color:#CC0000;font-weight:900;font-size:0.95rem;">metro</span>',
     "Food Basics":
-        '<span style="color:#CC0000;font-weight:700;font-size:0.92rem;">Food Basics</span>',
+        '<span style="background:#2E8B2E;color:#FFD700;font-weight:900;font-size:0.82rem;'
+        'padding:2px 6px;border-radius:3px;display:inline-block;">food Basics</span>',
     "Canadian Tire":
-        '<span style="color:#C8102E;font-weight:700;font-size:0.9rem;">Canadian Tire</span>',
+        '<span style="color:#CC0000;font-weight:700;font-size:0.9rem;">Canadian Tire</span>',
 }
+
+
+def retailer_img(name: str, height: int = 32) -> str:
+    """Return an <img> tag using the static SVG logo, with text fallback."""
+    slug = _LOGO_SLUGS.get(name)
+    if slug:
+        url = f"/app/static/logos/{slug}.svg"
+        fb = RETAILER_LOGO_HTML.get(name, name).replace('"', "'")
+        return (
+            f'<img src="{url}" alt="{name}" height="{height}" '
+            f'style="max-width:160px;object-fit:contain;vertical-align:middle;" '
+            f'onerror="this.outerHTML=\'{fb}\';">'
+        )
+    return RETAILER_LOGO_HTML.get(name, name)
 
 CATEGORY_RULES = [
     ("Single Serve",   ["k-cup", "kcup", "pod", "capsule", "single serve"]),
@@ -473,10 +501,6 @@ with tab_weekly:
     for r in RETAILERS:
         if r["name"] not in selected_retailers:
             continue
-        logo_html = RETAILER_LOGO_HTML.get(
-            r["name"],
-            f'<span style="font-weight:700;font-size:0.85rem;">{r["name"]}</span>',
-        )
         n = deal_counts.get(r["name"], 0)
         badge = (
             f'<span class="scorecard-badge">{n} deal{"s" if n != 1 else ""}</span>'
@@ -485,7 +509,7 @@ with tab_weekly:
         )
         scorecard_items += (
             f'<div class="scorecard">'
-            f'  <div>{logo_html}</div>'
+            f'  <div>{retailer_img(r["name"], height=30)}</div>'
             f'  {badge}'
             f'</div>'
         )
@@ -499,10 +523,9 @@ with tab_weekly:
     if filtered_week:
         rows_html = ""
         for p in filtered_week:
-            logo_html = RETAILER_LOGO_HTML.get(p["Retailer"], p["Retailer"])
             rows_html += (
                 f'<div class="deal-table-row">'
-                f'  <div>{logo_html}</div>'
+                f'  <div>{retailer_img(p["Retailer"], height=28)}</div>'
                 f'  <span>{p["Product"]}</span>'
                 f'  <span style="color:#666;">{p["Size"]}</span>'
                 f'  <span><span class="price-pill">{p["Price"]}</span></span>'
@@ -584,10 +607,9 @@ with tab_history:
     else:
         rows_html = ""
         for _, row in fdf.iterrows():
-            logo_html = RETAILER_LOGO_HTML.get(row["Retailer"], row["Retailer"])
             rows_html += (
                 f'<tr>'
-                f'<td>{logo_html}</td>'
+                f'<td>{retailer_img(row["Retailer"], height=28)}</td>'
                 f'<td>{row["Product"]}</td>'
                 f'<td style="color:#666;">{row["Size"]}</td>'
                 f'<td><span class="cat-pill">{row["Category"]}</span></td>'
@@ -686,10 +708,9 @@ with tab_insights:
 
         rows_html = ""
         for _, row in retailer_counts.iterrows():
-            logo_html = RETAILER_LOGO_HTML.get(row["Retailer"], row["Retailer"])
             rows_html += (
                 f'<tr>'
-                f'<td>{logo_html}</td>'
+                f'<td>{retailer_img(row["Retailer"], height=28)}</td>'
                 f'<td style="font-weight:700;color:#222;">{int(row["Deals"])}</td>'
                 f'</tr>'
             )
