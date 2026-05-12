@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 96" role="img" aria-label="Loblaws">
-  <path d="M28 28h48v40H48c-12 0-20-9-20-21z" fill="#d71920"/>
-  <path d="M58 28h18v18H58z" fill="#f28c00"/>
-  <path d="M64 32v12h12" fill="none" stroke="#fff" stroke-width="3"/>
-  <text x="88" y="61" font-family="Arial, Helvetica, sans-serif" font-size="43" font-weight="800" fill="#111">Loblaws</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 170 40" role="img" aria-label="Loblaws">
+  <path d="M0 8h29v24H13C5 32 0 26 0 18z" fill="#d71920"/>
+  <path d="M18 8h11v11H18z" fill="#f28c00"/>
+  <path d="M21 10v7h8" fill="none" stroke="#fff" stroke-width="2"/>
+  <text x="38" y="28" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="800" fill="#111">Loblaws</text>
 </svg>

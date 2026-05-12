@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 96" role="img" aria-label="No Frills">
-  <rect x="14" y="28" width="45" height="38" rx="5" fill="#0054a6"/>
-  <path d="M36 34l4 10h11l-9 6 4 10-10-7-10 7 4-10-9-6h11z" fill="#e31b23"/>
-  <text x="68" y="61" font-family="Arial Black, Arial, sans-serif" font-size="38" font-weight="900" fill="#e31b23">NO</text>
-  <text x="126" y="61" font-family="Arial Black, Arial, sans-serif" font-size="38" font-weight="900" fill="#111">FRILLS</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 190 40" role="img" aria-label="No Frills">
+  <rect x="0" y="8" width="29" height="24" rx="3" fill="#0054a6"/>
+  <path d="M14.5 11l2.2 6h6.5l-5.2 3.8 2 6-5.5-3.7-5.5 3.7 2-6L5.8 17h6.5z" fill="#e31b23"/>
+  <text x="38" y="28" font-family="Arial Black, Arial, sans-serif" font-size="27" font-weight="900" fill="#e31b23">NO</text>
+  <text x="80" y="28" font-family="Arial Black, Arial, sans-serif" font-size="26" font-weight="900" fill="#111">FRILLS</text>
 </svg>

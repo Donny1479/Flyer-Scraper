@@ -1,6 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 96" role="img" aria-label="FreshCo">
-  <rect x="16" y="25" width="228" height="46" rx="4" fill="#c7de00"/>
-  <text x="38" y="59" font-family="Arial Black, Arial, sans-serif" font-size="35" font-weight="900" fill="#050505">FRESH C</text>
-  <circle cx="206" cy="49" r="20" fill="#4c8b1c"/>
-  <path d="M206 35v22m-12-8l12 13 12-13" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 40" role="img" aria-label="FreshCo">
+  <text x="0" y="28" font-family="Arial Black, Arial, sans-serif" font-size="27" font-weight="900" fill="#111">FRESH C</text>
+  <circle cx="129" cy="20" r="14" fill="#5b8f22"/>
+  <path d="M129 11v17m-8-7l8 9 8-9" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

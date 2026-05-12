@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 96" role="img" aria-label="Real Canadian Superstore">
-  <rect x="18" y="28" width="45" height="38" rx="5" fill="#0054a6"/>
-  <path d="M40 34l4 10h11l-9 6 4 10-10-7-10 7 4-10-9-6h11z" fill="#e31b23"/>
-  <text x="75" y="43" font-family="Arial Black, Arial, sans-serif" font-size="24" font-weight="900" fill="#004a98">REAL CANADIAN</text>
-  <text x="75" y="68" font-family="Arial Black, Arial, sans-serif" font-size="30" font-weight="900" fill="#e31b23">SUPERSTORE</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 185 44" role="img" aria-label="Real Canadian Superstore">
+  <rect x="0" y="8" width="30" height="26" rx="3" fill="#0054a6"/>
+  <path d="M15 11l2.4 6.5h6.8l-5.5 4 2.1 6.5-5.8-4-5.8 4 2.1-6.5-5.5-4h6.8z" fill="#e31b23"/>
+  <text x="40" y="19" font-family="Arial Black, Arial, sans-serif" font-size="16" font-weight="900" fill="#004a98">REAL CANADIAN</text>
+  <text x="40" y="36" font-family="Arial Black, Arial, sans-serif" font-size="20" font-weight="900" fill="#e31b23">SUPERSTORE</text>
 </svg>

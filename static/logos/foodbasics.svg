@@ -1,6 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 96" role="img" aria-label="Food Basics">
-  <rect x="22" y="17" width="216" height="62" rx="7" fill="#0a8f35"/>
-  <path d="M205 17h33v62h-55c14-13 21-34 22-62z" fill="#08772f" opacity=".85"/>
-  <text x="138" y="42" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="800" font-style="italic" fill="#fff">food</text>
-  <text x="130" y="67" text-anchor="middle" font-family="Georgia, serif" font-size="39" font-weight="700" fill="#ffd42a">Basics</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 42" role="img" aria-label="Food Basics">
+  <text x="54" y="17" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="800" font-style="italic" fill="#16803a">food</text>
+  <text x="72" y="37" text-anchor="middle" font-family="Georgia, serif" font-size="31" font-weight="700" fill="#12833c">Basics</text>
 </svg>

@@ -274,7 +274,7 @@ st.markdown("""
     border-radius: 7px;
 }
 .sidebar-retailer-row .retailer-logo-img {
-    max-width: 112px;
+    max-width: 108px;
     margin: 0;
 }
 .logo-text-fallback {
@@ -322,10 +322,20 @@ st.markdown("""
 }
 .retailer-logo-img {
     display: block;
-    max-width: 155px;
+    max-width: 112px;
     width: auto;
     object-fit: contain;
+    margin: 0;
+}
+.scorecard-logo .retailer-logo-img,
+.retailer-covered-card .retailer-logo-img {
+    max-width: 150px;
     margin: 0 auto;
+}
+.deal-table-row .retailer-logo-img,
+.th-table .retailer-logo-img {
+    max-width: 106px;
+    margin: 0;
 }
 .retailer-covered-section {
     margin: 1.35rem 0 1.1rem;
@@ -398,7 +408,7 @@ st.markdown("""
 .deal-table-wrap { margin-top: 1rem; }
 .deal-table-hdr {
     display: grid;
-    grid-template-columns: minmax(120px, 1.2fr) 1.8fr 0.9fr 1.1fr 1.8fr 0.8fr;
+    grid-template-columns: minmax(124px, 0.9fr) 1.8fr 0.8fr 1fr 1.7fr 0.75fr;
     gap: 0.5rem;
     align-items: center;
     padding: 0.4rem 0.75rem;
@@ -412,10 +422,10 @@ st.markdown("""
 }
 .deal-table-row {
     display: grid;
-    grid-template-columns: minmax(120px, 1.2fr) 1.8fr 0.9fr 1.1fr 1.8fr 0.8fr;
+    grid-template-columns: minmax(124px, 0.9fr) 1.8fr 0.8fr 1fr 1.7fr 0.75fr;
     gap: 0.5rem;
     align-items: center;
-    padding: 0.55rem 0.75rem;
+    padding: 0.5rem 0.75rem;
     border-bottom: 1px solid #F2F2F2;
     font-size: 0.87rem;
 }
@@ -450,10 +460,13 @@ st.markdown("""
     white-space: nowrap;
 }
 .th-table td {
-    padding: 0.5rem 0.75rem;
+    padding: 0.48rem 0.75rem;
     border-bottom: 1px solid #F2F2F2;
     font-size: 0.87rem;
     vertical-align: middle;
+}
+.th-table td:first-child {
+    width: 130px;
 }
 .th-table tr:hover td { background: #FFF5F7; }
 .th-table-wrap {
@@ -476,7 +489,7 @@ st.markdown("""
     }
     .deal-table-hdr,
     .deal-table-row {
-        grid-template-columns: minmax(110px, 1fr) minmax(180px, 1.4fr) 80px 90px minmax(160px, 1.2fr) 70px;
+        grid-template-columns: minmax(116px, 1fr) minmax(180px, 1.4fr) 80px 90px minmax(160px, 1.2fr) 70px;
     }
 }
 </style>
@@ -682,7 +695,7 @@ with tab_weekly:
         for p in filtered_week:
             rows_html += (
                 f'<div class="deal-table-row">'
-                f'  <div>{retailer_img(p["Retailer"], height=28)}</div>'
+                f'  <div>{retailer_img(p["Retailer"], height=24)}</div>'
                 f'  <span>{p["Product"]}</span>'
                 f'  <span style="color:#666;">{p["Size"]}</span>'
                 f'  <span><span class="price-pill">{p["Price"]}</span></span>'
@@ -766,7 +779,7 @@ with tab_history:
         for _, row in fdf.iterrows():
             rows_html += (
                 f'<tr>'
-                f'<td>{retailer_img(row["Retailer"], height=28)}</td>'
+                f'<td>{retailer_img(row["Retailer"], height=24)}</td>'
                 f'<td>{row["Product"]}</td>'
                 f'<td style="color:#666;">{row["Size"]}</td>'
                 f'<td><span class="cat-pill">{row["Category"]}</span></td>'
@@ -867,7 +880,7 @@ with tab_insights:
         for _, row in retailer_counts.iterrows():
             rows_html += (
                 f'<tr>'
-                f'<td>{retailer_img(row["Retailer"], height=28)}</td>'
+                f'<td>{retailer_img(row["Retailer"], height=24)}</td>'
                 f'<td style="font-weight:700;color:#222;">{int(row["Deals"])}</td>'
                 f'</tr>'
             )
