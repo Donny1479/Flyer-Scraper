@@ -4,7 +4,7 @@ Tim Hortons Flyer Tracker — Streamlit UI
 import re
 import sys
 from pathlib import Path
-from datetime import datetime
+from datetime import datetime, timedelta
 
 import pandas as pd
 import streamlit as st
@@ -26,18 +26,37 @@ st.set_page_config(
 )
 
 # ── Brand constants ───────────────────────────────────────────────────────────
-TH_LOGO_URL = "https://upload.wikimedia.org/wikipedia/en/b/bf/Tim_Hortons_Logo.svg"
+# Inline monogram — no external image dependency, always renders
+TH_MONOGRAM_HTML = (
+    '<div style="width:54px;height:54px;background:white;border-radius:50%;'
+    'display:flex;align-items:center;justify-content:center;flex-shrink:0;'
+    'font-family:Georgia,serif;font-size:1.45rem;font-weight:800;color:#C8102E;'
+    'box-shadow:0 1px 4px rgba(0,0,0,0.18);">TH</div>'
+)
 
-RETAILER_LOGOS = {
-    "Walmart":       "https://www.google.com/s2/favicons?domain=walmart.ca&sz=64",
-    "Sobeys":        "https://www.google.com/s2/favicons?domain=sobeys.com&sz=64",
-    "No Frills":     "https://www.google.com/s2/favicons?domain=nofrills.ca&sz=64",
-    "FreshCo":       "https://www.google.com/s2/favicons?domain=freshco.com&sz=64",
-    "RCSS":          "https://www.google.com/s2/favicons?domain=realcanadiansuperstore.ca&sz=64",
-    "Loblaws":       "https://www.google.com/s2/favicons?domain=loblaws.ca&sz=64",
-    "Metro":         "https://www.google.com/s2/favicons?domain=metro.ca&sz=64",
-    "Food Basics":   "https://www.google.com/s2/favicons?domain=foodbasics.ca&sz=64",
-    "Canadian Tire": "https://www.google.com/s2/favicons?domain=canadiantire.ca&sz=64",
+# Brand-styled text logos — replaces favicon + plain name in every table
+RETAILER_LOGO_HTML = {
+    "Walmart":
+        '<span style="color:#0071CE;font-weight:800;font-size:0.92rem;letter-spacing:-0.01em;">'
+        'Walmart <span style="color:#FFC220;">✦</span></span>',
+    "Sobeys":
+        '<span style="color:#00703C;font-weight:700;font-style:italic;font-size:0.92rem;">Sobeys</span>',
+    "No Frills":
+        '<span style="background:#FFD700;color:#111;font-weight:900;font-size:0.82rem;'
+        'padding:2px 6px;border-radius:3px;display:inline-block;">no frills</span>',
+    "FreshCo":
+        '<span style="color:#00843D;font-weight:700;font-size:0.92rem;">FreshCo</span>',
+    "RCSS":
+        '<span style="color:#CC0000;font-weight:700;font-size:0.82rem;line-height:1.2;">'
+        'Real Canadian<br>Superstore</span>',
+    "Loblaws":
+        '<span style="color:#6E2B2B;font-weight:700;font-size:0.92rem;">Loblaws</span>',
+    "Metro":
+        '<span style="color:#003DA5;font-weight:900;font-size:0.95rem;">metro</span>',
+    "Food Basics":
+        '<span style="color:#CC0000;font-weight:700;font-size:0.92rem;">Food Basics</span>',
+    "Canadian Tire":
+        '<span style="color:#C8102E;font-weight:700;font-size:0.9rem;">Canadian Tire</span>',
 }
 
 CATEGORY_RULES = [
@@ -107,7 +126,6 @@ def build_full_df(history: list[dict]) -> pd.DataFrame:
                 rows.append({
                     "week_start": ws,
                     "Week":       lbl,
-                    "Logo":       RETAILER_LOGOS.get(r["name"], ""),
                     "Retailer":   r["name"],
                     "Product":    name,
                     "Size":       extract_size(name),
@@ -118,8 +136,8 @@ def build_full_df(history: list[dict]) -> pd.DataFrame:
                     "End":        fmt_date(we),
                     "View":       p.get("page_url", p.get("flyer_url", "")),
                 })
-    cols = ["week_start","Week","Logo","Retailer","Product","Size","Category",
-            "Price","Comments","Start","End","View"]
+    cols = ["week_start", "Week", "Retailer", "Product", "Size", "Category",
+            "Price", "Comments", "Start", "End", "View"]
     return pd.DataFrame(rows, columns=cols) if rows else pd.DataFrame(columns=cols)
 
 
@@ -137,7 +155,6 @@ st.markdown("""
     margin-bottom: 1.5rem;
     box-shadow: 0 2px 8px rgba(200,16,46,0.25);
 }
-.th-header img { height: 54px; }
 .th-title h1 {
     margin: 0;
     color: #fff;
@@ -166,7 +183,7 @@ st.markdown("""
 /* ── Retailer scorecard ── */
 .scorecard-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
     gap: 0.75rem;
     margin-bottom: 1.25rem;
 }
@@ -174,11 +191,15 @@ st.markdown("""
     background: #fff;
     border: 1px solid #EEE;
     border-radius: 10px;
-    padding: 0.75rem;
+    padding: 0.75rem 0.5rem;
     text-align: center;
+    min-height: 72px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.4rem;
 }
-.scorecard img { height: 28px; width: 28px; object-fit: contain; border-radius: 4px; }
-.scorecard-name { font-size: 0.75rem; color: #444; margin: 0.35rem 0 0.25rem; font-weight: 600; }
 .scorecard-badge {
     display: inline-block;
     background: #C8102E;
@@ -208,11 +229,23 @@ st.markdown("""
     white-space: nowrap;
 }
 
+/* ── Category pill ── */
+.cat-pill {
+    display: inline-block;
+    background: #FFF0F3;
+    color: #C8102E;
+    border: 1px solid #F5C0C8;
+    border-radius: 99px;
+    padding: 0.1rem 0.55rem;
+    font-size: 0.78rem;
+    font-weight: 600;
+}
+
 /* ── Week deal table ── */
 .deal-table-wrap { margin-top: 1rem; }
 .deal-table-hdr {
     display: grid;
-    grid-template-columns: 40px 1fr 1.6fr 0.9fr 1.5fr 1.5fr 0.8fr;
+    grid-template-columns: 1.3fr 1.8fr 0.9fr 1.2fr 1.8fr 0.8fr;
     gap: 0.5rem;
     align-items: center;
     padding: 0.4rem 0.75rem;
@@ -226,10 +259,10 @@ st.markdown("""
 }
 .deal-table-row {
     display: grid;
-    grid-template-columns: 40px 1fr 1.6fr 0.9fr 1.5fr 1.5fr 0.8fr;
+    grid-template-columns: 1.3fr 1.8fr 0.9fr 1.2fr 1.8fr 0.8fr;
     gap: 0.5rem;
     align-items: center;
-    padding: 0.5rem 0.75rem;
+    padding: 0.55rem 0.75rem;
     border-bottom: 1px solid #F2F2F2;
     font-size: 0.87rem;
 }
@@ -241,19 +274,6 @@ st.markdown("""
     border-radius: 0 0 8px 8px;
     overflow: hidden;
 }
-.retailer-name-cell {
-    font-weight: 600;
-    color: #222;
-    display: flex;
-    align-items: center;
-    gap: 0.4rem;
-}
-.retailer-name-cell img {
-    height: 20px;
-    width: 20px;
-    object-fit: contain;
-    border-radius: 3px;
-}
 .deal-link {
     color: #C8102E;
     font-weight: 600;
@@ -262,16 +282,33 @@ st.markdown("""
 }
 .deal-link:hover { text-decoration: underline; }
 
-/* ── Insights ── */
-.cat-pill {
-    display: inline-block;
-    background: #FFF0F3;
-    color: #C8102E;
-    border: 1px solid #F5C0C8;
-    border-radius: 99px;
-    padding: 0.15rem 0.65rem;
-    font-size: 0.8rem;
-    font-weight: 600;
+/* ── Shared HTML table (history + insights) ── */
+.th-table { width: 100%; border-collapse: collapse; margin-top: 0.5rem; }
+.th-table th {
+    background: #F8F8F8;
+    font-size: 0.74rem;
+    font-weight: 700;
+    color: #888;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    padding: 0.45rem 0.75rem;
+    text-align: left;
+    border-bottom: 2px solid #EEE;
+    white-space: nowrap;
+}
+.th-table td {
+    padding: 0.5rem 0.75rem;
+    border-bottom: 1px solid #F2F2F2;
+    font-size: 0.87rem;
+    vertical-align: middle;
+}
+.th-table tr:hover td { background: #FFF5F7; }
+.th-table-wrap {
+    overflow-x: auto;
+    border: 1px solid #EEE;
+    border-radius: 8px;
+    max-height: 540px;
+    overflow-y: auto;
 }
 </style>
 """, unsafe_allow_html=True)
@@ -279,10 +316,15 @@ st.markdown("""
 
 # ── Sidebar ───────────────────────────────────────────────────────────────────
 with st.sidebar:
-    try:
-        st.image(TH_LOGO_URL, width=160)
-    except Exception:
-        st.markdown("## ☕ Tim Hortons")
+    st.markdown(
+        '<div style="text-align:center;padding:0.5rem 0 1rem;">'
+        '<div style="width:72px;height:72px;background:#C8102E;border-radius:50%;'
+        'display:inline-flex;align-items:center;justify-content:center;'
+        'font-family:Georgia,serif;font-size:1.85rem;font-weight:800;color:white;'
+        'box-shadow:0 2px 8px rgba(200,16,46,0.4);">TH</div>'
+        '</div>',
+        unsafe_allow_html=True,
+    )
     st.divider()
 
     history = load_all_history()
@@ -317,7 +359,7 @@ with st.sidebar:
 # ── Header ────────────────────────────────────────────────────────────────────
 st.markdown(
     f'<div class="th-header">'
-    f'  <img src="{TH_LOGO_URL}" alt="Tim Hortons">'
+    f'  {TH_MONOGRAM_HTML}'
     f'  <div class="th-title">'
     f'    <h1>Flyer Price Tracker</h1>'
     f'    <p>Ontario retail monitor — updated weekly</p>'
@@ -349,9 +391,9 @@ week_labels = [
     for w in history
 ]
 
-total_products  = len(full_df)
-weeks_tracked   = len(history)
-total_pages     = sum(
+total_products = len(full_df)
+weeks_tracked  = len(history)
+total_pages    = sum(
     f.get("pages_scanned", 0)
     for w in history
     for r in w.get("retailers", [])
@@ -360,10 +402,10 @@ total_pages     = sum(
 
 # ── Metrics ───────────────────────────────────────────────────────────────────
 c1, c2, c3, c4 = st.columns(4)
-c1.metric("Total TH Deals Found",   total_products)
-c2.metric("Weeks of History",        weeks_tracked)
-c3.metric("Retailers Scanned",       len(RETAILERS))
-c4.metric("Pages Analyzed",          f"{total_pages:,}")
+c1.metric("Total TH Deals Found", total_products)
+c2.metric("Weeks of History",      weeks_tracked)
+c3.metric("Retailers Scanned",     len(RETAILERS))
+c4.metric("Pages Analyzed",        f"{total_pages:,}")
 
 st.divider()
 
@@ -392,7 +434,6 @@ with tab_weekly:
         None,
     )
 
-    # Build product list for this week
     week_products: list[dict] = []
     if week_data:
         for r in week_data.get("retailers", []):
@@ -424,7 +465,7 @@ with tab_weekly:
         )
 
     # ── Retailer scorecard grid ───────────────────────────────────────────────
-    deal_counts = {}
+    deal_counts: dict[str, int] = {}
     for p in filtered_week:
         deal_counts[p["Retailer"]] = deal_counts.get(p["Retailer"], 0) + 1
 
@@ -432,17 +473,19 @@ with tab_weekly:
     for r in RETAILERS:
         if r["name"] not in selected_retailers:
             continue
-        logo = RETAILER_LOGOS.get(r["name"], "")
-        n    = deal_counts.get(r["name"], 0)
+        logo_html = RETAILER_LOGO_HTML.get(
+            r["name"],
+            f'<span style="font-weight:700;font-size:0.85rem;">{r["name"]}</span>',
+        )
+        n = deal_counts.get(r["name"], 0)
         badge = (
-            f'<span class="scorecard-badge">{n} deal{"s" if n!=1 else ""}</span>'
+            f'<span class="scorecard-badge">{n} deal{"s" if n != 1 else ""}</span>'
             if n > 0 else
             '<span class="scorecard-none">No deals</span>'
         )
         scorecard_items += (
             f'<div class="scorecard">'
-            f'  <img src="{logo}" alt="{r["name"]}">'
-            f'  <div class="scorecard-name">{r["name"]}</div>'
+            f'  <div>{logo_html}</div>'
             f'  {badge}'
             f'</div>'
         )
@@ -456,12 +499,10 @@ with tab_weekly:
     if filtered_week:
         rows_html = ""
         for p in filtered_week:
-            logo = RETAILER_LOGOS.get(p["Retailer"], "")
+            logo_html = RETAILER_LOGO_HTML.get(p["Retailer"], p["Retailer"])
             rows_html += (
                 f'<div class="deal-table-row">'
-                f'  <img src="{logo}" alt="{p["Retailer"]}" '
-                f'       style="height:22px;width:22px;object-fit:contain;border-radius:3px;">'
-                f'  <span class="retailer-name-cell" style="display:block;">{p["Retailer"]}</span>'
+                f'  <div>{logo_html}</div>'
                 f'  <span>{p["Product"]}</span>'
                 f'  <span style="color:#666;">{p["Size"]}</span>'
                 f'  <span><span class="price-pill">{p["Price"]}</span></span>'
@@ -473,7 +514,6 @@ with tab_weekly:
         st.markdown(
             '<div class="deal-table-wrap">'
             '  <div class="deal-table-hdr">'
-            '    <span></span>'
             '    <span>Retailer</span>'
             '    <span>Product</span>'
             '    <span>Size</span>'
@@ -490,7 +530,7 @@ with tab_weekly:
         st.download_button(
             "⬇ Download This Week as CSV",
             data=df_week.to_csv(index=False).encode("utf-8"),
-            file_name=f"tim_hortons_{selected_week_label.replace(' ','_').replace('–','to')}.csv",
+            file_name=f"tim_hortons_{selected_week_label.replace(' ', '_').replace('–', 'to')}.csv",
             mime="text/csv",
             key="csv_weekly",
         )
@@ -526,53 +566,55 @@ with tab_history:
             key="h_search",
         )
 
-    # Apply filters
     fdf = full_df.copy()
-    if sel_weeks:     fdf = fdf[fdf["Week"].isin(sel_weeks)]
-    if sel_retailers: fdf = fdf[fdf["Retailer"].isin(sel_retailers)]
-    if sel_cats:      fdf = fdf[fdf["Category"].isin(sel_cats)]
+    if sel_weeks:
+        fdf = fdf[fdf["Week"].isin(sel_weeks)]
+    if sel_retailers:
+        fdf = fdf[fdf["Retailer"].isin(sel_retailers)]
+    if sel_cats:
+        fdf = fdf[fdf["Category"].isin(sel_cats)]
     if search_q.strip():
         fdf = fdf[fdf["Product"].str.contains(search_q.strip(), case=False, na=False)]
 
     fdf = fdf.sort_values("week_start", ascending=False).reset_index(drop=True)
-
     st.caption(f"{len(fdf)} deal(s) match the current filters")
 
     if fdf.empty:
         st.info("No results match the current filters.")
     else:
-        display_df = fdf[[
-            "Logo", "Retailer", "Product", "Size", "Category",
-            "Price", "Comments", "Start", "End", "View"
-        ]].copy()
+        rows_html = ""
+        for _, row in fdf.iterrows():
+            logo_html = RETAILER_LOGO_HTML.get(row["Retailer"], row["Retailer"])
+            rows_html += (
+                f'<tr>'
+                f'<td>{logo_html}</td>'
+                f'<td>{row["Product"]}</td>'
+                f'<td style="color:#666;">{row["Size"]}</td>'
+                f'<td><span class="cat-pill">{row["Category"]}</span></td>'
+                f'<td><span class="price-pill">{row["Price"]}</span></td>'
+                f'<td style="color:#555;font-size:0.82rem;">{row["Comments"]}</td>'
+                f'<td style="color:#888;font-size:0.82rem;white-space:nowrap;">{row["Start"]}</td>'
+                f'<td style="color:#888;font-size:0.82rem;white-space:nowrap;">{row["End"]}</td>'
+                f'<td><a class="deal-link" href="{row["View"]}" target="_blank">View ↗</a></td>'
+                f'</tr>'
+            )
 
-        st.dataframe(
-            display_df,
-            column_config={
-                "Logo":     st.column_config.ImageColumn("", width="small"),
-                "Retailer": st.column_config.TextColumn("Retailer", width="medium"),
-                "Product":  st.column_config.TextColumn("Product"),
-                "Size":     st.column_config.TextColumn("Size", width="small"),
-                "Category": st.column_config.TextColumn("Category", width="medium"),
-                "Price":    st.column_config.TextColumn("Price", width="small"),
-                "Comments": st.column_config.TextColumn("Deal Details"),
-                "Start":    st.column_config.TextColumn("Sale Start", width="medium"),
-                "End":      st.column_config.TextColumn("Sale End",   width="medium"),
-                "View":     st.column_config.LinkColumn(
-                    "Flyer Page", display_text="View ↗", width="small"
-                ),
-            },
-            use_container_width=True,
-            hide_index=True,
-            height=min(520, 68 + 40 * len(display_df)),
+        st.markdown(
+            '<div class="th-table-wrap">'
+            '<table class="th-table">'
+            '<thead><tr>'
+            '<th>Retailer</th><th>Product</th><th>Size</th><th>Category</th>'
+            '<th>Price</th><th>Deal Details</th><th>Sale Start</th><th>Sale End</th><th>Flyer</th>'
+            '</tr></thead>'
+            f'<tbody>{rows_html}</tbody>'
+            '</table></div>',
+            unsafe_allow_html=True,
         )
 
         st.download_button(
             "⬇ Download Filtered History as CSV",
-            data=fdf[[
-                "Week", "Retailer", "Product", "Size", "Category",
-                "Price", "Comments", "Start", "End", "View"
-            ]].to_csv(index=False).encode("utf-8"),
+            data=fdf[["Week", "Retailer", "Product", "Size", "Category",
+                       "Price", "Comments", "Start", "End", "View"]].to_csv(index=False).encode("utf-8"),
             file_name="tim_hortons_flyer_history.csv",
             mime="text/csv",
             key="csv_history",
@@ -587,15 +629,46 @@ with tab_insights:
         st.info("No data yet. Run a scan first.")
         st.stop()
 
+    # ── Time window filter ───────────────────────────────────────────────────
+    TIME_OPTIONS: dict[str, int | None] = {
+        "L12 Weeks": 12,
+        "L26 Weeks": 26,
+        "L52 Weeks": 52,
+        "All Available": None,
+    }
+    time_sel = st.radio(
+        "Time Window",
+        list(TIME_OPTIONS.keys()),
+        index=3,
+        horizontal=True,
+        key="ins_time",
+        label_visibility="collapsed",
+    )
+    n_weeks_filter = TIME_OPTIONS[time_sel]
+    if n_weeks_filter is not None:
+        cutoff = (datetime.today() - timedelta(weeks=n_weeks_filter)).strftime("%Y-%m-%d")
+        ins_df = full_df[full_df["week_start"] >= cutoff].copy()
+    else:
+        ins_df = full_df.copy()
+
+    st.caption(
+        f"Showing **{len(ins_df)}** deal(s) across "
+        f"**{ins_df['week_start'].nunique() if not ins_df.empty else 0}** week(s)"
+    )
+
+    if ins_df.empty:
+        st.info("No data in this time window.")
+        st.stop()
+
     # ── KPIs ─────────────────────────────────────────────────────────────────
-    top_retailer = full_df["Retailer"].value_counts().idxmax()
-    top_category = full_df["Category"].value_counts().idxmax()
+    top_retailer = ins_df["Retailer"].value_counts().idxmax()
+    top_category = ins_df["Category"].value_counts().idxmax()
 
     ic1, ic2, ic3, ic4 = st.columns(4)
-    ic1.metric("Total TH Appearances",   total_products)
-    ic2.metric("Retailers with Deals",   full_df["Retailer"].nunique())
-    ic3.metric("Most Active Retailer",   top_retailer)
-    ic4.metric("Top Product Category",   top_category)
+    ic1.metric("Total TH Appearances",  len(ins_df))
+    ic2.metric("Retailers with Deals",  ins_df["Retailer"].nunique())
+    ic3.metric("Most Active Retailer",  top_retailer)
+    ic4.metric("Top Product Category",  top_category)
 
     st.divider()
 
@@ -606,22 +679,28 @@ with tab_insights:
         st.markdown("#### 🏪 Deals by Retailer")
 
         retailer_counts = (
-            full_df.groupby("Retailer").size()
+            ins_df.groupby("Retailer").size()
             .reset_index(name="Deals")
             .sort_values("Deals", ascending=False)
         )
-        retailer_counts["Logo"] = retailer_counts["Retailer"].map(RETAILER_LOGOS)
 
-        st.dataframe(
-            retailer_counts[["Logo", "Retailer", "Deals"]],
-            column_config={
-                "Logo":     st.column_config.ImageColumn("", width="small"),
-                "Retailer": st.column_config.TextColumn("Retailer"),
-                "Deals":    st.column_config.NumberColumn("# Deals", format="%d"),
-            },
-            use_container_width=True,
-            hide_index=True,
-            height=68 + 40 * len(retailer_counts),
+        rows_html = ""
+        for _, row in retailer_counts.iterrows():
+            logo_html = RETAILER_LOGO_HTML.get(row["Retailer"], row["Retailer"])
+            rows_html += (
+                f'<tr>'
+                f'<td>{logo_html}</td>'
+                f'<td style="font-weight:700;color:#222;">{int(row["Deals"])}</td>'
+                f'</tr>'
+            )
+
+        st.markdown(
+            '<div class="th-table-wrap" style="max-height:340px;">'
+            '<table class="th-table">'
+            '<thead><tr><th>Retailer</th><th># Deals</th></tr></thead>'
+            f'<tbody>{rows_html}</tbody>'
+            '</table></div>',
+            unsafe_allow_html=True,
         )
 
     # ── Category Breakdown ───────────────────────────────────────────────────
@@ -629,7 +708,7 @@ with tab_insights:
         st.markdown("#### 📦 Product Category Breakdown")
 
         cat_counts = (
-            full_df.groupby("Category").size()
+            ins_df.groupby("Category").size()
             .reindex(ALL_CATEGORIES, fill_value=0)
             .reset_index()
         )
@@ -654,12 +733,12 @@ with tab_insights:
 
     st.divider()
 
-    # ── Category × Retailer heat map table ───────────────────────────────────
+    # ── Category × Retailer heatmap ───────────────────────────────────────────
     st.markdown("#### 🔥 Category × Retailer Summary")
-    st.caption("Number of Tim Hortons deals found per category per retailer, across all scanned weeks.")
+    st.caption("Number of Tim Hortons deals found per category per retailer in the selected window.")
 
     pivot = (
-        full_df.groupby(["Category", "Retailer"]).size()
+        ins_df.groupby(["Category", "Retailer"]).size()
         .unstack(fill_value=0)
         .reindex(ALL_CATEGORIES, fill_value=0)
     )
@@ -677,7 +756,6 @@ with tab_insights:
 
         numeric_cols = [c for c in pivot.columns if c != "Total"]
         _styler = pivot.style
-        # pandas < 2.1 uses applymap; >= 2.1 uses map
         _applyfn = getattr(_styler, "map", None) or getattr(_styler, "applymap")
         styled = (
             _applyfn(_cell_color, subset=numeric_cols)
@@ -691,8 +769,11 @@ with tab_insights:
 
 # ── Footer ────────────────────────────────────────────────────────────────────
 st.divider()
-st.caption(
-    "Tim Hortons Canada CPG Team · "
-    "Data from [SmartCanucks.ca](https://flyers.smartcanucks.ca) · "
-    "Powered by Claude Sonnet 4.6"
+st.markdown(
+    '<p style="text-align:center;font-size:0.8rem;color:#999;">'
+    '☕ Tim Hortons Canada CPG Team &nbsp;·&nbsp; '
+    'Data from <a href="https://flyers.smartcanucks.ca" target="_blank">SmartCanucks.ca</a>'
+    ' &nbsp;·&nbsp; Powered by <strong>Claude Sonnet 4.6</strong> &amp; <strong>GPT Codex 5.5</strong>'
+    '</p>',
+    unsafe_allow_html=True,
 )
