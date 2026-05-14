@@ -1,0 +1,139 @@
+{
+  "scraped_at": "2026-05-14T10:03:50",
+  "week_start": "2026-05-14",
+  "week_end": "2026-05-20",
+  "retailers": [
+    {
+      "name": "Walmart",
+      "flyers": [
+        {
+          "title": "Walmart (ON) Flyer May 14 to 20",
+          "url": "https://flyers.smartcanucks.ca/canada/walmart-on-flyer-may-14-to-202",
+          "pages_scanned": 10,
+          "products_found": 0
+        }
+      ],
+      "products": []
+    },
+    {
+      "name": "RCSS",
+      "flyers": [
+        {
+          "title": "Real Canadian Superstore (ON) Flyer May 14 to 20",
+          "url": "https://flyers.smartcanucks.ca/canada/real-canadian-superstore-on-flyer-may-14-to-201",
+          "pages_scanned": 10,
+          "products_found": 0
+        }
+      ],
+      "products": []
+    },
+    {
+      "name": "No Frills",
+      "flyers": [
+        {
+          "title": "No Frills (ON) Flyer May 14 to 20",
+          "url": "https://flyers.smartcanucks.ca/canada/no-frills-on-flyer-may-14-to-201",
+          "pages_scanned": 10,
+          "products_found": 1
+        }
+      ],
+      "products": [
+        {
+          "brand_text_seen": "TIM HORTONS SOUP selected varieties 540 mL",
+          "product_name": "Tim Hortons Soup, 540 mL",
+          "price": "$2.69",
+          "deal_details": "selected varieties",
+          "page_number": 10,
+          "page_url": "https://flyers.smartcanucks.ca/canada/no-frills-on-flyer-may-14-to-201/single/9",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/292949/no-frills-on-flyer-may-14-to-201-10.jpg",
+          "flyer_title": "No Frills (ON) Flyer May 14 to 20",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/no-frills-on-flyer-may-14-to-201"
+        }
+      ]
+    },
+    {
+      "name": "Metro",
+      "flyers": [
+        {
+          "title": "Metro (ON) Flyer May 14 to 20",
+          "url": "https://flyers.smartcanucks.ca/canada/metro-on-flyer-may-14-to-201",
+          "pages_scanned": 10,
+          "products_found": 0
+        }
+      ],
+      "products": []
+    },
+    {
+      "name": "Food Basics",
+      "flyers": [
+        {
+          "title": "Food Basics Flyer May 14 to 20",
+          "url": "https://flyers.smartcanucks.ca/canada/food-basics-flyer-may-14-to-201",
+          "pages_scanned": 10,
+          "products_found": 0
+        }
+      ],
+      "products": []
+    },
+    {
+      "name": "Sobeys",
+      "flyers": [
+        {
+          "title": "Sobeys (ON) Flyer May 14 to 20",
+          "url": "https://flyers.smartcanucks.ca/canada/sobeys-on-flyer-may-14-to-202",
+          "pages_scanned": 10,
+          "products_found": 1
+        }
+      ],
+      "products": [
+        {
+          "brand_text_seen": "TIM HORTONS Single Serve Coffee Pods 48 pk",
+          "product_name": "Tim Hortons Single Serve Coffee Pods, 48 pk",
+          "price": "$35.99",
+          "deal_details": "",
+          "page_number": 3,
+          "page_url": "https://flyers.smartcanucks.ca/canada/sobeys-on-flyer-may-14-to-202/single/2",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/292888/sobeys-on-flyer-may-14-to-202-3.jpg",
+          "flyer_title": "Sobeys (ON) Flyer May 14 to 20",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/sobeys-on-flyer-may-14-to-202"
+        }
+      ]
+    },
+    {
+      "name": "FreshCo",
+      "flyers": [
+        {
+          "title": "FreshCo (ON) Flyer May 14 to 20",
+          "url": "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-may-14-to-202",
+          "pages_scanned": 10,
+          "products_found": 0
+        }
+      ],
+      "products": []
+    },
+    {
+      "name": "Loblaws",
+      "flyers": [
+        {
+          "title": "Loblaws (ON) Flyer May 14 to 20",
+          "url": "https://flyers.smartcanucks.ca/canada/loblaws-on-flyer-may-14-to-202",
+          "pages_scanned": 10,
+          "products_found": 0
+        }
+      ],
+      "products": []
+    },
+    {
+      "name": "Canadian Tire",
+      "flyers": [
+        {
+          "title": "Canadian Tire (ON) Flyer May 14 to 21",
+          "url": "https://flyers.smartcanucks.ca/canada/canadian-tire-on-flyer-may-14-to-21",
+          "pages_scanned": 22,
+          "products_found": 0
+        }
+      ],
+      "products": []
+    }
+  ]
+}
