@@ -37,6 +37,20 @@ RETAILER_ACCENTS = {
     "Food Basics":   "#16803A",
     "Canadian Tire": "#E31B23",
 }
+
+LOGO_PATH = Path(__file__).parent / "assets" / "tim-hortons-logo.svg"
+
+
+def load_tims_logo_svg() -> str:
+    try:
+        return LOGO_PATH.read_text(encoding="utf-8")
+    except OSError:
+        return '<span class="logo-text-fallback">Tim Hortons</span>'
+
+
+TIM_HORTONS_LOGO_SVG = load_tims_logo_svg()
+
+
 def retailer_label(name: str, class_name: str = "retailer-name") -> str:
     """Return a styled retailer text label."""
     safe_name = html.escape(name, quote=True)
@@ -138,7 +152,7 @@ st.markdown("""
     background: rgba(255, 248, 241, 0.82);
 }
 .block-container {
-    padding-top: 1.35rem;
+    padding-top: 2.35rem;
     padding-bottom: 2.4rem;
 }
 html, body, [class*="css"] {
@@ -154,64 +168,31 @@ section[data-testid="stSidebar"] {
 }
 /* ── TH Header ── */
 .th-header {
-    display: flex;
-    flex-direction: column;
     overflow: hidden;
-    background: var(--th-red);
+    background: rgba(255,253,248,0.92);
     color: #fff;
-    border: 1px solid rgba(90,17,28,0.18);
+    border: 1px solid rgba(111,45,37,0.14);
     border-radius: 12px;
-    margin-bottom: 1.5rem;
-    box-shadow: 0 16px 34px rgba(90,17,28,0.16);
-}
-.th-sitebar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 1rem;
-    width: 100%;
-    padding: 0.75rem 1.1rem;
-    background: var(--th-red);
-    border-bottom: 1px solid rgba(255,255,255,0.22);
+    margin: 0.35rem 0 1.45rem;
+    box-shadow: 0 16px 34px rgba(90,17,28,0.13);
 }
 .brand-lockup {
     display: flex;
     align-items: center;
-    gap: 1.15rem;
+    gap: 1.25rem;
     min-width: 0;
 }
-.brand-wordmark {
-    color: #fff;
-    font-family: "Brush Script MT", "Segoe Script", cursive;
-    font-size: 2.35rem;
-    font-weight: 700;
-    line-height: 1;
-    letter-spacing: 0;
-    white-space: nowrap;
-}
-.brand-mark {
+.th-hero {
     display: flex;
-    flex-direction: column;
     align-items: center;
-    justify-content: center;
-    width: 64px;
-    height: 64px;
-    background: #fff;
-    color: var(--th-red);
-    border-radius: 16px;
-    box-shadow: 0 10px 24px rgba(53,27,27,0.18);
-}
-.brand-mark-main {
-    font-size: 1.35rem;
-    font-weight: 900;
-    line-height: 1;
-}
-.brand-mark-sub {
-    margin-top: 0.18rem;
-    font-size: 0.58rem;
-    font-weight: 800;
-    letter-spacing: 0.09em;
-    text-transform: uppercase;
+    justify-content: space-between;
+    gap: 1.25rem;
+    width: 100%;
+    padding: 1.35rem 1.45rem 1.45rem;
+    background:
+        radial-gradient(circle at top right, rgba(200,16,46,0.28), transparent 28rem),
+        linear-gradient(135deg, rgba(90,17,28,0.98), rgba(139,30,45,0.94));
+    border-left: 8px solid var(--th-red);
 }
 .brand-kicker {
     margin-bottom: 0.18rem;
@@ -221,19 +202,38 @@ section[data-testid="stSidebar"] {
     letter-spacing: 0.11em;
     text-transform: uppercase;
 }
-.th-hero {
+.th-title {
+    min-width: 0;
+}
+.headline-lockup {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    gap: 1.25rem;
+    flex-wrap: wrap;
+    gap: 0.85rem;
+}
+.headline-logo {
+    display: inline-flex;
+    align-items: center;
+    width: min(240px, 42vw);
+    max-width: 100%;
+    padding: 0.46rem 0.7rem 0.38rem;
+    background: #fff;
+    border: 1px solid rgba(255,255,255,0.62);
+    border-radius: 10px;
+    box-shadow: 0 10px 22px rgba(53,27,27,0.16);
+}
+.headline-logo svg,
+.sidebar-logo svg {
+    display: block;
     width: 100%;
-    padding: 1.2rem 1.35rem 1.3rem;
-    background:
-        linear-gradient(135deg, rgba(90,17,28,0.78), rgba(139,30,45,0.48)),
-        var(--th-red);
+    height: auto;
+}
+.logo-text-fallback {
+    color: var(--th-red);
+    font-weight: 900;
 }
 .th-title h1 {
-    margin: 0;
+    margin: 0.12rem 0 0;
     color: #fff;
     font-size: 2rem;
     font-weight: 900;
@@ -241,36 +241,22 @@ section[data-testid="stSidebar"] {
     line-height: 1.15;
 }
 .th-title p {
-    margin: 0.2rem 0 0;
+    margin: 0.35rem 0 0;
     color: rgba(255,255,255,0.84);
     font-size: 0.95rem;
     font-weight: 650;
     max-width: 760px;
 }
-.header-nav {
-    display: flex;
-    align-items: center;
-    gap: 0.45rem;
-    color: rgba(255,255,255,0.86);
-    font-size: 0.78rem;
-    font-weight: 850;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-}
 .header-stat {
     flex: 0 0 auto;
-    border: 1px solid rgba(255,255,255,0.28);
-    border-radius: 999px;
     color: #fff;
-    background: rgba(255,255,255,0.12);
-    padding: 0.4rem 0.75rem;
-    font-size: 0.75rem;
-    font-weight: 800;
-}
-.header-stat {
+    border: 1px solid rgba(255,255,255,0.28);
     border-radius: 10px;
     min-width: 128px;
     background: rgba(255,255,255,0.14);
+    padding: 0.48rem 0.75rem;
+    font-size: 0.75rem;
+    font-weight: 800;
 }
 .header-stat span {
     display: block;
@@ -298,36 +284,24 @@ section[data-testid="stSidebar"] {
 }
 .sidebar-brand-row {
     display: flex;
-    align-items: center;
-    gap: 0.7rem;
-    padding: 0.78rem 0.85rem;
-    background: var(--th-red);
-    color: #fff;
-}
-.sidebar-mini-mark {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    width: 42px;
-    height: 42px;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 0.45rem;
+    padding: 0.9rem 0.85rem 0.65rem;
     background: #fff;
-    color: var(--th-red);
-    border-radius: 12px;
-    font-weight: 900;
+    color: var(--th-espresso);
+    border-bottom: 1px solid rgba(111,45,37,0.12);
+}
+.sidebar-logo {
+    width: 156px;
+    max-width: 100%;
 }
 .sidebar-kicker {
-    color: var(--th-vanilla);
+    color: var(--th-red);
     font-size: 0.66rem;
     font-weight: 850;
     letter-spacing: 0.1em;
     text-transform: uppercase;
-}
-.sidebar-title {
-    color: #fff;
-    font-size: 1.25rem;
-    font-family: "Brush Script MT", "Segoe Script", cursive;
-    font-weight: 700;
-    line-height: 1;
 }
 .sidebar-subtitle {
     color: var(--th-espresso);
@@ -540,17 +514,17 @@ section[data-testid="stSidebar"] {
     overflow-y: auto;
 }
 @media (max-width: 780px) {
-    .th-header {
-        align-items: flex-start;
-        flex-direction: column;
-    }
-    .th-sitebar,
     .th-hero {
         align-items: flex-start;
         flex-direction: column;
     }
-    .brand-wordmark {
-        font-size: 1.95rem;
+    .headline-lockup {
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 0.55rem;
+    }
+    .headline-logo {
+        width: min(220px, 78vw);
     }
     .th-title h1 {
         font-size: 1.55rem;
@@ -572,11 +546,8 @@ with st.sidebar:
     st.markdown(
         f'<div class="sidebar-brand">'
         f'  <div class="sidebar-brand-row">'
-        f'    <div class="sidebar-mini-mark">TH</div>'
-        f'    <div>'
-        f'      <div class="sidebar-kicker">CPG Tracker</div>'
-        f'      <div class="sidebar-title">Tim Hortons</div>'
-        f'    </div>'
+        f'    <div class="sidebar-logo">{TIM_HORTONS_LOGO_SVG}</div>'
+        f'    <div class="sidebar-kicker">CPG Tracker</div>'
         f'  </div>'
         f'  <div class="sidebar-subtitle">Flyer price intelligence</div>'
         f'</div>',
@@ -620,16 +591,11 @@ latest_cycle = (
 )
 st.markdown(
     f'<div class="th-header">'
-    f'  <div class="th-sitebar">'
-    f'    <div class="brand-wordmark">Tim Hortons</div>'
-    f'    <div class="header-nav"><span>Flyer Intelligence</span><span>Ontario CPG</span></div>'
-    f'  </div>'
     f'  <div class="th-hero">'
     f'    <div class="brand-lockup">'
-    f'      <div class="brand-mark"><span class="brand-mark-main">TH</span><span class="brand-mark-sub">CPG</span></div>'
     f'      <div class="th-title">'
     f'        <div class="brand-kicker">SmartCanucks weekly flyer monitor</div>'
-    f'        <h1>Flyer Price Tracker</h1>'
+    f'        <h1 class="headline-lockup"><span class="headline-logo">{TIM_HORTONS_LOGO_SVG}</span><span>Flyer Price Tracker</span></h1>'
     f'        <p>Track Tim Hortons CPG placements, pricing, and retailer activity across Ontario flyers.</p>'
     f'      </div>'
     f'    </div>'
