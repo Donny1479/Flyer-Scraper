@@ -12,7 +12,6 @@ import streamlit as st
 
 sys.path.insert(0, str(Path(__file__).parent))
 from scraper import (
-    run_historical_scan,
     load_all_history,
     load_scanned_registry,
     format_week_label,
@@ -89,19 +88,6 @@ def fmt_ts(iso: str) -> str:
         return iso
 
 
-def run_with_progress() -> None:
-    bar = st.progress(0.0)
-    status = st.empty()
-
-    def cb(msg: str, pct: float) -> None:
-        status.text(msg)
-        bar.progress(min(float(pct), 1.0))
-
-    run_historical_scan(n_weeks=8, progress_callback=cb)
-    bar.progress(1.0)
-    status.success("Scan complete!")
-
-
 def build_full_df(history: list[dict]) -> pd.DataFrame:
     rows = []
     for wd in history:
@@ -132,37 +118,88 @@ def build_full_df(history: list[dict]) -> pd.DataFrame:
 # ── Global CSS ────────────────────────────────────────────────────────────────
 st.markdown("""
 <style>
+:root {
+    --th-red: #C8102E;
+    --th-rich-red: #5A111C;
+    --th-warm-red: #8B1E2D;
+    --th-espresso: #351B1B;
+    --th-chocolate: #6F2D25;
+    --th-maple: #9B6338;
+    --th-cream: #EFE1D1;
+    --th-vanilla: #DFCDA3;
+    --th-white: #FFFDF8;
+}
+[data-testid="stAppViewContainer"] {
+    background:
+        radial-gradient(circle at top left, rgba(200,16,46,0.12), transparent 32rem),
+        linear-gradient(180deg, #FFF8F1 0%, var(--th-cream) 100%);
+}
+[data-testid="stHeader"] {
+    background: rgba(255, 248, 241, 0.82);
+}
+.block-container {
+    padding-top: 1.35rem;
+    padding-bottom: 2.4rem;
+}
+html, body, [class*="css"] {
+    font-family: "Aptos", "Segoe UI", Arial, sans-serif;
+    color: var(--th-espresso);
+}
+div[data-testid="stSidebarContent"] {
+    background: #FFF8F1;
+    border-right: 1px solid rgba(111,45,37,0.14);
+}
+section[data-testid="stSidebar"] {
+    background: #FFF8F1;
+}
 /* ── TH Header ── */
 .th-header {
     display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    background: var(--th-red);
+    color: #fff;
+    border: 1px solid rgba(90,17,28,0.18);
+    border-radius: 12px;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 16px 34px rgba(90,17,28,0.16);
+}
+.th-sitebar {
+    display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 1.25rem;
-    background: linear-gradient(135deg, #fff 0%, #FFF6F7 100%);
-    padding: 1.05rem 1.3rem;
-    border: 1px solid #F0D7DC;
-    border-left: 6px solid #C8102E;
-    border-radius: 10px;
-    margin-bottom: 1.5rem;
-    box-shadow: 0 6px 20px rgba(40,20,20,0.06);
+    gap: 1rem;
+    width: 100%;
+    padding: 0.75rem 1.1rem;
+    background: var(--th-red);
+    border-bottom: 1px solid rgba(255,255,255,0.22);
 }
 .brand-lockup {
     display: flex;
     align-items: center;
-    gap: 0.95rem;
+    gap: 1.15rem;
     min-width: 0;
+}
+.brand-wordmark {
+    color: #fff;
+    font-family: "Brush Script MT", "Segoe Script", cursive;
+    font-size: 2.35rem;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: 0;
+    white-space: nowrap;
 }
 .brand-mark {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 62px;
-    height: 62px;
-    background: #C8102E;
-    color: #fff;
-    border-radius: 14px;
-    box-shadow: 0 8px 18px rgba(200,16,46,0.2);
+    width: 64px;
+    height: 64px;
+    background: #fff;
+    color: var(--th-red);
+    border-radius: 16px;
+    box-shadow: 0 10px 24px rgba(53,27,27,0.18);
 }
 .brand-mark-main {
     font-size: 1.35rem;
@@ -178,76 +215,125 @@ st.markdown("""
 }
 .brand-kicker {
     margin-bottom: 0.18rem;
-    color: #C8102E;
+    color: var(--th-vanilla);
     font-size: 0.72rem;
     font-weight: 850;
     letter-spacing: 0.11em;
     text-transform: uppercase;
 }
+.th-hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.25rem;
+    width: 100%;
+    padding: 1.2rem 1.35rem 1.3rem;
+    background:
+        linear-gradient(135deg, rgba(90,17,28,0.78), rgba(139,30,45,0.48)),
+        var(--th-red);
+}
 .th-title h1 {
     margin: 0;
-    color: #2A1717;
-    font-size: 1.72rem;
-    font-weight: 800;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 900;
     letter-spacing: 0;
     line-height: 1.15;
 }
 .th-title p {
     margin: 0.2rem 0 0;
-    color: #6C5555;
-    font-size: 0.88rem;
+    color: rgba(255,255,255,0.84);
+    font-size: 0.95rem;
+    font-weight: 650;
+    max-width: 760px;
 }
-.header-badge {
+.header-nav {
+    display: flex;
+    align-items: center;
+    gap: 0.45rem;
+    color: rgba(255,255,255,0.86);
+    font-size: 0.78rem;
+    font-weight: 850;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+.header-stat {
     flex: 0 0 auto;
-    border: 1px solid #F0D7DC;
+    border: 1px solid rgba(255,255,255,0.28);
     border-radius: 999px;
-    color: #7B2431;
-    background: #fff;
+    color: #fff;
+    background: rgba(255,255,255,0.12);
     padding: 0.4rem 0.75rem;
     font-size: 0.75rem;
     font-weight: 800;
+}
+.header-stat {
+    border-radius: 10px;
+    min-width: 128px;
+    background: rgba(255,255,255,0.14);
+}
+.header-stat span {
+    display: block;
+    color: rgba(255,255,255,0.7);
+    font-size: 0.66rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+}
+.header-stat strong {
+    display: block;
+    margin-top: 0.1rem;
+    color: #fff;
+    font-size: 1rem;
 }
 .sidebar-brand {
     display: flex;
     flex-direction: column;
     gap: 0.55rem;
-    padding: 0.85rem;
+    padding: 0;
+    overflow: hidden;
     background: #fff;
-    border: 1px solid #F0D7DC;
-    border-left: 4px solid #C8102E;
-    border-radius: 10px;
+    border: 1px solid rgba(111,45,37,0.14);
+    border-radius: 12px;
+    box-shadow: 0 10px 24px rgba(53,27,27,0.06);
 }
 .sidebar-brand-row {
     display: flex;
     align-items: center;
-    gap: 0.65rem;
+    gap: 0.7rem;
+    padding: 0.78rem 0.85rem;
+    background: var(--th-red);
+    color: #fff;
 }
 .sidebar-mini-mark {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    width: 38px;
-    height: 38px;
-    background: #C8102E;
-    color: #fff;
-    border-radius: 10px;
+    width: 42px;
+    height: 42px;
+    background: #fff;
+    color: var(--th-red);
+    border-radius: 12px;
     font-weight: 900;
 }
 .sidebar-kicker {
-    color: #C8102E;
+    color: var(--th-vanilla);
     font-size: 0.66rem;
     font-weight: 850;
     letter-spacing: 0.1em;
     text-transform: uppercase;
 }
 .sidebar-title {
-    color: #2A1717;
-    font-size: 0.95rem;
-    font-weight: 800;
+    color: #fff;
+    font-size: 1.25rem;
+    font-family: "Brush Script MT", "Segoe Script", cursive;
+    font-weight: 700;
+    line-height: 1;
 }
 .sidebar-subtitle {
-    color: #6C5555;
-    font-size: 0.78rem;
+    color: var(--th-espresso);
+    font-size: 0.82rem;
+    font-weight: 700;
+    padding: 0 0.85rem 0.85rem;
 }
 .sidebar-retailer-list {
     display: grid;
@@ -258,18 +344,18 @@ st.markdown("""
     display: flex;
     align-items: center;
     min-height: 26px;
-    padding: 0.2rem 0.35rem;
+    padding: 0.35rem 0.55rem;
     background: #fff;
-    border: 1px solid #EEE;
-    border-radius: 7px;
+    border: 1px solid rgba(111,45,37,0.12);
+    border-radius: 8px;
 }
 .retailer-name {
     display: inline-flex;
     align-items: center;
     gap: 0.45rem;
-    color: #2A1717;
+    color: var(--th-espresso);
     font-size: 0.9rem;
-    font-weight: 750;
+    font-weight: 800;
     line-height: 1.2;
     white-space: nowrap;
 }
@@ -287,14 +373,19 @@ st.markdown("""
 
 /* ── Metrics ── */
 [data-testid="metric-container"] {
-    background: #FFF5F7;
-    border: 1px solid #F5D0D8;
-    border-left: 4px solid #C8102E;
-    border-radius: 10px;
-    padding: 0.85rem 1rem !important;
+    background: var(--th-white);
+    border: 1px solid rgba(111,45,37,0.14);
+    border-top: 4px solid var(--th-red);
+    border-radius: 12px;
+    padding: 0.95rem 1rem !important;
+    box-shadow: 0 10px 22px rgba(53,27,27,0.06);
 }
-[data-testid="stMetricValue"] { color: #C8102E; font-weight: 800; }
-[data-testid="stMetricLabel"] { color: #666; font-size: 0.82rem; }
+[data-testid="stMetricValue"] { color: var(--th-red); font-weight: 900; }
+[data-testid="stMetricLabel"] {
+    color: var(--th-chocolate);
+    font-size: 0.82rem;
+    font-weight: 850;
+}
 
 /* ── Retailer scorecard ── */
 .scorecard-grid {
@@ -304,8 +395,8 @@ st.markdown("""
     margin-bottom: 1.25rem;
 }
 .scorecard {
-    background: #fff;
-    border: 1px solid #EEE;
+    background: var(--th-white);
+    border: 1px solid rgba(111,45,37,0.14);
     border-radius: 8px;
     padding: 0.75rem 0.5rem;
     text-align: center;
@@ -315,6 +406,7 @@ st.markdown("""
     align-items: center;
     justify-content: center;
     gap: 0.4rem;
+    box-shadow: 0 6px 14px rgba(53,27,27,0.04);
 }
 .scorecard-retailer {
     display: flex;
@@ -333,7 +425,7 @@ st.markdown("""
 }
 .scorecard-badge {
     display: inline-block;
-    background: #C8102E;
+    background: var(--th-red);
     color: #fff;
     border-radius: 99px;
     padding: 0.1rem 0.55rem;
@@ -342,8 +434,8 @@ st.markdown("""
 }
 .scorecard-none {
     display: inline-block;
-    background: #F0F0F0;
-    color: #999;
+    background: #F5E9DD;
+    color: #8A6D5C;
     border-radius: 99px;
     padding: 0.1rem 0.55rem;
     font-size: 0.72rem;
@@ -351,7 +443,7 @@ st.markdown("""
 
 /* ── Price pill ── */
 .price-pill {
-    background: #C8102E;
+    background: var(--th-red);
     color: #fff;
     padding: 0.15rem 0.6rem;
     border-radius: 99px;
@@ -363,9 +455,9 @@ st.markdown("""
 /* ── Category pill ── */
 .cat-pill {
     display: inline-block;
-    background: #FFF0F3;
-    color: #C8102E;
-    border: 1px solid #F5C0C8;
+    background: #FFF4EA;
+    color: var(--th-chocolate);
+    border: 1px solid rgba(155,99,56,0.22);
     border-radius: 99px;
     padding: 0.1rem 0.55rem;
     font-size: 0.78rem;
@@ -380,11 +472,11 @@ st.markdown("""
     gap: 0.5rem;
     align-items: center;
     padding: 0.4rem 0.75rem;
-    background: #F8F8F8;
+    background: var(--th-rich-red);
     border-radius: 8px 8px 0 0;
     font-size: 0.75rem;
     font-weight: 700;
-    color: #888;
+    color: #fff;
     text-transform: uppercase;
     letter-spacing: 0.04em;
 }
@@ -394,20 +486,21 @@ st.markdown("""
     gap: 0.5rem;
     align-items: center;
     padding: 0.5rem 0.75rem;
-    border-bottom: 1px solid #F2F2F2;
+    background: var(--th-white);
+    border-bottom: 1px solid rgba(111,45,37,0.10);
     font-size: 0.87rem;
 }
 .deal-table-row:last-child { border-bottom: none; }
-.deal-table-row:hover { background: #FFF5F7; }
+.deal-table-row:hover { background: #FFF4EA; }
 .deal-table-wrap-inner {
-    border: 1px solid #EEE;
+    border: 1px solid rgba(111,45,37,0.14);
     border-top: none;
     border-radius: 0 0 8px 8px;
     overflow: hidden;
 }
 .deal-link {
-    color: #C8102E;
-    font-weight: 600;
+    color: var(--th-red);
+    font-weight: 800;
     text-decoration: none;
     font-size: 0.82rem;
 }
@@ -416,31 +509,33 @@ st.markdown("""
 /* ── Shared HTML table (history + insights) ── */
 .th-table { width: 100%; border-collapse: collapse; margin-top: 0.5rem; }
 .th-table th {
-    background: #F8F8F8;
+    background: var(--th-rich-red);
     font-size: 0.74rem;
     font-weight: 700;
-    color: #888;
+    color: #fff;
     text-transform: uppercase;
     letter-spacing: 0.04em;
     padding: 0.45rem 0.75rem;
     text-align: left;
-    border-bottom: 2px solid #EEE;
+    border-bottom: 2px solid rgba(53,27,27,0.12);
     white-space: nowrap;
 }
 .th-table td {
     padding: 0.48rem 0.75rem;
-    border-bottom: 1px solid #F2F2F2;
+    border-bottom: 1px solid rgba(111,45,37,0.10);
     font-size: 0.87rem;
     vertical-align: middle;
 }
 .th-table td:first-child {
     width: 130px;
 }
-.th-table tr:hover td { background: #FFF5F7; }
+.th-table tr:hover td { background: #FFF4EA; }
 .th-table-wrap {
     overflow-x: auto;
-    border: 1px solid #EEE;
+    border: 1px solid rgba(111,45,37,0.14);
     border-radius: 8px;
+    background: var(--th-white);
+    box-shadow: 0 8px 20px rgba(53,27,27,0.05);
     max-height: 540px;
     overflow-y: auto;
 }
@@ -449,8 +544,19 @@ st.markdown("""
         align-items: flex-start;
         flex-direction: column;
     }
-    .header-badge {
-        display: none;
+    .th-sitebar,
+    .th-hero {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .brand-wordmark {
+        font-size: 1.95rem;
+    }
+    .th-title h1 {
+        font-size: 1.55rem;
+    }
+    .header-stat {
+        width: 100%;
     }
     .deal-table-hdr,
     .deal-table-row {
@@ -489,15 +595,9 @@ with st.sidebar:
         )
         st.caption(f"{scanned_count} flyer(s) in registry")
     else:
-        st.info("No history yet — click **Scan New Flyers** to start.")
+        st.info("No history yet. Add weekly JSON files under `data/history` to populate the dashboard.")
 
-    scan_btn = st.button("🔄 Scan New Flyers", type="primary", use_container_width=True)
-
-    with st.expander("⚙ Advanced"):
-        force_rescan = st.checkbox(
-            "Ignore registry (rescan everything)", value=False,
-            help="Forces re-analysis of all flyers, even if already scanned."
-        )
+    st.caption("Manual update mode: scan results are added through weekly history files.")
 
     st.divider()
     st.markdown("**Retailers monitored (Ontario)**")
@@ -514,34 +614,35 @@ with st.sidebar:
 
 
 # ── Header ────────────────────────────────────────────────────────────────────
+latest_cycle = (
+    format_week_label(history[0].get("week_start", ""), history[0].get("week_end"))
+    if history else "No history loaded"
+)
 st.markdown(
     f'<div class="th-header">'
-    f'  <div class="brand-lockup">'
-    f'    <div class="brand-mark"><span class="brand-mark-main">TH</span><span class="brand-mark-sub">CPG</span></div>'
-    f'    <div class="th-title">'
-    f'      <div class="brand-kicker">Tim Hortons CPG</div>'
-    f'      <h1>Flyer Price Tracker</h1>'
-    f'      <p>Ontario retail monitor for flyer placements, pricing, and weekly deal activity</p>'
-    f'    </div>'
+    f'  <div class="th-sitebar">'
+    f'    <div class="brand-wordmark">Tim Hortons</div>'
+    f'    <div class="header-nav"><span>Flyer Intelligence</span><span>Ontario CPG</span></div>'
     f'  </div>'
-    f'  <div class="header-badge">SmartCanucks flyer scan</div>'
+    f'  <div class="th-hero">'
+    f'    <div class="brand-lockup">'
+    f'      <div class="brand-mark"><span class="brand-mark-main">TH</span><span class="brand-mark-sub">CPG</span></div>'
+    f'      <div class="th-title">'
+    f'        <div class="brand-kicker">SmartCanucks weekly flyer monitor</div>'
+    f'        <h1>Flyer Price Tracker</h1>'
+    f'        <p>Track Tim Hortons CPG placements, pricing, and retailer activity across Ontario flyers.</p>'
+    f'      </div>'
+    f'    </div>'
+    f'    <div class="header-stat"><span>Latest cycle</span><strong>{latest_cycle}</strong></div>'
+    f'  </div>'
     f'</div>',
     unsafe_allow_html=True,
 )
 
-# ── Scan handler ──────────────────────────────────────────────────────────────
-if scan_btn:
-    if force_rescan:
-        from scraper import save_scanned_registry
-        save_scanned_registry(set())
-    with st.spinner("Scanning flyers — this may take several minutes…"):
-        run_with_progress()
-    st.rerun()
-
 if not history:
     st.info(
         "No scan data found.\n\n"
-        "Click **Scan New Flyers** in the sidebar to build 8 weeks of history."
+        "Add weekly JSON files to `data/history` to populate this dashboard."
     )
     st.stop()
 
@@ -880,7 +981,7 @@ with tab_insights:
                     format="%d",
                 ),
             },
-            use_container_width=True,
+            width="stretch",
             hide_index=True,
             height=68 + 40 * len(cat_counts),
         )
@@ -916,7 +1017,7 @@ with tab_insights:
             .format("{:.0f}")
             .set_properties(**{"text-align": "center"})
         )
-        st.dataframe(styled, use_container_width=True)
+        st.dataframe(styled, width="stretch")
     else:
         st.info("Not enough data for breakdown.")
 
