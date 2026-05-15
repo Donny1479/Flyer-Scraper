@@ -798,7 +798,7 @@ with tab_weekly:
 # ══════════════════════════════════════════════════════════════════════════════
 with tab_history:
     if full_df.empty:
-        st.info("No product history yet. Run a scan first.")
+        st.info("No product history yet. Add weekly JSON files to `data/history` first.")
         st.stop()
 
     # ── Filters ──────────────────────────────────────────────────────────────
@@ -882,7 +882,7 @@ with tab_history:
 # ══════════════════════════════════════════════════════════════════════════════
 with tab_insights:
     if full_df.empty:
-        st.info("No data yet. Run a scan first.")
+        st.info("No data yet. Add weekly JSON files to `data/history` first.")
         st.stop()
 
     # ── Time window filter ───────────────────────────────────────────────────
