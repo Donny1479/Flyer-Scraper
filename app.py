@@ -72,6 +72,52 @@ ALL_CATEGORIES = ["Roast & Ground", "Single Serve", "Instant", "Hot Beverages", 
 SIZE_RE = re.compile(
     r'\b(\d+(?:\.\d+)?\s*(?:g|kg|mL|L|oz|pk|pack|ct|count|lb))\b', re.IGNORECASE
 )
+PRICE_RE = re.compile(r'\$?\s*(\d+(?:\.\d{1,2})?)')
+MULTI_PRICE_RE = re.compile(r'(?<![\d.$])(\d+)\s*(?:/|for)\s*\$?\s*(\d+(?:\.\d{1,2})?)', re.IGNORECASE)
+
+UMAP_PERIODS = [
+    ("2025", "2025-01-01", "2025-04-30"),
+    ("2025 LPI2", "2025-05-01", "2026-01-31"),
+    ("2026", "2026-02-01", None),
+]
+
+UMAP_REFERENCE = [
+    {"key": "R&G | Small Bag | 300g", "Format": "R&G", "Segment": "Small Bag", "Size": "283g / 300g", "2025": 8.45, "2025 LPI2": 8.45, "2026": 9.45},
+    {"key": "R&G | Large Bag | 652g", "Format": "R&G", "Segment": "Large Bag", "Size": "652g", "2025": 15.95, "2025 LPI2": 16.86, "2026": 17.86},
+    {"key": "R&G | Large Can | 825g-930g", "Format": "R&G", "Segment": "Large Can", "Size": "825g - 930g", "2025": 18.95, "2025 LPI2": 19.86, "2026": 22.86},
+    {"key": "R&G | Large Bag | 907g", "Format": "R&G", "Segment": "Large Bag", "Size": "907g", "2025": 18.95, "2025 LPI2": 19.86, "2026": 22.86},
+    {"key": "R&G | Small Can | 640g", "Format": "R&G", "Segment": "Small Can", "Size": "640g", "2025": 15.95, "2025 LPI2": 18.45, "2026": 22.86},
+    {"key": "R&G | Small Can | 640g Decaf", "Format": "R&G", "Segment": "Small Can", "Size": "640g Decaf", "2025": 15.95, "2025 LPI2": 18.45, "2026": 22.86},
+    {"key": "Single Serve | Tassimo | Discs", "Format": "Single Serve", "Segment": "Tassimo", "Size": "Discs", "2025": 7.95, "2025 LPI2": 8.86, "2026": 8.86},
+    {"key": "Single Serve | Small K-Cup | 10/12ct", "Format": "Single Serve", "Segment": "Small K-Cup", "Size": "10/12ct", "2025": 7.95, "2025 LPI2": 8.45, "2026": 9.45},
+    {"key": "Single Serve | Hot Choc | 20ct", "Format": "Single Serve", "Segment": "Hot Choc", "Size": "20ct", "2025": None, "2025 LPI2": 17.45, "2026": 17.45},
+    {"key": "Single Serve | Large K-Cup | 24/30ct", "Format": "Single Serve", "Segment": "Large K-Cup", "Size": "24/30ct", "2025": 19.95, "2025 LPI2": 19.86, "2026": 19.86},
+    {"key": "Single Serve | Club K-Cup | 48ct", "Format": "Single Serve", "Segment": "Club K-Cup", "Size": "48ct", "2025": 30.95, "2025 LPI2": 31.86, "2026": 31.86},
+    {"key": "Single Serve | NCC | NCC 10ct", "Format": "Single Serve", "Segment": "NCC", "Size": "NCC 10ct", "2025": 5.96, "2025 LPI2": 6.86, "2026": 6.86},
+    {"key": "Hot Beverages | Hot Choc | 500g", "Format": "Hot Beverages", "Segment": "Hot Choc", "Size": "500g", "2025": 4.45, "2025 LPI2": 4.86, "2026": 4.86},
+    {"key": "Hot Beverages | Sachets | 8ct", "Format": "Hot Beverages", "Segment": "Sachets", "Size": "8ct", "2025": 4.45, "2025 LPI2": 4.86, "2026": 4.86},
+    {"key": "Hot Beverages | Sachets | 24ct", "Format": "Hot Beverages", "Segment": "Sachets", "Size": "24ct", "2025": 8.95, "2025 LPI2": 9.86, "2026": 9.86},
+    {"key": "Hot Beverages | Hot Choc | 1.5Kg", "Format": "Hot Beverages", "Segment": "Hot Choc", "Size": "1.5Kg", "2025": 9.96, "2025 LPI2": 12.86, "2026": 12.86},
+    {"key": "Hot Beverages | FVCapp | 454g", "Format": "Hot Beverages", "Segment": "FVCapp", "Size": "454g", "2025": 5.96, "2025 LPI2": 6.86, "2026": 6.86},
+    {"key": "Instant | Jar | 100g", "Format": "Instant", "Segment": "Jar", "Size": "100g", "2025": 4.45, "2025 LPI2": 6.45, "2026": 6.76},
+    {"key": "Instant | Jar | 300g", "Format": "Instant", "Segment": "Jar", "Size": "300g", "2025": 8.95, "2025 LPI2": 13.86, "2026": 13.86},
+    {"key": "Tea Bags | Specialty | 20ct", "Format": "Tea Bags", "Segment": "Specialty", "Size": "20ct", "2025": 2.45, "2025 LPI2": 2.45, "2026": 2.45},
+    {"key": "Granola | Bars | 5ct", "Format": "Granola", "Segment": "Bars", "Size": "5ct", "2025": 1.95, "2025 LPI2": 1.95, "2026": 1.95},
+    {"key": "Soup | Can | 540mL", "Format": "Soup", "Segment": "Can", "Size": "540mL", "2025": 2.33, "2025 LPI2": 2.33, "2026": 2.45},
+    {"key": "Chili | Can | 425g", "Format": "Chili", "Segment": "Can", "Size": "425g", "2025": 2.95, "2025 LPI2": 2.95, "2026": 2.95},
+    {"key": "Creamers | DC - Conventional | 750ml", "Format": "Creamers", "Segment": "DC - Conventional", "Size": "750ml", "2025": 4.97, "2025 LPI2": 4.97, "2026": 4.97},
+    {"key": "Condensed | Can | 284mL", "Format": "Condensed", "Segment": "Can", "Size": "284mL", "2025": None, "2025 LPI2": 0.86, "2026": 0.86},
+    {"key": "Creamers | Bottle | 1.42L", "Format": "Creamers", "Segment": "Bottle", "Size": "1.42L", "2025": None, "2025 LPI2": None, "2026": None},
+    {"key": "Instant | Bottle | 470ml", "Format": "Instant", "Segment": "Bottle", "Size": "470ml", "2025": None, "2025 LPI2": 6.45, "2026": 6.45},
+    {"key": "RTD Iced Coffee | Bottle | 1.42L", "Format": "RTD Iced Coffee", "Segment": "Bottle", "Size": "1.42L", "2025": None, "2025 LPI2": 6.45, "2026": 6.45},
+    {"key": "Sauces | Bottle | 473mL", "Format": "Sauces", "Segment": "Bottle", "Size": "473mL", "2025": None, "2025 LPI2": None, "2026": 3.86},
+    {"key": "Baking | BiscuitMix | 322g", "Format": "Baking", "Segment": "BiscuitMix", "Size": "322g", "2025": None, "2025 LPI2": None, "2026": 2.86},
+    {"key": "Bagged Tea | SteepedTea | 72ct", "Format": "Bagged Tea", "Segment": "SteepedTea", "Size": "72ct", "2025": None, "2025 LPI2": None, "2026": 5.45},
+    {"key": "Instant | Sweet&Creamy | 350g", "Format": "Instant", "Segment": "Sweet&Creamy", "Size": "350g", "2025": None, "2025 LPI2": None, "2026": 4.45},
+    {"key": "Soups | Loaded | 540mL", "Format": "Soups", "Segment": "Loaded", "Size": "540mL", "2025": None, "2025 LPI2": None, "2026": 2.95},
+]
+
+UMAP_BY_KEY = {row["key"]: row for row in UMAP_REFERENCE}
 
 
 # ── Utilities ─────────────────────────────────────────────────────────────────
@@ -100,6 +146,222 @@ def fmt_ts(iso: str) -> str:
         return datetime.fromisoformat(iso).strftime("%b %d, %Y")
     except Exception:
         return iso
+
+
+def fmt_money(value) -> str:
+    if isinstance(value, (int, float)) and not pd.isna(value):
+        sign = "-" if value < 0 else ""
+        return f"{sign}${abs(value):.2f}"
+    return "—"
+
+
+def normalize_text(*parts: str) -> str:
+    return " ".join(str(p or "").lower().replace("‑", "-").replace("–", "-") for p in parts)
+
+
+def extract_numeric_unit_values(text: str, units: tuple[str, ...], multipliers: dict[str, float] | None = None) -> list[float]:
+    unit_alt = "|".join(re.escape(u) for u in units)
+    values: list[float] = []
+    multipliers = multipliers or {u: 1 for u in units}
+
+    range_re = re.compile(
+        rf'\b(\d+(?:\.\d+)?)\s*(?:-|/|to)\s*(\d+(?:\.\d+)?)\s*({unit_alt})\b',
+        re.IGNORECASE,
+    )
+    for m in range_re.finditer(text):
+        unit = m.group(3).lower()
+        mult = multipliers.get(unit, 1)
+        values.extend([float(m.group(1)) * mult, float(m.group(2)) * mult])
+
+    single_re = re.compile(rf'\b(\d+(?:\.\d+)?)\s*({unit_alt})\b', re.IGNORECASE)
+    for m in single_re.finditer(text):
+        unit = m.group(2).lower()
+        mult = multipliers.get(unit, 1)
+        values.append(float(m.group(1)) * mult)
+
+    return values
+
+
+def extract_gram_values(text: str) -> list[float]:
+    return extract_numeric_unit_values(text, ("kg", "g"), {"kg": 1000, "g": 1})
+
+
+def extract_ml_values(text: str) -> list[float]:
+    return extract_numeric_unit_values(text, ("ml", "l"), {"ml": 1, "l": 1000})
+
+
+def extract_count_values(text: str) -> list[float]:
+    return extract_numeric_unit_values(text, ("count", "ct", "pack", "pk"), {"count": 1, "ct": 1, "pack": 1, "pk": 1})
+
+
+def parse_price_points(price_text: str) -> list[float]:
+    text = normalize_text(price_text)
+    if "point" in text:
+        return []
+
+    prices: list[float] = []
+    for count, total in MULTI_PRICE_RE.findall(text):
+        count_num = float(count)
+        total_num = float(total)
+        if count_num:
+            prices.append(total_num / count_num)
+
+    for amount in re.findall(r'\$\s*(\d+(?:\.\d{1,2})?)', text):
+        prices.append(float(amount))
+
+    if not prices:
+        for amount in PRICE_RE.findall(text):
+            prices.append(float(amount))
+
+    return sorted(p for p in prices if p > 0)
+
+
+def umap_period_for_week(week_start: str) -> str:
+    for label, start, end in reversed(UMAP_PERIODS):
+        if week_start >= start and (end is None or week_start <= end):
+            return label
+    return "2025"
+
+
+def match_umap_category(product: str, comments: str = "") -> tuple[str, str]:
+    text = normalize_text(product, comments)
+    grams = extract_gram_values(text)
+    counts = extract_count_values(text)
+    mls = extract_ml_values(text)
+    max_grams = max(grams) if grams else None
+    max_count = max(counts) if counts else None
+    max_ml = max(mls) if mls else None
+    has = lambda *needles: any(n in text for n in needles)
+
+    if has("chili"):
+        return "Chili | Can | 425g", "Matched chili wording"
+
+    if has("soup"):
+        if has("condensed") or (max_ml and max_ml <= 300):
+            return "Condensed | Can | 284mL", "Matched condensed soup or 284mL"
+        if has("loaded"):
+            return "Soups | Loaded | 540mL", "Matched loaded soup"
+        return "Soup | Can | 540mL", "Matched soup wording or 540mL"
+
+    if has("iced coffee") and max_ml and max_ml >= 1000:
+        return "RTD Iced Coffee | Bottle | 1.42L", "Matched iced coffee bottle"
+
+    if has("creamer"):
+        if max_ml and max_ml >= 1000:
+            return "Creamers | Bottle | 1.42L", "Matched creamer bottle"
+        return "Creamers | DC - Conventional | 750ml", "Matched creamer 750mL"
+
+    is_single_serve = has("k-cup", "k cup", "k-cups", "k cups", "pod", "pods", "capsule", "capsules", "single serve", "single-serve", "coffee cups")
+    if has("tassimo"):
+        return "Single Serve | Tassimo | Discs", "Matched Tassimo"
+    if has("nespresso", "ncc"):
+        return "Single Serve | NCC | NCC 10ct", "Matched Nespresso/NCC"
+    if is_single_serve:
+        if has("hot chocolate") and max_count and max_count <= 20:
+            return "Single Serve | Hot Choc | 20ct", "Matched single serve hot chocolate 20ct"
+        if max_count and max_count >= 48:
+            return "Single Serve | Club K-Cup | 48ct", "Matched 48ct single serve"
+        if max_count and max_count >= 24:
+            return "Single Serve | Large K-Cup | 24/30ct", "Matched 24/30ct single serve"
+        return "Single Serve | Small K-Cup | 10/12ct", "Matched 10/12ct single serve"
+
+    if has("hot chocolate"):
+        if max_grams and max_grams >= 1000:
+            return "Hot Beverages | Hot Choc | 1.5Kg", "Matched hot chocolate 1.5kg"
+        if max_count and max_count >= 24:
+            return "Hot Beverages | Sachets | 24ct", "Matched hot beverage sachets 24ct"
+        if max_count:
+            return "Hot Beverages | Sachets | 8ct", "Matched hot beverage packets"
+        return "Hot Beverages | Hot Choc | 500g", "Matched hot chocolate 450-500g"
+
+    if has("french vanilla", "cappuccino", "fvcapp"):
+        return "Hot Beverages | FVCapp | 454g", "Matched French Vanilla/Cappuccino"
+
+    if has("tea bag", "steeped tea") and max_count and max_count >= 70:
+        return "Bagged Tea | SteepedTea | 72ct", "Matched steeped tea 72ct"
+    if has("tea"):
+        return "Tea Bags | Specialty | 20ct", "Matched tea wording"
+
+    if has("granola"):
+        return "Granola | Bars | 5ct", "Matched granola bars"
+
+    if has("sauce"):
+        return "Sauces | Bottle | 473mL", "Matched sauce bottle"
+    if has("biscuit"):
+        return "Baking | BiscuitMix | 322g", "Matched biscuit mix"
+
+    if has("instant", "sweet & creamy", "sweet&creamy"):
+        if has("sweet & creamy", "sweet&creamy") or (max_grams and 325 <= max_grams <= 375):
+            return "Instant | Sweet&Creamy | 350g", "Matched sweet and creamy instant"
+        if max_ml and max_ml >= 400:
+            return "Instant | Bottle | 470ml", "Matched instant bottle"
+        if max_grams and max_grams >= 250:
+            return "Instant | Jar | 300g", "Matched instant 300g"
+        return "Instant | Jar | 100g", "Matched instant 100-150g"
+
+    is_roast_ground = has("ground coffee", "roast and ground", "roast & ground", "whole bean", "coffee")
+    if is_roast_ground and max_grams:
+        if max_grams <= 330:
+            return "R&G | Small Bag | 300g", "Matched R&G 283-300g small bag"
+        if max_grams >= 800:
+            if has("bag") and any(890 <= g <= 920 for g in grams):
+                return "R&G | Large Bag | 907g", "Matched R&G 907g large bag"
+            return "R&G | Large Can | 825g-930g", "Matched R&G 825-930g large can"
+        if any(620 <= g <= 650 for g in grams):
+            return (
+                "R&G | Small Can | 640g Decaf" if has("decaf") else "R&G | Small Can | 640g",
+                "Matched R&G 640g small can",
+            )
+        if any(651 <= g <= 700 for g in grams):
+            return "R&G | Large Bag | 652g", "Matched R&G 652g large bag"
+
+    return "", "Needs manual review: no UMAP match"
+
+
+def build_umap_review_df(full_df: pd.DataFrame) -> pd.DataFrame:
+    rows = []
+    for _, row in full_df.iterrows():
+        match_key, basis = match_umap_category(row["Product"])
+        period = umap_period_for_week(row["week_start"])
+        ref = UMAP_BY_KEY.get(match_key, {})
+        umap = ref.get(period)
+        prices = parse_price_points(row["Price"])
+        lowest_price = prices[0] if prices else None
+
+        if not match_key:
+            status = "Unmatched"
+            delta = None
+        elif umap is None:
+            status = "No UMAP"
+            delta = None
+        elif lowest_price is None:
+            status = "Needs Review"
+            delta = None
+        else:
+            delta = lowest_price - umap
+            status = "Violation" if delta < -0.005 else "Compliant"
+
+        rows.append({
+            "week_start": row["week_start"],
+            "Week": row["Week"],
+            "Retailer": row["Retailer"],
+            "Product": row["Product"],
+            "Advertised Price": row["Price"],
+            "Matched UMAP Category": match_key or "—",
+            "UMAP Period": period,
+            "UMAP": umap,
+            "Lowest Comparable Price": lowest_price,
+            "Difference": delta,
+            "Status": status,
+            "Match Basis": basis,
+            "View": row["View"],
+        })
+
+    return pd.DataFrame(rows)
+
+
+def status_class(status: str) -> str:
+    return "status-" + status.lower().replace(" ", "-")
 
 
 def build_full_df(history: list[dict]) -> pd.DataFrame:
@@ -437,6 +699,19 @@ section[data-testid="stSidebar"] {
     font-size: 0.78rem;
     font-weight: 600;
 }
+.status-pill {
+    display: inline-block;
+    border-radius: 99px;
+    padding: 0.12rem 0.58rem;
+    font-size: 0.76rem;
+    font-weight: 800;
+    white-space: nowrap;
+}
+.status-compliant { background: #E8F5E9; color: #1B5E20; }
+.status-violation { background: #FDE7EA; color: var(--th-red); }
+.status-review { background: #FFF3CD; color: #7A4E00; }
+.status-unmatched,
+.status-no-umap { background: #F3E9DE; color: var(--th-chocolate); }
 
 /* ── Week deal table ── */
 .deal-table-wrap { margin-top: 1rem; }
@@ -638,10 +913,11 @@ c4.metric("Pages Analyzed",        f"{total_pages:,}")
 st.divider()
 
 # ── Tabs ──────────────────────────────────────────────────────────────────────
-tab_weekly, tab_history, tab_insights = st.tabs([
+tab_weekly, tab_history, tab_insights, tab_umap = st.tabs([
     "📅  Weekly Review",
     "🔍  Product History",
     "📊  Flyer Insights",
+    "⚠️  UMAP Check",
 ])
 
 
@@ -986,6 +1262,147 @@ with tab_insights:
         st.dataframe(styled, width="stretch")
     else:
         st.info("Not enough data for breakdown.")
+
+
+# ══════════════════════════════════════════════════════════════════════════════
+# TAB 4 — UMAP CHECK
+# ══════════════════════════════════════════════════════════════════════════════
+with tab_umap:
+    if full_df.empty:
+        st.info("No data yet. Add weekly JSON files to `data/history` first.")
+        st.stop()
+
+    umap_df = build_umap_review_df(full_df).sort_values("week_start", ascending=False).reset_index(drop=True)
+
+    total_checked = len(umap_df)
+    violation_count = int((umap_df["Status"] == "Violation").sum())
+    review_count = int(umap_df["Status"].isin(["Needs Review", "Unmatched", "No UMAP"]).sum())
+    compliant_count = int((umap_df["Status"] == "Compliant").sum())
+
+    uc1, uc2, uc3, uc4 = st.columns(4)
+    uc1.metric("Offers Reviewed", total_checked)
+    uc2.metric("UMAP Violations", violation_count)
+    uc3.metric("Needs Review", review_count)
+    uc4.metric("Compliant", compliant_count)
+
+    st.caption(
+        "UMAP matching is based on the extracted ASM rebate tables. Large Can rows were combined across "
+        "825g-930g because the pack size changed but represents the same product family."
+    )
+
+    st.divider()
+
+    uf1, uf2, uf3, uf4 = st.columns([2, 2, 2, 3])
+    with uf1:
+        umap_statuses = st.multiselect(
+            "Status",
+            options=["Violation", "Needs Review", "Unmatched", "No UMAP", "Compliant"],
+            default=["Violation", "Needs Review", "Unmatched", "No UMAP", "Compliant"],
+            key="umap_status",
+        )
+    with uf2:
+        umap_periods = st.multiselect(
+            "UMAP Period",
+            options=["2025", "2025 LPI2", "2026"],
+            default=["2025", "2025 LPI2", "2026"],
+            key="umap_period",
+        )
+    with uf3:
+        umap_retailers = st.multiselect(
+            "Retailer(s)",
+            options=[r["name"] for r in RETAILERS],
+            default=[r["name"] for r in RETAILERS],
+            key="umap_retailers",
+        )
+    with uf4:
+        umap_search = st.text_input(
+            "Search UMAP Matches",
+            placeholder="e.g. Large Can, K-Cup, Soup, 300g",
+            key="umap_search",
+        )
+
+    udf = umap_df.copy()
+    if umap_statuses:
+        udf = udf[udf["Status"].isin(umap_statuses)]
+    if umap_periods:
+        udf = udf[udf["UMAP Period"].isin(umap_periods)]
+    if umap_retailers:
+        udf = udf[udf["Retailer"].isin(umap_retailers)]
+    if umap_search.strip():
+        q = umap_search.strip()
+        mask = (
+            udf["Product"].str.contains(q, case=False, na=False) |
+            udf["Matched UMAP Category"].str.contains(q, case=False, na=False) |
+            udf["Match Basis"].str.contains(q, case=False, na=False)
+        )
+        udf = udf[mask]
+
+    st.caption(f"{len(udf)} offer(s) match the current UMAP filters")
+
+    if udf.empty:
+        st.info("No UMAP records match the current filters.")
+    else:
+        rows_html = ""
+        for _, row in udf.iterrows():
+            status = row["Status"]
+            diff = row["Difference"]
+            diff_text = fmt_money(diff) if isinstance(diff, (int, float)) and not pd.isna(diff) else "—"
+            rows_html += (
+                f'<tr>'
+                f'<td>{retailer_label(row["Retailer"])}</td>'
+                f'<td>{html.escape(str(row["Product"]))}</td>'
+                f'<td><span class="price-pill">{html.escape(str(row["Advertised Price"]))}</span></td>'
+                f'<td>{html.escape(str(row["Matched UMAP Category"]))}</td>'
+                f'<td style="white-space:nowrap;">{html.escape(str(row["UMAP Period"]))}</td>'
+                f'<td style="font-weight:800;">{fmt_money(row["UMAP"])}</td>'
+                f'<td>{fmt_money(row["Lowest Comparable Price"])}</td>'
+                f'<td>{diff_text}</td>'
+                f'<td><span class="status-pill {status_class(status)}">{html.escape(status)}</span></td>'
+                f'<td style="color:#555;font-size:0.82rem;">{html.escape(str(row["Match Basis"]))}</td>'
+                f'<td style="white-space:nowrap;color:#888;font-size:0.82rem;">{html.escape(str(row["Week"]))}</td>'
+                f'<td><a class="deal-link" href="{html.escape(str(row["View"]), quote=True)}" target="_blank">View ↗</a></td>'
+                f'</tr>'
+            )
+
+        st.markdown(
+            '<div class="th-table-wrap">'
+            '<table class="th-table">'
+            '<thead><tr>'
+            '<th>Retailer</th><th>Product</th><th>Advertised Price</th><th>Matched UMAP Category</th>'
+            '<th>Period</th><th>UMAP</th><th>Lowest Price</th><th>Diff</th><th>Status</th><th>Match Basis</th><th>Week</th><th>Flyer</th>'
+            '</tr></thead>'
+            f'<tbody>{rows_html}</tbody>'
+            '</table></div>',
+            unsafe_allow_html=True,
+        )
+
+        download_df = udf.copy()
+        for col in ["UMAP", "Lowest Comparable Price", "Difference"]:
+            download_df[col] = download_df[col].map(lambda v: "" if pd.isna(v) else round(float(v), 2))
+        st.download_button(
+            "⬇ Download UMAP Check as CSV",
+            data=download_df[[
+                "Week", "Retailer", "Product", "Advertised Price", "Matched UMAP Category",
+                "UMAP Period", "UMAP", "Lowest Comparable Price", "Difference", "Status",
+                "Match Basis", "View"
+            ]].to_csv(index=False).encode("utf-8"),
+            file_name="tim_hortons_umap_check.csv",
+            mime="text/csv",
+            key="csv_umap",
+        )
+
+    with st.expander("UMAP reference used"):
+        ref_df = pd.DataFrame(UMAP_REFERENCE)[["Format", "Segment", "Size", "2025", "2025 LPI2", "2026"]]
+        st.dataframe(
+            ref_df,
+            column_config={
+                "2025": st.column_config.NumberColumn("2025", format="$%.2f"),
+                "2025 LPI2": st.column_config.NumberColumn("2025 LPI2", format="$%.2f"),
+                "2026": st.column_config.NumberColumn("2026", format="$%.2f"),
+            },
+            width="stretch",
+            hide_index=True,
+        )
 
 
 # ── Footer ────────────────────────────────────────────────────────────────────
