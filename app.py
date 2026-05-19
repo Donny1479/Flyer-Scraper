@@ -709,7 +709,7 @@ section[data-testid="stSidebar"] {
 }
 .status-compliant { background: #E8F5E9; color: #1B5E20; }
 .status-violation { background: #FDE7EA; color: var(--th-red); }
-.status-review { background: #FFF3CD; color: #7A4E00; }
+.status-needs-review { background: #FFF3CD; color: #7A4E00; }
 .status-unmatched,
 .status-no-umap { background: #F3E9DE; color: var(--th-chocolate); }
 
