@@ -1,0 +1,115 @@
+{
+  "scraped_at": "2026-05-21T09:47:28",
+  "week_start": "2026-05-21",
+  "week_end": "2026-05-27",
+  "retailers": [
+    {
+      "name": "Walmart",
+      "flyers": [
+        {
+          "title": "Walmart (ON) Flyer May 21 to 27",
+          "url": "https://flyers.smartcanucks.ca/canada/walmart-on-flyer-may-21-to-272",
+          "pages_scanned": 10,
+          "products_found": 0
+        }
+      ],
+      "products": []
+    },
+    {
+      "name": "RCSS",
+      "flyers": [
+        {
+          "title": "Real Canadian Superstore (ON) Flyer May 21 to 27",
+          "url": "https://flyers.smartcanucks.ca/canada/real-canadian-superstore-on-flyer-may-21-to-272",
+          "pages_scanned": 10,
+          "products_found": 0
+        }
+      ],
+      "products": []
+    },
+    {
+      "name": "No Frills",
+      "flyers": [
+        {
+          "title": "No Frills (ON) Flyer May 21 to 27",
+          "url": "https://flyers.smartcanucks.ca/canada/no-frills-on-flyer-may-21-to-272",
+          "pages_scanned": 10,
+          "products_found": 0
+        }
+      ],
+      "products": []
+    },
+    {
+      "name": "Metro",
+      "flyers": [
+        {
+          "title": "Metro (ON) Flyer May 21 to 27",
+          "url": "https://flyers.smartcanucks.ca/canada/metro-on-flyer-may-21-to-273",
+          "pages_scanned": 10,
+          "products_found": 0
+        }
+      ],
+      "products": []
+    },
+    {
+      "name": "Food Basics",
+      "flyers": [
+        {
+          "title": "Food Basics Flyer May 21 to 27",
+          "url": "https://flyers.smartcanucks.ca/canada/food-basics-flyer-may-21-to-272",
+          "pages_scanned": 10,
+          "products_found": 0
+        }
+      ],
+      "products": []
+    },
+    {
+      "name": "Sobeys",
+      "flyers": [
+        {
+          "title": "Sobeys (ON) Flyer May 21 to 27",
+          "url": "https://flyers.smartcanucks.ca/canada/sobeys-on-flyer-may-21-to-272",
+          "pages_scanned": 10,
+          "products_found": 0
+        }
+      ],
+      "products": []
+    },
+    {
+      "name": "FreshCo",
+      "flyers": [
+        {
+          "title": "FreshCo (ON) Flyer May 21 to 27",
+          "url": "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-may-21-to-27-",
+          "pages_scanned": 10,
+          "products_found": 0
+        }
+      ],
+      "products": []
+    },
+    {
+      "name": "Loblaws",
+      "flyers": [
+        {
+          "title": "Loblaws (ON) Flyer May 21 to 27",
+          "url": "https://flyers.smartcanucks.ca/canada/loblaws-on-flyer-may-21-to-272",
+          "pages_scanned": 10,
+          "products_found": 0
+        }
+      ],
+      "products": []
+    },
+    {
+      "name": "Canadian Tire",
+      "flyers": [
+        {
+          "title": "Canadian Tire (ON) Flyer May 22 to 28",
+          "url": "https://flyers.smartcanucks.ca/canada/canadian-tire-on-flyer-may-22-to-281",
+          "pages_scanned": 42,
+          "products_found": 0
+        }
+      ],
+      "products": []
+    }
+  ]
+}
