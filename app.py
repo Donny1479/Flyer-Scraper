@@ -942,6 +942,21 @@ week_labels = [
     format_week_label(w.get("week_start", ""), w.get("week_end"))
     for w in history
 ]
+weekly_offer_counts = {
+    format_week_label(w.get("week_start", ""), w.get("week_end")): sum(
+        len(r.get("products", []))
+        for r in w.get("retailers", [])
+    )
+    for w in history
+}
+
+
+def weekly_cycle_option_label(label: str) -> str:
+    offer_count = weekly_offer_counts.get(label, 0)
+    if offer_count <= 0:
+        return label
+    offer_word = "offer" if offer_count == 1 else "offers"
+    return f"{label}  |  {offer_count} {offer_word}"
 
 # ── Metrics ───────────────────────────────────────────────────────────────────
 # ── Tabs ──────────────────────────────────────────────────────────────────────
@@ -963,7 +978,11 @@ with tab_weekly:
 
     with col_week:
         selected_week_label = st.selectbox(
-            "Flyer Cycle", options=week_labels, index=0, key="wk_week"
+            "Flyer Cycle",
+            options=week_labels,
+            index=0,
+            key="wk_week",
+            format_func=weekly_cycle_option_label,
         )
 
     week_data = next(
