@@ -103,10 +103,10 @@ UMAP_REFERENCE = [
     {"key": "Instant | Jar | 300g", "Format": "Instant", "Segment": "Jar", "Size": "300g", "2025": 8.95, "2025 LPI2": 13.86, "2026": 13.86},
     {"key": "Tea Bags | Specialty | 20ct", "Format": "Tea Bags", "Segment": "Specialty", "Size": "20ct", "2025": 2.45, "2025 LPI2": 2.45, "2026": 2.45},
     {"key": "Granola | Bars | 5ct", "Format": "Granola", "Segment": "Bars", "Size": "5ct", "2025": 1.95, "2025 LPI2": 1.95, "2026": 1.95},
-    {"key": "Soup | Can | 540mL", "Format": "Soup", "Segment": "Can", "Size": "540mL", "2025": 2.33, "2025 LPI2": 2.33, "2026": 2.45},
+    {"key": "Soup | Can | 540mL", "Format": "Soup", "Segment": "Can", "Size": "540mL", "2025": 2.33, "2025 LPI2": 2.33, "2026": 2.33},
     {"key": "Chili | Can | 425g", "Format": "Chili", "Segment": "Can", "Size": "425g", "2025": 2.95, "2025 LPI2": 2.95, "2026": 2.95},
     {"key": "Creamers | DC - Conventional | 750ml", "Format": "Creamers", "Segment": "DC - Conventional", "Size": "750ml", "2025": 4.97, "2025 LPI2": 4.97, "2026": 4.97},
-    {"key": "Condensed | Can | 284mL", "Format": "Condensed", "Segment": "Can", "Size": "284mL", "2025": None, "2025 LPI2": 0.86, "2026": 0.86},
+    {"key": "Condensed | Can | 284mL", "Format": "Condensed", "Segment": "Can", "Size": "284mL", "2025": 0.86, "2025 LPI2": 0.86, "2026": 0.86},
     {"key": "Creamers | Bottle | 1.42L", "Format": "Creamers", "Segment": "Bottle", "Size": "1.42L", "2025": None, "2025 LPI2": None, "2026": None},
     {"key": "Instant | Bottle | 470ml", "Format": "Instant", "Segment": "Bottle", "Size": "470ml", "2025": None, "2025 LPI2": 6.45, "2026": 6.45},
     {"key": "RTD Iced Coffee | Bottle | 1.42L", "Format": "RTD Iced Coffee", "Segment": "Bottle", "Size": "1.42L", "2025": None, "2025 LPI2": 6.45, "2026": 6.45},
@@ -321,7 +321,7 @@ def match_umap_category(product: str, comments: str = "") -> tuple[str, str]:
 def build_umap_review_df(full_df: pd.DataFrame) -> pd.DataFrame:
     rows = []
     for _, row in full_df.iterrows():
-        match_key, basis = match_umap_category(row["Product"])
+        match_key, _basis = match_umap_category(row["Product"])
         period = umap_period_for_week(row["week_start"])
         ref = UMAP_BY_KEY.get(match_key, {})
         umap = ref.get(period)
@@ -343,17 +343,16 @@ def build_umap_review_df(full_df: pd.DataFrame) -> pd.DataFrame:
 
         rows.append({
             "week_start": row["week_start"],
+            "Year": row["week_start"][:4],
             "Week": row["Week"],
             "Retailer": row["Retailer"],
             "Product": row["Product"],
             "Advertised Price": row["Price"],
             "Matched UMAP Category": match_key or "—",
-            "UMAP Period": period,
             "UMAP": umap,
             "Lowest Comparable Price": lowest_price,
             "Difference": delta,
             "Status": status,
-            "Match Basis": basis,
             "View": row["View"],
         })
 
@@ -606,6 +605,40 @@ section[data-testid="stSidebar"] {
 .sidebar-retailer-row .retailer-name {
     font-size: 0.82rem;
 }
+.sidebar-mini-stats {
+    display: grid;
+    gap: 0.42rem;
+    margin: 0.35rem 0 0.45rem;
+}
+.sidebar-mini-stat {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.75rem;
+    padding: 0.38rem 0.55rem;
+    background: #fff;
+    border: 1px solid rgba(111,45,37,0.12);
+    border-radius: 8px;
+}
+.sidebar-mini-stat span {
+    color: var(--th-chocolate);
+    font-size: 0.7rem;
+    font-weight: 750;
+    line-height: 1.2;
+}
+.sidebar-mini-stat strong {
+    color: var(--th-red);
+    font-size: 0.78rem;
+    font-weight: 900;
+    line-height: 1.2;
+    white-space: nowrap;
+}
+.sidebar-note {
+    color: #7C6254;
+    font-size: 0.72rem;
+    line-height: 1.35;
+    margin: 0.2rem 0 0;
+}
 
 /* ── Metrics ── */
 [data-testid="metric-container"] {
@@ -835,11 +868,27 @@ with st.sidebar:
 
     if history:
         latest_ts = max(w.get("scraped_at", "") for w in history)
-        st.success(
-            f"**{len(history)} week(s)** in history\n\n"
-            f"Last scan: {fmt_ts(latest_ts)}"
+        sidebar_total_products = sum(
+            len(r.get("products", []))
+            for w in history
+            for r in w.get("retailers", [])
         )
-        st.caption(f"{scanned_count} flyer(s) in registry")
+        sidebar_total_pages = sum(
+            f.get("pages_scanned", 0)
+            for w in history
+            for r in w.get("retailers", [])
+            for f in r.get("flyers", [])
+        )
+        st.markdown(
+            f'<div class="sidebar-mini-stats">'
+            f'  <div class="sidebar-mini-stat"><span>TH deals found</span><strong>{sidebar_total_products:,}</strong></div>'
+            f'  <div class="sidebar-mini-stat"><span>Weeks in history</span><strong>{len(history):,}</strong></div>'
+            f'  <div class="sidebar-mini-stat"><span>Retailers tracked</span><strong>{len(RETAILERS):,}</strong></div>'
+            f'  <div class="sidebar-mini-stat"><span>Pages scanned</span><strong>{sidebar_total_pages:,}</strong></div>'
+            f'</div>'
+            f'<p class="sidebar-note">Last scan: {fmt_ts(latest_ts)}<br>{scanned_count:,} flyer(s) in registry</p>',
+            unsafe_allow_html=True,
+        )
     else:
         st.info("No history yet. Add weekly JSON files under `data/history` to populate the dashboard.")
 
@@ -894,24 +943,7 @@ week_labels = [
     for w in history
 ]
 
-total_products = len(full_df)
-weeks_tracked  = len(history)
-total_pages    = sum(
-    f.get("pages_scanned", 0)
-    for w in history
-    for r in w.get("retailers", [])
-    for f in r.get("flyers", [])
-)
-
 # ── Metrics ───────────────────────────────────────────────────────────────────
-c1, c2, c3, c4 = st.columns(4)
-c1.metric("Total TH Deals Found", total_products)
-c2.metric("Weeks of History",      weeks_tracked)
-c3.metric("Retailers Scanned",     len(RETAILERS))
-c4.metric("Pages Analyzed",        f"{total_pages:,}")
-
-st.divider()
-
 # ── Tabs ──────────────────────────────────────────────────────────────────────
 tab_weekly, tab_history, tab_insights, tab_umap = st.tabs([
     "📅  Weekly Review",
@@ -1128,24 +1160,29 @@ with tab_insights:
         st.stop()
 
     # ── Time window filter ───────────────────────────────────────────────────
-    TIME_OPTIONS: dict[str, int | None] = {
+    TIME_OPTIONS: dict[str, int | str | None] = {
         "L12 Weeks": 12,
-        "L26 Weeks": 26,
+        "L24 Weeks": 24,
         "L52 Weeks": 52,
+        "2025": "year:2025",
+        "2026": "year:2026",
         "All Available": None,
     }
     time_sel = st.radio(
         "Time Window",
         list(TIME_OPTIONS.keys()),
-        index=3,
+        index=list(TIME_OPTIONS.keys()).index("All Available"),
         horizontal=True,
         key="ins_time",
         label_visibility="collapsed",
     )
-    n_weeks_filter = TIME_OPTIONS[time_sel]
-    if n_weeks_filter is not None:
-        cutoff = (datetime.today() - timedelta(weeks=n_weeks_filter)).strftime("%Y-%m-%d")
+    time_filter = TIME_OPTIONS[time_sel]
+    if isinstance(time_filter, int):
+        cutoff = (datetime.today() - timedelta(weeks=time_filter)).strftime("%Y-%m-%d")
         ins_df = full_df[full_df["week_start"] >= cutoff].copy()
+    elif isinstance(time_filter, str) and time_filter.startswith("year:"):
+        selected_year = time_filter.split(":", 1)[1]
+        ins_df = full_df[full_df["week_start"].str.startswith(f"{selected_year}-")].copy()
     else:
         ins_df = full_df.copy()
 
@@ -1273,22 +1310,19 @@ with tab_umap:
         st.stop()
 
     umap_df = build_umap_review_df(full_df).sort_values("week_start", ascending=False).reset_index(drop=True)
+    exception_statuses = ["Violation", "Needs Review", "Unmatched", "No UMAP"]
+    umap_exception_df = umap_df[umap_df["Status"].isin(exception_statuses)].copy()
 
     total_checked = len(umap_df)
-    violation_count = int((umap_df["Status"] == "Violation").sum())
-    review_count = int(umap_df["Status"].isin(["Needs Review", "Unmatched", "No UMAP"]).sum())
-    compliant_count = int((umap_df["Status"] == "Compliant").sum())
+    violation_count = int((umap_exception_df["Status"] == "Violation").sum())
+    review_count = int(umap_exception_df["Status"].isin(["Needs Review", "Unmatched", "No UMAP"]).sum())
+    exception_count = len(umap_exception_df)
 
     uc1, uc2, uc3, uc4 = st.columns(4)
     uc1.metric("Offers Reviewed", total_checked)
     uc2.metric("UMAP Violations", violation_count)
     uc3.metric("Needs Review", review_count)
-    uc4.metric("Compliant", compliant_count)
-
-    st.caption(
-        "UMAP matching is based on the extracted ASM rebate tables. Large Can rows were combined across "
-        "825g-930g because the pack size changed but represents the same product family."
-    )
+    uc4.metric("Exceptions Shown", exception_count)
 
     st.divider()
 
@@ -1296,16 +1330,16 @@ with tab_umap:
     with uf1:
         umap_statuses = st.multiselect(
             "Status",
-            options=["Violation", "Needs Review", "Unmatched", "No UMAP", "Compliant"],
-            default=["Violation", "Needs Review", "Unmatched", "No UMAP", "Compliant"],
+            options=exception_statuses,
+            default=exception_statuses,
             key="umap_status",
         )
     with uf2:
-        umap_periods = st.multiselect(
-            "UMAP Period",
-            options=["2025", "2025 LPI2", "2026"],
-            default=["2025", "2025 LPI2", "2026"],
-            key="umap_period",
+        umap_years = st.multiselect(
+            "Year",
+            options=sorted(umap_df["Year"].dropna().unique().tolist(), reverse=True),
+            default=sorted(umap_df["Year"].dropna().unique().tolist(), reverse=True),
+            key="umap_year",
         )
     with uf3:
         umap_retailers = st.multiselect(
@@ -1321,26 +1355,25 @@ with tab_umap:
             key="umap_search",
         )
 
-    udf = umap_df.copy()
+    udf = umap_exception_df.copy()
     if umap_statuses:
         udf = udf[udf["Status"].isin(umap_statuses)]
-    if umap_periods:
-        udf = udf[udf["UMAP Period"].isin(umap_periods)]
+    if umap_years:
+        udf = udf[udf["Year"].isin(umap_years)]
     if umap_retailers:
         udf = udf[udf["Retailer"].isin(umap_retailers)]
     if umap_search.strip():
         q = umap_search.strip()
         mask = (
             udf["Product"].str.contains(q, case=False, na=False) |
-            udf["Matched UMAP Category"].str.contains(q, case=False, na=False) |
-            udf["Match Basis"].str.contains(q, case=False, na=False)
+            udf["Matched UMAP Category"].str.contains(q, case=False, na=False)
         )
         udf = udf[mask]
 
-    st.caption(f"{len(udf)} offer(s) match the current UMAP filters")
+    st.caption(f"{len(udf)} exception offer(s) match the current UMAP filters")
 
     if udf.empty:
-        st.info("No UMAP records match the current filters.")
+        st.info("No UMAP exceptions match the current filters.")
     else:
         rows_html = ""
         for _, row in udf.iterrows():
@@ -1353,12 +1386,10 @@ with tab_umap:
                 f'<td>{html.escape(str(row["Product"]))}</td>'
                 f'<td><span class="price-pill">{html.escape(str(row["Advertised Price"]))}</span></td>'
                 f'<td>{html.escape(str(row["Matched UMAP Category"]))}</td>'
-                f'<td style="white-space:nowrap;">{html.escape(str(row["UMAP Period"]))}</td>'
                 f'<td style="font-weight:800;">{fmt_money(row["UMAP"])}</td>'
                 f'<td>{fmt_money(row["Lowest Comparable Price"])}</td>'
                 f'<td>{diff_text}</td>'
                 f'<td><span class="status-pill {status_class(status)}">{html.escape(status)}</span></td>'
-                f'<td style="color:#555;font-size:0.82rem;">{html.escape(str(row["Match Basis"]))}</td>'
                 f'<td style="white-space:nowrap;color:#888;font-size:0.82rem;">{html.escape(str(row["Week"]))}</td>'
                 f'<td><a class="deal-link" href="{html.escape(str(row["View"]), quote=True)}" target="_blank">View ↗</a></td>'
                 f'</tr>'
@@ -1369,7 +1400,7 @@ with tab_umap:
             '<table class="th-table">'
             '<thead><tr>'
             '<th>Retailer</th><th>Product</th><th>Advertised Price</th><th>Matched UMAP Category</th>'
-            '<th>Period</th><th>UMAP</th><th>Lowest Price</th><th>Diff</th><th>Status</th><th>Match Basis</th><th>Week</th><th>Flyer</th>'
+            '<th>UMAP</th><th>Lowest Price</th><th>Diff</th><th>Status</th><th>Week</th><th>Flyer</th>'
             '</tr></thead>'
             f'<tbody>{rows_html}</tbody>'
             '</table></div>',
@@ -1383,8 +1414,7 @@ with tab_umap:
             "⬇ Download UMAP Check as CSV",
             data=download_df[[
                 "Week", "Retailer", "Product", "Advertised Price", "Matched UMAP Category",
-                "UMAP Period", "UMAP", "Lowest Comparable Price", "Difference", "Status",
-                "Match Basis", "View"
+                "UMAP", "Lowest Comparable Price", "Difference", "Status", "View"
             ]].to_csv(index=False).encode("utf-8"),
             file_name="tim_hortons_umap_check.csv",
             mime="text/csv",
