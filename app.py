@@ -957,6 +957,8 @@ tab_weekly, tab_history, tab_insights, tab_umap = st.tabs([
 # TAB 1 — WEEKLY REVIEW
 # ══════════════════════════════════════════════════════════════════════════════
 with tab_weekly:
+    st.caption("Review one flyer cycle at a time, filter retailers, and open exact flyer pages for detected Tim Hortons offers.")
+
     col_week, col_retailer = st.columns([2, 3])
 
     with col_week:
@@ -1071,6 +1073,8 @@ with tab_weekly:
 # TAB 2 — PRODUCT HISTORY
 # ══════════════════════════════════════════════════════════════════════════════
 with tab_history:
+    st.caption("Search the full scan history by week, retailer, category, product, and price.")
+
     if full_df.empty:
         st.info("No product history yet. Add weekly JSON files to `data/history` first.")
         st.stop()
@@ -1155,6 +1159,8 @@ with tab_history:
 # TAB 3 — FLYER INSIGHTS
 # ══════════════════════════════════════════════════════════════════════════════
 with tab_insights:
+    st.caption("Analyze Tim Hortons flyer activity by time window, retailer participation, category mix, and trends.")
+
     if full_df.empty:
         st.info("No data yet. Add weekly JSON files to `data/history` first.")
         st.stop()
@@ -1305,6 +1311,8 @@ with tab_insights:
 # TAB 4 — UMAP CHECK
 # ══════════════════════════════════════════════════════════════════════════════
 with tab_umap:
+    st.caption("Check flyer prices against UMAP and focus on offers with potential price violations.")
+
     if full_df.empty:
         st.info("No data yet. Add weekly JSON files to `data/history` first.")
         st.stop()
