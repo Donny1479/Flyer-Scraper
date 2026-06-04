@@ -13,7 +13,6 @@ import streamlit as st
 sys.path.insert(0, str(Path(__file__).parent))
 from scraper import (
     load_all_history,
-    load_scanned_registry,
     format_week_label,
     RETAILERS,
 )
@@ -864,10 +863,7 @@ with st.sidebar:
     st.divider()
 
     history = load_all_history()
-    scanned_count = len(load_scanned_registry())
-
     if history:
-        latest_ts = max(w.get("scraped_at", "") for w in history)
         sidebar_total_products = sum(
             len(r.get("products", []))
             for w in history
@@ -885,14 +881,11 @@ with st.sidebar:
             f'  <div class="sidebar-mini-stat"><span>Weeks in history</span><strong>{len(history):,}</strong></div>'
             f'  <div class="sidebar-mini-stat"><span>Retailers tracked</span><strong>{len(RETAILERS):,}</strong></div>'
             f'  <div class="sidebar-mini-stat"><span>Pages scanned</span><strong>{sidebar_total_pages:,}</strong></div>'
-            f'</div>'
-            f'<p class="sidebar-note">Last scan: {fmt_ts(latest_ts)}<br>{scanned_count:,} flyer(s) in registry</p>',
+            f'</div>',
             unsafe_allow_html=True,
         )
     else:
         st.info("No history yet. Add weekly JSON files under `data/history` to populate the dashboard.")
-
-    st.caption("Manual update mode: scan results are added through weekly history files.")
 
     st.divider()
     st.markdown("**Retailers monitored (Ontario)**")
@@ -904,8 +897,6 @@ with st.sidebar:
         f'<div class="sidebar-retailer-list">{sidebar_retailers}</div>',
         unsafe_allow_html=True,
     )
-    st.divider()
-    st.caption("Data from [SmartCanucks.ca](https://flyers.smartcanucks.ca) · Claude Sonnet 4.6")
 
 
 # ── Header ────────────────────────────────────────────────────────────────────
@@ -918,9 +909,7 @@ st.markdown(
     f'  <div class="th-hero">'
     f'    <div class="brand-lockup">'
     f'      <div class="th-title">'
-    f'        <div class="brand-kicker">SmartCanucks weekly flyer monitor</div>'
     f'        <h1 class="headline-lockup"><span class="headline-logo">{TIM_HORTONS_LOGO_SVG}</span><span>Flyer Price Tracker</span></h1>'
-    f'        <p>Track Tim Hortons CPG placements, pricing, and retailer activity across Ontario flyers.</p>'
     f'      </div>'
     f'    </div>'
     f'    <div class="header-stat"><span>Latest cycle</span><strong>{latest_cycle}</strong></div>'
@@ -972,8 +961,6 @@ tab_weekly, tab_history, tab_insights, tab_umap = st.tabs([
 # TAB 1 — WEEKLY REVIEW
 # ══════════════════════════════════════════════════════════════════════════════
 with tab_weekly:
-    st.caption("Review one flyer cycle at a time, filter retailers, and open exact flyer pages for detected Tim Hortons offers.")
-
     col_week, col_retailer = st.columns([2, 3])
 
     with col_week:
@@ -1092,8 +1079,6 @@ with tab_weekly:
 # TAB 2 — PRODUCT HISTORY
 # ══════════════════════════════════════════════════════════════════════════════
 with tab_history:
-    st.caption("Search the full scan history by week, retailer, category, product, and price.")
-
     if full_df.empty:
         st.info("No product history yet. Add weekly JSON files to `data/history` first.")
         st.stop()
@@ -1178,8 +1163,6 @@ with tab_history:
 # TAB 3 — FLYER INSIGHTS
 # ══════════════════════════════════════════════════════════════════════════════
 with tab_insights:
-    st.caption("Analyze Tim Hortons flyer activity by time window, retailer participation, category mix, and trends.")
-
     if full_df.empty:
         st.info("No data yet. Add weekly JSON files to `data/history` first.")
         st.stop()
@@ -1330,8 +1313,6 @@ with tab_insights:
 # TAB 4 — UMAP CHECK
 # ══════════════════════════════════════════════════════════════════════════════
 with tab_umap:
-    st.caption("Check flyer prices against UMAP and focus on offers with potential price violations.")
-
     if full_df.empty:
         st.info("No data yet. Add weekly JSON files to `data/history` first.")
         st.stop()
