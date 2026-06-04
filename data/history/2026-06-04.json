@@ -1,0 +1,161 @@
+{
+  "scraped_at": "2026-06-04T11:34:59",
+  "week_start": "2026-06-04",
+  "week_end": "2026-06-10",
+  "retailers": [
+    {
+      "name": "Walmart",
+      "flyers": [
+        {
+          "title": "Walmart (ON) Flyer June 4 to 10",
+          "url": "https://flyers.smartcanucks.ca/canada/walmart-on-flyer-june-4-to-101",
+          "pages_scanned": 10,
+          "products_found": 2
+        }
+      ],
+      "products": [
+        {
+          "brand_text_seen": "Tim Hortons instant coffee Each. Selected varieties. 100 g",
+          "product_name": "Tim Hortons Instant Coffee, 100 g",
+          "price": "$6.76",
+          "deal_details": "Rollback; selected varieties; regular $9.47",
+          "page_number": 1,
+          "page_url": "https://flyers.smartcanucks.ca/canada/walmart-on-flyer-june-4-to-101/single",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/294401/walmart-on-flyer-june-4-to-101-1.jpg",
+          "flyer_title": "Walmart (ON) Flyer June 4 to 10",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/walmart-on-flyer-june-4-to-101"
+        },
+        {
+          "brand_text_seen": "Tim Hortons K-Cup 30s Each. Selected varieties",
+          "product_name": "Tim Hortons K-Cups, 30-count",
+          "price": "$19.96",
+          "deal_details": "Rollback; selected varieties; regular $25.47",
+          "page_number": 1,
+          "page_url": "https://flyers.smartcanucks.ca/canada/walmart-on-flyer-june-4-to-101/single",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/294401/walmart-on-flyer-june-4-to-101-1.jpg",
+          "flyer_title": "Walmart (ON) Flyer June 4 to 10",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/walmart-on-flyer-june-4-to-101"
+        }
+      ]
+    },
+    {
+      "name": "RCSS",
+      "flyers": [
+        {
+          "title": "Real Canadian Superstore (ON) Flyer June 4 to 10",
+          "url": "https://flyers.smartcanucks.ca/canada/real-canadian-superstore-on-flyer-june-4-to-102",
+          "pages_scanned": 10,
+          "products_found": 0
+        }
+      ],
+      "products": []
+    },
+    {
+      "name": "No Frills",
+      "flyers": [
+        {
+          "title": "No Frills (ON) Flyer June 4 to 10",
+          "url": "https://flyers.smartcanucks.ca/canada/no-frills-on-flyer-june-4-to-102",
+          "pages_scanned": 10,
+          "products_found": 0
+        }
+      ],
+      "products": []
+    },
+    {
+      "name": "Metro",
+      "flyers": [
+        {
+          "title": "Metro (ON) Flyer June 4 to 10",
+          "url": "https://flyers.smartcanucks.ca/canada/metro-on-flyer-june-4-to-103",
+          "pages_scanned": 10,
+          "products_found": 0
+        }
+      ],
+      "products": []
+    },
+    {
+      "name": "Food Basics",
+      "flyers": [
+        {
+          "title": "Food Basics Flyer June 4 to 10",
+          "url": "https://flyers.smartcanucks.ca/canada/food-basics-flyer-june-4-to-102",
+          "pages_scanned": 10,
+          "products_found": 0
+        }
+      ],
+      "products": []
+    },
+    {
+      "name": "Sobeys",
+      "flyers": [
+        {
+          "title": "Sobeys (ON) Flyer June 4 to 10",
+          "url": "https://flyers.smartcanucks.ca/canada/sobeys-on-flyer-june-4-to-101",
+          "pages_scanned": 10,
+          "products_found": 0
+        }
+      ],
+      "products": []
+    },
+    {
+      "name": "FreshCo",
+      "flyers": [
+        {
+          "title": "FreshCo (ON) Flyer June 4 to 10",
+          "url": "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-june-4-to-102",
+          "pages_scanned": 10,
+          "products_found": 2
+        }
+      ],
+      "products": [
+        {
+          "brand_text_seen": "Tim Hortons Ground Coffee 300 g",
+          "product_name": "Tim Hortons Ground Coffee, 300 g",
+          "price": "$11.99",
+          "deal_details": "Save $3; shared offer with single serve K-Cups",
+          "page_number": 4,
+          "page_url": "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-june-4-to-102/single/3",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/294386/freshco-on-flyer-june-4-to-102-4.jpg",
+          "flyer_title": "FreshCo (ON) Flyer June 4 to 10",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-june-4-to-102"
+        },
+        {
+          "brand_text_seen": "Tim Hortons Single Serve K-Cups 10-12 pk",
+          "product_name": "Tim Hortons Single Serve K-Cups, 10-12 pack",
+          "price": "$11.99",
+          "deal_details": "Save $3; shared offer with ground coffee 300 g",
+          "page_number": 4,
+          "page_url": "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-june-4-to-102/single/3",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/294386/freshco-on-flyer-june-4-to-102-4.jpg",
+          "flyer_title": "FreshCo (ON) Flyer June 4 to 10",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-june-4-to-102"
+        }
+      ]
+    },
+    {
+      "name": "Loblaws",
+      "flyers": [
+        {
+          "title": "Loblaws (ON) Flyer June 4 to 10",
+          "url": "https://flyers.smartcanucks.ca/canada/loblaws-on-flyer-june-4-to-102",
+          "pages_scanned": 10,
+          "products_found": 0
+        }
+      ],
+      "products": []
+    },
+    {
+      "name": "Canadian Tire",
+      "flyers": [
+        {
+          "title": "Canadian Tire (ON) Flyer June 4 to 11",
+          "url": "https://flyers.smartcanucks.ca/canada/canadian-tire-on-flyer-june-4-to-11",
+          "pages_scanned": 49,
+          "products_found": 0
+        }
+      ],
+      "products": []
+    }
+  ]
+}
