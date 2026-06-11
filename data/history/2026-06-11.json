@@ -1,0 +1,207 @@
+{
+  "scraped_at": "2026-06-11T11:01:48",
+  "week_start": "2026-06-11",
+  "week_end": "2026-06-17",
+  "retailers": [
+    {
+      "name": "Walmart",
+      "flyers": [
+        {
+          "title": "Walmart (ON) Flyer June 11 to 17",
+          "url": "https://flyers.smartcanucks.ca/canada/walmart-on-flyer-june-11-to-172",
+          "pages_scanned": 10,
+          "products_found": 2
+        }
+      ],
+      "products": [
+        {
+          "brand_text_seen": "Tim Hortons instant coffee Each. Selected varieties. 100 g",
+          "product_name": "Tim Hortons Instant Coffee, 100 g",
+          "price": "$6.76",
+          "deal_details": "Rollback; selected varieties; regular $9.47",
+          "page_number": 2,
+          "page_url": "https://flyers.smartcanucks.ca/canada/walmart-on-flyer-june-11-to-172/single/1",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/294878/walmart-on-flyer-june-11-to-172-2.jpg",
+          "flyer_title": "Walmart (ON) Flyer June 11 to 17",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/walmart-on-flyer-june-11-to-172"
+        },
+        {
+          "brand_text_seen": "Tim Hortons K-Cup 30s Each. Selected varieties. 312 g - 315 g",
+          "product_name": "Tim Hortons K-Cups, 30-count",
+          "price": "$19.96",
+          "deal_details": "Rollback; selected varieties; 312-315 g; regular $25.47",
+          "page_number": 6,
+          "page_url": "https://flyers.smartcanucks.ca/canada/walmart-on-flyer-june-11-to-172/single/5",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/294878/walmart-on-flyer-june-11-to-172-6.jpg",
+          "flyer_title": "Walmart (ON) Flyer June 11 to 17",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/walmart-on-flyer-june-11-to-172"
+        }
+      ]
+    },
+    {
+      "name": "RCSS",
+      "flyers": [
+        {
+          "title": "Real Canadian Superstore (ON) Flyer June 11 to 17",
+          "url": "https://flyers.smartcanucks.ca/canada/real-canadian-superstore-on-flyer-june-11-to-172",
+          "pages_scanned": 10,
+          "products_found": 0
+        }
+      ],
+      "products": []
+    },
+    {
+      "name": "No Frills",
+      "flyers": [
+        {
+          "title": "No Frills (ON) Flyer June 11 to 17",
+          "url": "https://flyers.smartcanucks.ca/canada/no-frills-on-flyer-june-11-to-172",
+          "pages_scanned": 10,
+          "products_found": 0
+        }
+      ],
+      "products": []
+    },
+    {
+      "name": "Metro",
+      "flyers": [
+        {
+          "title": "Metro (ON) Flyer June 11 to 17",
+          "url": "https://flyers.smartcanucks.ca/canada/metro-on-flyer-june-11-to-172",
+          "pages_scanned": 10,
+          "products_found": 0
+        }
+      ],
+      "products": []
+    },
+    {
+      "name": "Food Basics",
+      "flyers": [
+        {
+          "title": "Food Basics Flyer June 11 to 17",
+          "url": "https://flyers.smartcanucks.ca/canada/food-basics-flyer-june-11-to-172",
+          "pages_scanned": 10,
+          "products_found": 3
+        }
+      ],
+      "products": [
+        {
+          "brand_text_seen": "Tim Hortons Coffee Capsules 30's selected varieties",
+          "product_name": "Tim Hortons Coffee Capsules, 30-count",
+          "price": "$24.99",
+          "deal_details": "Selected varieties; 30's",
+          "page_number": 6,
+          "page_url": "https://flyers.smartcanucks.ca/canada/food-basics-flyer-june-11-to-172/single/5",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/294871/food-basics-flyer-june-11-to-172-6.jpg",
+          "flyer_title": "Food Basics Flyer June 11 to 17",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/food-basics-flyer-june-11-to-172"
+        },
+        {
+          "brand_text_seen": "Tim Hortons Ready to Serve Soup 540 mL selected varieties",
+          "product_name": "Tim Hortons Ready to Serve Soup, 540 mL",
+          "price": "$3.29",
+          "deal_details": "Selected varieties; 20 points",
+          "page_number": 6,
+          "page_url": "https://flyers.smartcanucks.ca/canada/food-basics-flyer-june-11-to-172/single/5",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/294871/food-basics-flyer-june-11-to-172-6.jpg",
+          "flyer_title": "Food Basics Flyer June 11 to 17",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/food-basics-flyer-june-11-to-172"
+        },
+        {
+          "brand_text_seen": "Tim Hortons Ground Coffee 300 g selected varieties",
+          "product_name": "Tim Hortons Ground Coffee, 300 g",
+          "price": "$11.49",
+          "deal_details": "Locked down; selected varieties",
+          "page_number": 9,
+          "page_url": "https://flyers.smartcanucks.ca/canada/food-basics-flyer-june-11-to-172/single/8",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/294871/food-basics-flyer-june-11-to-172-9.jpg",
+          "flyer_title": "Food Basics Flyer June 11 to 17",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/food-basics-flyer-june-11-to-172"
+        }
+      ]
+    },
+    {
+      "name": "Sobeys",
+      "flyers": [
+        {
+          "title": "Sobeys (ON) Flyer June 11 to 17",
+          "url": "https://flyers.smartcanucks.ca/canada/sobeys-on-flyer-june-11-to-172",
+          "pages_scanned": 10,
+          "products_found": 1
+        }
+      ],
+      "products": [
+        {
+          "brand_text_seen": "Tim Hortons Iced Coffee 1.42 L",
+          "product_name": "Tim Hortons Iced Coffee, 1.42 L",
+          "price": "$7.99",
+          "deal_details": "New; black iced coffee or vanilla iced coffee",
+          "page_number": 7,
+          "page_url": "https://flyers.smartcanucks.ca/canada/sobeys-on-flyer-june-11-to-172/single/6",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/294816/sobeys-on-flyer-june-11-to-172-7.jpg",
+          "flyer_title": "Sobeys (ON) Flyer June 11 to 17",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/sobeys-on-flyer-june-11-to-172"
+        }
+      ]
+    },
+    {
+      "name": "FreshCo",
+      "flyers": [
+        {
+          "title": "FreshCo (ON) Flyer June 11 to 17",
+          "url": "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-june-11-to-172",
+          "pages_scanned": 10,
+          "products_found": 0
+        }
+      ],
+      "products": []
+    },
+    {
+      "name": "Loblaws",
+      "flyers": [
+        {
+          "title": "Loblaws (ON) Flyer June 11 to 17",
+          "url": "https://flyers.smartcanucks.ca/canada/loblaws-on-flyer-june-11-to-172",
+          "pages_scanned": 10,
+          "products_found": 0
+        }
+      ],
+      "products": []
+    },
+    {
+      "name": "Canadian Tire",
+      "flyers": [
+        {
+          "title": "Canadian Tire (ON) Flyer June 12 to 21",
+          "url": "https://flyers.smartcanucks.ca/canada/canadian-tire-on-flyer-june-12-to-21",
+          "pages_scanned": 43,
+          "products_found": 2
+        }
+      ],
+      "products": [
+        {
+          "brand_text_seen": "Selected Starbucks K-Cup Pods, 24-Ct and Tim Hortons Instant Coffee",
+          "product_name": "Tim Hortons Instant Coffee",
+          "price": "$6.79-$23.99",
+          "deal_details": "Save up to 40%; sale $6.79-$23.99; regular $11.99-$27.99; shared offer with selected Starbucks K-Cup Pods, 24-ct",
+          "page_number": 23,
+          "page_url": "https://flyers.smartcanucks.ca/canada/canadian-tire-on-flyer-june-12-to-21/single/22",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/294896/canadian-tire-on-flyer-june-12-to-21-23.jpg",
+          "flyer_title": "Canadian Tire (ON) Flyer June 12 to 21",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/canadian-tire-on-flyer-june-12-to-21"
+        },
+        {
+          "brand_text_seen": "Selected Tim Hortons Coffee or Tea K-Cup Pods, 30-Ct",
+          "product_name": "Tim Hortons Coffee or Tea K-Cup Pods, 30-count",
+          "price": "$26.99-$28.99",
+          "deal_details": "Great value; selected varieties; 30-ct",
+          "page_number": 23,
+          "page_url": "https://flyers.smartcanucks.ca/canada/canadian-tire-on-flyer-june-12-to-21/single/22",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/294896/canadian-tire-on-flyer-june-12-to-21-23.jpg",
+          "flyer_title": "Canadian Tire (ON) Flyer June 12 to 21",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/canadian-tire-on-flyer-june-12-to-21"
+        }
+      ]
+    }
+  ]
+}
