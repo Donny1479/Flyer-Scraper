@@ -49,6 +49,66 @@ def load_tims_logo_svg() -> str:
 
 TIM_HORTONS_LOGO_SVG = load_tims_logo_svg()
 
+TIM_HORTONS_BRAND = "Tim Hortons"
+TIM_HORTONS_BRAND_RE = re.compile(r"\b(?:tim\s*hortons?|hortons?|tim'?s)\b", re.IGNORECASE)
+
+KNOWN_COMPETITOR_BRANDS = [
+    ("Starbucks", ["starbucks"]),
+    ("McCafe", ["mccafe", "mc cafe", "mccafe@"]),
+    ("Nescafe", ["nescafe", "nescafé"]),
+    ("Maxwell House", ["maxwell house"]),
+    ("Nabob", ["nabob"]),
+    ("Folgers", ["folgers"]),
+    ("Lavazza", ["lavazza"]),
+    ("Kicking Horse", ["kicking horse"]),
+    ("Balzac's", ["balzac"]),
+    ("Illy", ["illy"]),
+    ("Muskoka", ["muskoka"]),
+    ("Timothy's", ["timothy"]),
+    ("Krispy Kreme", ["krispy kreme"]),
+    ("PC", ["pc ", "president's choice", "presidents choice"]),
+    ("No Name", ["no name"]),
+    ("Compliments", ["compliments"]),
+    ("Selection", ["selection"]),
+    ("Irresistibles", ["irresistibles"]),
+    ("Nespresso", ["nespresso"]),
+    ("Red Rose", ["red rose"]),
+    ("Lipton", ["lipton"]),
+]
+
+
+def offer_brand(product: dict) -> str:
+    """Return an offer brand, preserving explicit scan metadata when present."""
+    explicit_brand = (
+        product.get("brand")
+        or product.get("brand_name")
+        or product.get("Brand")
+        or product.get("brand_seen")
+    )
+    if explicit_brand:
+        return str(explicit_brand).strip()
+
+    text = " ".join(
+        str(product.get(field, "") or "")
+        for field in ("brand_text_seen", "product_name", "deal_details")
+    ).lower()
+    if TIM_HORTONS_BRAND_RE.search(text):
+        return TIM_HORTONS_BRAND
+
+    padded_text = f" {text} "
+    for brand, needles in KNOWN_COMPETITOR_BRANDS:
+        if any(needle in padded_text for needle in needles):
+            return brand
+    return "Other"
+
+
+def is_tim_hortons_offer(product: dict) -> bool:
+    return offer_brand(product).lower() == TIM_HORTONS_BRAND.lower()
+
+
+def is_tim_hortons_brand(brand: str) -> bool:
+    return str(brand or "").strip().lower() == TIM_HORTONS_BRAND.lower()
+
 
 def retailer_label(name: str, class_name: str = "retailer-name") -> str:
     """Return a styled retailer text label."""
@@ -371,10 +431,12 @@ def build_full_df(history: list[dict]) -> pd.DataFrame:
         for r in wd.get("retailers", []):
             for p in r.get("products", []):
                 name = p.get("product_name", "")
+                brand = offer_brand(p)
                 rows.append({
                     "week_start": ws,
                     "Week":       lbl,
                     "Retailer":   r["name"],
+                    "Brand":      brand,
                     "Product":    name,
                     "Size":       extract_size(name),
                     "Category":   classify(name),
@@ -384,7 +446,7 @@ def build_full_df(history: list[dict]) -> pd.DataFrame:
                     "End":        fmt_date(we),
                     "View":       p.get("page_url", p.get("flyer_url", "")),
                 })
-    cols = ["week_start", "Week", "Retailer", "Product", "Size", "Category",
+    cols = ["week_start", "Week", "Retailer", "Brand", "Product", "Size", "Category",
             "Price", "Comments", "Start", "End", "View"]
     return pd.DataFrame(rows, columns=cols) if rows else pd.DataFrame(columns=cols)
 
@@ -771,6 +833,10 @@ section[data-testid="stSidebar"] {
     border-bottom: 1px solid rgba(111,45,37,0.10);
     font-size: 0.87rem;
 }
+.deal-table-hdr.competitive,
+.deal-table-row.competitive {
+    grid-template-columns: minmax(124px, 0.9fr) 1fr 1.7fr 0.75fr 0.9fr 1.6fr 0.7fr;
+}
 .deal-table-row:last-child { border-bottom: none; }
 .deal-table-row:hover { background: #FFF4EA; }
 .deal-table-wrap-inner {
@@ -843,6 +909,10 @@ section[data-testid="stSidebar"] {
     .deal-table-row {
         grid-template-columns: minmax(116px, 1fr) minmax(180px, 1.4fr) 80px 90px minmax(160px, 1.2fr) 70px;
     }
+    .deal-table-hdr.competitive,
+    .deal-table-row.competitive {
+        grid-template-columns: minmax(112px, 1fr) minmax(110px, 1fr) minmax(170px, 1.4fr) 76px 90px minmax(150px, 1.2fr) 70px;
+    }
 }
 </style>
 """, unsafe_allow_html=True)
@@ -865,7 +935,7 @@ with st.sidebar:
     history = load_all_history()
     if history:
         sidebar_total_products = sum(
-            len(r.get("products", []))
+            sum(1 for p in r.get("products", []) if is_tim_hortons_offer(p))
             for w in history
             for r in w.get("retailers", [])
         )
@@ -927,13 +997,14 @@ if not history:
 
 # ── Global dataframe ──────────────────────────────────────────────────────────
 full_df = build_full_df(history)
+tim_hortons_df = full_df[full_df["Brand"].map(is_tim_hortons_brand)].copy()
 week_labels = [
     format_week_label(w.get("week_start", ""), w.get("week_end"))
     for w in history
 ]
 weekly_offer_counts = {
     format_week_label(w.get("week_start", ""), w.get("week_end")): sum(
-        len(r.get("products", []))
+        sum(1 for p in r.get("products", []) if is_tim_hortons_offer(p))
         for r in w.get("retailers", [])
     )
     for w in history
@@ -982,8 +1053,10 @@ with tab_weekly:
     if week_data:
         for r in week_data.get("retailers", []):
             for p in r.get("products", []):
+                brand = offer_brand(p)
                 week_products.append({
                     "Retailer":     r["name"],
+                    "Brand":        brand,
                     "Product":      p.get("product_name", ""),
                     "Size":         extract_size(p.get("product_name", "")),
                     "Price":        p.get("price", ""),
@@ -998,7 +1071,13 @@ with tab_weekly:
             default=[r["name"] for r in RETAILERS], key="wk_retailer",
         )
 
-    filtered_week = [p for p in week_products if p["Retailer"] in selected_retailers]
+    tim_week_products = [p for p in week_products if is_tim_hortons_brand(p["Brand"])]
+    competitive_week_products = [p for p in week_products if not is_tim_hortons_brand(p["Brand"])]
+    filtered_week = [p for p in tim_week_products if p["Retailer"] in selected_retailers]
+    filtered_competitive_week = [
+        p for p in competitive_week_products
+        if p["Retailer"] in selected_retailers
+    ]
 
     if week_data:
         scraped_at = week_data.get("scraped_at", "")
@@ -1074,6 +1153,50 @@ with tab_weekly:
             key="csv_weekly",
         )
 
+    with st.expander("Competitive offers"):
+        st.caption(f"{len(filtered_competitive_week)} competitive offer(s) match the current retailer filter")
+        if not filtered_competitive_week:
+            st.info("No competitive offers found for this cycle.")
+        else:
+            rows_html = ""
+            for p in filtered_competitive_week:
+                rows_html += (
+                    f'<div class="deal-table-row competitive">'
+                    f'  <div>{retailer_label(p["Retailer"])}</div>'
+                    f'  <span>{html.escape(str(p["Brand"]))}</span>'
+                    f'  <span>{html.escape(str(p["Product"]))}</span>'
+                    f'  <span style="color:#666;">{html.escape(str(p["Size"]))}</span>'
+                    f'  <span><span class="price-pill">{html.escape(str(p["Price"]))}</span></span>'
+                    f'  <span style="color:#555;font-size:0.82rem;">{html.escape(str(p["Deal Details"]))}</span>'
+                    f'  <a class="deal-link" href="{html.escape(str(p["View"]), quote=True)}" target="_blank">Page {html.escape(str(p["Page"]))} ↗</a>'
+                    f'</div>'
+                )
+
+            st.markdown(
+                '<div class="deal-table-wrap">'
+                '  <div class="deal-table-hdr competitive">'
+                '    <span>Retailer</span>'
+                '    <span>Brand</span>'
+                '    <span>Product</span>'
+                '    <span>Size</span>'
+                '    <span>Price</span>'
+                '    <span>Deal Details</span>'
+                '    <span>Flyer</span>'
+                '  </div>'
+                f'  <div class="deal-table-wrap-inner">{rows_html}</div>'
+                '</div>',
+                unsafe_allow_html=True,
+            )
+
+            df_competitive_week = pd.DataFrame(filtered_competitive_week)
+            st.download_button(
+                "⬇ Download Competitive Offers as CSV",
+                data=df_competitive_week.to_csv(index=False).encode("utf-8"),
+                file_name=f"competitive_offers_{selected_week_label.replace(' ', '_').replace('–', 'to')}.csv",
+                mime="text/csv",
+                key="csv_weekly_competitive",
+            )
+
 
 # ══════════════════════════════════════════════════════════════════════════════
 # TAB 2 — PRODUCT HISTORY
@@ -1084,10 +1207,19 @@ with tab_history:
         st.stop()
 
     # ── Filters ──────────────────────────────────────────────────────────────
-    hc1, hc2, hc3, hc4 = st.columns([2, 2, 2, 3])
+    brand_options = sorted(full_df["Brand"].dropna().unique().tolist())
+    if TIM_HORTONS_BRAND in brand_options:
+        brand_options = [TIM_HORTONS_BRAND] + [b for b in brand_options if b != TIM_HORTONS_BRAND]
+    default_brands = [TIM_HORTONS_BRAND] if TIM_HORTONS_BRAND in brand_options else brand_options
+
+    hc1, hc_brand, hc2, hc3, hc4 = st.columns([2, 1.6, 2, 2, 3])
     with hc1:
         sel_weeks = st.multiselect(
             "Flyer Cycle(s)", options=week_labels, default=week_labels, key="h_weeks"
+        )
+    with hc_brand:
+        sel_brands = st.multiselect(
+            "Brand", options=brand_options, default=default_brands, key="h_brands"
         )
     with hc2:
         sel_retailers = st.multiselect(
@@ -1108,6 +1240,7 @@ with tab_history:
     fdf = full_df.copy()
     if sel_weeks:
         fdf = fdf[fdf["Week"].isin(sel_weeks)]
+    fdf = fdf[fdf["Brand"].isin(sel_brands)]
     if sel_retailers:
         fdf = fdf[fdf["Retailer"].isin(sel_retailers)]
     if sel_cats:
@@ -1126,6 +1259,7 @@ with tab_history:
             rows_html += (
                 f'<tr>'
                 f'<td>{retailer_label(row["Retailer"])}</td>'
+                f'<td>{html.escape(str(row["Brand"]))}</td>'
                 f'<td>{row["Product"]}</td>'
                 f'<td style="color:#666;">{row["Size"]}</td>'
                 f'<td><span class="cat-pill">{row["Category"]}</span></td>'
@@ -1141,7 +1275,7 @@ with tab_history:
             '<div class="th-table-wrap">'
             '<table class="th-table">'
             '<thead><tr>'
-            '<th>Retailer</th><th>Product</th><th>Size</th><th>Category</th>'
+            '<th>Retailer</th><th>Brand</th><th>Product</th><th>Size</th><th>Category</th>'
             '<th>Price</th><th>Deal Details</th><th>Sale Start</th><th>Sale End</th><th>Flyer</th>'
             '</tr></thead>'
             f'<tbody>{rows_html}</tbody>'
@@ -1151,7 +1285,7 @@ with tab_history:
 
         st.download_button(
             "⬇ Download Filtered History as CSV",
-            data=fdf[["Week", "Retailer", "Product", "Size", "Category",
+            data=fdf[["Week", "Retailer", "Brand", "Product", "Size", "Category",
                        "Price", "Comments", "Start", "End", "View"]].to_csv(index=False).encode("utf-8"),
             file_name="tim_hortons_flyer_history.csv",
             mime="text/csv",
@@ -1163,8 +1297,8 @@ with tab_history:
 # TAB 3 — FLYER INSIGHTS
 # ══════════════════════════════════════════════════════════════════════════════
 with tab_insights:
-    if full_df.empty:
-        st.info("No data yet. Add weekly JSON files to `data/history` first.")
+    if tim_hortons_df.empty:
+        st.info("No Tim Hortons data yet. Add weekly JSON files to `data/history` first.")
         st.stop()
 
     # ── Time window filter ───────────────────────────────────────────────────
@@ -1187,12 +1321,12 @@ with tab_insights:
     time_filter = TIME_OPTIONS[time_sel]
     if isinstance(time_filter, int):
         cutoff = (datetime.today() - timedelta(weeks=time_filter)).strftime("%Y-%m-%d")
-        ins_df = full_df[full_df["week_start"] >= cutoff].copy()
+        ins_df = tim_hortons_df[tim_hortons_df["week_start"] >= cutoff].copy()
     elif isinstance(time_filter, str) and time_filter.startswith("year:"):
         selected_year = time_filter.split(":", 1)[1]
-        ins_df = full_df[full_df["week_start"].str.startswith(f"{selected_year}-")].copy()
+        ins_df = tim_hortons_df[tim_hortons_df["week_start"].str.startswith(f"{selected_year}-")].copy()
     else:
-        ins_df = full_df.copy()
+        ins_df = tim_hortons_df.copy()
 
     st.caption(
         f"Showing **{len(ins_df)}** deal(s) across "
@@ -1313,11 +1447,11 @@ with tab_insights:
 # TAB 4 — UMAP CHECK
 # ══════════════════════════════════════════════════════════════════════════════
 with tab_umap:
-    if full_df.empty:
-        st.info("No data yet. Add weekly JSON files to `data/history` first.")
+    if tim_hortons_df.empty:
+        st.info("No Tim Hortons data yet. Add weekly JSON files to `data/history` first.")
         st.stop()
 
-    umap_df = build_umap_review_df(full_df).sort_values("week_start", ascending=False).reset_index(drop=True)
+    umap_df = build_umap_review_df(tim_hortons_df).sort_values("week_start", ascending=False).reset_index(drop=True)
     exception_statuses = ["Violation", "Needs Review", "Unmatched", "No UMAP"]
     umap_exception_df = umap_df[umap_df["Status"].isin(exception_statuses)].copy()
 
