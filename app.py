@@ -122,11 +122,12 @@ def retailer_label(name: str, class_name: str = "retailer-name") -> str:
 CATEGORY_RULES = [
     ("Single Serve",   ["k-cup", "kcup", "pod", "capsule", "single serve"]),
     ("Instant",        ["instant"]),
+    ("Chili",          ["chili", "chilli"]),
     ("Soup",           ["soup", "broth"]),
     ("Hot Beverages",  ["hot chocolate", "french vanilla", "tea", "latte", "cappuccino", "steeped"]),
     ("Roast & Ground", ["ground", "whole bean", "roast", "blend"]),
 ]
-ALL_CATEGORIES = ["Roast & Ground", "Single Serve", "Instant", "Hot Beverages", "Soup", "Other"]
+ALL_CATEGORIES = ["Roast & Ground", "Single Serve", "Instant", "Hot Beverages", "Soup", "Chili", "Other"]
 
 SIZE_RE = re.compile(
     r'\b(\d+(?:\.\d+)?\s*(?:g|kg|mL|L|oz|pk|pack|ct|count|lb))\b', re.IGNORECASE
