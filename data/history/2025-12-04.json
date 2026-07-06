@@ -1,119 +1,1024 @@
 {
-    "scraped_at":  "2026-05-11T12:00:00",
-    "week_start":  "2025-12-04",
-    "week_end":  "2025-12-10",
-    "retailers":  [
-                      {
-                          "name":  "Walmart",
-                          "flyers":  [
-                                         {
-                                             "title":  "walmart-on-flyer-december-4-to-101",
-                                             "url":  "https://flyers.smartcanucks.ca/canada/walmart-on-flyer-december-4-to-101",
-                                             "pages_scanned":  10,
-                                             "products_found":  0
-                                         }
-                                     ],
-                          "products":  [
-
-                                       ]
-                      },
-                      {
-                          "name":  "Sobeys",
-                          "flyers":  [
-                                         {
-                                             "title":  "sobeys-on-flyer-december-4-to-102",
-                                             "url":  "https://flyers.smartcanucks.ca/canada/sobeys-on-flyer-december-4-to-102",
-                                             "pages_scanned":  10,
-                                             "products_found":  0
-                                         }
-                                     ],
-                          "products":  [
-
-                                       ]
-                      },
-                      {
-                          "name":  "No Frills",
-                          "flyers":  [
-                                         {
-                                             "title":  "no-frills-on-flyer-december-4-to-102",
-                                             "url":  "https://flyers.smartcanucks.ca/canada/no-frills-on-flyer-december-4-to-102",
-                                             "pages_scanned":  10,
-                                             "products_found":  0
-                                         }
-                                     ],
-                          "products":  [
-
-                                       ]
-                      },
-                      {
-                          "name":  "FreshCo",
-                          "flyers":  [
-                                         {
-                                             "title":  "freshco-on-flyer-december-4-to-10",
-                                             "url":  "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-december-4-to-10",
-                                             "pages_scanned":  10,
-                                             "products_found":  0
-                                         }
-                                     ],
-                          "products":  [
-
-                                       ]
-                      },
-                      {
-                          "name":  "RCSS",
-                          "flyers":  [
-                                         {
-                                             "title":  "real-canadian-superstore-on-flyer-december-4-to-102",
-                                             "url":  "https://flyers.smartcanucks.ca/canada/real-canadian-superstore-on-flyer-december-4-to-102",
-                                             "pages_scanned":  10,
-                                             "products_found":  0
-                                         }
-                                     ],
-                          "products":  [
-
-                                       ]
-                      },
-                      {
-                          "name":  "Loblaws",
-                          "flyers":  [
-                                         {
-                                             "title":  "loblaws-on-flyer-december-4-to-102",
-                                             "url":  "https://flyers.smartcanucks.ca/canada/loblaws-on-flyer-december-4-to-102",
-                                             "pages_scanned":  10,
-                                             "products_found":  0
-                                         }
-                                     ],
-                          "products":  [
-
-                                       ]
-                      },
-                      {
-                          "name":  "Metro",
-                          "flyers":  [
-                                         {
-                                             "title":  "metro-on-flyer-december-4-to-10",
-                                             "url":  "https://flyers.smartcanucks.ca/canada/metro-on-flyer-december-4-to-10",
-                                             "pages_scanned":  10,
-                                             "products_found":  0
-                                         }
-                                     ],
-                          "products":  [
-
-                                       ]
-                      },
-                      {
-                          "name":  "Food Basics",
-                          "flyers":  [
-                                         {
-                                             "title":  "food-basics-flyer-december-4-to-10",
-                                             "url":  "https://flyers.smartcanucks.ca/canada/food-basics-flyer-december-4-to-10",
-                                             "pages_scanned":  10,
-                                             "products_found":  0
-                                         }
-                                     ],
-                          "products":  [
-
-                                       ]
-                      }
-                  ]
+  "scraped_at": "2026-07-06T13:10:08",
+  "week_start": "2025-12-04",
+  "week_end": "2025-12-10",
+  "retailers": [
+    {
+      "name": "Walmart",
+      "flyers": [
+        {
+          "title": "walmart-on-flyer-december-4-to-101",
+          "url": "https://flyers.smartcanucks.ca/canada/walmart-on-flyer-december-4-to-101",
+          "pages_scanned": 25,
+          "products_found": 1
+        }
+      ],
+      "products": [
+        {
+          "brand": "Lavazza",
+          "brand_text_seen": "Lavazza Oro Ground Coffee",
+          "product_name": "Lavazza Oro Ground Coffee",
+          "price": "$7.97",
+          "deal_details": "Rollback; selected varieties",
+          "promotion_type": "Price Drop",
+          "page_number": 22,
+          "page_url": "https://flyers.smartcanucks.ca/canada/walmart-on-flyer-december-4-to-101/single/21",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/282144/walmart-on-flyer-december-4-to-101-22.jpg",
+          "flyer_title": "walmart-on-flyer-december-4-to-101",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/walmart-on-flyer-december-4-to-101",
+          "source_scan": "competitive_full_flyer_10wk_2026_01_22_backfill",
+          "scan_scope": "all pages, primary Ontario flyer"
+        }
+      ]
+    },
+    {
+      "name": "RCSS",
+      "flyers": [
+        {
+          "title": "real-canadian-superstore-on-flyer-december-4-to-102",
+          "url": "https://flyers.smartcanucks.ca/canada/real-canadian-superstore-on-flyer-december-4-to-102",
+          "pages_scanned": 39,
+          "products_found": 11
+        }
+      ],
+      "products": [
+        {
+          "brand": "Nabob",
+          "brand_text_seen": "Nabob Tassimo Coffee Pods",
+          "product_name": "Nabob Tassimo Coffee Pods",
+          "price": "Points offer",
+          "deal_details": "Get 1,000 PC Optimum points",
+          "promotion_type": "Loyalty Offer",
+          "page_number": 2,
+          "page_url": "https://flyers.smartcanucks.ca/canada/real-canadian-superstore-on-flyer-december-4-to-102/single/1",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/282102/real-canadian-superstore-on-flyer-december-4-to-102-2.jpg",
+          "flyer_title": "real-canadian-superstore-on-flyer-december-4-to-102",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/real-canadian-superstore-on-flyer-december-4-to-102",
+          "source_scan": "competitive_full_flyer_10wk_2026_01_22_backfill",
+          "scan_scope": "all pages, primary Ontario flyer"
+        },
+        {
+          "brand": "Maxwell House",
+          "brand_text_seen": "Maxwell House Ground Coffee, 631-900 g",
+          "product_name": "Maxwell House Ground Coffee, 631-900 g",
+          "price": "$17.97",
+          "deal_details": "Selected varieties",
+          "promotion_type": "Special Price",
+          "page_number": 2,
+          "page_url": "https://flyers.smartcanucks.ca/canada/real-canadian-superstore-on-flyer-december-4-to-102/single/1",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/282102/real-canadian-superstore-on-flyer-december-4-to-102-2.jpg",
+          "flyer_title": "real-canadian-superstore-on-flyer-december-4-to-102",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/real-canadian-superstore-on-flyer-december-4-to-102",
+          "source_scan": "competitive_full_flyer_10wk_2026_01_22_backfill",
+          "scan_scope": "all pages, primary Ontario flyer"
+        },
+        {
+          "brand": "Van Houtte",
+          "brand_text_seen": "Van Houtte K-Cup Pods, 30's",
+          "product_name": "Van Houtte K-Cup Pods, 30's",
+          "price": "$25.99",
+          "deal_details": "Get 3,000 PC Optimum points",
+          "promotion_type": "Loyalty Offer",
+          "page_number": 6,
+          "page_url": "https://flyers.smartcanucks.ca/canada/real-canadian-superstore-on-flyer-december-4-to-102/single/5",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/282102/real-canadian-superstore-on-flyer-december-4-to-102-6.jpg",
+          "flyer_title": "real-canadian-superstore-on-flyer-december-4-to-102",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/real-canadian-superstore-on-flyer-december-4-to-102",
+          "source_scan": "competitive_full_flyer_10wk_2026_01_22_backfill",
+          "scan_scope": "all pages, primary Ontario flyer"
+        },
+        {
+          "brand": "PC",
+          "brand_text_seen": "PC Ground Coffee, 840-930 g",
+          "product_name": "PC Ground Coffee, 840-930 g",
+          "price": "$20.00",
+          "deal_details": "Selected varieties",
+          "promotion_type": "Special Price",
+          "page_number": 9,
+          "page_url": "https://flyers.smartcanucks.ca/canada/real-canadian-superstore-on-flyer-december-4-to-102/single/8",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/282102/real-canadian-superstore-on-flyer-december-4-to-102-9.jpg",
+          "flyer_title": "real-canadian-superstore-on-flyer-december-4-to-102",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/real-canadian-superstore-on-flyer-december-4-to-102",
+          "source_scan": "competitive_full_flyer_10wk_2026_01_22_backfill",
+          "scan_scope": "all pages, primary Ontario flyer"
+        },
+        {
+          "brand": "PC",
+          "brand_text_seen": "PC Hot Chocolate Bombs, 80 g",
+          "product_name": "PC Hot Chocolate Bombs, 80 g",
+          "price": "$4.50",
+          "deal_details": "Selected varieties",
+          "promotion_type": "Special Price",
+          "page_number": 10,
+          "page_url": "https://flyers.smartcanucks.ca/canada/real-canadian-superstore-on-flyer-december-4-to-102/single/9",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/282102/real-canadian-superstore-on-flyer-december-4-to-102-10.jpg",
+          "flyer_title": "real-canadian-superstore-on-flyer-december-4-to-102",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/real-canadian-superstore-on-flyer-december-4-to-102",
+          "source_scan": "competitive_full_flyer_10wk_2026_01_22_backfill",
+          "scan_scope": "all pages, primary Ontario flyer"
+        },
+        {
+          "brand": "Starbucks",
+          "brand_text_seen": "Starbucks Ground Coffee, K-Cups, Nespresso or Hot Chocolate",
+          "product_name": "Starbucks Ground Coffee, K-Cups, Nespresso or Hot Chocolate",
+          "price": "$25 spend threshold",
+          "deal_details": "Get 3,000 PC Optimum points for every $25 spent",
+          "promotion_type": "Loyalty Offer",
+          "page_number": 19,
+          "page_url": "https://flyers.smartcanucks.ca/canada/real-canadian-superstore-on-flyer-december-4-to-102/single/18",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/282102/real-canadian-superstore-on-flyer-december-4-to-102-19.jpg",
+          "flyer_title": "real-canadian-superstore-on-flyer-december-4-to-102",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/real-canadian-superstore-on-flyer-december-4-to-102",
+          "source_scan": "competitive_full_flyer_10wk_2026_01_22_backfill",
+          "scan_scope": "all pages, primary Ontario flyer"
+        },
+        {
+          "brand": "Nescafe",
+          "brand_text_seen": "Nescafe Instant Coffee, 100-319 g",
+          "product_name": "Nescafe Instant Coffee, 100-319 g",
+          "price": "$25 spend threshold",
+          "deal_details": "Get 3,000 PC Optimum points for every $25 spent",
+          "promotion_type": "Loyalty Offer",
+          "page_number": 19,
+          "page_url": "https://flyers.smartcanucks.ca/canada/real-canadian-superstore-on-flyer-december-4-to-102/single/18",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/282102/real-canadian-superstore-on-flyer-december-4-to-102-19.jpg",
+          "flyer_title": "real-canadian-superstore-on-flyer-december-4-to-102",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/real-canadian-superstore-on-flyer-december-4-to-102",
+          "source_scan": "competitive_full_flyer_10wk_2026_01_22_backfill",
+          "scan_scope": "all pages, primary Ontario flyer"
+        },
+        {
+          "brand": "Carnation",
+          "brand_text_seen": "Carnation Hot Chocolate, 175/450 g",
+          "product_name": "Carnation Hot Chocolate, 175/450 g",
+          "price": "$25 spend threshold",
+          "deal_details": "Get 3,000 PC Optimum points for every $25 spent",
+          "promotion_type": "Loyalty Offer",
+          "page_number": 19,
+          "page_url": "https://flyers.smartcanucks.ca/canada/real-canadian-superstore-on-flyer-december-4-to-102/single/18",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/282102/real-canadian-superstore-on-flyer-december-4-to-102-19.jpg",
+          "flyer_title": "real-canadian-superstore-on-flyer-december-4-to-102",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/real-canadian-superstore-on-flyer-december-4-to-102",
+          "source_scan": "competitive_full_flyer_10wk_2026_01_22_backfill",
+          "scan_scope": "all pages, primary Ontario flyer"
+        },
+        {
+          "brand": "Starbucks",
+          "brand_text_seen": "Starbucks Nespresso Vertuo Pods, 50-100 g",
+          "product_name": "Starbucks Nespresso Vertuo Pods, 50-100 g",
+          "price": "$12.99",
+          "deal_details": "Selected varieties",
+          "promotion_type": "Special Price",
+          "page_number": 19,
+          "page_url": "https://flyers.smartcanucks.ca/canada/real-canadian-superstore-on-flyer-december-4-to-102/single/18",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/282102/real-canadian-superstore-on-flyer-december-4-to-102-19.jpg",
+          "flyer_title": "real-canadian-superstore-on-flyer-december-4-to-102",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/real-canadian-superstore-on-flyer-december-4-to-102",
+          "source_scan": "competitive_full_flyer_10wk_2026_01_22_backfill",
+          "scan_scope": "all pages, primary Ontario flyer"
+        },
+        {
+          "brand": "McCafe",
+          "brand_text_seen": "McCafe K-Cup or Ground Coffee, 10/12's / 340 g",
+          "product_name": "McCafe K-Cup or Ground Coffee, 10/12's / 340 g",
+          "price": "$16.99",
+          "deal_details": "Get 1,500 PC Optimum points for every $10 spent",
+          "promotion_type": "Loyalty Offer",
+          "page_number": 19,
+          "page_url": "https://flyers.smartcanucks.ca/canada/real-canadian-superstore-on-flyer-december-4-to-102/single/18",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/282102/real-canadian-superstore-on-flyer-december-4-to-102-19.jpg",
+          "flyer_title": "real-canadian-superstore-on-flyer-december-4-to-102",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/real-canadian-superstore-on-flyer-december-4-to-102",
+          "source_scan": "competitive_full_flyer_10wk_2026_01_22_backfill",
+          "scan_scope": "all pages, primary Ontario flyer"
+        },
+        {
+          "brand": "Tazo",
+          "brand_text_seen": "Tazo Concentrates, 946 mL",
+          "product_name": "Tazo Concentrates, 946 mL",
+          "price": "$7.00",
+          "deal_details": "Save $1.99",
+          "promotion_type": "Price Drop",
+          "page_number": 20,
+          "page_url": "https://flyers.smartcanucks.ca/canada/real-canadian-superstore-on-flyer-december-4-to-102/single/19",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/282102/real-canadian-superstore-on-flyer-december-4-to-102-20.jpg",
+          "flyer_title": "real-canadian-superstore-on-flyer-december-4-to-102",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/real-canadian-superstore-on-flyer-december-4-to-102",
+          "source_scan": "competitive_full_flyer_10wk_2026_01_22_backfill",
+          "scan_scope": "all pages, primary Ontario flyer"
+        }
+      ]
+    },
+    {
+      "name": "No Frills",
+      "flyers": [
+        {
+          "title": "no-frills-on-flyer-december-4-to-102",
+          "url": "https://flyers.smartcanucks.ca/canada/no-frills-on-flyer-december-4-to-102",
+          "pages_scanned": 25,
+          "products_found": 4
+        }
+      ],
+      "products": [
+        {
+          "brand": "Campbell's",
+          "brand_text_seen": "Campbell's Condensed Soup, 284 mL",
+          "product_name": "Campbell's Condensed Soup, 284 mL",
+          "price": "$0.77",
+          "deal_details": "Selected varieties",
+          "promotion_type": "Special Price",
+          "page_number": 1,
+          "page_url": "https://flyers.smartcanucks.ca/canada/no-frills-on-flyer-december-4-to-102/single",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/282108/no-frills-on-flyer-december-4-to-102-1.jpg",
+          "flyer_title": "no-frills-on-flyer-december-4-to-102",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/no-frills-on-flyer-december-4-to-102",
+          "source_scan": "competitive_full_flyer_10wk_2026_01_22_backfill",
+          "scan_scope": "all pages, primary Ontario flyer"
+        },
+        {
+          "brand": "Kicking Horse",
+          "brand_text_seen": "Kicking Horse Organic Ground Coffee, 284 g",
+          "product_name": "Kicking Horse Organic Ground Coffee, 284 g",
+          "price": "$10.00",
+          "deal_details": "Selected varieties",
+          "promotion_type": "Special Price",
+          "page_number": 12,
+          "page_url": "https://flyers.smartcanucks.ca/canada/no-frills-on-flyer-december-4-to-102/single/11",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/282108/no-frills-on-flyer-december-4-to-102-12.jpg",
+          "flyer_title": "no-frills-on-flyer-december-4-to-102",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/no-frills-on-flyer-december-4-to-102",
+          "source_scan": "competitive_full_flyer_10wk_2026_01_22_backfill",
+          "scan_scope": "all pages, primary Ontario flyer"
+        },
+        {
+          "brand": "Starbucks",
+          "brand_text_seen": "Starbucks Roast and Ground Coffee, 340 g or Hot Chocolate",
+          "product_name": "Starbucks Roast and Ground Coffee, 340 g or Hot Chocolate",
+          "price": "$11.99",
+          "deal_details": "Selected varieties",
+          "promotion_type": "Special Price",
+          "page_number": 12,
+          "page_url": "https://flyers.smartcanucks.ca/canada/no-frills-on-flyer-december-4-to-102/single/11",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/282108/no-frills-on-flyer-december-4-to-102-12.jpg",
+          "flyer_title": "no-frills-on-flyer-december-4-to-102",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/no-frills-on-flyer-december-4-to-102",
+          "source_scan": "competitive_full_flyer_10wk_2026_01_22_backfill",
+          "scan_scope": "all pages, primary Ontario flyer"
+        },
+        {
+          "brand": "Campbell's",
+          "brand_text_seen": "Campbell's Ready to Serve Soup or Habitant Soup",
+          "product_name": "Campbell's Ready to Serve Soup or Habitant Soup",
+          "price": "$2.00",
+          "deal_details": "Selected varieties",
+          "promotion_type": "Special Price",
+          "page_number": 12,
+          "page_url": "https://flyers.smartcanucks.ca/canada/no-frills-on-flyer-december-4-to-102/single/11",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/282108/no-frills-on-flyer-december-4-to-102-12.jpg",
+          "flyer_title": "no-frills-on-flyer-december-4-to-102",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/no-frills-on-flyer-december-4-to-102",
+          "source_scan": "competitive_full_flyer_10wk_2026_01_22_backfill",
+          "scan_scope": "all pages, primary Ontario flyer"
+        }
+      ]
+    },
+    {
+      "name": "Metro",
+      "flyers": [
+        {
+          "title": "metro-on-flyer-december-4-to-10",
+          "url": "https://flyers.smartcanucks.ca/canada/metro-on-flyer-december-4-to-10",
+          "pages_scanned": 21,
+          "products_found": 11
+        }
+      ],
+      "products": [
+        {
+          "brand": "Maxwell House",
+          "brand_text_seen": "Maxwell House Ground Coffee, 864 g",
+          "product_name": "Maxwell House Ground Coffee, 864 g",
+          "price": "$17.99",
+          "deal_details": "250 Moi points; selected varieties",
+          "promotion_type": "Loyalty Offer",
+          "page_number": 2,
+          "page_url": "https://flyers.smartcanucks.ca/canada/metro-on-flyer-december-4-to-10/single/1",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/282111/metro-on-flyer-december-4-to-10-2.jpg",
+          "flyer_title": "metro-on-flyer-december-4-to-10",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/metro-on-flyer-december-4-to-10",
+          "source_scan": "competitive_full_flyer_10wk_2026_01_22_backfill",
+          "scan_scope": "all pages, primary Ontario flyer"
+        },
+        {
+          "brand": "Tim Hortons",
+          "brand_text_seen": "Tim Hortons Ready to Serve Soup, 540 mL",
+          "product_name": "Tim Hortons Ready to Serve Soup, 540 mL",
+          "price": "$3.99",
+          "deal_details": "Selected varieties",
+          "promotion_type": "Special Price",
+          "page_number": 15,
+          "page_url": "https://flyers.smartcanucks.ca/canada/metro-on-flyer-december-4-to-10/single/14",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/282111/metro-on-flyer-december-4-to-10-9.jpg",
+          "flyer_title": "metro-on-flyer-december-4-to-10",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/metro-on-flyer-december-4-to-10",
+          "source_scan": "competitive_full_flyer_10wk_2026_01_22_backfill",
+          "scan_scope": "all pages, primary Ontario flyer"
+        },
+        {
+          "brand": "Tim Hortons",
+          "brand_text_seen": "Tim Hortons Hot Chocolate, 500 g",
+          "product_name": "Tim Hortons Hot Chocolate, 500 g",
+          "price": "$6.99",
+          "deal_details": "Selected varieties",
+          "promotion_type": "Special Price",
+          "page_number": 15,
+          "page_url": "https://flyers.smartcanucks.ca/canada/metro-on-flyer-december-4-to-10/single/14",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/282111/metro-on-flyer-december-4-to-10-9.jpg",
+          "flyer_title": "metro-on-flyer-december-4-to-10",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/metro-on-flyer-december-4-to-10",
+          "source_scan": "competitive_full_flyer_10wk_2026_01_22_backfill",
+          "scan_scope": "all pages, primary Ontario flyer"
+        },
+        {
+          "brand": "Tim Hortons",
+          "brand_text_seen": "Tim Hortons Instant Coffee, 100 g",
+          "product_name": "Tim Hortons Instant Coffee, 100 g",
+          "price": "$8.99",
+          "deal_details": "Selected varieties",
+          "promotion_type": "Special Price",
+          "page_number": 15,
+          "page_url": "https://flyers.smartcanucks.ca/canada/metro-on-flyer-december-4-to-10/single/14",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/282111/metro-on-flyer-december-4-to-10-9.jpg",
+          "flyer_title": "metro-on-flyer-december-4-to-10",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/metro-on-flyer-december-4-to-10",
+          "source_scan": "competitive_full_flyer_10wk_2026_01_22_backfill",
+          "scan_scope": "all pages, primary Ontario flyer"
+        },
+        {
+          "brand": "Tim Hortons",
+          "brand_text_seen": "Tim Hortons Coffee Capsules, 10 ct",
+          "product_name": "Tim Hortons Coffee Capsules, 10 ct",
+          "price": "$7.99",
+          "deal_details": "Selected varieties",
+          "promotion_type": "Special Price",
+          "page_number": 15,
+          "page_url": "https://flyers.smartcanucks.ca/canada/metro-on-flyer-december-4-to-10/single/14",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/282111/metro-on-flyer-december-4-to-10-9.jpg",
+          "flyer_title": "metro-on-flyer-december-4-to-10",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/metro-on-flyer-december-4-to-10",
+          "source_scan": "competitive_full_flyer_10wk_2026_01_22_backfill",
+          "scan_scope": "all pages, primary Ontario flyer"
+        },
+        {
+          "brand": "Red Rose",
+          "brand_text_seen": "Red Rose Tea Bags, 70's",
+          "product_name": "Red Rose Tea Bags, 70's",
+          "price": "$5.49",
+          "deal_details": "Selected varieties",
+          "promotion_type": "Special Price",
+          "page_number": 17,
+          "page_url": "https://flyers.smartcanucks.ca/canada/metro-on-flyer-december-4-to-10/single/16",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/282111/metro-on-flyer-december-4-to-10-10.jpg",
+          "flyer_title": "metro-on-flyer-december-4-to-10",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/metro-on-flyer-december-4-to-10",
+          "source_scan": "competitive_full_flyer_10wk_2026_01_22_backfill",
+          "scan_scope": "all pages, primary Ontario flyer"
+        },
+        {
+          "brand": "McCafe",
+          "brand_text_seen": "McCafe Coffee Capsules, 30 ct",
+          "product_name": "McCafe Coffee Capsules, 30 ct",
+          "price": "$23.99",
+          "deal_details": "Selected varieties",
+          "promotion_type": "Special Price",
+          "page_number": 17,
+          "page_url": "https://flyers.smartcanucks.ca/canada/metro-on-flyer-december-4-to-10/single/16",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/282111/metro-on-flyer-december-4-to-10-10.jpg",
+          "flyer_title": "metro-on-flyer-december-4-to-10",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/metro-on-flyer-december-4-to-10",
+          "source_scan": "competitive_full_flyer_10wk_2026_01_22_backfill",
+          "scan_scope": "all pages, primary Ontario flyer"
+        },
+        {
+          "brand": "Van Houtte",
+          "brand_text_seen": "Van Houtte Coffee Capsules, 30 ct",
+          "product_name": "Van Houtte Coffee Capsules, 30 ct",
+          "price": "$23.99",
+          "deal_details": "Selected varieties",
+          "promotion_type": "Special Price",
+          "page_number": 17,
+          "page_url": "https://flyers.smartcanucks.ca/canada/metro-on-flyer-december-4-to-10/single/16",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/282111/metro-on-flyer-december-4-to-10-10.jpg",
+          "flyer_title": "metro-on-flyer-december-4-to-10",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/metro-on-flyer-december-4-to-10",
+          "source_scan": "competitive_full_flyer_10wk_2026_01_22_backfill",
+          "scan_scope": "all pages, primary Ontario flyer"
+        },
+        {
+          "brand": "Selection",
+          "brand_text_seen": "Selection Soup, 284 mL",
+          "product_name": "Selection Soup, 284 mL",
+          "price": "$1.25",
+          "deal_details": "Low price every day; selected varieties",
+          "promotion_type": "Price Drop",
+          "page_number": 17,
+          "page_url": "https://flyers.smartcanucks.ca/canada/metro-on-flyer-december-4-to-10/single/16",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/282111/metro-on-flyer-december-4-to-10-10.jpg",
+          "flyer_title": "metro-on-flyer-december-4-to-10",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/metro-on-flyer-december-4-to-10",
+          "source_scan": "competitive_full_flyer_10wk_2026_01_22_backfill",
+          "scan_scope": "all pages, primary Ontario flyer"
+        },
+        {
+          "brand": "Celestial",
+          "brand_text_seen": "Celestial Tea, 20 ct",
+          "product_name": "Celestial Tea, 20 ct",
+          "price": "$5.49",
+          "deal_details": "Selected varieties",
+          "promotion_type": "Special Price",
+          "page_number": 19,
+          "page_url": "https://flyers.smartcanucks.ca/canada/metro-on-flyer-december-4-to-10/single/18",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/282111/metro-on-flyer-december-4-to-10-11.jpg",
+          "flyer_title": "metro-on-flyer-december-4-to-10",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/metro-on-flyer-december-4-to-10",
+          "source_scan": "competitive_full_flyer_10wk_2026_01_22_backfill",
+          "scan_scope": "all pages, primary Ontario flyer"
+        },
+        {
+          "brand": "Crank",
+          "brand_text_seen": "Crank Coffee, 340 g",
+          "product_name": "Crank Coffee, 340 g",
+          "price": "$15.99",
+          "deal_details": "Selected varieties",
+          "promotion_type": "Special Price",
+          "page_number": 19,
+          "page_url": "https://flyers.smartcanucks.ca/canada/metro-on-flyer-december-4-to-10/single/18",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/282111/metro-on-flyer-december-4-to-10-11.jpg",
+          "flyer_title": "metro-on-flyer-december-4-to-10",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/metro-on-flyer-december-4-to-10",
+          "source_scan": "competitive_full_flyer_10wk_2026_01_22_backfill",
+          "scan_scope": "all pages, primary Ontario flyer"
+        }
+      ]
+    },
+    {
+      "name": "Food Basics",
+      "flyers": [
+        {
+          "title": "food-basics-flyer-december-4-to-10",
+          "url": "https://flyers.smartcanucks.ca/canada/food-basics-flyer-december-4-to-10",
+          "pages_scanned": 19,
+          "products_found": 7
+        }
+      ],
+      "products": [
+        {
+          "brand": "Lavazza",
+          "brand_text_seen": "Lavazza Espresso Beans, 1 kg",
+          "product_name": "Lavazza Espresso Beans, 1 kg",
+          "price": "$19.99",
+          "deal_details": "This week only; 125 points",
+          "promotion_type": "Loyalty Offer",
+          "page_number": 1,
+          "page_url": "https://flyers.smartcanucks.ca/canada/food-basics-flyer-december-4-to-10/single",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/282138/food-basics-flyer-december-4-to-10-1.jpg",
+          "flyer_title": "food-basics-flyer-december-4-to-10",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/food-basics-flyer-december-4-to-10",
+          "source_scan": "competitive_full_flyer_10wk_2026_01_22_backfill",
+          "scan_scope": "all pages, primary Ontario flyer"
+        },
+        {
+          "brand": "Maxwell House",
+          "brand_text_seen": "Maxwell House Ground Coffee, 864/900 g",
+          "product_name": "Maxwell House Ground Coffee, 864/900 g",
+          "price": "$17.99",
+          "deal_details": "Locked Down; 375 points",
+          "promotion_type": "Loyalty Offer",
+          "page_number": 3,
+          "page_url": "https://flyers.smartcanucks.ca/canada/food-basics-flyer-december-4-to-10/single/2",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/282138/food-basics-flyer-december-4-to-10-3.jpg",
+          "flyer_title": "food-basics-flyer-december-4-to-10",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/food-basics-flyer-december-4-to-10",
+          "source_scan": "competitive_full_flyer_10wk_2026_01_22_backfill",
+          "scan_scope": "all pages, primary Ontario flyer"
+        },
+        {
+          "brand": "Folgers",
+          "brand_text_seen": "Folgers Coffee Capsules, 12's",
+          "product_name": "Folgers Coffee Capsules, 12's",
+          "price": "$9.99",
+          "deal_details": "Locked Down; 45 points",
+          "promotion_type": "Loyalty Offer",
+          "page_number": 5,
+          "page_url": "https://flyers.smartcanucks.ca/canada/food-basics-flyer-december-4-to-10/single/4",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/282138/food-basics-flyer-december-4-to-10-5.jpg",
+          "flyer_title": "food-basics-flyer-december-4-to-10",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/food-basics-flyer-december-4-to-10",
+          "source_scan": "competitive_full_flyer_10wk_2026_01_22_backfill",
+          "scan_scope": "all pages, primary Ontario flyer"
+        },
+        {
+          "brand": "Nescafe",
+          "brand_text_seen": "Nescafe or Taster's Choice Instant Coffee, 100-170 g",
+          "product_name": "Nescafe or Taster's Choice Instant Coffee, 100-170 g",
+          "price": "$5.99",
+          "deal_details": "Locked Down; 125 points",
+          "promotion_type": "Loyalty Offer",
+          "page_number": 9,
+          "page_url": "https://flyers.smartcanucks.ca/canada/food-basics-flyer-december-4-to-10/single/8",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/282138/food-basics-flyer-december-4-to-10-9.jpg",
+          "flyer_title": "food-basics-flyer-december-4-to-10",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/food-basics-flyer-december-4-to-10",
+          "source_scan": "competitive_full_flyer_10wk_2026_01_22_backfill",
+          "scan_scope": "all pages, primary Ontario flyer"
+        },
+        {
+          "brand": "McCafe",
+          "brand_text_seen": "McCafe Coffee Capsules",
+          "product_name": "McCafe Coffee Capsules",
+          "price": "$26.99",
+          "deal_details": "Locked Down; selected varieties",
+          "promotion_type": "Price Drop",
+          "page_number": 10,
+          "page_url": "https://flyers.smartcanucks.ca/canada/food-basics-flyer-december-4-to-10/single/9",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/282138/food-basics-flyer-december-4-to-10-10.jpg",
+          "flyer_title": "food-basics-flyer-december-4-to-10",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/food-basics-flyer-december-4-to-10",
+          "source_scan": "competitive_full_flyer_10wk_2026_01_22_backfill",
+          "scan_scope": "all pages, primary Ontario flyer"
+        },
+        {
+          "brand": "Tim Hortons",
+          "brand_text_seen": "Tim Hortons Coffee Capsules",
+          "product_name": "Tim Hortons Coffee Capsules",
+          "price": "$12.99",
+          "deal_details": "Selected varieties",
+          "promotion_type": "Special Price",
+          "page_number": 13,
+          "page_url": "https://flyers.smartcanucks.ca/canada/food-basics-flyer-december-4-to-10/single/12",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/282138/food-basics-flyer-december-4-to-10-13.jpg",
+          "flyer_title": "food-basics-flyer-december-4-to-10",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/food-basics-flyer-december-4-to-10",
+          "source_scan": "competitive_full_flyer_10wk_2026_01_22_backfill",
+          "scan_scope": "all pages, primary Ontario flyer"
+        },
+        {
+          "brand": "Jacobs",
+          "brand_text_seen": "Jacobs Kronung Coffee, 525/750 g",
+          "product_name": "Jacobs Kronung Coffee, 525/750 g",
+          "price": "$5.49",
+          "deal_details": "Selected varieties",
+          "promotion_type": "Special Price",
+          "page_number": 16,
+          "page_url": "https://flyers.smartcanucks.ca/canada/food-basics-flyer-december-4-to-10/single/15",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/282138/food-basics-flyer-december-4-to-10-16.jpg",
+          "flyer_title": "food-basics-flyer-december-4-to-10",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/food-basics-flyer-december-4-to-10",
+          "source_scan": "competitive_full_flyer_10wk_2026_01_22_backfill",
+          "scan_scope": "all pages, primary Ontario flyer"
+        }
+      ]
+    },
+    {
+      "name": "Sobeys",
+      "flyers": [
+        {
+          "title": "sobeys-on-flyer-december-4-to-102",
+          "url": "https://flyers.smartcanucks.ca/canada/sobeys-on-flyer-december-4-to-102",
+          "pages_scanned": 21,
+          "products_found": 7
+        }
+      ],
+      "products": [
+        {
+          "brand": "Van Houtte",
+          "brand_text_seen": "Van Houtte Coffee, 340 g or Pods, 10-12 pk",
+          "product_name": "Van Houtte Coffee, 340 g or Pods, 10-12 pk",
+          "price": "$10.99",
+          "deal_details": "Selected varieties",
+          "promotion_type": "Special Price",
+          "page_number": 3,
+          "page_url": "https://flyers.smartcanucks.ca/canada/sobeys-on-flyer-december-4-to-102/single/2",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/282086/sobeys-on-flyer-december-4-to-102-3.jpg",
+          "flyer_title": "sobeys-on-flyer-december-4-to-102",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/sobeys-on-flyer-december-4-to-102",
+          "source_scan": "competitive_full_flyer_10wk_2026_01_22_backfill",
+          "scan_scope": "all pages, primary Ontario flyer"
+        },
+        {
+          "brand": "Twinings",
+          "brand_text_seen": "Twinings Tea, 100 pk",
+          "product_name": "Twinings Tea, 100 pk",
+          "price": "$10.99",
+          "deal_details": "Selected varieties",
+          "promotion_type": "Special Price",
+          "page_number": 3,
+          "page_url": "https://flyers.smartcanucks.ca/canada/sobeys-on-flyer-december-4-to-102/single/2",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/282086/sobeys-on-flyer-december-4-to-102-3.jpg",
+          "flyer_title": "sobeys-on-flyer-december-4-to-102",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/sobeys-on-flyer-december-4-to-102",
+          "source_scan": "competitive_full_flyer_10wk_2026_01_22_backfill",
+          "scan_scope": "all pages, primary Ontario flyer"
+        },
+        {
+          "brand": "Tetley",
+          "brand_text_seen": "Tetley Tea, 216 pk",
+          "product_name": "Tetley Tea, 216 pk",
+          "price": "$10.99",
+          "deal_details": "Selected varieties",
+          "promotion_type": "Special Price",
+          "page_number": 3,
+          "page_url": "https://flyers.smartcanucks.ca/canada/sobeys-on-flyer-december-4-to-102/single/2",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/282086/sobeys-on-flyer-december-4-to-102-3.jpg",
+          "flyer_title": "sobeys-on-flyer-december-4-to-102",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/sobeys-on-flyer-december-4-to-102",
+          "source_scan": "competitive_full_flyer_10wk_2026_01_22_backfill",
+          "scan_scope": "all pages, primary Ontario flyer"
+        },
+        {
+          "brand": "Campbell's",
+          "brand_text_seen": "Campbell's Chunky Soup, 515 mL",
+          "product_name": "Campbell's Chunky Soup, 515 mL",
+          "price": "2/$7.00",
+          "deal_details": "100 Scene+ points when you buy 2",
+          "promotion_type": "Loyalty Offer",
+          "page_number": 10,
+          "page_url": "https://flyers.smartcanucks.ca/canada/sobeys-on-flyer-december-4-to-102/single/9",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/282086/sobeys-on-flyer-december-4-to-102-10.jpg",
+          "flyer_title": "sobeys-on-flyer-december-4-to-102",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/sobeys-on-flyer-december-4-to-102",
+          "source_scan": "competitive_full_flyer_10wk_2026_01_22_backfill",
+          "scan_scope": "all pages, primary Ontario flyer"
+        },
+        {
+          "brand": "Lavazza",
+          "brand_text_seen": "Lavazza Specialty Coffee, 340 g",
+          "product_name": "Lavazza Specialty Coffee, 340 g",
+          "price": "$14.99",
+          "deal_details": "Selected varieties",
+          "promotion_type": "Special Price",
+          "page_number": 13,
+          "page_url": "https://flyers.smartcanucks.ca/canada/sobeys-on-flyer-december-4-to-102/single/12",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/282086/sobeys-on-flyer-december-4-to-102-13.jpg",
+          "flyer_title": "sobeys-on-flyer-december-4-to-102",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/sobeys-on-flyer-december-4-to-102",
+          "source_scan": "competitive_full_flyer_10wk_2026_01_22_backfill",
+          "scan_scope": "all pages, primary Ontario flyer"
+        },
+        {
+          "brand": "McCafe",
+          "brand_text_seen": "McCafe Keurig Compatible Single Serve Pods, 48 pk",
+          "product_name": "McCafe Keurig Compatible Single Serve Pods, 48 pk",
+          "price": "$38.99",
+          "deal_details": "Selected varieties",
+          "promotion_type": "Special Price",
+          "page_number": 19,
+          "page_url": "https://flyers.smartcanucks.ca/canada/sobeys-on-flyer-december-4-to-102/single/18",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/282086/sobeys-on-flyer-december-4-to-102-19.jpg",
+          "flyer_title": "sobeys-on-flyer-december-4-to-102",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/sobeys-on-flyer-december-4-to-102",
+          "source_scan": "competitive_full_flyer_10wk_2026_01_22_backfill",
+          "scan_scope": "all pages, primary Ontario flyer"
+        },
+        {
+          "brand": "Compliments",
+          "brand_text_seen": "Compliments Roast and Ground Coffee, 300 g",
+          "product_name": "Compliments Roast and Ground Coffee, 300 g",
+          "price": "$9.99",
+          "deal_details": "1,000 Scene+ points when you buy 3",
+          "promotion_type": "Loyalty Offer",
+          "page_number": 19,
+          "page_url": "https://flyers.smartcanucks.ca/canada/sobeys-on-flyer-december-4-to-102/single/18",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/282086/sobeys-on-flyer-december-4-to-102-19.jpg",
+          "flyer_title": "sobeys-on-flyer-december-4-to-102",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/sobeys-on-flyer-december-4-to-102",
+          "source_scan": "competitive_full_flyer_10wk_2026_01_22_backfill",
+          "scan_scope": "all pages, primary Ontario flyer"
+        }
+      ]
+    },
+    {
+      "name": "FreshCo",
+      "flyers": [
+        {
+          "title": "freshco-on-flyer-december-4-to-10",
+          "url": "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-december-4-to-10",
+          "pages_scanned": 21,
+          "products_found": 7
+        }
+      ],
+      "products": [
+        {
+          "brand": "Twinings",
+          "brand_text_seen": "Twinings Tea Bags, 20 pk",
+          "product_name": "Twinings Tea Bags, 20 pk",
+          "price": "$2.49",
+          "deal_details": "Save $2",
+          "promotion_type": "Price Drop",
+          "page_number": 2,
+          "page_url": "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-december-4-to-10/single/1",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/282133/freshco-on-flyer-december-4-to-10-2.jpg",
+          "flyer_title": "freshco-on-flyer-december-4-to-10",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-december-4-to-10",
+          "source_scan": "competitive_full_flyer_10wk_2026_01_22_backfill",
+          "scan_scope": "all pages, primary Ontario flyer"
+        },
+        {
+          "brand": "Tetley",
+          "brand_text_seen": "Tetley Orange Pekoe Tea, 72 pk",
+          "product_name": "Tetley Orange Pekoe Tea, 72 pk",
+          "price": "$2.49",
+          "deal_details": "Save $2",
+          "promotion_type": "Price Drop",
+          "page_number": 2,
+          "page_url": "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-december-4-to-10/single/1",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/282133/freshco-on-flyer-december-4-to-10-2.jpg",
+          "flyer_title": "freshco-on-flyer-december-4-to-10",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-december-4-to-10",
+          "source_scan": "competitive_full_flyer_10wk_2026_01_22_backfill",
+          "scan_scope": "all pages, primary Ontario flyer"
+        },
+        {
+          "brand": "Folgers",
+          "brand_text_seen": "Folgers K-Cups, 30 pk or Ground Coffee, 544-816 g",
+          "product_name": "Folgers K-Cups, 30 pk or Ground Coffee, 544-816 g",
+          "price": "$16.99",
+          "deal_details": "Save up to $7",
+          "promotion_type": "Price Drop",
+          "page_number": 4,
+          "page_url": "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-december-4-to-10/single/3",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/282133/freshco-on-flyer-december-4-to-10-4.jpg",
+          "flyer_title": "freshco-on-flyer-december-4-to-10",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-december-4-to-10",
+          "source_scan": "competitive_full_flyer_10wk_2026_01_22_backfill",
+          "scan_scope": "all pages, primary Ontario flyer"
+        },
+        {
+          "brand": "Sainsbury's",
+          "brand_text_seen": "Sainsbury's Red Label Tea, 80 pk",
+          "product_name": "Sainsbury's Red Label Tea, 80 pk",
+          "price": "$4.99",
+          "deal_details": "Selected",
+          "promotion_type": "Special Price",
+          "page_number": 16,
+          "page_url": "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-december-4-to-10/single/15",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/282133/freshco-on-flyer-december-4-to-10-16.jpg",
+          "flyer_title": "freshco-on-flyer-december-4-to-10",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-december-4-to-10",
+          "source_scan": "competitive_full_flyer_10wk_2026_01_22_backfill",
+          "scan_scope": "all pages, primary Ontario flyer"
+        },
+        {
+          "brand": "Tim Hortons",
+          "brand_text_seen": "Tim Hortons Ground Coffee, 300 g or Single Serve K-Cups, 10-12 pk",
+          "product_name": "Tim Hortons Ground Coffee, 300 g or Single Serve K-Cups, 10-12 pk",
+          "price": "$10.99",
+          "deal_details": "Save $3",
+          "promotion_type": "Price Drop",
+          "page_number": 18,
+          "page_url": "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-december-4-to-10/single/17",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/282133/freshco-on-flyer-december-4-to-10-18.jpg",
+          "flyer_title": "freshco-on-flyer-december-4-to-10",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-december-4-to-10",
+          "source_scan": "competitive_full_flyer_10wk_2026_01_22_backfill",
+          "scan_scope": "all pages, primary Ontario flyer"
+        },
+        {
+          "brand": "Tetley",
+          "brand_text_seen": "Tetley Tea, 20-24 pk",
+          "product_name": "Tetley Tea, 20-24 pk",
+          "price": "$2.99",
+          "deal_details": "Save $2",
+          "promotion_type": "Price Drop",
+          "page_number": 18,
+          "page_url": "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-december-4-to-10/single/17",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/282133/freshco-on-flyer-december-4-to-10-18.jpg",
+          "flyer_title": "freshco-on-flyer-december-4-to-10",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-december-4-to-10",
+          "source_scan": "competitive_full_flyer_10wk_2026_01_22_backfill",
+          "scan_scope": "all pages, primary Ontario flyer"
+        },
+        {
+          "brand": "Lavazza",
+          "brand_text_seen": "Lavazza Espresso Bricks, 250 g",
+          "product_name": "Lavazza Espresso Bricks, 250 g",
+          "price": "$6.49",
+          "deal_details": "Save $1.80",
+          "promotion_type": "Price Drop",
+          "page_number": 18,
+          "page_url": "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-december-4-to-10/single/17",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/282133/freshco-on-flyer-december-4-to-10-18.jpg",
+          "flyer_title": "freshco-on-flyer-december-4-to-10",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-december-4-to-10",
+          "source_scan": "competitive_full_flyer_10wk_2026_01_22_backfill",
+          "scan_scope": "all pages, primary Ontario flyer"
+        }
+      ]
+    },
+    {
+      "name": "Loblaws",
+      "flyers": [
+        {
+          "title": "loblaws-on-flyer-december-4-to-102",
+          "url": "https://flyers.smartcanucks.ca/canada/loblaws-on-flyer-december-4-to-102",
+          "pages_scanned": 23,
+          "products_found": 6
+        }
+      ],
+      "products": [
+        {
+          "brand": "Nescafe",
+          "brand_text_seen": "Nescafe or Taster's Choice Instant Coffee or Sweet & Creamy Sachets",
+          "product_name": "Nescafe or Taster's Choice Instant Coffee or Sweet & Creamy Sachets",
+          "price": "$6.44",
+          "deal_details": "Selected varieties",
+          "promotion_type": "Special Price",
+          "page_number": 4,
+          "page_url": "https://flyers.smartcanucks.ca/canada/loblaws-on-flyer-december-4-to-102/single/3",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/282116/loblaws-on-flyer-december-4-to-102-4.jpg",
+          "flyer_title": "loblaws-on-flyer-december-4-to-102",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/loblaws-on-flyer-december-4-to-102",
+          "source_scan": "competitive_full_flyer_10wk_2026_01_22_backfill",
+          "scan_scope": "all pages, primary Ontario flyer"
+        },
+        {
+          "brand": "Lavazza",
+          "brand_text_seen": "Lavazza Espresso Bricks",
+          "product_name": "Lavazza Espresso Bricks",
+          "price": "$7.00",
+          "deal_details": "Selected varieties",
+          "promotion_type": "Special Price",
+          "page_number": 8,
+          "page_url": "https://flyers.smartcanucks.ca/canada/loblaws-on-flyer-december-4-to-102/single/7",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/282116/loblaws-on-flyer-december-4-to-102-8.jpg",
+          "flyer_title": "loblaws-on-flyer-december-4-to-102",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/loblaws-on-flyer-december-4-to-102",
+          "source_scan": "competitive_full_flyer_10wk_2026_01_22_backfill",
+          "scan_scope": "all pages, primary Ontario flyer"
+        },
+        {
+          "brand": "Tim Hortons",
+          "brand_text_seen": "Tim Hortons Hot Chocolate Tin, 500 g",
+          "product_name": "Tim Hortons Hot Chocolate Tin, 500 g",
+          "price": "$6.50",
+          "deal_details": "Selected varieties",
+          "promotion_type": "Special Price",
+          "page_number": 23,
+          "page_url": "https://flyers.smartcanucks.ca/canada/loblaws-on-flyer-december-4-to-102/single/22",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/282116/loblaws-on-flyer-december-4-to-102-23.jpg",
+          "flyer_title": "loblaws-on-flyer-december-4-to-102",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/loblaws-on-flyer-december-4-to-102",
+          "source_scan": "competitive_full_flyer_10wk_2026_01_22_backfill",
+          "scan_scope": "all pages, primary Ontario flyer"
+        },
+        {
+          "brand": "Tim Hortons",
+          "brand_text_seen": "Tim Hortons Nespresso Compatible Capsules, 10's",
+          "product_name": "Tim Hortons Nespresso Compatible Capsules, 10's",
+          "price": "$7.50",
+          "deal_details": "Selected varieties",
+          "promotion_type": "Special Price",
+          "page_number": 23,
+          "page_url": "https://flyers.smartcanucks.ca/canada/loblaws-on-flyer-december-4-to-102/single/22",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/282116/loblaws-on-flyer-december-4-to-102-23.jpg",
+          "flyer_title": "loblaws-on-flyer-december-4-to-102",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/loblaws-on-flyer-december-4-to-102",
+          "source_scan": "competitive_full_flyer_10wk_2026_01_22_backfill",
+          "scan_scope": "all pages, primary Ontario flyer"
+        },
+        {
+          "brand": "Tim Hortons",
+          "brand_text_seen": "Tim Hortons Hot Chocolate Sachets, 8's",
+          "product_name": "Tim Hortons Hot Chocolate Sachets, 8's",
+          "price": "$6.50",
+          "deal_details": "Selected varieties",
+          "promotion_type": "Special Price",
+          "page_number": 23,
+          "page_url": "https://flyers.smartcanucks.ca/canada/loblaws-on-flyer-december-4-to-102/single/22",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/282116/loblaws-on-flyer-december-4-to-102-23.jpg",
+          "flyer_title": "loblaws-on-flyer-december-4-to-102",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/loblaws-on-flyer-december-4-to-102",
+          "source_scan": "competitive_full_flyer_10wk_2026_01_22_backfill",
+          "scan_scope": "all pages, primary Ontario flyer"
+        },
+        {
+          "brand": "Tim Hortons",
+          "brand_text_seen": "Tim Hortons Instant Coffee, 100 g",
+          "product_name": "Tim Hortons Instant Coffee, 100 g",
+          "price": "$8.00",
+          "deal_details": "Selected varieties",
+          "promotion_type": "Special Price",
+          "page_number": 23,
+          "page_url": "https://flyers.smartcanucks.ca/canada/loblaws-on-flyer-december-4-to-102/single/22",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/282116/loblaws-on-flyer-december-4-to-102-23.jpg",
+          "flyer_title": "loblaws-on-flyer-december-4-to-102",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/loblaws-on-flyer-december-4-to-102",
+          "source_scan": "competitive_full_flyer_10wk_2026_01_22_backfill",
+          "scan_scope": "all pages, primary Ontario flyer"
+        }
+      ]
+    },
+    {
+      "name": "Canadian Tire",
+      "flyers": [
+        {
+          "title": "Canadian Tire (ON) Flyer December 4 to 11",
+          "url": "https://flyers.smartcanucks.ca/canada/canadian-tire-on-flyer-december-4-to-11",
+          "pages_scanned": 28,
+          "products_found": 6
+        }
+      ],
+      "products": [
+        {
+          "brand": "Timothy's",
+          "brand_text_seen": "Timothy's K-Cup Pods, 48 ct",
+          "product_name": "Timothy's K-Cup Pods, 48 ct",
+          "price": "$20.99-$29.99",
+          "deal_details": "Save up to $5; selected",
+          "promotion_type": "Price Drop",
+          "page_number": 7,
+          "page_url": "https://flyers.smartcanucks.ca/canada/canadian-tire-on-flyer-december-4-to-11/single/6",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/282034/canadian-tire-on-flyer-december-4-to-11-7.jpg",
+          "flyer_title": "Canadian Tire (ON) Flyer December 4 to 11",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/canadian-tire-on-flyer-december-4-to-11",
+          "source_scan": "competitive_full_flyer_10wk_2026_01_22_backfill",
+          "scan_scope": "all pages, primary Ontario flyer"
+        },
+        {
+          "brand": "Folgers",
+          "brand_text_seen": "Folgers Ground Coffee, 816 g",
+          "product_name": "Folgers Ground Coffee, 816 g",
+          "price": "$20.99-$29.99",
+          "deal_details": "Save up to $5; selected",
+          "promotion_type": "Price Drop",
+          "page_number": 7,
+          "page_url": "https://flyers.smartcanucks.ca/canada/canadian-tire-on-flyer-december-4-to-11/single/6",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/282034/canadian-tire-on-flyer-december-4-to-11-7.jpg",
+          "flyer_title": "Canadian Tire (ON) Flyer December 4 to 11",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/canadian-tire-on-flyer-december-4-to-11",
+          "source_scan": "competitive_full_flyer_10wk_2026_01_22_backfill",
+          "scan_scope": "all pages, primary Ontario flyer"
+        },
+        {
+          "brand": "Starbucks",
+          "brand_text_seen": "Starbucks K-Cup Coffee Pods, 44 ct",
+          "product_name": "Starbucks K-Cup Coffee Pods, 44 ct",
+          "price": "$42.99-$44.99",
+          "deal_details": "Great value; selected",
+          "promotion_type": "Special Price",
+          "page_number": 17,
+          "page_url": "https://flyers.smartcanucks.ca/canada/canadian-tire-on-flyer-december-4-to-11/single/16",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/282034/canadian-tire-on-flyer-december-4-to-11-17.jpg",
+          "flyer_title": "Canadian Tire (ON) Flyer December 4 to 11",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/canadian-tire-on-flyer-december-4-to-11",
+          "source_scan": "competitive_full_flyer_10wk_2026_01_22_backfill",
+          "scan_scope": "all pages, primary Ontario flyer"
+        },
+        {
+          "brand": "McCafe",
+          "brand_text_seen": "McCafe Whole Coffee Beans, 900 g",
+          "product_name": "McCafe Whole Coffee Beans, 900 g",
+          "price": "$42.99-$44.99",
+          "deal_details": "Great value; selected",
+          "promotion_type": "Special Price",
+          "page_number": 17,
+          "page_url": "https://flyers.smartcanucks.ca/canada/canadian-tire-on-flyer-december-4-to-11/single/16",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/282034/canadian-tire-on-flyer-december-4-to-11-17.jpg",
+          "flyer_title": "Canadian Tire (ON) Flyer December 4 to 11",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/canadian-tire-on-flyer-december-4-to-11",
+          "source_scan": "competitive_full_flyer_10wk_2026_01_22_backfill",
+          "scan_scope": "all pages, primary Ontario flyer"
+        },
+        {
+          "brand": "Tim Hortons",
+          "brand_text_seen": "Tim Hortons K-Cup Coffee Pods, 48 ct",
+          "product_name": "Tim Hortons K-Cup Coffee Pods, 48 ct",
+          "price": "$39.99",
+          "deal_details": "Great value; selected",
+          "promotion_type": "Special Price",
+          "page_number": 17,
+          "page_url": "https://flyers.smartcanucks.ca/canada/canadian-tire-on-flyer-december-4-to-11/single/16",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/282034/canadian-tire-on-flyer-december-4-to-11-17.jpg",
+          "flyer_title": "Canadian Tire (ON) Flyer December 4 to 11",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/canadian-tire-on-flyer-december-4-to-11",
+          "source_scan": "competitive_full_flyer_10wk_2026_01_22_backfill",
+          "scan_scope": "all pages, primary Ontario flyer"
+        },
+        {
+          "brand": "McCafe",
+          "brand_text_seen": "McCafe K-Cup Pods, 30 ct",
+          "product_name": "McCafe K-Cup Pods, 30 ct",
+          "price": "$29.99",
+          "deal_details": "Save $5; selected",
+          "promotion_type": "Price Drop",
+          "page_number": 28,
+          "page_url": "https://flyers.smartcanucks.ca/canada/canadian-tire-on-flyer-december-4-to-11/single/27",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/282034/canadian-tire-on-flyer-december-4-to-11-28.jpg",
+          "flyer_title": "Canadian Tire (ON) Flyer December 4 to 11",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/canadian-tire-on-flyer-december-4-to-11",
+          "source_scan": "competitive_full_flyer_10wk_2026_01_22_backfill",
+          "scan_scope": "all pages, primary Ontario flyer"
+        }
+      ]
+    }
+  ]
 }
