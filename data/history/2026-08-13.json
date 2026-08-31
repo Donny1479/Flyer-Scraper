@@ -261,7 +261,7 @@
           "title": "No Frills (ON) Flyer August 13 to 19",
           "url": "https://flyers.smartcanucks.ca/canada/no-frills-on-flyer-august-13-to-192",
           "pages_scanned": 19,
-          "products_found": 15
+          "products_found": 16
         }
       ],
       "products": [
@@ -436,6 +436,21 @@
           "product_name": "Starbucks Iced Coffee, Cold Brew or Iced Espresso, 1.18/1.42 L",
           "price": "$7.29",
           "deal_details": "Selected varieties; shared offer with Stok",
+          "promotion_type": "Special Price",
+          "page_number": 8,
+          "page_url": "https://flyers.smartcanucks.ca/canada/no-frills-on-flyer-august-13-to-192/single/7",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/299176/no-frills-on-flyer-august-13-to-192-8.jpg",
+          "flyer_title": "No Frills (ON) Flyer August 13 to 19",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/no-frills-on-flyer-august-13-to-192",
+          "source_scan": "competitive_full_flyer_2026_08_13",
+          "scan_scope": "all pages, primary Ontario flyer"
+        },
+        {
+          "brand": "Torani",
+          "brand_text_seen": "Torani Syrup, selected varieties, 375 mL",
+          "product_name": "Torani Syrup, 375 mL",
+          "price": "$6.00",
+          "deal_details": "Selected varieties",
           "promotion_type": "Special Price",
           "page_number": 8,
           "page_url": "https://flyers.smartcanucks.ca/canada/no-frills-on-flyer-august-13-to-192/single/7",

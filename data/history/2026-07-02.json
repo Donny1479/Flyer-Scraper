@@ -276,7 +276,7 @@
           "title": "No Frills (ON) Flyer July 2 to 8",
           "url": "https://flyers.smartcanucks.ca/canada/no-frills-on-flyer-july-2-to-82",
           "pages_scanned": 18,
-          "products_found": 9
+          "products_found": 10
         }
       ],
       "products": [
@@ -301,6 +301,21 @@
           "product_name": "Red Rose Tea Bags, 210's",
           "price": "$8.99",
           "deal_details": "Orange Pekoe",
+          "promotion_type": "Special Price",
+          "page_number": 8,
+          "page_url": "https://flyers.smartcanucks.ca/canada/no-frills-on-flyer-july-2-to-82/single/7",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/296274/no-frills-on-flyer-july-2-to-82-8.jpg",
+          "flyer_title": "No Frills (ON) Flyer July 2 to 8",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/no-frills-on-flyer-july-2-to-82",
+          "source_scan": "competitive_full_flyer_2026_07_02",
+          "scan_scope": "all pages, primary Ontario flyer"
+        },
+        {
+          "brand": "Torani",
+          "brand_text_seen": "Torani Syrup, selected varieties, 375 mL",
+          "product_name": "Torani Syrup, 375 mL",
+          "price": "$6.49",
+          "deal_details": "Selected varieties",
           "promotion_type": "Special Price",
           "page_number": 8,
           "page_url": "https://flyers.smartcanucks.ca/canada/no-frills-on-flyer-july-2-to-82/single/7",
