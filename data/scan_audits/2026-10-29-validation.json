@@ -1,0 +1,23 @@
+{
+  "validated_on": "2026-10-30",
+  "retailer_week_records": 490,
+  "unique_flyers": 489,
+  "unique_pages": 10941,
+  "offer_entries": 4803,
+  "tim_hortons_offer_entries": 373,
+  "competitor_offer_entries": 4430,
+  "unchanged_existing_retailer_records": 758,
+  "unchanged_existing_offer_entries": 3384,
+  "existing_classification_changes": 0,
+  "existing_umap_results_changed": false,
+  "french_mapping_test_cases_passed": 13,
+  "all_offer_page_links_match_live_source_images": true,
+  "all_downloaded_pages_have_successful_ocr_records": true,
+  "blank_ocr_pages_visually_checked": 9,
+  "streamlit_app_exceptions": 0,
+  "existing_tab_count": 4,
+  "quebec_retailers_available_in_filters": true,
+  "product_history_default_brand": "Tim Hortons",
+  "competitors_excluded_from_umap_and_th_insights": true,
+  "missing_flyers": []
+}

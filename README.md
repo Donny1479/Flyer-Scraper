@@ -1,8 +1,8 @@
 # ☕ Tim Hortons Flyer Scanner
 
-Scans Ontario grocery flyers on SmartCanucks.ca for Tim Hortons branded products and presents them in a clean Streamlit dashboard with product name, price, deal details, and a direct link to the flyer page.
+Tracks primary Ontario and Quebec grocery flyers on SmartCanucks.ca, with Tim Hortons and competitive coffee, tea, canned soup, canned chili, and hot beverage offers. The dashboard shows product names, prices, deal details, and direct flyer page links. Competitive offers remain excluded from Tim Hortons UMAP and Flyer Insights.
 
-## Retailers monitored (Ontario)
+## Retailers monitored
 
 | Retailer | Region |
 |---|---|
@@ -14,6 +14,11 @@ Scans Ontario grocery flyers on SmartCanucks.ca for Tim Hortons branded products
 | Loblaws | ON |
 | Metro | ON |
 | Food Basics | National / ON |
+| Canadian Tire | ON |
+| Metro QC | QC |
+| IGA QC | QC |
+| Super C | QC |
+| Maxi | QC |
 
 ## How it works
 

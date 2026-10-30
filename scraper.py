@@ -95,6 +95,26 @@ RETAILERS = [
         "listing_url": f"{BASE_URL}/canadian-tire-canada",
         "url_patterns": ["/canada/canadian-tire-on-flyer-"],
     },
+    {
+        "name": "Metro QC",
+        "listing_url": f"{BASE_URL}/metro-canada",
+        "url_patterns": ["/canada/metro-qc-flyer-"],
+    },
+    {
+        "name": "IGA QC",
+        "listing_url": f"{BASE_URL}/iga-canada",
+        "url_patterns": ["/canada/iga-qc-flyer-"],
+    },
+    {
+        "name": "Super C",
+        "listing_url": f"{BASE_URL}/super-c-canada",
+        "url_patterns": ["/canada/super-c-flyer-"],
+    },
+    {
+        "name": "Maxi",
+        "listing_url": f"{BASE_URL}/maxi-canada",
+        "url_patterns": ["/canada/maxi-flyer-"],
+    },
 ]
 
 VISION_MODEL = "claude-sonnet-4-6"

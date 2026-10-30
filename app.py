@@ -4,6 +4,7 @@ Tim Hortons Flyer Tracker — Streamlit UI
 import html
 import re
 import sys
+import unicodedata
 from pathlib import Path
 from datetime import datetime, timedelta
 
@@ -35,6 +36,10 @@ RETAILER_ACCENTS = {
     "Metro":         "#E31B23",
     "Food Basics":   "#16803A",
     "Canadian Tire": "#E31B23",
+    "Metro QC":      "#E31B23",
+    "IGA QC":        "#007F3E",
+    "Super C":       "#E31B23",
+    "Maxi":          "#0055A5",
 }
 
 LOGO_PATH = Path(__file__).parent / "assets" / "tim-hortons-logo.svg"
@@ -130,7 +135,7 @@ CATEGORY_RULES = [
 ALL_CATEGORIES = ["Roast & Ground", "Single Serve", "Instant", "Hot Beverages", "Soup", "Chili", "Other"]
 
 SIZE_RE = re.compile(
-    r'\b(\d+(?:\.\d+)?\s*(?:g|kg|mL|L|oz|pk|pack|ct|count|lb))\b', re.IGNORECASE
+    r'\b(\d+(?:[.,]\d+)?\s*(?:g|kg|mL|L|oz|pk|pack|ct|count|lb|un|unit\u00e9s?))\b', re.IGNORECASE
 )
 PRICE_RE = re.compile(r'\$?\s*(\d+(?:\.\d{1,2})?)')
 MULTI_PRICE_RE = re.compile(r'(?<![\d.$])(\d+)\s*(?:/|for)\s*\$?\s*(\d+(?:\.\d{1,2})?)', re.IGNORECASE)
@@ -182,7 +187,7 @@ UMAP_BY_KEY = {row["key"]: row for row in UMAP_REFERENCE}
 
 # ── Utilities ─────────────────────────────────────────────────────────────────
 def classify(name: str) -> str:
-    n = name.lower()
+    n = normalize_product_text(name)
     for cat, kws in CATEGORY_RULES:
         if any(k in n for k in kws):
             return cat
@@ -217,6 +222,33 @@ def fmt_money(value) -> str:
 
 def normalize_text(*parts: str) -> str:
     return " ".join(str(p or "").lower().replace("‑", "-").replace("–", "-") for p in parts)
+
+
+def normalize_product_text(*parts: str) -> str:
+    """Recognize Quebec flyer terms without changing the displayed product name."""
+    text = normalize_text(*parts)
+    text = re.sub(r"\bth\u00e9s?\b", "tea", text)
+    text = "".join(c for c in unicodedata.normalize("NFKD", text) if not unicodedata.combining(c))
+    aliases = [
+        (r"\bcafe\s+(?:en\s+)?grains\b", "whole bean coffee"),
+        (r"\bcafe\s+moulu\b", "ground coffee"),
+        (r"\bcafe\s+(?:glace|infuse\s+a\s+froid)\b", "iced coffee"),
+        (r"\bcafe\b", "coffee"),
+        (r"\bdosettes?\b", "pods"),
+        (r"\bchocolat\s+chaud\b", "hot chocolate"),
+        (r"\bvanille\s+francaise\b", "french vanilla"),
+        (r"\bsoupe\s+condensee\b", "condensed soup"),
+        (r"\b(?:soupes?|potages?)\b", "soup"),
+        (r"\btisanes?\b", "tea"),
+        (r"\b(?:the|tea)\s+infuse\b", "steeped tea"),
+        (r"\bthe\s+(?:orange\s+pekoe|en\s+sachets|infuse|vert|noir)\b", "tea"),
+        (r"\bthe(?=\s*(?:[,(/]|\d))", "tea"),
+        (r"\bdecafeine\b", "decaf"),
+        (r"(?<=\d)\s*(?:un\.?|unites?)\b", " ct"),
+    ]
+    for pattern, replacement in aliases:
+        text = re.sub(pattern, replacement, text)
+    return re.sub(r"(?<=\d),(?=\d)", ".", text)
 
 
 def extract_numeric_unit_values(text: str, units: tuple[str, ...], multipliers: dict[str, float] | None = None) -> list[float]:
@@ -284,7 +316,7 @@ def umap_period_for_week(week_start: str) -> str:
 
 
 def match_umap_category(product: str, comments: str = "") -> tuple[str, str]:
-    text = normalize_text(product, comments)
+    text = normalize_product_text(product, comments)
     grams = extract_gram_values(text)
     counts = extract_count_values(text)
     mls = extract_ml_values(text)
@@ -385,7 +417,7 @@ def build_umap_review_df(full_df: pd.DataFrame) -> pd.DataFrame:
         period = umap_period_for_week(row["week_start"])
         ref = UMAP_BY_KEY.get(match_key, {})
         umap = ref.get(period)
-        prices = parse_price_points(row["Price"])
+        prices = parse_price_points(row["Price"]) if row.get("UMAP Price Verifiable", True) else []
         lowest_price = prices[0] if prices else None
 
         if not match_key:
@@ -446,9 +478,10 @@ def build_full_df(history: list[dict]) -> pd.DataFrame:
                     "Start":      fmt_date(ws),
                     "End":        fmt_date(we),
                     "View":       p.get("page_url", p.get("flyer_url", "")),
+                    "UMAP Price Verifiable": p.get("umap_price_verifiable", True),
                 })
     cols = ["week_start", "Week", "Retailer", "Brand", "Product", "Size", "Category",
-            "Price", "Comments", "Start", "End", "View"]
+            "Price", "Comments", "Start", "End", "View", "UMAP Price Verifiable"]
     return pd.DataFrame(rows, columns=cols) if rows else pd.DataFrame(columns=cols)
 
 
@@ -959,7 +992,7 @@ with st.sidebar:
         st.info("No history yet. Add weekly JSON files under `data/history` to populate the dashboard.")
 
     st.divider()
-    st.markdown("**Retailers monitored (Ontario)**")
+    st.markdown("**Retailers monitored (ON + QC)**")
     sidebar_retailers = "".join(
         f'<div class="sidebar-retailer-row">{retailer_label(r["name"])}</div>'
         for r in RETAILERS

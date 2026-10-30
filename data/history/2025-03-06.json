@@ -1,224 +1,1019 @@
 {
-    "scraped_at":  "2026-05-11T15:40:36",
-    "week_start":  "2025-03-06",
-    "week_end":  "2025-03-12",
-    "retailers":  [
-                      {
-                          "name":  "Walmart",
-                          "flyers":  [
-                                         {
-                                             "title":  "walmart-on-flyer-march-6-to-12",
-                                             "url":  "https://flyers.smartcanucks.ca/canada/walmart-on-flyer-march-6-to-12",
-                                             "pages_scanned":  10,
-                                             "products_found":  0
-                                         }
-                                     ],
-                          "products":  [
-
-                                       ]
-                      },
-                      {
-                          "name":  "RCSS",
-                          "flyers":  [
-                                         {
-                                             "title":  "real-canadian-superstore-on-flyer-march-6-to-122",
-                                             "url":  "https://flyers.smartcanucks.ca/canada/real-canadian-superstore-on-flyer-march-6-to-122",
-                                             "pages_scanned":  10,
-                                             "products_found":  0
-                                         }
-                                     ],
-                          "products":  [
-
-                                       ]
-                      },
-                      {
-                          "name":  "No Frills",
-                          "flyers":  [
-                                         {
-                                             "title":  "no-frills-on-flyer-march-6-to-122",
-                                             "url":  "https://flyers.smartcanucks.ca/canada/no-frills-on-flyer-march-6-to-122",
-                                             "pages_scanned":  10,
-                                             "products_found":  2
-                                         }
-                                     ],
-                          "products":  [
-                                           {
-                                               "product_name":  "Tim Hortons Roast and Ground Coffee, 875-930 g",
-                                               "price":  "$17.99",
-                                               "deal_details":  "Selected varieties",
-                                               "brand_text_seen":  "Tim Hortons roast and ground coffee 875/930 g",
-                                               "page_number":  10,
-                                               "page_url":  "https://flyers.smartcanucks.ca/canada/no-frills-on-flyer-march-6-to-122/single/9",
-                                               "image_url":  "https://flyers.smartcanucks.ca/uploads/pages/263205/no-frills-on-flyer-march-6-to-122-10.jpg",
-                                               "flyer_title":  "no-frills-on-flyer-march-6-to-122",
-                                               "flyer_url":  "https://flyers.smartcanucks.ca/canada/no-frills-on-flyer-march-6-to-122"
-                                           },
-                                           {
-                                               "product_name":  "Tim Hortons Coffee Pods, 24/30-count",
-                                               "price":  "$17.99",
-                                               "deal_details":  "Selected varieties",
-                                               "brand_text_seen":  "Tim Hortons coffee pods 24/30\u0027s",
-                                               "page_number":  10,
-                                               "page_url":  "https://flyers.smartcanucks.ca/canada/no-frills-on-flyer-march-6-to-122/single/9",
-                                               "image_url":  "https://flyers.smartcanucks.ca/uploads/pages/263205/no-frills-on-flyer-march-6-to-122-10.jpg",
-                                               "flyer_title":  "no-frills-on-flyer-march-6-to-122",
-                                               "flyer_url":  "https://flyers.smartcanucks.ca/canada/no-frills-on-flyer-march-6-to-122"
-                                           }
-                                       ]
-                      },
-                      {
-                          "name":  "Metro",
-                          "flyers":  [
-                                         {
-                                             "title":  "metro-on-flyer-march-6-to-122",
-                                             "url":  "https://flyers.smartcanucks.ca/canada/metro-on-flyer-march-6-to-122",
-                                             "pages_scanned":  10,
-                                             "products_found":  1
-                                         }
-                                     ],
-                          "products":  [
-                                           {
-                                               "product_name":  "Tim Hortons Ready to Serve Soup, 540 mL",
-                                               "price":  "$3.49",
-                                               "deal_details":  "Selected varieties",
-                                               "brand_text_seen":  "Tim Hortons ready to serve soup 540 mL",
-                                               "page_number":  4,
-                                               "page_url":  "https://flyers.smartcanucks.ca/canada/metro-on-flyer-march-6-to-122/single/3",
-                                               "image_url":  "https://flyers.smartcanucks.ca/uploads/pages/263207/metro-on-flyer-march-6-to-122-3.jpg",
-                                               "flyer_title":  "metro-on-flyer-march-6-to-122",
-                                               "flyer_url":  "https://flyers.smartcanucks.ca/canada/metro-on-flyer-march-6-to-122"
-                                           }
-                                       ]
-                      },
-                      {
-                          "name":  "Food Basics",
-                          "flyers":  [
-                                         {
-                                             "title":  "food-basics-flyer-march-6-to-122",
-                                             "url":  "https://flyers.smartcanucks.ca/canada/food-basics-flyer-march-6-to-122",
-                                             "pages_scanned":  10,
-                                             "products_found":  2
-                                         }
-                                     ],
-                          "products":  [
-                                           {
-                                               "product_name":  "Tim Hortons Coffee Pods, 30-count",
-                                               "price":  "$17.99",
-                                               "deal_details":  "Selected varieties",
-                                               "brand_text_seen":  "Tim Hortons coffee pods 30-count",
-                                               "page_number":  3,
-                                               "page_url":  "https://flyers.smartcanucks.ca/canada/food-basics-flyer-march-6-to-122/single/2",
-                                               "image_url":  "https://flyers.smartcanucks.ca/uploads/pages/263237/food-basics-flyer-march-6-to-122-3.jpg",
-                                               "flyer_title":  "food-basics-flyer-march-6-to-122",
-                                               "flyer_url":  "https://flyers.smartcanucks.ca/canada/food-basics-flyer-march-6-to-122"
-                                           },
-                                           {
-                                               "product_name":  "Tim Hortons Ground Coffee, 875-930 g",
-                                               "price":  "$17.99",
-                                               "deal_details":  "Selected varieties",
-                                               "brand_text_seen":  "Tim Hortons ground coffee 875-930 g",
-                                               "page_number":  3,
-                                               "page_url":  "https://flyers.smartcanucks.ca/canada/food-basics-flyer-march-6-to-122/single/2",
-                                               "image_url":  "https://flyers.smartcanucks.ca/uploads/pages/263237/food-basics-flyer-march-6-to-122-3.jpg",
-                                               "flyer_title":  "food-basics-flyer-march-6-to-122",
-                                               "flyer_url":  "https://flyers.smartcanucks.ca/canada/food-basics-flyer-march-6-to-122"
-                                           }
-                                       ]
-                      },
-                      {
-                          "name":  "Sobeys",
-                          "flyers":  [
-                                         {
-                                             "title":  "sobeys-on-flyer-march-6-to-121",
-                                             "url":  "https://flyers.smartcanucks.ca/canada/sobeys-on-flyer-march-6-to-121",
-                                             "pages_scanned":  10,
-                                             "products_found":  0
-                                         }
-                                     ],
-                          "products":  [
-
-                                       ]
-                      },
-                      {
-                          "name":  "FreshCo",
-                          "flyers":  [
-                                         {
-                                             "title":  "freshco-on-flyer-march-6-to-12",
-                                             "url":  "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-march-6-to-12",
-                                             "pages_scanned":  10,
-                                             "products_found":  2
-                                         }
-                                     ],
-                          "products":  [
-                                           {
-                                               "product_name":  "Tim Hortons Single Serve K-Cups, 30-pack",
-                                               "price":  "$19.99",
-                                               "deal_details":  "Save $6",
-                                               "brand_text_seen":  "Tim Hortons single serve K-Cups 30 pk",
-                                               "page_number":  4,
-                                               "page_url":  "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-march-6-to-12/single/3",
-                                               "image_url":  "https://flyers.smartcanucks.ca/uploads/pages/263231/freshco-on-flyer-march-6-to-12-4.jpg",
-                                               "flyer_title":  "freshco-on-flyer-march-6-to-12",
-                                               "flyer_url":  "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-march-6-to-12"
-                                           },
-                                           {
-                                               "product_name":  "Tim Hortons Ground Coffee, 875-930 g",
-                                               "price":  "$19.99",
-                                               "deal_details":  "Save $6",
-                                               "brand_text_seen":  "Tim Hortons ground coffee 875-930 g",
-                                               "page_number":  4,
-                                               "page_url":  "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-march-6-to-12/single/3",
-                                               "image_url":  "https://flyers.smartcanucks.ca/uploads/pages/263231/freshco-on-flyer-march-6-to-12-4.jpg",
-                                               "flyer_title":  "freshco-on-flyer-march-6-to-12",
-                                               "flyer_url":  "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-march-6-to-12"
-                                           }
-                                       ]
-                      },
-                      {
-                          "name":  "Loblaws",
-                          "flyers":  [
-                                         {
-                                             "title":  "loblaws-on-flyer-march-6-to-122",
-                                             "url":  "https://flyers.smartcanucks.ca/canada/loblaws-on-flyer-march-6-to-122",
-                                             "pages_scanned":  10,
-                                             "products_found":  3
-                                         }
-                                     ],
-                          "products":  [
-                                           {
-                                               "product_name":  "Tim Hortons Coffee K-Cups, 10/12-count",
-                                               "price":  "$9.00 member pricing / $13.00 non-member",
-                                               "deal_details":  "Members save $4; selected varieties",
-                                               "brand_text_seen":  "Tim Hortons K-Cups 10/12\u0027s",
-                                               "page_number":  2,
-                                               "page_url":  "https://flyers.smartcanucks.ca/canada/loblaws-on-flyer-march-6-to-122/single/1",
-                                               "image_url":  "https://flyers.smartcanucks.ca/uploads/pages/263215/loblaws-on-flyer-march-6-to-122-2.jpg",
-                                               "flyer_title":  "loblaws-on-flyer-march-6-to-122",
-                                               "flyer_url":  "https://flyers.smartcanucks.ca/canada/loblaws-on-flyer-march-6-to-122"
-                                           },
-                                           {
-                                               "product_name":  "Tim Hortons Tea K-Cups, 10/12-count",
-                                               "price":  "$9.00 member pricing / $13.00 non-member",
-                                               "deal_details":  "Members save $4; selected varieties",
-                                               "brand_text_seen":  "Tim Hortons Tea K-Cups 10/12\u0027s",
-                                               "page_number":  2,
-                                               "page_url":  "https://flyers.smartcanucks.ca/canada/loblaws-on-flyer-march-6-to-122/single/1",
-                                               "image_url":  "https://flyers.smartcanucks.ca/uploads/pages/263215/loblaws-on-flyer-march-6-to-122-2.jpg",
-                                               "flyer_title":  "loblaws-on-flyer-march-6-to-122",
-                                               "flyer_url":  "https://flyers.smartcanucks.ca/canada/loblaws-on-flyer-march-6-to-122"
-                                           },
-                                           {
-                                               "product_name":  "Tim Hortons Ground Coffee Bags, 300 g",
-                                               "price":  "$9.00",
-                                               "deal_details":  "Selected varieties",
-                                               "brand_text_seen":  "Tim Horton\u0027s bags 300 g",
-                                               "page_number":  8,
-                                               "page_url":  "https://flyers.smartcanucks.ca/canada/loblaws-on-flyer-march-6-to-122/single/7",
-                                               "image_url":  "https://flyers.smartcanucks.ca/uploads/pages/263215/loblaws-on-flyer-march-6-to-122-8.jpg",
-                                               "flyer_title":  "loblaws-on-flyer-march-6-to-122",
-                                               "flyer_url":  "https://flyers.smartcanucks.ca/canada/loblaws-on-flyer-march-6-to-122"
-                                           }
-                                       ]
-                      }
-                  ]
+  "scraped_at": "2026-10-30T15:38:26",
+  "week_start": "2025-03-06",
+  "week_end": "2025-03-12",
+  "retailers": [
+    {
+      "name": "Walmart",
+      "flyers": [
+        {
+          "title": "walmart-on-flyer-march-6-to-12",
+          "url": "https://flyers.smartcanucks.ca/canada/walmart-on-flyer-march-6-to-12",
+          "pages_scanned": 10,
+          "products_found": 0
+        }
+      ],
+      "products": []
+    },
+    {
+      "name": "RCSS",
+      "flyers": [
+        {
+          "title": "real-canadian-superstore-on-flyer-march-6-to-122",
+          "url": "https://flyers.smartcanucks.ca/canada/real-canadian-superstore-on-flyer-march-6-to-122",
+          "pages_scanned": 10,
+          "products_found": 0
+        }
+      ],
+      "products": []
+    },
+    {
+      "name": "No Frills",
+      "flyers": [
+        {
+          "title": "no-frills-on-flyer-march-6-to-122",
+          "url": "https://flyers.smartcanucks.ca/canada/no-frills-on-flyer-march-6-to-122",
+          "pages_scanned": 10,
+          "products_found": 2
+        }
+      ],
+      "products": [
+        {
+          "product_name": "Tim Hortons Roast and Ground Coffee, 875-930 g",
+          "price": "$17.99",
+          "deal_details": "Selected varieties",
+          "brand_text_seen": "Tim Hortons roast and ground coffee 875/930 g",
+          "page_number": 10,
+          "page_url": "https://flyers.smartcanucks.ca/canada/no-frills-on-flyer-march-6-to-122/single/9",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/263205/no-frills-on-flyer-march-6-to-122-10.jpg",
+          "flyer_title": "no-frills-on-flyer-march-6-to-122",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/no-frills-on-flyer-march-6-to-122"
+        },
+        {
+          "product_name": "Tim Hortons Coffee Pods, 24/30-count",
+          "price": "$17.99",
+          "deal_details": "Selected varieties",
+          "brand_text_seen": "Tim Hortons coffee pods 24/30's",
+          "page_number": 10,
+          "page_url": "https://flyers.smartcanucks.ca/canada/no-frills-on-flyer-march-6-to-122/single/9",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/263205/no-frills-on-flyer-march-6-to-122-10.jpg",
+          "flyer_title": "no-frills-on-flyer-march-6-to-122",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/no-frills-on-flyer-march-6-to-122"
+        }
+      ]
+    },
+    {
+      "name": "Metro",
+      "flyers": [
+        {
+          "title": "metro-on-flyer-march-6-to-122",
+          "url": "https://flyers.smartcanucks.ca/canada/metro-on-flyer-march-6-to-122",
+          "pages_scanned": 10,
+          "products_found": 1
+        }
+      ],
+      "products": [
+        {
+          "product_name": "Tim Hortons Ready to Serve Soup, 540 mL",
+          "price": "$3.49",
+          "deal_details": "Selected varieties",
+          "brand_text_seen": "Tim Hortons ready to serve soup 540 mL",
+          "page_number": 4,
+          "page_url": "https://flyers.smartcanucks.ca/canada/metro-on-flyer-march-6-to-122/single/3",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/263207/metro-on-flyer-march-6-to-122-3.jpg",
+          "flyer_title": "metro-on-flyer-march-6-to-122",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/metro-on-flyer-march-6-to-122"
+        }
+      ]
+    },
+    {
+      "name": "Food Basics",
+      "flyers": [
+        {
+          "title": "food-basics-flyer-march-6-to-122",
+          "url": "https://flyers.smartcanucks.ca/canada/food-basics-flyer-march-6-to-122",
+          "pages_scanned": 10,
+          "products_found": 2
+        }
+      ],
+      "products": [
+        {
+          "product_name": "Tim Hortons Coffee Pods, 30-count",
+          "price": "$17.99",
+          "deal_details": "Selected varieties",
+          "brand_text_seen": "Tim Hortons coffee pods 30-count",
+          "page_number": 3,
+          "page_url": "https://flyers.smartcanucks.ca/canada/food-basics-flyer-march-6-to-122/single/2",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/263237/food-basics-flyer-march-6-to-122-3.jpg",
+          "flyer_title": "food-basics-flyer-march-6-to-122",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/food-basics-flyer-march-6-to-122"
+        },
+        {
+          "product_name": "Tim Hortons Ground Coffee, 875-930 g",
+          "price": "$17.99",
+          "deal_details": "Selected varieties",
+          "brand_text_seen": "Tim Hortons ground coffee 875-930 g",
+          "page_number": 3,
+          "page_url": "https://flyers.smartcanucks.ca/canada/food-basics-flyer-march-6-to-122/single/2",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/263237/food-basics-flyer-march-6-to-122-3.jpg",
+          "flyer_title": "food-basics-flyer-march-6-to-122",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/food-basics-flyer-march-6-to-122"
+        }
+      ]
+    },
+    {
+      "name": "Sobeys",
+      "flyers": [
+        {
+          "title": "sobeys-on-flyer-march-6-to-121",
+          "url": "https://flyers.smartcanucks.ca/canada/sobeys-on-flyer-march-6-to-121",
+          "pages_scanned": 10,
+          "products_found": 0
+        }
+      ],
+      "products": []
+    },
+    {
+      "name": "FreshCo",
+      "flyers": [
+        {
+          "title": "freshco-on-flyer-march-6-to-12",
+          "url": "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-march-6-to-12",
+          "pages_scanned": 10,
+          "products_found": 2
+        }
+      ],
+      "products": [
+        {
+          "product_name": "Tim Hortons Single Serve K-Cups, 30-pack",
+          "price": "$19.99",
+          "deal_details": "Save $6",
+          "brand_text_seen": "Tim Hortons single serve K-Cups 30 pk",
+          "page_number": 4,
+          "page_url": "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-march-6-to-12/single/3",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/263231/freshco-on-flyer-march-6-to-12-4.jpg",
+          "flyer_title": "freshco-on-flyer-march-6-to-12",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-march-6-to-12"
+        },
+        {
+          "product_name": "Tim Hortons Ground Coffee, 875-930 g",
+          "price": "$19.99",
+          "deal_details": "Save $6",
+          "brand_text_seen": "Tim Hortons ground coffee 875-930 g",
+          "page_number": 4,
+          "page_url": "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-march-6-to-12/single/3",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/263231/freshco-on-flyer-march-6-to-12-4.jpg",
+          "flyer_title": "freshco-on-flyer-march-6-to-12",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-march-6-to-12"
+        }
+      ]
+    },
+    {
+      "name": "Loblaws",
+      "flyers": [
+        {
+          "title": "loblaws-on-flyer-march-6-to-122",
+          "url": "https://flyers.smartcanucks.ca/canada/loblaws-on-flyer-march-6-to-122",
+          "pages_scanned": 10,
+          "products_found": 3
+        }
+      ],
+      "products": [
+        {
+          "product_name": "Tim Hortons Coffee K-Cups, 10/12-count",
+          "price": "$9.00 member pricing / $13.00 non-member",
+          "deal_details": "Members save $4; selected varieties",
+          "brand_text_seen": "Tim Hortons K-Cups 10/12's",
+          "page_number": 2,
+          "page_url": "https://flyers.smartcanucks.ca/canada/loblaws-on-flyer-march-6-to-122/single/1",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/263215/loblaws-on-flyer-march-6-to-122-2.jpg",
+          "flyer_title": "loblaws-on-flyer-march-6-to-122",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/loblaws-on-flyer-march-6-to-122"
+        },
+        {
+          "product_name": "Tim Hortons Tea K-Cups, 10/12-count",
+          "price": "$9.00 member pricing / $13.00 non-member",
+          "deal_details": "Members save $4; selected varieties",
+          "brand_text_seen": "Tim Hortons Tea K-Cups 10/12's",
+          "page_number": 2,
+          "page_url": "https://flyers.smartcanucks.ca/canada/loblaws-on-flyer-march-6-to-122/single/1",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/263215/loblaws-on-flyer-march-6-to-122-2.jpg",
+          "flyer_title": "loblaws-on-flyer-march-6-to-122",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/loblaws-on-flyer-march-6-to-122"
+        },
+        {
+          "product_name": "Tim Hortons Ground Coffee Bags, 300 g",
+          "price": "$9.00",
+          "deal_details": "Selected varieties",
+          "brand_text_seen": "Tim Horton's bags 300 g",
+          "page_number": 8,
+          "page_url": "https://flyers.smartcanucks.ca/canada/loblaws-on-flyer-march-6-to-122/single/7",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/263215/loblaws-on-flyer-march-6-to-122-8.jpg",
+          "flyer_title": "loblaws-on-flyer-march-6-to-122",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/loblaws-on-flyer-march-6-to-122"
+        }
+      ]
+    },
+    {
+      "name": "Canadian Tire",
+      "flyers": [
+        {
+          "title": "Canadian Tire (ON) Flyer March 7 to 13",
+          "url": "https://flyers.smartcanucks.ca/canada/canadian-tire-on-flyer-march-7-to-13",
+          "pages_scanned": 24,
+          "products_found": 11
+        }
+      ],
+      "products": [
+        {
+          "brand": "Nabob",
+          "brand_text_seen": "Nabob Coffee K-Cup Pods, 56 ct",
+          "product_name": "Nabob Coffee K-Cup Pods, 56 ct",
+          "price": "$17.99-$30.99",
+          "umap_price_verifiable": false,
+          "deal_details": "Save up to 20%; regular $22.99-$33.99; selected pods; individual item price not specified",
+          "promotion_type": "Price Drop",
+          "page_number": 5,
+          "page_url": "https://flyers.smartcanucks.ca/canada/canadian-tire-on-flyer-march-7-to-13/single/4",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/263257/canadian-tire-on-flyer-march-7-to-13-5.jpg",
+          "flyer_title": "Canadian Tire (ON) Flyer March 7 to 13",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/canadian-tire-on-flyer-march-7-to-13",
+          "source_scan": "competitive_full_flyer_2025_03_06",
+          "scan_scope": "all pages, primary Ontario flyer"
+        },
+        {
+          "brand": "Krispy Kreme",
+          "brand_text_seen": "Krispy Kreme Coffee K-Cup Pods, 30 ct",
+          "product_name": "Krispy Kreme Coffee K-Cup Pods, 30 ct",
+          "price": "$17.99-$30.99",
+          "umap_price_verifiable": false,
+          "deal_details": "Save up to 20%; regular $22.99-$33.99; selected pods; individual item price not specified",
+          "promotion_type": "Price Drop",
+          "page_number": 5,
+          "page_url": "https://flyers.smartcanucks.ca/canada/canadian-tire-on-flyer-march-7-to-13/single/4",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/263257/canadian-tire-on-flyer-march-7-to-13-5.jpg",
+          "flyer_title": "Canadian Tire (ON) Flyer March 7 to 13",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/canadian-tire-on-flyer-march-7-to-13",
+          "source_scan": "competitive_full_flyer_2025_03_06",
+          "scan_scope": "all pages, primary Ontario flyer"
+        },
+        {
+          "brand": "Maxwell House",
+          "brand_text_seen": "Maxwell House Original Roast Ground Coffee, 925 g",
+          "product_name": "Maxwell House Original Roast Ground Coffee, 925 g",
+          "price": "$11.99",
+          "umap_price_verifiable": true,
+          "deal_details": "Save 25%; regular $15.99",
+          "promotion_type": "Price Drop",
+          "page_number": 5,
+          "page_url": "https://flyers.smartcanucks.ca/canada/canadian-tire-on-flyer-march-7-to-13/single/4",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/263257/canadian-tire-on-flyer-march-7-to-13-5.jpg",
+          "flyer_title": "Canadian Tire (ON) Flyer March 7 to 13",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/canadian-tire-on-flyer-march-7-to-13",
+          "source_scan": "competitive_full_flyer_2025_03_06",
+          "scan_scope": "all pages, primary Ontario flyer"
+        },
+        {
+          "brand": "Other",
+          "brand_text_seen": "Selected Ground Coffee",
+          "product_name": "Selected Ground Coffee",
+          "price": "$8.49-$16.99",
+          "umap_price_verifiable": false,
+          "deal_details": "Save up to 25%; regular $9.49-$20.99; brand and individual item price not specified",
+          "promotion_type": "Price Drop",
+          "page_number": 5,
+          "page_url": "https://flyers.smartcanucks.ca/canada/canadian-tire-on-flyer-march-7-to-13/single/4",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/263257/canadian-tire-on-flyer-march-7-to-13-5.jpg",
+          "flyer_title": "Canadian Tire (ON) Flyer March 7 to 13",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/canadian-tire-on-flyer-march-7-to-13",
+          "source_scan": "competitive_full_flyer_2025_03_06",
+          "scan_scope": "all pages, primary Ontario flyer"
+        },
+        {
+          "brand": "Other",
+          "brand_text_seen": "Selected Coffee Pods",
+          "product_name": "Selected Coffee Pods",
+          "price": "$8.49-$16.99",
+          "umap_price_verifiable": false,
+          "deal_details": "Save up to 25%; regular $9.49-$20.99; brand and individual item price not specified",
+          "promotion_type": "Price Drop",
+          "page_number": 5,
+          "page_url": "https://flyers.smartcanucks.ca/canada/canadian-tire-on-flyer-march-7-to-13/single/4",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/263257/canadian-tire-on-flyer-march-7-to-13-5.jpg",
+          "flyer_title": "Canadian Tire (ON) Flyer March 7 to 13",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/canadian-tire-on-flyer-march-7-to-13",
+          "source_scan": "competitive_full_flyer_2025_03_06",
+          "scan_scope": "all pages, primary Ontario flyer"
+        },
+        {
+          "brand": "Other",
+          "brand_text_seen": "Selected Coffee Capsules",
+          "product_name": "Selected Coffee Capsules",
+          "price": "$8.49-$16.99",
+          "umap_price_verifiable": false,
+          "deal_details": "Save up to 25%; regular $9.49-$20.99; brand and individual item price not specified",
+          "promotion_type": "Price Drop",
+          "page_number": 5,
+          "page_url": "https://flyers.smartcanucks.ca/canada/canadian-tire-on-flyer-march-7-to-13/single/4",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/263257/canadian-tire-on-flyer-march-7-to-13-5.jpg",
+          "flyer_title": "Canadian Tire (ON) Flyer March 7 to 13",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/canadian-tire-on-flyer-march-7-to-13",
+          "source_scan": "competitive_full_flyer_2025_03_06",
+          "scan_scope": "all pages, primary Ontario flyer"
+        },
+        {
+          "brand": "Other",
+          "brand_text_seen": "Selected Instant Coffee",
+          "product_name": "Selected Instant Coffee",
+          "price": "$8.49-$16.99",
+          "umap_price_verifiable": false,
+          "deal_details": "Save up to 25%; regular $9.49-$20.99; brand and individual item price not specified",
+          "promotion_type": "Price Drop",
+          "page_number": 5,
+          "page_url": "https://flyers.smartcanucks.ca/canada/canadian-tire-on-flyer-march-7-to-13/single/4",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/263257/canadian-tire-on-flyer-march-7-to-13-5.jpg",
+          "flyer_title": "Canadian Tire (ON) Flyer March 7 to 13",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/canadian-tire-on-flyer-march-7-to-13",
+          "source_scan": "competitive_full_flyer_2025_03_06",
+          "scan_scope": "all pages, primary Ontario flyer"
+        },
+        {
+          "brand": "Other",
+          "brand_text_seen": "Selected Tea",
+          "product_name": "Selected Tea",
+          "price": "$8.49-$16.99",
+          "umap_price_verifiable": false,
+          "deal_details": "Save up to 25%; regular $9.49-$20.99; brand and individual item price not specified",
+          "promotion_type": "Price Drop",
+          "page_number": 5,
+          "page_url": "https://flyers.smartcanucks.ca/canada/canadian-tire-on-flyer-march-7-to-13/single/4",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/263257/canadian-tire-on-flyer-march-7-to-13-5.jpg",
+          "flyer_title": "Canadian Tire (ON) Flyer March 7 to 13",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/canadian-tire-on-flyer-march-7-to-13",
+          "source_scan": "competitive_full_flyer_2025_03_06",
+          "scan_scope": "all pages, primary Ontario flyer"
+        },
+        {
+          "brand": "Tim Hortons",
+          "brand_text_seen": "Tim Hortons Coffee K-Cup Pods, 30 ct",
+          "product_name": "Tim Hortons Coffee K-Cup Pods, 30 ct",
+          "price": "$24.99-$27.99",
+          "umap_price_verifiable": false,
+          "deal_details": "Selected Tim Hortons or McCafe coffee or tea pods; individual item price not specified",
+          "promotion_type": "Special Price",
+          "page_number": 5,
+          "page_url": "https://flyers.smartcanucks.ca/canada/canadian-tire-on-flyer-march-7-to-13/single/4",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/263257/canadian-tire-on-flyer-march-7-to-13-5.jpg",
+          "flyer_title": "Canadian Tire (ON) Flyer March 7 to 13",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/canadian-tire-on-flyer-march-7-to-13",
+          "source_scan": "competitive_full_flyer_2025_03_06",
+          "scan_scope": "all pages, primary Ontario flyer"
+        },
+        {
+          "brand": "Tim Hortons",
+          "brand_text_seen": "Tim Hortons Tea K-Cup Pods, 30 ct",
+          "product_name": "Tim Hortons Tea K-Cup Pods, 30 ct",
+          "price": "$24.99-$27.99",
+          "umap_price_verifiable": false,
+          "deal_details": "Selected Tim Hortons or McCafe coffee or tea pods; individual item price not specified",
+          "promotion_type": "Special Price",
+          "page_number": 5,
+          "page_url": "https://flyers.smartcanucks.ca/canada/canadian-tire-on-flyer-march-7-to-13/single/4",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/263257/canadian-tire-on-flyer-march-7-to-13-5.jpg",
+          "flyer_title": "Canadian Tire (ON) Flyer March 7 to 13",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/canadian-tire-on-flyer-march-7-to-13",
+          "source_scan": "competitive_full_flyer_2025_03_06",
+          "scan_scope": "all pages, primary Ontario flyer"
+        },
+        {
+          "brand": "McCafe",
+          "brand_text_seen": "McCafe Coffee K-Cup Pods, 30 ct",
+          "product_name": "McCafe Coffee K-Cup Pods, 30 ct",
+          "price": "$24.99-$27.99",
+          "umap_price_verifiable": false,
+          "deal_details": "Selected Tim Hortons or McCafe coffee or tea pods; individual item price not specified",
+          "promotion_type": "Special Price",
+          "page_number": 5,
+          "page_url": "https://flyers.smartcanucks.ca/canada/canadian-tire-on-flyer-march-7-to-13/single/4",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/263257/canadian-tire-on-flyer-march-7-to-13-5.jpg",
+          "flyer_title": "Canadian Tire (ON) Flyer March 7 to 13",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/canadian-tire-on-flyer-march-7-to-13",
+          "source_scan": "competitive_full_flyer_2025_03_06",
+          "scan_scope": "all pages, primary Ontario flyer"
+        }
+      ]
+    },
+    {
+      "name": "Metro QC",
+      "flyers": [
+        {
+          "title": "Metro (QC) Flyer March 6 to 12",
+          "url": "https://flyers.smartcanucks.ca/canada/metro-qc-flyer-march-6-to-12",
+          "pages_scanned": 24,
+          "products_found": 11
+        }
+      ],
+      "products": [
+        {
+          "brand": "Aylmer",
+          "brand_text_seen": "Aylmer soupe aux tomates condensee en conserve, 284 mL",
+          "product_name": "Aylmer soupe aux tomates condensee en conserve, 284 mL",
+          "price": "$0.88",
+          "umap_price_verifiable": true,
+          "deal_details": "Voir varietes en magasin",
+          "promotion_type": "Special Price",
+          "page_number": 3,
+          "page_url": "https://flyers.smartcanucks.ca/canada/metro-qc-flyer-march-6-to-12/single/2",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/263126/metro-qc-flyer-march-6-to-12-3.jpg",
+          "flyer_title": "Metro (QC) Flyer March 6 to 12",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/metro-qc-flyer-march-6-to-12",
+          "source_scan": "competitive_full_flyer_2025_03_06",
+          "scan_scope": "all pages, primary Quebec flyer"
+        },
+        {
+          "brand": "Irresistibles",
+          "brand_text_seen": "Irresistibles Mieux-etre soupe biologique prete a servir en conserve, 398 mL",
+          "product_name": "Irresistibles Mieux-etre soupe biologique prete a servir en conserve, 398 mL",
+          "price": "Not stated",
+          "umap_price_verifiable": false,
+          "deal_details": "110 points Moi avec coupon a ajouter dans l'appli et carte Moi; prix non affiche",
+          "promotion_type": "Loyalty Offer",
+          "page_number": 15,
+          "page_url": "https://flyers.smartcanucks.ca/canada/metro-qc-flyer-march-6-to-12/single/14",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/263126/metro-qc-flyer-march-6-to-12-15.jpg",
+          "flyer_title": "Metro (QC) Flyer March 6 to 12",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/metro-qc-flyer-march-6-to-12",
+          "source_scan": "competitive_full_flyer_2025_03_06",
+          "scan_scope": "all pages, primary Quebec flyer"
+        },
+        {
+          "brand": "Cafe Agga",
+          "brand_text_seen": "Agga capsules de cafe Nespresso, 10 un.",
+          "product_name": "Agga capsules de cafe Nespresso, 10 un.",
+          "price": "Not stated",
+          "umap_price_verifiable": false,
+          "deal_details": "50 points Moi; voir varietes en magasin; prix non affiche",
+          "promotion_type": "Loyalty Offer",
+          "page_number": 18,
+          "page_url": "https://flyers.smartcanucks.ca/canada/metro-qc-flyer-march-6-to-12/single/17",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/263126/metro-qc-flyer-march-6-to-12-18.jpg",
+          "flyer_title": "Metro (QC) Flyer March 6 to 12",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/metro-qc-flyer-march-6-to-12",
+          "source_scan": "competitive_full_flyer_2025_03_06",
+          "scan_scope": "all pages, primary Quebec flyer"
+        },
+        {
+          "brand": "St-Hubert",
+          "brand_text_seen": "St-Hubert soupe prete a servir en conserve, 540 mL",
+          "product_name": "St-Hubert soupe prete a servir en conserve, 540 mL",
+          "price": "$2.99",
+          "umap_price_verifiable": true,
+          "deal_details": "15 points Moi; voir varietes en magasin",
+          "promotion_type": "Loyalty Offer",
+          "page_number": 19,
+          "page_url": "https://flyers.smartcanucks.ca/canada/metro-qc-flyer-march-6-to-12/single/18",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/263126/metro-qc-flyer-march-6-to-12-19.jpg",
+          "flyer_title": "Metro (QC) Flyer March 6 to 12",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/metro-qc-flyer-march-6-to-12",
+          "source_scan": "competitive_full_flyer_2025_03_06",
+          "scan_scope": "all pages, primary Quebec flyer"
+        },
+        {
+          "brand": "Starbucks",
+          "brand_text_seen": "Starbucks cafe moulu, 793-907 g",
+          "product_name": "Starbucks cafe moulu, 793-907 g",
+          "price": "$22.99",
+          "umap_price_verifiable": true,
+          "deal_details": "65 points Moi; voir varietes en magasin",
+          "promotion_type": "Loyalty Offer",
+          "page_number": 19,
+          "page_url": "https://flyers.smartcanucks.ca/canada/metro-qc-flyer-march-6-to-12/single/18",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/263126/metro-qc-flyer-march-6-to-12-19.jpg",
+          "flyer_title": "Metro (QC) Flyer March 6 to 12",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/metro-qc-flyer-march-6-to-12",
+          "source_scan": "competitive_full_flyer_2025_03_06",
+          "scan_scope": "all pages, primary Quebec flyer"
+        },
+        {
+          "brand": "Starbucks",
+          "brand_text_seen": "Starbucks cafe en grains, 793-907 g",
+          "product_name": "Starbucks cafe en grains, 793-907 g",
+          "price": "$22.99",
+          "umap_price_verifiable": true,
+          "deal_details": "65 points Moi; voir varietes en magasin",
+          "promotion_type": "Loyalty Offer",
+          "page_number": 19,
+          "page_url": "https://flyers.smartcanucks.ca/canada/metro-qc-flyer-march-6-to-12/single/18",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/263126/metro-qc-flyer-march-6-to-12-19.jpg",
+          "flyer_title": "Metro (QC) Flyer March 6 to 12",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/metro-qc-flyer-march-6-to-12",
+          "source_scan": "competitive_full_flyer_2025_03_06",
+          "scan_scope": "all pages, primary Quebec flyer"
+        },
+        {
+          "brand": "Starbucks",
+          "brand_text_seen": "Starbucks capsules de cafe K-Cup, 24 un.",
+          "product_name": "Starbucks capsules de cafe K-Cup, 24 un.",
+          "price": "$22.99",
+          "umap_price_verifiable": true,
+          "deal_details": "65 points Moi; voir varietes en magasin",
+          "promotion_type": "Loyalty Offer",
+          "page_number": 19,
+          "page_url": "https://flyers.smartcanucks.ca/canada/metro-qc-flyer-march-6-to-12/single/18",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/263126/metro-qc-flyer-march-6-to-12-19.jpg",
+          "flyer_title": "Metro (QC) Flyer March 6 to 12",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/metro-qc-flyer-march-6-to-12",
+          "source_scan": "competitive_full_flyer_2025_03_06",
+          "scan_scope": "all pages, primary Quebec flyer"
+        },
+        {
+          "brand": "Trema",
+          "brand_text_seen": "Trema boisson au cafe prete a boire en canettes, 4 x 330 mL",
+          "product_name": "Trema boisson au cafe prete a boire en canettes, 4 x 330 mL",
+          "price": "$12.99",
+          "umap_price_verifiable": true,
+          "deal_details": "Consigne en sus; voir varietes en magasin",
+          "promotion_type": "Special Price",
+          "page_number": 20,
+          "page_url": "https://flyers.smartcanucks.ca/canada/metro-qc-flyer-march-6-to-12/single/19",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/263126/metro-qc-flyer-march-6-to-12-20.jpg",
+          "flyer_title": "Metro (QC) Flyer March 6 to 12",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/metro-qc-flyer-march-6-to-12",
+          "source_scan": "competitive_full_flyer_2025_03_06",
+          "scan_scope": "all pages, primary Quebec flyer"
+        },
+        {
+          "brand": "Irresistibles",
+          "brand_text_seen": "Irresistibles tisanes en sachets, 18-20 un.",
+          "product_name": "Irresistibles tisanes en sachets, 18-20 un.",
+          "price": "$3.49",
+          "umap_price_verifiable": true,
+          "deal_details": "Voir varietes en magasin",
+          "promotion_type": "Special Price",
+          "page_number": 21,
+          "page_url": "https://flyers.smartcanucks.ca/canada/metro-qc-flyer-march-6-to-12/single/20",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/263126/metro-qc-flyer-march-6-to-12-21.jpg",
+          "flyer_title": "Metro (QC) Flyer March 6 to 12",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/metro-qc-flyer-march-6-to-12",
+          "source_scan": "competitive_full_flyer_2025_03_06",
+          "scan_scope": "all pages, primary Quebec flyer"
+        },
+        {
+          "brand": "Irresistibles",
+          "brand_text_seen": "Irresistibles Mieux-etre the biologique en sachets, 16 un.",
+          "product_name": "Irresistibles Mieux-etre the biologique en sachets, 16 un.",
+          "price": "$3.49",
+          "umap_price_verifiable": true,
+          "deal_details": "Voir varietes en magasin",
+          "promotion_type": "Special Price",
+          "page_number": 21,
+          "page_url": "https://flyers.smartcanucks.ca/canada/metro-qc-flyer-march-6-to-12/single/20",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/263126/metro-qc-flyer-march-6-to-12-21.jpg",
+          "flyer_title": "Metro (QC) Flyer March 6 to 12",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/metro-qc-flyer-march-6-to-12",
+          "source_scan": "competitive_full_flyer_2025_03_06",
+          "scan_scope": "all pages, primary Quebec flyer"
+        },
+        {
+          "brand": "Kicking Horse",
+          "brand_text_seen": "Kicking Horse cafe moulu biologique, 284 g",
+          "product_name": "Kicking Horse cafe moulu biologique, 284 g",
+          "price": "$10.99",
+          "umap_price_verifiable": true,
+          "deal_details": "Voir varietes en magasin",
+          "promotion_type": "Special Price",
+          "page_number": 22,
+          "page_url": "https://flyers.smartcanucks.ca/canada/metro-qc-flyer-march-6-to-12/single/21",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/263126/metro-qc-flyer-march-6-to-12-22.jpg",
+          "flyer_title": "Metro (QC) Flyer March 6 to 12",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/metro-qc-flyer-march-6-to-12",
+          "source_scan": "competitive_full_flyer_2025_03_06",
+          "scan_scope": "all pages, primary Quebec flyer"
+        }
+      ]
+    },
+    {
+      "name": "IGA QC",
+      "flyers": [
+        {
+          "title": "IGA (QC) Flyer March 6 to 12",
+          "url": "https://flyers.smartcanucks.ca/canada/iga-qc-flyer-march-6-to-12",
+          "pages_scanned": 34,
+          "products_found": 16
+        }
+      ],
+      "products": [
+        {
+          "brand": "Campbell's",
+          "brand_text_seen": "Soupe condensee 284 mL",
+          "product_name": "Soupe condensee 284 mL",
+          "price": "$0.77",
+          "umap_price_verifiable": true,
+          "deal_details": "Prix membre Scene+; sans carte 0.99 $",
+          "promotion_type": "Loyalty Offer",
+          "page_number": 2,
+          "page_url": "https://flyers.smartcanucks.ca/canada/iga-qc-flyer-march-6-to-12/single/1",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/263148/iga-qc-flyer-march-6-to-12-2.jpg",
+          "flyer_title": "IGA (QC) Flyer March 6 to 12",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/iga-qc-flyer-march-6-to-12",
+          "source_scan": "competitive_full_flyer_2025_03_06",
+          "scan_scope": "all pages, primary Quebec flyer"
+        },
+        {
+          "brand": "Carte Noire",
+          "brand_text_seen": "Cafe Tassimo",
+          "product_name": "Cafe Tassimo",
+          "price": "$6.99",
+          "umap_price_verifiable": true,
+          "deal_details": "Selection variee",
+          "promotion_type": "Special Price",
+          "page_number": 3,
+          "page_url": "https://flyers.smartcanucks.ca/canada/iga-qc-flyer-march-6-to-12/single/2",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/263148/iga-qc-flyer-march-6-to-12-3.jpg",
+          "flyer_title": "IGA (QC) Flyer March 6 to 12",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/iga-qc-flyer-march-6-to-12",
+          "source_scan": "competitive_full_flyer_2025_03_06",
+          "scan_scope": "all pages, primary Quebec flyer"
+        },
+        {
+          "brand": "Maxwell House",
+          "brand_text_seen": "Cafe K-Cup 8-16 capsules",
+          "product_name": "Cafe K-Cup 8-16 capsules",
+          "price": "$6.99",
+          "umap_price_verifiable": true,
+          "deal_details": "Selection variee",
+          "promotion_type": "Special Price",
+          "page_number": 3,
+          "page_url": "https://flyers.smartcanucks.ca/canada/iga-qc-flyer-march-6-to-12/single/2",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/263148/iga-qc-flyer-march-6-to-12-3.jpg",
+          "flyer_title": "IGA (QC) Flyer March 6 to 12",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/iga-qc-flyer-march-6-to-12",
+          "source_scan": "competitive_full_flyer_2025_03_06",
+          "scan_scope": "all pages, primary Quebec flyer"
+        },
+        {
+          "brand": "Maxwell House",
+          "brand_text_seen": "Cafe Tassimo",
+          "product_name": "Cafe Tassimo",
+          "price": "$6.99",
+          "umap_price_verifiable": true,
+          "deal_details": "Selection variee",
+          "promotion_type": "Special Price",
+          "page_number": 3,
+          "page_url": "https://flyers.smartcanucks.ca/canada/iga-qc-flyer-march-6-to-12/single/2",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/263148/iga-qc-flyer-march-6-to-12-3.jpg",
+          "flyer_title": "IGA (QC) Flyer March 6 to 12",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/iga-qc-flyer-march-6-to-12",
+          "source_scan": "competitive_full_flyer_2025_03_06",
+          "scan_scope": "all pages, primary Quebec flyer"
+        },
+        {
+          "brand": "Nabob",
+          "brand_text_seen": "Cafe Tassimo",
+          "product_name": "Cafe Tassimo",
+          "price": "$6.99",
+          "umap_price_verifiable": true,
+          "deal_details": "Selection variee",
+          "promotion_type": "Special Price",
+          "page_number": 3,
+          "page_url": "https://flyers.smartcanucks.ca/canada/iga-qc-flyer-march-6-to-12/single/2",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/263148/iga-qc-flyer-march-6-to-12-3.jpg",
+          "flyer_title": "IGA (QC) Flyer March 6 to 12",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/iga-qc-flyer-march-6-to-12",
+          "source_scan": "competitive_full_flyer_2025_03_06",
+          "scan_scope": "all pages, primary Quebec flyer"
+        },
+        {
+          "brand": "Nescafe",
+          "brand_text_seen": "Cafe instantane Encore 95-170 g",
+          "product_name": "Cafe instantane Encore 95-170 g",
+          "price": "$6.99",
+          "umap_price_verifiable": true,
+          "deal_details": "Selection variee; plage de formats commune dans la legende",
+          "promotion_type": "Special Price",
+          "page_number": 3,
+          "page_url": "https://flyers.smartcanucks.ca/canada/iga-qc-flyer-march-6-to-12/single/2",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/263148/iga-qc-flyer-march-6-to-12-3.jpg",
+          "flyer_title": "IGA (QC) Flyer March 6 to 12",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/iga-qc-flyer-march-6-to-12",
+          "source_scan": "competitive_full_flyer_2025_03_06",
+          "scan_scope": "all pages, primary Quebec flyer"
+        },
+        {
+          "brand": "Nescafe",
+          "brand_text_seen": "Cafe instantane Riche 95-170 g",
+          "product_name": "Cafe instantane Riche 95-170 g",
+          "price": "$6.99",
+          "umap_price_verifiable": true,
+          "deal_details": "Selection variee; plage de formats commune dans la legende",
+          "promotion_type": "Special Price",
+          "page_number": 3,
+          "page_url": "https://flyers.smartcanucks.ca/canada/iga-qc-flyer-march-6-to-12/single/2",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/263148/iga-qc-flyer-march-6-to-12-3.jpg",
+          "flyer_title": "IGA (QC) Flyer March 6 to 12",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/iga-qc-flyer-march-6-to-12",
+          "source_scan": "competitive_full_flyer_2025_03_06",
+          "scan_scope": "all pages, primary Quebec flyer"
+        },
+        {
+          "brand": "Nescafe",
+          "brand_text_seen": "Cafe instantane Sucre et Cremeux 18 sachets",
+          "product_name": "Cafe instantane Sucre et Cremeux 18 sachets",
+          "price": "$6.99",
+          "umap_price_verifiable": true,
+          "deal_details": "Selection variee",
+          "promotion_type": "Special Price",
+          "page_number": 3,
+          "page_url": "https://flyers.smartcanucks.ca/canada/iga-qc-flyer-march-6-to-12/single/2",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/263148/iga-qc-flyer-march-6-to-12-3.jpg",
+          "flyer_title": "IGA (QC) Flyer March 6 to 12",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/iga-qc-flyer-march-6-to-12",
+          "source_scan": "competitive_full_flyer_2025_03_06",
+          "scan_scope": "all pages, primary Quebec flyer"
+        },
+        {
+          "brand": "Nescafe",
+          "brand_text_seen": "Cafe instantane Taster's Choice 95-170 g",
+          "product_name": "Cafe instantane Taster's Choice 95-170 g",
+          "price": "$6.99",
+          "umap_price_verifiable": true,
+          "deal_details": "Selection variee; plage de formats commune dans la legende",
+          "promotion_type": "Special Price",
+          "page_number": 3,
+          "page_url": "https://flyers.smartcanucks.ca/canada/iga-qc-flyer-march-6-to-12/single/2",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/263148/iga-qc-flyer-march-6-to-12-3.jpg",
+          "flyer_title": "IGA (QC) Flyer March 6 to 12",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/iga-qc-flyer-march-6-to-12",
+          "source_scan": "competitive_full_flyer_2025_03_06",
+          "scan_scope": "all pages, primary Quebec flyer"
+        },
+        {
+          "brand": "Other",
+          "brand_text_seen": "The Chai Latte Tassimo 8 capsules",
+          "product_name": "The Chai Latte Tassimo 8 capsules",
+          "price": "$6.99",
+          "umap_price_verifiable": true,
+          "deal_details": "Marque non precisee dans le texte de l'offre",
+          "promotion_type": "Special Price",
+          "page_number": 3,
+          "page_url": "https://flyers.smartcanucks.ca/canada/iga-qc-flyer-march-6-to-12/single/2",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/263148/iga-qc-flyer-march-6-to-12-3.jpg",
+          "flyer_title": "IGA (QC) Flyer March 6 to 12",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/iga-qc-flyer-march-6-to-12",
+          "source_scan": "competitive_full_flyer_2025_03_06",
+          "scan_scope": "all pages, primary Quebec flyer"
+        },
+        {
+          "brand": "Starbucks",
+          "brand_text_seen": "Cafe K-Cup 24 capsules",
+          "product_name": "Cafe K-Cup 24 capsules",
+          "price": "$23.99",
+          "umap_price_verifiable": true,
+          "deal_details": "Selection variee",
+          "promotion_type": "Special Price",
+          "page_number": 22,
+          "page_url": "https://flyers.smartcanucks.ca/canada/iga-qc-flyer-march-6-to-12/single/21",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/263148/iga-qc-flyer-march-6-to-12-22.jpg",
+          "flyer_title": "IGA (QC) Flyer March 6 to 12",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/iga-qc-flyer-march-6-to-12",
+          "source_scan": "competitive_full_flyer_2025_03_06",
+          "scan_scope": "all pages, primary Quebec flyer"
+        },
+        {
+          "brand": "Starbucks",
+          "brand_text_seen": "Cafe en grains 907 g",
+          "product_name": "Cafe en grains 907 g",
+          "price": "$23.99",
+          "umap_price_verifiable": true,
+          "deal_details": "Selection variee",
+          "promotion_type": "Special Price",
+          "page_number": 22,
+          "page_url": "https://flyers.smartcanucks.ca/canada/iga-qc-flyer-march-6-to-12/single/21",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/263148/iga-qc-flyer-march-6-to-12-22.jpg",
+          "flyer_title": "IGA (QC) Flyer March 6 to 12",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/iga-qc-flyer-march-6-to-12",
+          "source_scan": "competitive_full_flyer_2025_03_06",
+          "scan_scope": "all pages, primary Quebec flyer"
+        },
+        {
+          "brand": "Starbucks",
+          "brand_text_seen": "Cafe moulu 793 g",
+          "product_name": "Cafe moulu 793 g",
+          "price": "$23.99",
+          "umap_price_verifiable": true,
+          "deal_details": "Selection variee",
+          "promotion_type": "Special Price",
+          "page_number": 22,
+          "page_url": "https://flyers.smartcanucks.ca/canada/iga-qc-flyer-march-6-to-12/single/21",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/263148/iga-qc-flyer-march-6-to-12-22.jpg",
+          "flyer_title": "IGA (QC) Flyer March 6 to 12",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/iga-qc-flyer-march-6-to-12",
+          "source_scan": "competitive_full_flyer_2025_03_06",
+          "scan_scope": "all pages, primary Quebec flyer"
+        },
+        {
+          "brand": "Tim Hortons",
+          "brand_text_seen": "Cafe K-Cup 48 capsules",
+          "product_name": "Cafe K-Cup 48 capsules",
+          "price": "$34.49",
+          "umap_price_verifiable": true,
+          "deal_details": "Selection variee",
+          "promotion_type": "Special Price",
+          "page_number": 22,
+          "page_url": "https://flyers.smartcanucks.ca/canada/iga-qc-flyer-march-6-to-12/single/21",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/263148/iga-qc-flyer-march-6-to-12-22.jpg",
+          "flyer_title": "IGA (QC) Flyer March 6 to 12",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/iga-qc-flyer-march-6-to-12",
+          "source_scan": "competitive_full_flyer_2025_03_06",
+          "scan_scope": "all pages, primary Quebec flyer"
+        },
+        {
+          "brand": "Campbell's",
+          "brand_text_seen": "Soupe ou chaudree Chunky en conserve 515 mL",
+          "product_name": "Soupe ou chaudree Chunky en conserve 515 mL",
+          "price": "$3.49",
+          "umap_price_verifiable": true,
+          "deal_details": "Selection variee",
+          "promotion_type": "Special Price",
+          "page_number": 24,
+          "page_url": "https://flyers.smartcanucks.ca/canada/iga-qc-flyer-march-6-to-12/single/23",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/263148/iga-qc-flyer-march-6-to-12-24.jpg",
+          "flyer_title": "IGA (QC) Flyer March 6 to 12",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/iga-qc-flyer-march-6-to-12",
+          "source_scan": "competitive_full_flyer_2025_03_06",
+          "scan_scope": "all pages, primary Quebec flyer"
+        },
+        {
+          "brand": "Camellia Sinensis",
+          "brand_text_seen": "The vert biologique Sencha Nagashima 75 g",
+          "product_name": "The vert biologique Sencha Nagashima 75 g",
+          "price": "$16.99",
+          "umap_price_verifiable": true,
+          "deal_details": "Selection annoncee",
+          "promotion_type": "Special Price",
+          "page_number": 34,
+          "page_url": "https://flyers.smartcanucks.ca/canada/iga-qc-flyer-march-6-to-12/single/33",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/263148/iga-qc-flyer-march-6-to-12-34.jpg",
+          "flyer_title": "IGA (QC) Flyer March 6 to 12",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/iga-qc-flyer-march-6-to-12",
+          "source_scan": "competitive_full_flyer_2025_03_06",
+          "scan_scope": "all pages, primary Quebec flyer"
+        }
+      ]
+    },
+    {
+      "name": "Super C",
+      "flyers": [
+        {
+          "title": "Super C Flyer March 6 to 12",
+          "url": "https://flyers.smartcanucks.ca/canada/super-c-flyer-march-6-to-121",
+          "pages_scanned": 16,
+          "products_found": 5
+        }
+      ],
+      "products": [
+        {
+          "brand": "Cafe William",
+          "brand_text_seen": "Cafe en grains Cafe William, 800 g",
+          "product_name": "Cafe en grains Cafe William, 800 g",
+          "price": "$17.99",
+          "umap_price_verifiable": true,
+          "deal_details": "Choix varie",
+          "promotion_type": "Special Price",
+          "page_number": 9,
+          "page_url": "https://flyers.smartcanucks.ca/canada/super-c-flyer-march-6-to-121/single/8",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/263125/super-c-flyer-march-6-to-121-9.jpg",
+          "flyer_title": "Super C Flyer March 6 to 12",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/super-c-flyer-march-6-to-121",
+          "source_scan": "competitive_full_flyer_2025_03_06",
+          "scan_scope": "all pages, primary Quebec flyer"
+        },
+        {
+          "brand": "Cafe William",
+          "brand_text_seen": "Cafe moulu Cafe William, 700 g",
+          "product_name": "Cafe moulu Cafe William, 700 g",
+          "price": "$17.99",
+          "umap_price_verifiable": true,
+          "deal_details": "Choix varie",
+          "promotion_type": "Special Price",
+          "page_number": 9,
+          "page_url": "https://flyers.smartcanucks.ca/canada/super-c-flyer-march-6-to-121/single/8",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/263125/super-c-flyer-march-6-to-121-9.jpg",
+          "flyer_title": "Super C Flyer March 6 to 12",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/super-c-flyer-march-6-to-121",
+          "source_scan": "competitive_full_flyer_2025_03_06",
+          "scan_scope": "all pages, primary Quebec flyer"
+        },
+        {
+          "brand": "Selection",
+          "brand_text_seen": "Soupe condensee Selection, 284 mL",
+          "product_name": "Soupe condensee Selection, 284 mL",
+          "price": "$0.99",
+          "umap_price_verifiable": true,
+          "deal_details": "Produit participant au concours mes marques a moi",
+          "promotion_type": "Special Price",
+          "page_number": 10,
+          "page_url": "https://flyers.smartcanucks.ca/canada/super-c-flyer-march-6-to-121/single/9",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/263125/super-c-flyer-march-6-to-121-10.jpg",
+          "flyer_title": "Super C Flyer March 6 to 12",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/super-c-flyer-march-6-to-121",
+          "source_scan": "competitive_full_flyer_2025_03_06",
+          "scan_scope": "all pages, primary Quebec flyer"
+        },
+        {
+          "brand": "Irresistibles",
+          "brand_text_seen": "Capsules de cafe K-Cup Irresistible, 12 un.",
+          "product_name": "Capsules de cafe K-Cup Irresistible, 12 un.",
+          "price": "$5.99",
+          "umap_price_verifiable": true,
+          "deal_details": "Produit participant au concours mes marques a moi",
+          "promotion_type": "Special Price",
+          "page_number": 10,
+          "page_url": "https://flyers.smartcanucks.ca/canada/super-c-flyer-march-6-to-121/single/9",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/263125/super-c-flyer-march-6-to-121-10.jpg",
+          "flyer_title": "Super C Flyer March 6 to 12",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/super-c-flyer-march-6-to-121",
+          "source_scan": "competitive_full_flyer_2025_03_06",
+          "scan_scope": "all pages, primary Quebec flyer"
+        },
+        {
+          "brand": "Irresistibles",
+          "brand_text_seen": "Cafe moulu Irresistible, 340 g",
+          "product_name": "Cafe moulu Irresistible, 340 g",
+          "price": "$5.99",
+          "umap_price_verifiable": true,
+          "deal_details": "Produit participant au concours mes marques a moi",
+          "promotion_type": "Special Price",
+          "page_number": 10,
+          "page_url": "https://flyers.smartcanucks.ca/canada/super-c-flyer-march-6-to-121/single/9",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/263125/super-c-flyer-march-6-to-121-10.jpg",
+          "flyer_title": "Super C Flyer March 6 to 12",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/super-c-flyer-march-6-to-121",
+          "source_scan": "competitive_full_flyer_2025_03_06",
+          "scan_scope": "all pages, primary Quebec flyer"
+        }
+      ]
+    },
+    {
+      "name": "Maxi",
+      "flyers": [
+        {
+          "title": "Maxi Flyer March 6 to 12",
+          "url": "https://flyers.smartcanucks.ca/canada/maxi-flyer-march-6-to-121",
+          "pages_scanned": 16,
+          "products_found": 3
+        }
+      ],
+      "products": [
+        {
+          "brand": "Van Houtte",
+          "brand_text_seen": "Cafe moulu, 640 ou 908 g",
+          "product_name": "Cafe moulu, 640 ou 908 g",
+          "price": "$16.99",
+          "umap_price_verifiable": true,
+          "deal_details": "Certaines varietes",
+          "promotion_type": "Special Price",
+          "page_number": 13,
+          "page_url": "https://flyers.smartcanucks.ca/canada/maxi-flyer-march-6-to-121/single/12",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/263133/maxi-flyer-march-6-to-121-13.jpg",
+          "flyer_title": "Maxi Flyer March 6 to 12",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/maxi-flyer-march-6-to-121",
+          "source_scan": "competitive_full_flyer_2025_03_06",
+          "scan_scope": "all pages, primary Quebec flyer"
+        },
+        {
+          "brand": "Van Houtte",
+          "brand_text_seen": "Capsules de cafe, 30 un.",
+          "product_name": "Capsules de cafe, 30 un.",
+          "price": "$16.99",
+          "umap_price_verifiable": true,
+          "deal_details": "Certaines varietes",
+          "promotion_type": "Special Price",
+          "page_number": 13,
+          "page_url": "https://flyers.smartcanucks.ca/canada/maxi-flyer-march-6-to-121/single/12",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/263133/maxi-flyer-march-6-to-121-13.jpg",
+          "flyer_title": "Maxi Flyer March 6 to 12",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/maxi-flyer-march-6-to-121",
+          "source_scan": "competitive_full_flyer_2025_03_06",
+          "scan_scope": "all pages, primary Quebec flyer"
+        },
+        {
+          "brand": "Nescafe",
+          "brand_text_seen": "Cafe instantane Gold, 90-200 g",
+          "product_name": "Cafe instantane Gold, 90-200 g",
+          "price": "Price not stated",
+          "umap_price_verifiable": false,
+          "deal_details": "Maxi coupons: 2 $ de rabais; prix de vente non indique; certaines varietes",
+          "promotion_type": "Special Price",
+          "page_number": 16,
+          "page_url": "https://flyers.smartcanucks.ca/canada/maxi-flyer-march-6-to-121/single/15",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/263133/maxi-flyer-march-6-to-121-16.jpg",
+          "flyer_title": "Maxi Flyer March 6 to 12",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/maxi-flyer-march-6-to-121",
+          "source_scan": "competitive_full_flyer_2025_03_06",
+          "scan_scope": "all pages, primary Quebec flyer"
+        }
+      ]
+    }
+  ]
 }

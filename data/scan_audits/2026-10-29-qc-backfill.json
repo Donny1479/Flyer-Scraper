@@ -1,0 +1,51 @@
+{
+  "scan_date": "2026-10-30",
+  "source": "SmartCanucks",
+  "quebec_start": "2025-01-02",
+  "through_week": "2026-10-29",
+  "flyer_week_records_verified": 490,
+  "unique_flyers_verified": 489,
+  "unique_pages_scanned": 10941,
+  "page_week_records": 10977,
+  "offers_verified": 4803,
+  "coverage_by_retailer": {
+    "Canadian Tire": 45,
+    "IGA QC": 96,
+    "Maxi": 96,
+    "Metro QC": 96,
+    "Super C": 96,
+    "FreshCo": 5,
+    "Sobeys": 19,
+    "Walmart": 11,
+    "No Frills": 9,
+    "RCSS": 5,
+    "Food Basics": 4,
+    "Loblaws": 4,
+    "Metro": 4
+  },
+  "offers_by_retailer": {
+    "FreshCo": 37,
+    "Food Basics": 41,
+    "Maxi": 1017,
+    "Canadian Tire": 318,
+    "RCSS": 40,
+    "Sobeys": 274,
+    "No Frills": 89,
+    "IGA QC": 1188,
+    "Super C": 615,
+    "Walmart": 38,
+    "Metro": 37,
+    "Loblaws": 32,
+    "Metro QC": 1077
+  },
+  "missing_flyers": [],
+  "methodology": "All pages; OCR broad candidate search followed by visual verification; coffee including ready-to-drink, tea, canned soup, canned chili and hot beverages; exact live page and image checked for each offer.",
+  "price_handling": "Shared price ranges are retained with conditions rather than allocated to an item. Ranges and offers without selling prices are excluded from definitive UMAP violation checks. Competitors remain excluded from UMAP and Tim Hortons insights.",
+  "source_notes": [
+    "Canadian Tire June 13-21, 2025 spans two weekly review cycles; counted once in unique flyer/page totals.",
+    "Maxi April 3, 2025 Habitant offer contains contradictory printed member and non-member prices; the conflict is disclosed in deal details without an assumed correction.",
+    "Walmart October 9, 2025 Tea India candidate was excluded because its image states October 2-8; validity for the October 9-15 cycle was not confirmed.",
+    "Metro QC source pack-size caveats: July 23, 2026 Haiku canned soup size unreadable; March 13 and May 1, 2025 Aasana tea caption states 25 sachets while pictured pack states 18. Confirmed products/prices retained with no assigned size.",
+    "Eight IGA QC prepared catering coffee boxes from November 6-December 25, 2025 were excluded as foodservice, not packaged CPG."
+  ]
+}

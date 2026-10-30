@@ -1,91 +1,922 @@
 {
-    "scraped_at":  "2026-05-11T12:00:00",
-    "week_start":  "2025-07-17",
-    "week_end":  "2025-07-23",
-    "retailers":  [
-                      {
-                          "name":  "RCSS",
-                          "flyers":  [
-                                         {
-                                             "title":  "real-canadian-superstore-on-flyer-july-17-to-231",
-                                             "url":  "https://flyers.smartcanucks.ca/canada/real-canadian-superstore-on-flyer-july-17-to-231",
-                                             "pages_scanned":  10,
-                                             "products_found":  0
-                                         }
-                                     ],
-                          "products":  [
-
-                                       ]
-                      },
-                      {
-                          "name":  "No Frills",
-                          "flyers":  [
-                                         {
-                                             "title":  "no-frills-on-flyer-july-17-to-231",
-                                             "url":  "https://flyers.smartcanucks.ca/canada/no-frills-on-flyer-july-17-to-231",
-                                             "pages_scanned":  10,
-                                             "products_found":  0
-                                         }
-                                     ],
-                          "products":  [
-
-                                       ]
-                      },
-                      {
-                          "name":  "Metro",
-                          "flyers":  [
-                                         {
-                                             "title":  "metro-on-flyer-july-17-to-23",
-                                             "url":  "https://flyers.smartcanucks.ca/canada/metro-on-flyer-july-17-to-23",
-                                             "pages_scanned":  10,
-                                             "products_found":  0
-                                         }
-                                     ],
-                          "products":  [
-
-                                       ]
-                      },
-                      {
-                          "name":  "Food Basics",
-                          "flyers":  [
-                                         {
-                                             "title":  "food-basics-flyer-july-17-to-23",
-                                             "url":  "https://flyers.smartcanucks.ca/canada/food-basics-flyer-july-17-to-23",
-                                             "pages_scanned":  10,
-                                             "products_found":  0
-                                         }
-                                     ],
-                          "products":  [
-
-                                       ]
-                      },
-                      {
-                          "name":  "FreshCo",
-                          "flyers":  [
-                                         {
-                                             "title":  "freshco-on-flyer-july-17-to-23",
-                                             "url":  "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-july-17-to-23",
-                                             "pages_scanned":  10,
-                                             "products_found":  0
-                                         }
-                                     ],
-                          "products":  [
-
-                                       ]
-                      },
-                      {
-                          "name":  "Loblaws",
-                          "flyers":  [
-                                         {
-                                             "title":  "loblaws-on-flyer-july-17-to-231",
-                                             "url":  "https://flyers.smartcanucks.ca/canada/loblaws-on-flyer-july-17-to-231",
-                                             "pages_scanned":  10,
-                                             "products_found":  0
-                                         }
-                                     ],
-                          "products":  [
-
-                                       ]
-                      }
-                  ]
+  "scraped_at": "2026-10-30T15:38:27",
+  "week_start": "2025-07-17",
+  "week_end": "2025-07-23",
+  "retailers": [
+    {
+      "name": "Walmart",
+      "flyers": [
+        {
+          "title": "Walmart (ON) Flyer July 17 to 23",
+          "url": "https://flyers.smartcanucks.ca/canada/walmart-on-flyer-july-17-to-23",
+          "pages_scanned": 22,
+          "products_found": 3
+        }
+      ],
+      "products": [
+        {
+          "brand": "Folgers",
+          "brand_text_seen": "Café moulu Folgers, format sélectionné",
+          "product_name": "Café moulu Folgers, format sélectionné",
+          "price": "$20.97",
+          "umap_price_verifiable": true,
+          "deal_details": "Variétés et formats sélectionnés; taille non précisée dans l'offre",
+          "promotion_type": "Special Price",
+          "page_number": 2,
+          "page_url": "https://flyers.smartcanucks.ca/canada/walmart-on-flyer-july-17-to-23/single/1",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/272407/walmart-on-flyer-july-17-to-23-2.jpg",
+          "flyer_title": "Walmart (ON) Flyer July 17 to 23",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/walmart-on-flyer-july-17-to-23",
+          "source_scan": "competitive_full_flyer_2025_07_17",
+          "scan_scope": "all pages, primary Ontario flyer"
+        },
+        {
+          "brand": "Campbell's",
+          "brand_text_seen": "Soupe Chunky en conserve Campbell's, 515 mL",
+          "product_name": "Soupe Chunky en conserve Campbell's, 515 mL",
+          "price": "$2.76",
+          "umap_price_verifiable": true,
+          "deal_details": "Réduction; prix courant $3.48",
+          "promotion_type": "Special Price",
+          "page_number": 4,
+          "page_url": "https://flyers.smartcanucks.ca/canada/walmart-on-flyer-july-17-to-23/single/3",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/272407/walmart-on-flyer-july-17-to-23-4.jpg",
+          "flyer_title": "Walmart (ON) Flyer July 17 to 23",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/walmart-on-flyer-july-17-to-23",
+          "source_scan": "competitive_full_flyer_2025_07_17",
+          "scan_scope": "all pages, primary Ontario flyer"
+        },
+        {
+          "brand": "Brust",
+          "brand_text_seen": "Café infusé à froid protéiné Brüst, 4 x 330 mL",
+          "product_name": "Café infusé à froid protéiné Brüst, 4 x 330 mL",
+          "price": "2/$22.00",
+          "umap_price_verifiable": true,
+          "deal_details": "Ou $12.47 chacun",
+          "promotion_type": "Multi Buy",
+          "page_number": 10,
+          "page_url": "https://flyers.smartcanucks.ca/canada/walmart-on-flyer-july-17-to-23/single/9",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/272407/walmart-on-flyer-july-17-to-23-10.jpg",
+          "flyer_title": "Walmart (ON) Flyer July 17 to 23",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/walmart-on-flyer-july-17-to-23",
+          "source_scan": "competitive_full_flyer_2025_07_17",
+          "scan_scope": "all pages, primary Ontario flyer"
+        }
+      ]
+    },
+    {
+      "name": "RCSS",
+      "flyers": [
+        {
+          "title": "real-canadian-superstore-on-flyer-july-17-to-231",
+          "url": "https://flyers.smartcanucks.ca/canada/real-canadian-superstore-on-flyer-july-17-to-231",
+          "pages_scanned": 10,
+          "products_found": 0
+        }
+      ],
+      "products": []
+    },
+    {
+      "name": "No Frills",
+      "flyers": [
+        {
+          "title": "no-frills-on-flyer-july-17-to-231",
+          "url": "https://flyers.smartcanucks.ca/canada/no-frills-on-flyer-july-17-to-231",
+          "pages_scanned": 10,
+          "products_found": 0
+        }
+      ],
+      "products": []
+    },
+    {
+      "name": "Metro",
+      "flyers": [
+        {
+          "title": "metro-on-flyer-july-17-to-23",
+          "url": "https://flyers.smartcanucks.ca/canada/metro-on-flyer-july-17-to-23",
+          "pages_scanned": 10,
+          "products_found": 0
+        }
+      ],
+      "products": []
+    },
+    {
+      "name": "Food Basics",
+      "flyers": [
+        {
+          "title": "food-basics-flyer-july-17-to-23",
+          "url": "https://flyers.smartcanucks.ca/canada/food-basics-flyer-july-17-to-23",
+          "pages_scanned": 10,
+          "products_found": 0
+        }
+      ],
+      "products": []
+    },
+    {
+      "name": "Sobeys",
+      "flyers": [
+        {
+          "title": "Sobeys (ON) Flyer July 17 to 23",
+          "url": "https://flyers.smartcanucks.ca/canada/sobeys-on-flyer-july-17-to-231",
+          "pages_scanned": 22,
+          "products_found": 11
+        }
+      ],
+      "products": [
+        {
+          "brand": "Starbucks",
+          "brand_text_seen": "Café Starbucks en sac, format sélectionné",
+          "product_name": "Café Starbucks en sac, format sélectionné",
+          "price": "Prix non indiqué",
+          "umap_price_verifiable": false,
+          "deal_details": "1000 points Scene+ à l'achat de $30 de boissons chaudes Starbucks à préparer; avant taxes; transaction unique",
+          "promotion_type": "Loyalty Offer",
+          "page_number": 3,
+          "page_url": "https://flyers.smartcanucks.ca/canada/sobeys-on-flyer-july-17-to-231/single/2",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/272425/sobeys-on-flyer-july-17-to-231-3.jpg",
+          "flyer_title": "Sobeys (ON) Flyer July 17 to 23",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/sobeys-on-flyer-july-17-to-231",
+          "source_scan": "competitive_full_flyer_2025_07_17",
+          "scan_scope": "all pages, primary Ontario flyer"
+        },
+        {
+          "brand": "Starbucks",
+          "brand_text_seen": "Capsules K-Cup Starbucks, 24 unités",
+          "product_name": "Capsules K-Cup Starbucks, 24 unités",
+          "price": "Prix non indiqué",
+          "umap_price_verifiable": false,
+          "deal_details": "1000 points Scene+ à l'achat de $30 de boissons chaudes Starbucks à préparer; avant taxes; transaction unique",
+          "promotion_type": "Loyalty Offer",
+          "page_number": 3,
+          "page_url": "https://flyers.smartcanucks.ca/canada/sobeys-on-flyer-july-17-to-231/single/2",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/272425/sobeys-on-flyer-july-17-to-231-3.jpg",
+          "flyer_title": "Sobeys (ON) Flyer July 17 to 23",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/sobeys-on-flyer-july-17-to-231",
+          "source_scan": "competitive_full_flyer_2025_07_17",
+          "scan_scope": "all pages, primary Ontario flyer"
+        },
+        {
+          "brand": "Starbucks",
+          "brand_text_seen": "Chocolat chaud Starbucks, format sélectionné",
+          "product_name": "Chocolat chaud Starbucks, format sélectionné",
+          "price": "Prix non indiqué",
+          "umap_price_verifiable": false,
+          "deal_details": "Produit explicitement visé; 1000 points Scene+ à l'achat de $30 de boissons chaudes Starbucks à préparer; avant taxes; transaction unique",
+          "promotion_type": "Loyalty Offer",
+          "page_number": 3,
+          "page_url": "https://flyers.smartcanucks.ca/canada/sobeys-on-flyer-july-17-to-231/single/2",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/272425/sobeys-on-flyer-july-17-to-231-3.jpg",
+          "flyer_title": "Sobeys (ON) Flyer July 17 to 23",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/sobeys-on-flyer-july-17-to-231",
+          "source_scan": "competitive_full_flyer_2025_07_17",
+          "scan_scope": "all pages, primary Ontario flyer"
+        },
+        {
+          "brand": "Kicking Horse",
+          "brand_text_seen": "Café moulu Kicking Horse, 284 g",
+          "product_name": "Café moulu Kicking Horse, 284 g",
+          "price": "$8.97",
+          "umap_price_verifiable": true,
+          "deal_details": "Prix en vedette",
+          "promotion_type": "Special Price",
+          "page_number": 4,
+          "page_url": "https://flyers.smartcanucks.ca/canada/sobeys-on-flyer-july-17-to-231/single/3",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/272425/sobeys-on-flyer-july-17-to-231-4.jpg",
+          "flyer_title": "Sobeys (ON) Flyer July 17 to 23",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/sobeys-on-flyer-july-17-to-231",
+          "source_scan": "competitive_full_flyer_2025_07_17",
+          "scan_scope": "all pages, primary Ontario flyer"
+        },
+        {
+          "brand": "Mr. Brown",
+          "brand_text_seen": "Cappuccino en conserve Mr. Brown, 240 mL",
+          "product_name": "Cappuccino en conserve Mr. Brown, 240 mL",
+          "price": "$1.29",
+          "umap_price_verifiable": true,
+          "deal_details": "Café prêt à boire",
+          "promotion_type": "Special Price",
+          "page_number": 13,
+          "page_url": "https://flyers.smartcanucks.ca/canada/sobeys-on-flyer-july-17-to-231/single/12",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/272425/sobeys-on-flyer-july-17-to-231-13.jpg",
+          "flyer_title": "Sobeys (ON) Flyer July 17 to 23",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/sobeys-on-flyer-july-17-to-231",
+          "source_scan": "competitive_full_flyer_2025_07_17",
+          "scan_scope": "all pages, primary Ontario flyer"
+        },
+        {
+          "brand": "Tetley",
+          "brand_text_seen": "Thé Tetley, 60-72 sachets",
+          "product_name": "Thé Tetley, 60-72 sachets",
+          "price": "$5.99",
+          "umap_price_verifiable": true,
+          "deal_details": "Offre partagée; variétés sélectionnées",
+          "promotion_type": "Special Price",
+          "page_number": 14,
+          "page_url": "https://flyers.smartcanucks.ca/canada/sobeys-on-flyer-july-17-to-231/single/13",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/272425/sobeys-on-flyer-july-17-to-231-14.jpg",
+          "flyer_title": "Sobeys (ON) Flyer July 17 to 23",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/sobeys-on-flyer-july-17-to-231",
+          "source_scan": "competitive_full_flyer_2025_07_17",
+          "scan_scope": "all pages, primary Ontario flyer"
+        },
+        {
+          "brand": "Red Rose",
+          "brand_text_seen": "Thé Orange Pekoe Red Rose, 72 sachets",
+          "product_name": "Thé Orange Pekoe Red Rose, 72 sachets",
+          "price": "$5.99",
+          "umap_price_verifiable": true,
+          "deal_details": "Offre partagée",
+          "promotion_type": "Special Price",
+          "page_number": 14,
+          "page_url": "https://flyers.smartcanucks.ca/canada/sobeys-on-flyer-july-17-to-231/single/13",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/272425/sobeys-on-flyer-july-17-to-231-14.jpg",
+          "flyer_title": "Sobeys (ON) Flyer July 17 to 23",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/sobeys-on-flyer-july-17-to-231",
+          "source_scan": "competitive_full_flyer_2025_07_17",
+          "scan_scope": "all pages, primary Ontario flyer"
+        },
+        {
+          "brand": "Tim Hortons",
+          "brand_text_seen": "Café moulu Tim Hortons, 652 g",
+          "product_name": "Café moulu Tim Hortons, 652 g",
+          "price": "$23.99",
+          "umap_price_verifiable": true,
+          "deal_details": "Variétés sélectionnées",
+          "promotion_type": "Special Price",
+          "page_number": 14,
+          "page_url": "https://flyers.smartcanucks.ca/canada/sobeys-on-flyer-july-17-to-231/single/13",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/272425/sobeys-on-flyer-july-17-to-231-14.jpg",
+          "flyer_title": "Sobeys (ON) Flyer July 17 to 23",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/sobeys-on-flyer-july-17-to-231",
+          "source_scan": "competitive_full_flyer_2025_07_17",
+          "scan_scope": "all pages, primary Ontario flyer"
+        },
+        {
+          "brand": "Compliments",
+          "brand_text_seen": "Café moulu Compliments, 300 g",
+          "product_name": "Café moulu Compliments, 300 g",
+          "price": "$8.79",
+          "umap_price_verifiable": true,
+          "deal_details": "400 points Scene+ à l'achat de 2",
+          "promotion_type": "Loyalty Offer",
+          "page_number": 14,
+          "page_url": "https://flyers.smartcanucks.ca/canada/sobeys-on-flyer-july-17-to-231/single/13",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/272425/sobeys-on-flyer-july-17-to-231-14.jpg",
+          "flyer_title": "Sobeys (ON) Flyer July 17 to 23",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/sobeys-on-flyer-july-17-to-231",
+          "source_scan": "competitive_full_flyer_2025_07_17",
+          "scan_scope": "all pages, primary Ontario flyer"
+        },
+        {
+          "brand": "Compliments",
+          "brand_text_seen": "Soupe prête à servir en conserve Compliments, 540 mL",
+          "product_name": "Soupe prête à servir en conserve Compliments, 540 mL",
+          "price": "$2.99",
+          "umap_price_verifiable": true,
+          "deal_details": "100 points Scene+ à l'achat de 2",
+          "promotion_type": "Loyalty Offer",
+          "page_number": 17,
+          "page_url": "https://flyers.smartcanucks.ca/canada/sobeys-on-flyer-july-17-to-231/single/16",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/272425/sobeys-on-flyer-july-17-to-231-17.jpg",
+          "flyer_title": "Sobeys (ON) Flyer July 17 to 23",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/sobeys-on-flyer-july-17-to-231",
+          "source_scan": "competitive_full_flyer_2025_07_17",
+          "scan_scope": "all pages, primary Ontario flyer"
+        },
+        {
+          "brand": "Compliments",
+          "brand_text_seen": "Café en grains biologique Compliments, 275-300 g",
+          "product_name": "Café en grains biologique Compliments, 275-300 g",
+          "price": "$13.79",
+          "umap_price_verifiable": true,
+          "deal_details": "Variétés sélectionnées",
+          "promotion_type": "Special Price",
+          "page_number": 18,
+          "page_url": "https://flyers.smartcanucks.ca/canada/sobeys-on-flyer-july-17-to-231/single/17",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/272425/sobeys-on-flyer-july-17-to-231-18.jpg",
+          "flyer_title": "Sobeys (ON) Flyer July 17 to 23",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/sobeys-on-flyer-july-17-to-231",
+          "source_scan": "competitive_full_flyer_2025_07_17",
+          "scan_scope": "all pages, primary Ontario flyer"
+        }
+      ]
+    },
+    {
+      "name": "FreshCo",
+      "flyers": [
+        {
+          "title": "freshco-on-flyer-july-17-to-23",
+          "url": "https://flyers.smartcanucks.ca/canada/freshco-on-flyer-july-17-to-23",
+          "pages_scanned": 10,
+          "products_found": 0
+        }
+      ],
+      "products": []
+    },
+    {
+      "name": "Loblaws",
+      "flyers": [
+        {
+          "title": "loblaws-on-flyer-july-17-to-231",
+          "url": "https://flyers.smartcanucks.ca/canada/loblaws-on-flyer-july-17-to-231",
+          "pages_scanned": 10,
+          "products_found": 0
+        }
+      ],
+      "products": []
+    },
+    {
+      "name": "Canadian Tire",
+      "flyers": [
+        {
+          "title": "Canadian Tire (ON) Flyer July 18 to 24",
+          "url": "https://flyers.smartcanucks.ca/canada/canadian-tire-on-flyer-july-18-to-241",
+          "pages_scanned": 24,
+          "products_found": 7
+        }
+      ],
+      "products": [
+        {
+          "brand": "Nescafe",
+          "brand_text_seen": "Nescafe Instant Coffee",
+          "product_name": "Nescafe Instant Coffee",
+          "price": "$6.99-$30.99",
+          "umap_price_verifiable": false,
+          "deal_details": "Save up to 20%; regular $8.99-$37.99; selected ground, whole bean and instant coffee; individual item price not specified",
+          "promotion_type": "Price Drop",
+          "page_number": 2,
+          "page_url": "https://flyers.smartcanucks.ca/canada/canadian-tire-on-flyer-july-18-to-241/single/1",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/272429/canadian-tire-on-flyer-july-18-to-241-2.jpg",
+          "flyer_title": "Canadian Tire (ON) Flyer July 18 to 24",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/canadian-tire-on-flyer-july-18-to-241",
+          "source_scan": "competitive_full_flyer_2025_07_17",
+          "scan_scope": "all pages, primary Ontario flyer"
+        },
+        {
+          "brand": "Lavazza",
+          "brand_text_seen": "Lavazza Whole Bean Coffee",
+          "product_name": "Lavazza Whole Bean Coffee",
+          "price": "$6.99-$30.99",
+          "umap_price_verifiable": false,
+          "deal_details": "Save up to 20%; regular $8.99-$37.99; selected ground, whole bean and instant coffee; individual item price not specified",
+          "promotion_type": "Price Drop",
+          "page_number": 2,
+          "page_url": "https://flyers.smartcanucks.ca/canada/canadian-tire-on-flyer-july-18-to-241/single/1",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/272429/canadian-tire-on-flyer-july-18-to-241-2.jpg",
+          "flyer_title": "Canadian Tire (ON) Flyer July 18 to 24",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/canadian-tire-on-flyer-july-18-to-241",
+          "source_scan": "competitive_full_flyer_2025_07_17",
+          "scan_scope": "all pages, primary Ontario flyer"
+        },
+        {
+          "brand": "Other",
+          "brand_text_seen": "Selected Ground Coffee",
+          "product_name": "Selected Ground Coffee",
+          "price": "$6.99-$30.99",
+          "umap_price_verifiable": false,
+          "deal_details": "Ground coffee brand not specified in caption; regular $8.99-$37.99; shared advertised range; individual item price not specified",
+          "promotion_type": "Special Price",
+          "page_number": 2,
+          "page_url": "https://flyers.smartcanucks.ca/canada/canadian-tire-on-flyer-july-18-to-241/single/1",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/272429/canadian-tire-on-flyer-july-18-to-241-2.jpg",
+          "flyer_title": "Canadian Tire (ON) Flyer July 18 to 24",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/canadian-tire-on-flyer-july-18-to-241",
+          "source_scan": "competitive_full_flyer_2025_07_17",
+          "scan_scope": "all pages, primary Ontario flyer"
+        },
+        {
+          "brand": "Van Houtte",
+          "brand_text_seen": "Van Houtte Coffee K-Cup Pods, 30 pk",
+          "product_name": "Van Houtte Coffee K-Cup Pods, 30 pk",
+          "price": "$23.99-$24.99",
+          "umap_price_verifiable": false,
+          "deal_details": "Save 10%; regular $27.99-$29.99; selected Van Houtte or Eight O'Clock variety pods; individual item price not specified",
+          "promotion_type": "Price Drop",
+          "page_number": 2,
+          "page_url": "https://flyers.smartcanucks.ca/canada/canadian-tire-on-flyer-july-18-to-241/single/1",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/272429/canadian-tire-on-flyer-july-18-to-241-2.jpg",
+          "flyer_title": "Canadian Tire (ON) Flyer July 18 to 24",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/canadian-tire-on-flyer-july-18-to-241",
+          "source_scan": "competitive_full_flyer_2025_07_17",
+          "scan_scope": "all pages, primary Ontario flyer"
+        },
+        {
+          "brand": "Eight O'Clock",
+          "brand_text_seen": "Eight O'Clock Variety Coffee K-Cup Pods, 40 pk",
+          "product_name": "Eight O'Clock Variety Coffee K-Cup Pods, 40 pk",
+          "price": "$23.99-$24.99",
+          "umap_price_verifiable": false,
+          "deal_details": "Save 10%; regular $27.99-$29.99; selected Van Houtte or Eight O'Clock variety pods; individual item price not specified",
+          "promotion_type": "Price Drop",
+          "page_number": 2,
+          "page_url": "https://flyers.smartcanucks.ca/canada/canadian-tire-on-flyer-july-18-to-241/single/1",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/272429/canadian-tire-on-flyer-july-18-to-241-2.jpg",
+          "flyer_title": "Canadian Tire (ON) Flyer July 18 to 24",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/canadian-tire-on-flyer-july-18-to-241",
+          "source_scan": "competitive_full_flyer_2025_07_17",
+          "scan_scope": "all pages, primary Ontario flyer"
+        },
+        {
+          "brand": "Tim Hortons",
+          "brand_text_seen": "Tim Hortons Coffee K-Cup Pods, 30 ct",
+          "product_name": "Tim Hortons Coffee K-Cup Pods, 30 ct",
+          "price": "$26.99-$44.99",
+          "umap_price_verifiable": false,
+          "deal_details": "Selected Tim Hortons or McCafe coffee pods, 30 and 48 ct; individual item price not specified",
+          "promotion_type": "Special Price",
+          "page_number": 12,
+          "page_url": "https://flyers.smartcanucks.ca/canada/canadian-tire-on-flyer-july-18-to-241/single/11",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/272429/canadian-tire-on-flyer-july-18-to-241-12.jpg",
+          "flyer_title": "Canadian Tire (ON) Flyer July 18 to 24",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/canadian-tire-on-flyer-july-18-to-241",
+          "source_scan": "competitive_full_flyer_2025_07_17",
+          "scan_scope": "all pages, primary Ontario flyer"
+        },
+        {
+          "brand": "McCafe",
+          "brand_text_seen": "McCafe Coffee K-Cup Pods, 48 ct",
+          "product_name": "McCafe Coffee K-Cup Pods, 48 ct",
+          "price": "$26.99-$44.99",
+          "umap_price_verifiable": false,
+          "deal_details": "Selected Tim Hortons or McCafe coffee pods, 30 and 48 ct; individual item price not specified",
+          "promotion_type": "Special Price",
+          "page_number": 12,
+          "page_url": "https://flyers.smartcanucks.ca/canada/canadian-tire-on-flyer-july-18-to-241/single/11",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/272429/canadian-tire-on-flyer-july-18-to-241-12.jpg",
+          "flyer_title": "Canadian Tire (ON) Flyer July 18 to 24",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/canadian-tire-on-flyer-july-18-to-241",
+          "source_scan": "competitive_full_flyer_2025_07_17",
+          "scan_scope": "all pages, primary Ontario flyer"
+        }
+      ]
+    },
+    {
+      "name": "Metro QC",
+      "flyers": [
+        {
+          "title": "Metro (QC) Flyer July 17 to 23",
+          "url": "https://flyers.smartcanucks.ca/canada/metro-qc-flyer-july-17-to-23",
+          "pages_scanned": 19,
+          "products_found": 5
+        }
+      ],
+      "products": [
+        {
+          "brand": "Starbucks",
+          "brand_text_seen": "Starbucks capsules de cafe K-Cup, 24 un.",
+          "product_name": "Starbucks capsules de cafe K-Cup, 24 un.",
+          "price": "$25.99",
+          "umap_price_verifiable": true,
+          "deal_details": "Choix varie; prix regulier 27,99 $",
+          "promotion_type": "Special Price",
+          "page_number": 14,
+          "page_url": "https://flyers.smartcanucks.ca/canada/metro-qc-flyer-july-17-to-23/single/13",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/272352/metro-qc-flyer-july-17-to-23-14.jpg",
+          "flyer_title": "Metro (QC) Flyer July 17 to 23",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/metro-qc-flyer-july-17-to-23",
+          "source_scan": "competitive_full_flyer_2025_07_17",
+          "scan_scope": "all pages, primary Quebec flyer"
+        },
+        {
+          "brand": "Nescafe",
+          "brand_text_seen": "Nescafe Espresso concentre de cafe, 500 mL",
+          "product_name": "Nescafe Espresso concentre de cafe, 500 mL",
+          "price": "$6.99",
+          "umap_price_verifiable": true,
+          "deal_details": "Choix varie; prix regulier 9,99 $",
+          "promotion_type": "Special Price",
+          "page_number": 17,
+          "page_url": "https://flyers.smartcanucks.ca/canada/metro-qc-flyer-july-17-to-23/single/16",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/272352/metro-qc-flyer-july-17-to-23-17.jpg",
+          "flyer_title": "Metro (QC) Flyer July 17 to 23",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/metro-qc-flyer-july-17-to-23",
+          "source_scan": "competitive_full_flyer_2025_07_17",
+          "scan_scope": "all pages, primary Quebec flyer"
+        },
+        {
+          "brand": "Maxwell House",
+          "brand_text_seen": "Maxwell House cafe instantane latte glace en poudre, 165 g",
+          "product_name": "Maxwell House cafe instantane latte glace en poudre, 165 g",
+          "price": "$7.99",
+          "umap_price_verifiable": true,
+          "deal_details": "Choix varie; prix regulier 8,99 $",
+          "promotion_type": "Special Price",
+          "page_number": 17,
+          "page_url": "https://flyers.smartcanucks.ca/canada/metro-qc-flyer-july-17-to-23/single/16",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/272352/metro-qc-flyer-july-17-to-23-17.jpg",
+          "flyer_title": "Metro (QC) Flyer July 17 to 23",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/metro-qc-flyer-july-17-to-23",
+          "source_scan": "competitive_full_flyer_2025_07_17",
+          "scan_scope": "all pages, primary Quebec flyer"
+        },
+        {
+          "brand": "Starbucks",
+          "brand_text_seen": "Starbucks cafe moulu, 311-340 g",
+          "product_name": "Starbucks cafe moulu, 311-340 g",
+          "price": "$11.99",
+          "umap_price_verifiable": true,
+          "deal_details": "Choix varie; prix regulier partage 11,99-15,99 $",
+          "promotion_type": "Special Price",
+          "page_number": 18,
+          "page_url": "https://flyers.smartcanucks.ca/canada/metro-qc-flyer-july-17-to-23/single/17",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/272352/metro-qc-flyer-july-17-to-23-18.jpg",
+          "flyer_title": "Metro (QC) Flyer July 17 to 23",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/metro-qc-flyer-july-17-to-23",
+          "source_scan": "competitive_full_flyer_2025_07_17",
+          "scan_scope": "all pages, primary Quebec flyer"
+        },
+        {
+          "brand": "Starbucks",
+          "brand_text_seen": "Starbucks capsules de cafe K-Cup, 8-10 un.",
+          "product_name": "Starbucks capsules de cafe K-Cup, 8-10 un.",
+          "price": "$11.99",
+          "umap_price_verifiable": true,
+          "deal_details": "Choix varie; prix regulier partage 11,99-15,99 $",
+          "promotion_type": "Special Price",
+          "page_number": 18,
+          "page_url": "https://flyers.smartcanucks.ca/canada/metro-qc-flyer-july-17-to-23/single/17",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/272352/metro-qc-flyer-july-17-to-23-18.jpg",
+          "flyer_title": "Metro (QC) Flyer July 17 to 23",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/metro-qc-flyer-july-17-to-23",
+          "source_scan": "competitive_full_flyer_2025_07_17",
+          "scan_scope": "all pages, primary Quebec flyer"
+        }
+      ]
+    },
+    {
+      "name": "IGA QC",
+      "flyers": [
+        {
+          "title": "IGA (QC) Flyer July 17 to 23",
+          "url": "https://flyers.smartcanucks.ca/canada/iga-qc-flyer-july-17-to-231",
+          "pages_scanned": 16,
+          "products_found": 7
+        }
+      ],
+      "products": [
+        {
+          "brand": "Tim Hortons",
+          "brand_text_seen": "Cafe en capsules K-Cup 48",
+          "product_name": "Cafe en capsules K-Cup 48",
+          "price": "$34.49",
+          "umap_price_verifiable": true,
+          "deal_details": "Selection variee",
+          "promotion_type": "Special Price",
+          "page_number": 2,
+          "page_url": "https://flyers.smartcanucks.ca/canada/iga-qc-flyer-july-17-to-231/single/1",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/272365/iga-qc-flyer-july-17-to-231-2.jpg",
+          "flyer_title": "IGA (QC) Flyer July 17 to 23",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/iga-qc-flyer-july-17-to-231",
+          "source_scan": "competitive_full_flyer_2025_07_17",
+          "scan_scope": "all pages, primary Quebec flyer"
+        },
+        {
+          "brand": "Tim Hortons",
+          "brand_text_seen": "Cafe en capsules K-Cup 10-14",
+          "product_name": "Cafe en capsules K-Cup 10-14",
+          "price": "$12.49",
+          "umap_price_verifiable": true,
+          "deal_details": "Selection variee",
+          "promotion_type": "Special Price",
+          "page_number": 8,
+          "page_url": "https://flyers.smartcanucks.ca/canada/iga-qc-flyer-july-17-to-231/single/7",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/272365/iga-qc-flyer-july-17-to-231-8.jpg",
+          "flyer_title": "IGA (QC) Flyer July 17 to 23",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/iga-qc-flyer-july-17-to-231",
+          "source_scan": "competitive_full_flyer_2025_07_17",
+          "scan_scope": "all pages, primary Quebec flyer"
+        },
+        {
+          "brand": "Tim Hortons",
+          "brand_text_seen": "Cafe en capsules Tassimo 10-14",
+          "product_name": "Cafe en capsules Tassimo 10-14",
+          "price": "$12.49",
+          "umap_price_verifiable": true,
+          "deal_details": "Selection variee",
+          "promotion_type": "Special Price",
+          "page_number": 8,
+          "page_url": "https://flyers.smartcanucks.ca/canada/iga-qc-flyer-july-17-to-231/single/7",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/272365/iga-qc-flyer-july-17-to-231-8.jpg",
+          "flyer_title": "IGA (QC) Flyer July 17 to 23",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/iga-qc-flyer-july-17-to-231",
+          "source_scan": "competitive_full_flyer_2025_07_17",
+          "scan_scope": "all pages, primary Quebec flyer"
+        },
+        {
+          "brand": "Tim Hortons",
+          "brand_text_seen": "Cafe en grains 640-930 g",
+          "product_name": "Cafe en grains 640-930 g",
+          "price": "$25.99",
+          "umap_price_verifiable": true,
+          "deal_details": "Selection variee",
+          "promotion_type": "Special Price",
+          "page_number": 8,
+          "page_url": "https://flyers.smartcanucks.ca/canada/iga-qc-flyer-july-17-to-231/single/7",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/272365/iga-qc-flyer-july-17-to-231-8.jpg",
+          "flyer_title": "IGA (QC) Flyer July 17 to 23",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/iga-qc-flyer-july-17-to-231",
+          "source_scan": "competitive_full_flyer_2025_07_17",
+          "scan_scope": "all pages, primary Quebec flyer"
+        },
+        {
+          "brand": "Tim Hortons",
+          "brand_text_seen": "Cafe moulu 640-930 g",
+          "product_name": "Cafe moulu 640-930 g",
+          "price": "$25.99",
+          "umap_price_verifiable": true,
+          "deal_details": "Selection variee",
+          "promotion_type": "Special Price",
+          "page_number": 8,
+          "page_url": "https://flyers.smartcanucks.ca/canada/iga-qc-flyer-july-17-to-231/single/7",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/272365/iga-qc-flyer-july-17-to-231-8.jpg",
+          "flyer_title": "IGA (QC) Flyer July 17 to 23",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/iga-qc-flyer-july-17-to-231",
+          "source_scan": "competitive_full_flyer_2025_07_17",
+          "scan_scope": "all pages, primary Quebec flyer"
+        },
+        {
+          "brand": "Tim Hortons",
+          "brand_text_seen": "Chocolat chaud en capsules",
+          "product_name": "Chocolat chaud en capsules",
+          "price": "$12.49",
+          "umap_price_verifiable": true,
+          "deal_details": "Selection variee",
+          "promotion_type": "Special Price",
+          "page_number": 8,
+          "page_url": "https://flyers.smartcanucks.ca/canada/iga-qc-flyer-july-17-to-231/single/7",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/272365/iga-qc-flyer-july-17-to-231-8.jpg",
+          "flyer_title": "IGA (QC) Flyer July 17 to 23",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/iga-qc-flyer-july-17-to-231",
+          "source_scan": "competitive_full_flyer_2025_07_17",
+          "scan_scope": "all pages, primary Quebec flyer"
+        },
+        {
+          "brand": "Caffitaly",
+          "brand_text_seen": "Cafe en capsules compatibles Nespresso",
+          "product_name": "Cafe en capsules compatibles Nespresso",
+          "price": "$4.99",
+          "umap_price_verifiable": true,
+          "deal_details": "50 points Scene+; legende 10 capsules et emballage illustre 12",
+          "promotion_type": "Loyalty Offer",
+          "page_number": 11,
+          "page_url": "https://flyers.smartcanucks.ca/canada/iga-qc-flyer-july-17-to-231/single/10",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/272365/iga-qc-flyer-july-17-to-231-11.jpg",
+          "flyer_title": "IGA (QC) Flyer July 17 to 23",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/iga-qc-flyer-july-17-to-231",
+          "source_scan": "competitive_full_flyer_2025_07_17",
+          "scan_scope": "all pages, primary Quebec flyer"
+        }
+      ]
+    },
+    {
+      "name": "Super C",
+      "flyers": [
+        {
+          "title": "Super C Flyer July 17 to 23",
+          "url": "https://flyers.smartcanucks.ca/canada/super-c-flyer-july-17-to-231",
+          "pages_scanned": 15,
+          "products_found": 2
+        }
+      ],
+      "products": [
+        {
+          "brand": "Tim Hortons",
+          "brand_text_seen": "Capsules de cafe K-Cup Tim Hortons, 12 un.",
+          "product_name": "Capsules de cafe K-Cup Tim Hortons, 12 un.",
+          "price": "$9.99",
+          "umap_price_verifiable": true,
+          "deal_details": "Prix membre; prix non-membre 10,99 $",
+          "promotion_type": "Special Price",
+          "page_number": 3,
+          "page_url": "https://flyers.smartcanucks.ca/canada/super-c-flyer-july-17-to-231/single/2",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/272384/super-c-flyer-july-17-to-231-3.jpg",
+          "flyer_title": "Super C Flyer July 17 to 23",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/super-c-flyer-july-17-to-231",
+          "source_scan": "competitive_full_flyer_2025_07_17",
+          "scan_scope": "all pages, primary Quebec flyer"
+        },
+        {
+          "brand": "Tim Hortons",
+          "brand_text_seen": "Cafe moulu Tim Hortons, 300 g",
+          "product_name": "Cafe moulu Tim Hortons, 300 g",
+          "price": "$9.99",
+          "umap_price_verifiable": true,
+          "deal_details": "Prix membre; prix non-membre 10,99 $",
+          "promotion_type": "Special Price",
+          "page_number": 3,
+          "page_url": "https://flyers.smartcanucks.ca/canada/super-c-flyer-july-17-to-231/single/2",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/272384/super-c-flyer-july-17-to-231-3.jpg",
+          "flyer_title": "Super C Flyer July 17 to 23",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/super-c-flyer-july-17-to-231",
+          "source_scan": "competitive_full_flyer_2025_07_17",
+          "scan_scope": "all pages, primary Quebec flyer"
+        }
+      ]
+    },
+    {
+      "name": "Maxi",
+      "flyers": [
+        {
+          "title": "Maxi Flyer July 17 to 23",
+          "url": "https://flyers.smartcanucks.ca/canada/maxi-flyer-july-17-to-23",
+          "pages_scanned": 15,
+          "products_found": 12
+        }
+      ],
+      "products": [
+        {
+          "brand": "Nescafe",
+          "brand_text_seen": "Cafe instantane, 100-170 g",
+          "product_name": "Cafe instantane, 100-170 g",
+          "price": "$5.99",
+          "umap_price_verifiable": true,
+          "deal_details": "1000 points PC Optimum (valeur 1 $); formats regroupes dans l'annonce",
+          "promotion_type": "Loyalty Offer",
+          "page_number": 1,
+          "page_url": "https://flyers.smartcanucks.ca/canada/maxi-flyer-july-17-to-23/single",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/272376/maxi-flyer-july-17-to-23-1.jpg",
+          "flyer_title": "Maxi Flyer July 17 to 23",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/maxi-flyer-july-17-to-23",
+          "source_scan": "competitive_full_flyer_2025_07_17",
+          "scan_scope": "all pages, primary Quebec flyer"
+        },
+        {
+          "brand": "Taster's Choice",
+          "brand_text_seen": "Cafe instantane, 100-170 g",
+          "product_name": "Cafe instantane, 100-170 g",
+          "price": "$5.99",
+          "umap_price_verifiable": true,
+          "deal_details": "1000 points PC Optimum (valeur 1 $); formats regroupes dans l'annonce",
+          "promotion_type": "Loyalty Offer",
+          "page_number": 1,
+          "page_url": "https://flyers.smartcanucks.ca/canada/maxi-flyer-july-17-to-23/single",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/272376/maxi-flyer-july-17-to-23-1.jpg",
+          "flyer_title": "Maxi Flyer July 17 to 23",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/maxi-flyer-july-17-to-23",
+          "source_scan": "competitive_full_flyer_2025_07_17",
+          "scan_scope": "all pages, primary Quebec flyer"
+        },
+        {
+          "brand": "PC",
+          "brand_text_seen": "Cafe en grains, 820 ou 907 g",
+          "product_name": "Cafe en grains, 820 ou 907 g",
+          "price": "$20.00",
+          "umap_price_verifiable": true,
+          "deal_details": "Certaines varietes",
+          "promotion_type": "Special Price",
+          "page_number": 7,
+          "page_url": "https://flyers.smartcanucks.ca/canada/maxi-flyer-july-17-to-23/single/6",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/272376/maxi-flyer-july-17-to-23-7.jpg",
+          "flyer_title": "Maxi Flyer July 17 to 23",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/maxi-flyer-july-17-to-23",
+          "source_scan": "competitive_full_flyer_2025_07_17",
+          "scan_scope": "all pages, primary Quebec flyer"
+        },
+        {
+          "brand": "PC",
+          "brand_text_seen": "Cafe moulu, 800-930 g",
+          "product_name": "Cafe moulu, 800-930 g",
+          "price": "$20.00",
+          "umap_price_verifiable": true,
+          "deal_details": "Certaines varietes",
+          "promotion_type": "Special Price",
+          "page_number": 7,
+          "page_url": "https://flyers.smartcanucks.ca/canada/maxi-flyer-july-17-to-23/single/6",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/272376/maxi-flyer-july-17-to-23-7.jpg",
+          "flyer_title": "Maxi Flyer July 17 to 23",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/maxi-flyer-july-17-to-23",
+          "source_scan": "competitive_full_flyer_2025_07_17",
+          "scan_scope": "all pages, primary Quebec flyer"
+        },
+        {
+          "brand": "PC",
+          "brand_text_seen": "Capsules de cafe, 30 un.",
+          "product_name": "Capsules de cafe, 30 un.",
+          "price": "$20.00",
+          "umap_price_verifiable": true,
+          "deal_details": "Certaines varietes",
+          "promotion_type": "Special Price",
+          "page_number": 7,
+          "page_url": "https://flyers.smartcanucks.ca/canada/maxi-flyer-july-17-to-23/single/6",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/272376/maxi-flyer-july-17-to-23-7.jpg",
+          "flyer_title": "Maxi Flyer July 17 to 23",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/maxi-flyer-july-17-to-23",
+          "source_scan": "competitive_full_flyer_2025_07_17",
+          "scan_scope": "all pages, primary Quebec flyer"
+        },
+        {
+          "brand": "Starbucks",
+          "brand_text_seen": "Cafe glace, 1,18 ou 1,42 L",
+          "product_name": "Cafe glace, 1,18 ou 1,42 L",
+          "price": "$8.00",
+          "umap_price_verifiable": true,
+          "deal_details": "Formats regroupes dans l'annonce; certaines varietes",
+          "promotion_type": "Special Price",
+          "page_number": 7,
+          "page_url": "https://flyers.smartcanucks.ca/canada/maxi-flyer-july-17-to-23/single/6",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/272376/maxi-flyer-july-17-to-23-7.jpg",
+          "flyer_title": "Maxi Flyer July 17 to 23",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/maxi-flyer-july-17-to-23",
+          "source_scan": "competitive_full_flyer_2025_07_17",
+          "scan_scope": "all pages, primary Quebec flyer"
+        },
+        {
+          "brand": "Stok",
+          "brand_text_seen": "Cafe infuse a froid, 1,18 ou 1,42 L",
+          "product_name": "Cafe infuse a froid, 1,18 ou 1,42 L",
+          "price": "$8.00",
+          "umap_price_verifiable": true,
+          "deal_details": "Formats regroupes dans l'annonce; certaines varietes",
+          "promotion_type": "Special Price",
+          "page_number": 7,
+          "page_url": "https://flyers.smartcanucks.ca/canada/maxi-flyer-july-17-to-23/single/6",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/272376/maxi-flyer-july-17-to-23-7.jpg",
+          "flyer_title": "Maxi Flyer July 17 to 23",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/maxi-flyer-july-17-to-23",
+          "source_scan": "competitive_full_flyer_2025_07_17",
+          "scan_scope": "all pages, primary Quebec flyer"
+        },
+        {
+          "brand": "Kicking Horse",
+          "brand_text_seen": "Cafe moulu biologique, 284 g",
+          "product_name": "Cafe moulu biologique, 284 g",
+          "price": "$10.00",
+          "umap_price_verifiable": true,
+          "deal_details": "Certaines varietes",
+          "promotion_type": "Special Price",
+          "page_number": 9,
+          "page_url": "https://flyers.smartcanucks.ca/canada/maxi-flyer-july-17-to-23/single/8",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/272376/maxi-flyer-july-17-to-23-9.jpg",
+          "flyer_title": "Maxi Flyer July 17 to 23",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/maxi-flyer-july-17-to-23",
+          "source_scan": "competitive_full_flyer_2025_07_17",
+          "scan_scope": "all pages, primary Quebec flyer"
+        },
+        {
+          "brand": "Red Rose",
+          "brand_text_seen": "The orange pekoe, 72 un.",
+          "product_name": "The orange pekoe, 72 un.",
+          "price": "$5.00",
+          "umap_price_verifiable": true,
+          "deal_details": "Certaines varietes",
+          "promotion_type": "Special Price",
+          "page_number": 9,
+          "page_url": "https://flyers.smartcanucks.ca/canada/maxi-flyer-july-17-to-23/single/8",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/272376/maxi-flyer-july-17-to-23-9.jpg",
+          "flyer_title": "Maxi Flyer July 17 to 23",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/maxi-flyer-july-17-to-23",
+          "source_scan": "competitive_full_flyer_2025_07_17",
+          "scan_scope": "all pages, primary Quebec flyer"
+        },
+        {
+          "brand": "Salada",
+          "brand_text_seen": "The orange pekoe, 72 un.",
+          "product_name": "The orange pekoe, 72 un.",
+          "price": "$5.00",
+          "umap_price_verifiable": true,
+          "deal_details": "Certaines varietes",
+          "promotion_type": "Special Price",
+          "page_number": 9,
+          "page_url": "https://flyers.smartcanucks.ca/canada/maxi-flyer-july-17-to-23/single/8",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/272376/maxi-flyer-july-17-to-23-9.jpg",
+          "flyer_title": "Maxi Flyer July 17 to 23",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/maxi-flyer-july-17-to-23",
+          "source_scan": "competitive_full_flyer_2025_07_17",
+          "scan_scope": "all pages, primary Quebec flyer"
+        },
+        {
+          "brand": "Tazo",
+          "brand_text_seen": "Tisane, 20 un.",
+          "product_name": "Tisane, 20 un.",
+          "price": "$5.00",
+          "umap_price_verifiable": true,
+          "deal_details": "Certaines varietes",
+          "promotion_type": "Special Price",
+          "page_number": 9,
+          "page_url": "https://flyers.smartcanucks.ca/canada/maxi-flyer-july-17-to-23/single/8",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/272376/maxi-flyer-july-17-to-23-9.jpg",
+          "flyer_title": "Maxi Flyer July 17 to 23",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/maxi-flyer-july-17-to-23",
+          "source_scan": "competitive_full_flyer_2025_07_17",
+          "scan_scope": "all pages, primary Quebec flyer"
+        },
+        {
+          "brand": "No Name",
+          "brand_text_seen": "Capsules de cafe, 12 un.",
+          "product_name": "Capsules de cafe, 12 un.",
+          "price": "Price not stated",
+          "umap_price_verifiable": false,
+          "deal_details": "Maxi coupons: 2000 points PC Optimum (valeur 2 $); prix non indique",
+          "promotion_type": "Loyalty Offer",
+          "page_number": 15,
+          "page_url": "https://flyers.smartcanucks.ca/canada/maxi-flyer-july-17-to-23/single/14",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/272376/maxi-flyer-july-17-to-23-15.jpg",
+          "flyer_title": "Maxi Flyer July 17 to 23",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/maxi-flyer-july-17-to-23",
+          "source_scan": "competitive_full_flyer_2025_07_17",
+          "scan_scope": "all pages, primary Quebec flyer"
+        }
+      ]
+    }
+  ]
 }

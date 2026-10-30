@@ -1,0 +1,491 @@
+week_start,retailer,region,flyer_url,pages_downloaded,offers_verified,status
+2025-01-02,Canadian Tire,ON,https://flyers.smartcanucks.ca/canada/canadian-tire-on-flyer-january-3-to-91,12,7,verified
+2025-01-02,IGA QC,QC,https://flyers.smartcanucks.ca/canada/iga-qc-flyer-january-2-to-81,30,11,verified
+2025-01-02,Maxi,QC,https://flyers.smartcanucks.ca/canada/maxi-flyer-january-2-to-81,17,10,verified
+2025-01-02,Metro QC,QC,https://flyers.smartcanucks.ca/canada/metro-qc-flyer-january-2-to-81,22,17,verified
+2025-01-02,Super C,QC,https://flyers.smartcanucks.ca/canada/super-c-flyer-january-2-to-82,14,4,verified
+2025-01-09,Canadian Tire,ON,https://flyers.smartcanucks.ca/canada/canadian-tire-on-flyer-january-10-to-161,20,3,verified
+2025-01-09,IGA QC,QC,https://flyers.smartcanucks.ca/canada/iga-qc-flyer-january-9-to-151,34,13,verified
+2025-01-09,Maxi,QC,https://flyers.smartcanucks.ca/canada/maxi-flyer-january-9-to-151,19,8,verified
+2025-01-09,Metro QC,QC,https://flyers.smartcanucks.ca/canada/metro-qc-flyer-january-9-to-151,19,13,verified
+2025-01-09,Super C,QC,https://flyers.smartcanucks.ca/canada/super-c-flyer-january-9-to-152,16,10,verified
+2025-01-16,Canadian Tire,ON,https://flyers.smartcanucks.ca/canada/canadian-tire-on-flyer-january-17-to-231,17,4,verified
+2025-01-16,IGA QC,QC,https://flyers.smartcanucks.ca/canada/iga-qc-flyer-january-16-to-221,34,23,verified
+2025-01-16,Maxi,QC,https://flyers.smartcanucks.ca/canada/maxi-flyer-january-16-to-221,18,14,verified
+2025-01-16,Metro QC,QC,https://flyers.smartcanucks.ca/canada/metro-qc-flyer-january-16-to-221,18,6,verified
+2025-01-16,Super C,QC,https://flyers.smartcanucks.ca/canada/super-c-flyer-january-16-to-221,18,12,verified
+2025-01-23,Canadian Tire,ON,https://flyers.smartcanucks.ca/canada/canadian-tire-on-flyer-january-24-to-302,14,10,verified
+2025-01-23,IGA QC,QC,https://flyers.smartcanucks.ca/canada/iga-qc-flyer-january-23-to-291,32,7,verified
+2025-01-23,Maxi,QC,https://flyers.smartcanucks.ca/canada/maxi-flyer-january-23-to-292,14,6,verified
+2025-01-23,Metro QC,QC,https://flyers.smartcanucks.ca/canada/metro-qc-flyer-january-23-to-291,22,16,verified
+2025-01-23,Super C,QC,https://flyers.smartcanucks.ca/canada/super-c-flyer-january-23-to-291,16,4,verified
+2025-01-30,Canadian Tire,ON,https://flyers.smartcanucks.ca/canada/canadian-tire-on-flyer-january-31-to-february-61,17,9,verified
+2025-01-30,IGA QC,QC,https://flyers.smartcanucks.ca/canada/iga-qc-flyer-january-30-to-february-51,32,8,verified
+2025-01-30,Maxi,QC,https://flyers.smartcanucks.ca/canada/maxi-flyer-january-30-to-february-51,25,8,verified
+2025-01-30,Metro QC,QC,https://flyers.smartcanucks.ca/canada/metro-qc-flyer-january-30-to-february-51,22,16,verified
+2025-01-30,Super C,QC,https://flyers.smartcanucks.ca/canada/super-c-flyer-january-30-to-february-51,17,4,verified
+2025-02-06,Canadian Tire,ON,https://flyers.smartcanucks.ca/canada/canadian-tire-on-flyer-february-7-to-131,8,6,verified
+2025-02-06,IGA QC,QC,https://flyers.smartcanucks.ca/canada/iga-qc-flyer-february-6-to-121,33,17,verified
+2025-02-06,Maxi,QC,https://flyers.smartcanucks.ca/canada/maxi-flyer-february-6-to-121,13,14,verified
+2025-02-06,Metro QC,QC,https://flyers.smartcanucks.ca/canada/metro-qc-flyer-february-6-to-121,22,8,verified
+2025-02-06,Super C,QC,https://flyers.smartcanucks.ca/canada/super-c-flyer-february-6-to-121,16,3,verified
+2025-02-13,Canadian Tire,ON,https://flyers.smartcanucks.ca/canada/canadian-tire-on-flyer-february-14-to-201,16,5,verified
+2025-02-13,IGA QC,QC,https://flyers.smartcanucks.ca/canada/iga-qc-flyer-february-13-to-191,29,11,verified
+2025-02-13,Maxi,QC,https://flyers.smartcanucks.ca/canada/maxi-flyer-february-13-to-191,14,20,verified
+2025-02-13,Metro QC,QC,https://flyers.smartcanucks.ca/canada/metro-qc-flyer-february-13-to-191,23,11,verified
+2025-02-13,Super C,QC,https://flyers.smartcanucks.ca/canada/super-c-flyer-february-13-to-191,17,5,verified
+2025-02-20,Canadian Tire,ON,https://flyers.smartcanucks.ca/canada/canadian-tire-on-flyer-february-21-to-271,16,12,verified
+2025-02-20,IGA QC,QC,https://flyers.smartcanucks.ca/canada/iga-qc-flyer-february-20-to-261,30,16,verified
+2025-02-20,Maxi,QC,https://flyers.smartcanucks.ca/canada/maxi-flyer-february-20-to-261,14,8,verified
+2025-02-20,Metro QC,QC,https://flyers.smartcanucks.ca/canada/metro-qc-flyer-february-20-to-261,24,12,verified
+2025-02-20,Super C,QC,https://flyers.smartcanucks.ca/canada/super-c-flyer-february-20-to-261,17,5,verified
+2025-02-27,Canadian Tire,ON,https://flyers.smartcanucks.ca/canada/canadian-tire-on-flyer-february-28-to-march-6,14,1,verified
+2025-02-27,IGA QC,QC,https://flyers.smartcanucks.ca/canada/iga-qc-flyer-february-27-to-march-5,34,25,verified
+2025-02-27,Maxi,QC,https://flyers.smartcanucks.ca/canada/maxi-flyer-february-27-to-march-51,15,18,verified
+2025-02-27,Metro QC,QC,https://flyers.smartcanucks.ca/canada/metro-qc-flyer-february-27-to-march-5,21,16,verified
+2025-02-27,Super C,QC,https://flyers.smartcanucks.ca/canada/super-c-flyer-february-27-to-march-51,16,6,verified
+2025-03-06,Canadian Tire,ON,https://flyers.smartcanucks.ca/canada/canadian-tire-on-flyer-march-7-to-13,24,11,verified
+2025-03-06,IGA QC,QC,https://flyers.smartcanucks.ca/canada/iga-qc-flyer-march-6-to-12,34,16,verified
+2025-03-06,Maxi,QC,https://flyers.smartcanucks.ca/canada/maxi-flyer-march-6-to-121,16,3,verified
+2025-03-06,Metro QC,QC,https://flyers.smartcanucks.ca/canada/metro-qc-flyer-march-6-to-12,24,11,verified
+2025-03-06,Super C,QC,https://flyers.smartcanucks.ca/canada/super-c-flyer-march-6-to-121,16,5,verified
+2025-03-13,Canadian Tire,ON,https://flyers.smartcanucks.ca/canada/canadian-tire-on-flyer-march-14-to-20,36,16,verified
+2025-03-13,IGA QC,QC,https://flyers.smartcanucks.ca/canada/iga-qc-flyer-march-13-to-19,33,20,verified
+2025-03-13,Maxi,QC,https://flyers.smartcanucks.ca/canada/maxi-flyer-march-13-to-191,13,11,verified
+2025-03-13,Metro QC,QC,https://flyers.smartcanucks.ca/canada/metro-qc-flyer-march-13-to-19,22,14,verified_with_source_caveat
+2025-03-13,Super C,QC,https://flyers.smartcanucks.ca/canada/super-c-flyer-march-13-to-191,14,4,verified
+2025-03-20,Canadian Tire,ON,https://flyers.smartcanucks.ca/canada/canadian-tire-on-flyer-march-20-to-27,16,5,verified
+2025-03-20,IGA QC,QC,https://flyers.smartcanucks.ca/canada/iga-qc-flyer-march-20-to-261,30,12,verified
+2025-03-20,Maxi,QC,https://flyers.smartcanucks.ca/canada/maxi-flyer-march-20-to-261,17,11,verified
+2025-03-20,Metro QC,QC,https://flyers.smartcanucks.ca/canada/metro-qc-flyer-march-20-to-261,22,12,verified
+2025-03-20,Super C,QC,https://flyers.smartcanucks.ca/canada/super-c-flyer-march-20-to-261,16,4,verified
+2025-03-27,Canadian Tire,ON,https://flyers.smartcanucks.ca/canada/canadian-tire-on-flyer-march-28-to-april-31,27,7,verified
+2025-03-27,IGA QC,QC,https://flyers.smartcanucks.ca/canada/iga-qc-flyer-march-27-to-april-21,32,10,verified
+2025-03-27,Maxi,QC,https://flyers.smartcanucks.ca/canada/maxi-flyer-march-27-to-april-21,17,13,verified
+2025-03-27,Metro QC,QC,https://flyers.smartcanucks.ca/canada/metro-qc-flyer-march-27-to-april-21,23,12,verified
+2025-03-27,Super C,QC,https://flyers.smartcanucks.ca/canada/super-c-flyer-march-27-to-april-21,17,2,verified
+2025-04-03,Canadian Tire,ON,https://flyers.smartcanucks.ca/canada/canadian-tire-on-flyer-april-4-to-101,31,12,verified
+2025-04-03,IGA QC,QC,https://flyers.smartcanucks.ca/canada/iga-qc-flyer-april-3-to-91,30,16,verified
+2025-04-03,Maxi,QC,https://flyers.smartcanucks.ca/canada/maxi-flyer-april-3-to-91,15,5,verified
+2025-04-03,Metro QC,QC,https://flyers.smartcanucks.ca/canada/metro-qc-flyer-april-3-to-91,23,13,verified
+2025-04-03,Super C,QC,https://flyers.smartcanucks.ca/canada/super-c-flyer-april-3-to-91,14,2,verified
+2025-04-10,Canadian Tire,ON,https://flyers.smartcanucks.ca/canada/canadian-tire-on-flyer-april-11-to-172,27,5,verified
+2025-04-10,IGA QC,QC,https://flyers.smartcanucks.ca/canada/iga-qc-flyer-april-10-to-161,35,22,verified
+2025-04-10,Maxi,QC,https://flyers.smartcanucks.ca/canada/maxi-flyer-april-10-to-161,19,9,verified
+2025-04-10,Metro QC,QC,https://flyers.smartcanucks.ca/canada/metro-qc-flyer-april-10-to-161,21,8,verified
+2025-04-10,Super C,QC,https://flyers.smartcanucks.ca/canada/super-c-flyer-april-10-to-161,20,8,verified
+2025-04-17,Canadian Tire,ON,https://flyers.smartcanucks.ca/canada/canadian-tire-on-flyer-april-18-to-241,18,12,verified
+2025-04-17,IGA QC,QC,https://flyers.smartcanucks.ca/canada/iga-qc-flyer-april-17-to-231,39,14,verified
+2025-04-17,Maxi,QC,https://flyers.smartcanucks.ca/canada/maxi-flyer-april-17-to-231,19,8,verified
+2025-04-17,Metro QC,QC,https://flyers.smartcanucks.ca/canada/metro-qc-flyer-april-17-to-231,24,16,verified
+2025-04-17,Super C,QC,https://flyers.smartcanucks.ca/canada/super-c-flyer-april-17-to-231,20,1,verified
+2025-04-24,Canadian Tire,ON,https://flyers.smartcanucks.ca/canada/canadian-tire-on-flyer-april-24-to-may-1,45,11,verified
+2025-04-24,IGA QC,QC,https://flyers.smartcanucks.ca/canada/iga-qc-flyer-april-24-to-301,33,19,verified
+2025-04-24,Maxi,QC,https://flyers.smartcanucks.ca/canada/maxi-flyer-april-24-to-301,19,11,verified
+2025-04-24,Metro QC,QC,https://flyers.smartcanucks.ca/canada/metro-qc-flyer-april-24-to-301,21,15,verified
+2025-04-24,Super C,QC,https://flyers.smartcanucks.ca/canada/super-c-flyer-april-24-to-301,20,12,verified
+2025-05-01,Canadian Tire,ON,https://flyers.smartcanucks.ca/canada/canadian-tire-on-flyer-may-2-to-81,16,7,verified
+2025-05-01,IGA QC,QC,https://flyers.smartcanucks.ca/canada/iga-qc-flyer-may-1-to-71,29,11,verified
+2025-05-01,Maxi,QC,https://flyers.smartcanucks.ca/canada/maxi-flyer-may-1-to-71,13,11,verified
+2025-05-01,Metro QC,QC,https://flyers.smartcanucks.ca/canada/metro-qc-flyer-may-1-to-71,24,7,verified_with_source_caveat
+2025-05-01,Super C,QC,https://flyers.smartcanucks.ca/canada/super-c-flyer-may-1-to-71,21,6,verified
+2025-05-08,Canadian Tire,ON,https://flyers.smartcanucks.ca/canada/canadian-tire-on-flyer-may-8-to-15,25,9,verified
+2025-05-08,IGA QC,QC,https://flyers.smartcanucks.ca/canada/iga-qc-flyer-may-8-to-141,46,15,verified
+2025-05-08,Maxi,QC,https://flyers.smartcanucks.ca/canada/maxi-flyer-may-8-to-141,16,13,verified
+2025-05-08,Metro QC,QC,https://flyers.smartcanucks.ca/canada/metro-qc-flyer-may-8-to-141,21,9,verified
+2025-05-08,Super C,QC,https://flyers.smartcanucks.ca/canada/super-c-flyer-may-8-to-141,17,5,verified
+2025-05-15,Canadian Tire,ON,https://flyers.smartcanucks.ca/canada/canadian-tire-on-flyer-may-15-to-22,22,8,verified
+2025-05-15,IGA QC,QC,https://flyers.smartcanucks.ca/canada/iga-qc-flyer-may-15-to-211,39,10,verified
+2025-05-15,Maxi,QC,https://flyers.smartcanucks.ca/canada/maxi-flyer-may-15-to-211,17,5,verified
+2025-05-15,Metro QC,QC,https://flyers.smartcanucks.ca/canada/metro-qc-flyer-may-15-to-211,22,6,verified
+2025-05-15,Super C,QC,https://flyers.smartcanucks.ca/canada/super-c-flyer-may-15-to-211,19,3,verified
+2025-05-22,Canadian Tire,ON,https://flyers.smartcanucks.ca/canada/canadian-tire-on-flyer-may-23-to-292,42,7,verified
+2025-05-22,IGA QC,QC,https://flyers.smartcanucks.ca/canada/iga-qc-flyer-may-22-to-281,22,9,verified
+2025-05-22,Maxi,QC,https://flyers.smartcanucks.ca/canada/maxi-flyer-may-22-to-281,21,11,verified
+2025-05-22,Metro QC,QC,https://flyers.smartcanucks.ca/canada/metro-qc-flyer-may-22-to-281,30,16,verified
+2025-05-22,Super C,QC,https://flyers.smartcanucks.ca/canada/super-c-flyer-may-22-to-282,29,6,verified
+2025-05-29,Canadian Tire,ON,https://flyers.smartcanucks.ca/canada/canadian-tire-on-flyer-may-30-to-june-8,36,6,verified
+2025-05-29,IGA QC,QC,https://flyers.smartcanucks.ca/canada/iga-qc-flyer-may-29-to-june-42,23,10,verified
+2025-05-29,Maxi,QC,https://flyers.smartcanucks.ca/canada/maxi-flyer-may-29-to-june-41,21,16,verified
+2025-05-29,Metro QC,QC,https://flyers.smartcanucks.ca/canada/metro-qc-flyer-may-29-to-june-41,33,8,verified
+2025-05-29,Super C,QC,https://flyers.smartcanucks.ca/canada/super-c-flyer-may-29-to-june-42,29,5,verified
+2025-06-05,Canadian Tire,ON,https://flyers.smartcanucks.ca/canada/canadian-tire-on-flyer-june-5-to-15,49,9,verified
+2025-06-05,IGA QC,QC,https://flyers.smartcanucks.ca/canada/iga-qc-flyer-june-5-to-111,23,6,verified
+2025-06-05,Maxi,QC,https://flyers.smartcanucks.ca/canada/maxi-flyer-june-5-to-112,20,9,verified
+2025-06-05,Metro QC,QC,https://flyers.smartcanucks.ca/canada/metro-qc-flyer-june-5-to-112,32,9,verified
+2025-06-05,Super C,QC,https://flyers.smartcanucks.ca/canada/super-c-flyer-june-5-to-112,30,5,verified
+2025-06-12,Canadian Tire,ON,https://flyers.smartcanucks.ca/canada/canadian-tire-on-flyer-june-13-to-22,36,8,verified
+2025-06-12,IGA QC,QC,https://flyers.smartcanucks.ca/canada/iga-qc-flyer-june-12-to-182,24,17,verified
+2025-06-12,Maxi,QC,https://flyers.smartcanucks.ca/canada/maxi-flyer-june-12-to-181,11,4,verified
+2025-06-12,Metro QC,QC,https://flyers.smartcanucks.ca/canada/metro-qc-flyer-june-12-to-181,32,7,verified
+2025-06-12,Super C,QC,https://flyers.smartcanucks.ca/canada/super-c-flyer-june-12-to-182,31,12,verified
+2025-06-19,Canadian Tire,ON,https://flyers.smartcanucks.ca/canada/canadian-tire-on-flyer-june-13-to-22,36,8,verified
+2025-06-19,IGA QC,QC,https://flyers.smartcanucks.ca/canada/iga-qc-flyer-june-19-to-251,17,10,verified
+2025-06-19,Maxi,QC,https://flyers.smartcanucks.ca/canada/maxi-flyer-june-19-to-251,22,6,verified
+2025-06-19,Metro QC,QC,https://flyers.smartcanucks.ca/canada/metro-qc-flyer-june-19-to-251,23,15,verified
+2025-06-19,Super C,QC,https://flyers.smartcanucks.ca/canada/super-c-flyer-june-19-to-252,19,5,verified
+2025-06-26,Canadian Tire,ON,https://flyers.smartcanucks.ca/canada/canadian-tire-on-flyer-june-26-to-july-23,18,7,verified
+2025-06-26,IGA QC,QC,https://flyers.smartcanucks.ca/canada/iga-qc-flyer-june-26-to-july-21,16,13,verified
+2025-06-26,Maxi,QC,https://flyers.smartcanucks.ca/canada/maxi-flyer-june-26-to-july-22,20,10,verified
+2025-06-26,Metro QC,QC,https://flyers.smartcanucks.ca/canada/metro-qc-flyer-june-26-to-july-21,21,15,verified
+2025-06-26,Super C,QC,https://flyers.smartcanucks.ca/canada/super-c-flyer-june-26-to-july-21,15,6,verified
+2025-07-03,Canadian Tire,ON,https://flyers.smartcanucks.ca/canada/canadian-tire-on-flyer-july-3-to-92,18,5,verified
+2025-07-03,FreshCo,ON,https://flyers.smartcanucks.ca/canada/freshco-on-flyer-july-3-to-9,12,3,verified
+2025-07-03,IGA QC,QC,https://flyers.smartcanucks.ca/canada/iga-qc-flyer-july-3-to-9,17,14,verified
+2025-07-03,Maxi,QC,https://flyers.smartcanucks.ca/canada/maxi-flyer-july-3-to-92,13,8,verified
+2025-07-03,Metro QC,QC,https://flyers.smartcanucks.ca/canada/metro-qc-flyer-july-3-to-9,19,12,verified
+2025-07-03,Sobeys,ON,https://flyers.smartcanucks.ca/canada/sobeys-on-flyer-july-3-to-91,22,12,verified
+2025-07-03,Super C,QC,https://flyers.smartcanucks.ca/canada/super-c-flyer-july-3-to-92,15,3,verified
+2025-07-03,Walmart,ON,https://flyers.smartcanucks.ca/canada/walmart-on-flyer-july-3-to-9,24,1,verified
+2025-07-10,Canadian Tire,ON,https://flyers.smartcanucks.ca/canada/canadian-tire-on-flyer-july-10-to-161,29,0,verified
+2025-07-10,IGA QC,QC,https://flyers.smartcanucks.ca/canada/iga-qc-flyer-july-10-to-16,16,10,verified
+2025-07-10,Maxi,QC,https://flyers.smartcanucks.ca/canada/maxi-flyer-july-10-to-161,15,8,verified
+2025-07-10,Metro QC,QC,https://flyers.smartcanucks.ca/canada/metro-qc-flyer-july-10-to-16,18,7,verified
+2025-07-10,Sobeys,ON,https://flyers.smartcanucks.ca/canada/sobeys-on-flyer-july-10-to-161,26,17,verified
+2025-07-10,Super C,QC,https://flyers.smartcanucks.ca/canada/super-c-flyer-july-10-to-161,16,4,verified
+2025-07-10,Walmart,ON,https://flyers.smartcanucks.ca/canada/walmart-on-flyer-july-10-to-16,21,2,verified
+2025-07-17,Canadian Tire,ON,https://flyers.smartcanucks.ca/canada/canadian-tire-on-flyer-july-18-to-241,24,7,verified
+2025-07-17,IGA QC,QC,https://flyers.smartcanucks.ca/canada/iga-qc-flyer-july-17-to-231,16,7,verified
+2025-07-17,Maxi,QC,https://flyers.smartcanucks.ca/canada/maxi-flyer-july-17-to-23,15,12,verified
+2025-07-17,Metro QC,QC,https://flyers.smartcanucks.ca/canada/metro-qc-flyer-july-17-to-23,19,5,verified
+2025-07-17,Sobeys,ON,https://flyers.smartcanucks.ca/canada/sobeys-on-flyer-july-17-to-231,22,11,verified
+2025-07-17,Super C,QC,https://flyers.smartcanucks.ca/canada/super-c-flyer-july-17-to-231,15,2,verified
+2025-07-17,Walmart,ON,https://flyers.smartcanucks.ca/canada/walmart-on-flyer-july-17-to-23,22,3,verified
+2025-07-24,Canadian Tire,ON,https://flyers.smartcanucks.ca/canada/canadian-tire-on-flyer-july-25-to-312,23,3,verified
+2025-07-24,IGA QC,QC,https://flyers.smartcanucks.ca/canada/iga-qc-flyer-july-24-to-301,16,3,verified
+2025-07-24,Maxi,QC,https://flyers.smartcanucks.ca/canada/maxi-flyer-july-24-to-301,12,7,verified
+2025-07-24,Metro QC,QC,https://flyers.smartcanucks.ca/canada/metro-qc-flyer-july-24-to-302,31,15,verified
+2025-07-24,Sobeys,ON,https://flyers.smartcanucks.ca/canada/sobeys-on-flyer-july-24-to-301,24,6,verified
+2025-07-24,Super C,QC,https://flyers.smartcanucks.ca/canada/super-c-flyer-july-24-to-301,18,7,verified
+2025-07-24,Walmart,ON,https://flyers.smartcanucks.ca/canada/walmart-on-flyer-july-24-to-30,18,2,verified
+2025-07-31,Canadian Tire,ON,https://flyers.smartcanucks.ca/canada/canadian-tire-on-flyer-august-1-to-7,24,4,verified
+2025-07-31,IGA QC,QC,https://flyers.smartcanucks.ca/canada/iga-qc-flyer-july-31-to-august-61,15,17,verified
+2025-07-31,Maxi,QC,https://flyers.smartcanucks.ca/canada/maxi-flyer-july-31-to-august-61,13,9,verified
+2025-07-31,Metro QC,QC,https://flyers.smartcanucks.ca/canada/metro-qc-flyer-july-31-to-august-62,33,8,verified
+2025-07-31,Sobeys,ON,https://flyers.smartcanucks.ca/canada/sobeys-on-flyer-july-31-to-august-61,22,17,verified
+2025-07-31,Super C,QC,https://flyers.smartcanucks.ca/canada/super-c-flyer-july-31-to-august-61,16,6,verified
+2025-07-31,Walmart,ON,https://flyers.smartcanucks.ca/canada/walmart-on-flyer-july-31-to-august-6,18,2,verified
+2025-08-07,Canadian Tire,ON,https://flyers.smartcanucks.ca/canada/canadian-tire-on-flyer-august-7-to-14,14,4,verified
+2025-08-07,IGA QC,QC,https://flyers.smartcanucks.ca/canada/iga-qc-flyer-august-7-to-131,25,9,verified
+2025-08-07,Maxi,QC,https://flyers.smartcanucks.ca/canada/maxi-flyer-august-7-to-131,11,12,verified
+2025-08-07,Metro QC,QC,https://flyers.smartcanucks.ca/canada/metro-qc-flyer-august-7-to-131,31,13,verified
+2025-08-07,Sobeys,ON,https://flyers.smartcanucks.ca/canada/sobeys-on-flyer-august-7-to-132,22,17,verified
+2025-08-07,Super C,QC,https://flyers.smartcanucks.ca/canada/super-c-flyer-august-7-to-131,20,8,verified
+2025-08-07,Walmart,ON,https://flyers.smartcanucks.ca/canada/walmart-on-flyer-august-7-to-13,22,1,verified
+2025-08-14,Canadian Tire,ON,https://flyers.smartcanucks.ca/canada/canadian-tire-on-flyer-august-14-to-21,35,12,verified
+2025-08-14,IGA QC,QC,https://flyers.smartcanucks.ca/canada/iga-qc-flyer-august-14-to-202,27,7,verified
+2025-08-14,Maxi,QC,https://flyers.smartcanucks.ca/canada/maxi-flyer-august-14-to-20,12,4,verified
+2025-08-14,Metro QC,QC,https://flyers.smartcanucks.ca/canada/metro-qc-flyer-august-14-to-202,46,3,verified
+2025-08-14,Sobeys,ON,https://flyers.smartcanucks.ca/canada/sobeys-on-flyer-august-14-to-202,24,17,verified
+2025-08-14,Super C,QC,https://flyers.smartcanucks.ca/canada/super-c-flyer-august-14-to-202,24,5,verified
+2025-08-21,Canadian Tire,ON,https://flyers.smartcanucks.ca/canada/canadian-tire-on-flyer-august-22-to-281,26,9,verified
+2025-08-21,IGA QC,QC,https://flyers.smartcanucks.ca/canada/iga-qc-flyer-august-21-to-271,32,11,verified
+2025-08-21,Maxi,QC,https://flyers.smartcanucks.ca/canada/maxi-flyer-august-21-to-271,17,13,verified
+2025-08-21,Metro QC,QC,https://flyers.smartcanucks.ca/canada/metro-qc-flyer-august-21-to-271,36,10,verified
+2025-08-21,Sobeys,ON,https://flyers.smartcanucks.ca/canada/sobeys-on-flyer-august-21-to-272,19,14,verified
+2025-08-21,Super C,QC,https://flyers.smartcanucks.ca/canada/super-c-flyer-august-21-to-272,20,4,verified
+2025-08-28,Canadian Tire,ON,https://flyers.smartcanucks.ca/canada/canadian-tire-on-flyer-august-29-to-september-41,28,5,verified
+2025-08-28,IGA QC,QC,https://flyers.smartcanucks.ca/canada/iga-qc-flyer-august-28-to-september-31,33,4,verified
+2025-08-28,Maxi,QC,https://flyers.smartcanucks.ca/canada/maxi-flyer-august-28-to-september-31,18,10,verified
+2025-08-28,Metro QC,QC,https://flyers.smartcanucks.ca/canada/metro-qc-flyer-august-28-to-september-31,38,4,verified
+2025-08-28,Sobeys,ON,https://flyers.smartcanucks.ca/canada/sobeys-on-flyer-august-28-to-september-32,24,16,verified
+2025-08-28,Super C,QC,https://flyers.smartcanucks.ca/canada/super-c-flyer-august-28-to-september-32,26,7,verified
+2025-09-04,Canadian Tire,ON,https://flyers.smartcanucks.ca/canada/canadian-tire-on-flyer-september-5-to-11,29,8,verified
+2025-09-04,IGA QC,QC,https://flyers.smartcanucks.ca/canada/iga-qc-flyer-september-4-to-101,34,9,verified
+2025-09-04,Maxi,QC,https://flyers.smartcanucks.ca/canada/maxi-flyer-september-4-to-101,18,16,verified
+2025-09-04,Metro QC,QC,https://flyers.smartcanucks.ca/canada/metro-qc-flyer-september-4-to-101,35,15,verified
+2025-09-04,Sobeys,ON,https://flyers.smartcanucks.ca/canada/sobeys-on-flyer-september-4-to-102,22,12,verified
+2025-09-04,Super C,QC,https://flyers.smartcanucks.ca/canada/super-c-flyer-september-4-to-102,21,8,verified
+2025-09-11,Canadian Tire,ON,https://flyers.smartcanucks.ca/canada/canadian-tire-on-flyer-september-12-to-182,25,4,verified
+2025-09-11,IGA QC,QC,https://flyers.smartcanucks.ca/canada/iga-qc-flyer-september-11-to-172,23,10,verified
+2025-09-11,Maxi,QC,https://flyers.smartcanucks.ca/canada/maxi-flyer-september-11-to-171,13,16,verified
+2025-09-11,Metro QC,QC,https://flyers.smartcanucks.ca/canada/metro-qc-flyer-september-11-to-171,36,12,verified
+2025-09-11,No Frills,ON,https://flyers.smartcanucks.ca/canada/no-frills-on-flyer-september-11-to-172,23,10,verified
+2025-09-11,Sobeys,ON,https://flyers.smartcanucks.ca/canada/sobeys-on-flyer-september-11-to-172,22,6,verified
+2025-09-11,Super C,QC,https://flyers.smartcanucks.ca/canada/super-c-flyer-september-11-to-172,20,10,verified
+2025-09-18,Canadian Tire,ON,https://flyers.smartcanucks.ca/canada/canadian-tire-on-flyer-september-18-to-25,37,7,verified
+2025-09-18,IGA QC,QC,https://flyers.smartcanucks.ca/canada/iga-qc-flyer-september-18-to-242,23,4,verified
+2025-09-18,Maxi,QC,https://flyers.smartcanucks.ca/canada/maxi-flyer-september-18-to-241,20,16,verified
+2025-09-18,Metro QC,QC,https://flyers.smartcanucks.ca/canada/metro-qc-flyer-september-18-to-242,31,10,verified
+2025-09-18,No Frills,ON,https://flyers.smartcanucks.ca/canada/no-frills-on-flyer-september-18-to-242,24,10,verified
+2025-09-18,Sobeys,ON,https://flyers.smartcanucks.ca/canada/sobeys-on-flyer-september-18-to-242,24,14,verified
+2025-09-18,Super C,QC,https://flyers.smartcanucks.ca/canada/super-c-flyer-september-18-to-241,15,4,verified
+2025-09-25,Canadian Tire,ON,https://flyers.smartcanucks.ca/canada/canadian-tire-on-flyer-september-26-to-october-22,14,12,verified
+2025-09-25,IGA QC,QC,https://flyers.smartcanucks.ca/canada/iga-qc-flyer-september-25-to-october-12,28,17,verified
+2025-09-25,Maxi,QC,https://flyers.smartcanucks.ca/canada/maxi-flyer-september-25-to-october-11,21,24,verified
+2025-09-25,Metro QC,QC,https://flyers.smartcanucks.ca/canada/metro-qc-flyer-september-25-to-october-12,27,12,verified
+2025-09-25,No Frills,ON,https://flyers.smartcanucks.ca/canada/no-frills-on-flyer-september-25-to-october-11,27,10,verified
+2025-09-25,Sobeys,ON,https://flyers.smartcanucks.ca/canada/sobeys-on-flyer-september-25-to-october-12,21,26,verified
+2025-09-25,Super C,QC,https://flyers.smartcanucks.ca/canada/super-c-flyer-september-25-to-october-11,16,2,verified
+2025-10-02,Canadian Tire,ON,https://flyers.smartcanucks.ca/canada/canadian-tire-on-flyer-october-2-to-9,14,5,verified
+2025-10-02,IGA QC,QC,https://flyers.smartcanucks.ca/canada/iga-qc-flyer-october-2-to-82,30,15,verified
+2025-10-02,Maxi,QC,https://flyers.smartcanucks.ca/canada/maxi-flyer-october-2-to-81,17,10,verified
+2025-10-02,Metro QC,QC,https://flyers.smartcanucks.ca/canada/metro-qc-flyer-october-2-to-82,32,24,verified
+2025-10-02,No Frills,ON,https://flyers.smartcanucks.ca/canada/no-frills-on-flyer-october-2-to-82,25,8,verified
+2025-10-02,Sobeys,ON,https://flyers.smartcanucks.ca/canada/sobeys-on-flyer-october-2-to-81,25,21,verified
+2025-10-02,Super C,QC,https://flyers.smartcanucks.ca/canada/super-c-flyer-october-2-to-81,21,7,verified
+2025-10-09,Canadian Tire,ON,https://flyers.smartcanucks.ca/canada/canadian-tire-on-flyer-october-10-to-161,14,6,verified
+2025-10-09,IGA QC,QC,https://flyers.smartcanucks.ca/canada/iga-qc-flyer-october-9-to-152,30,18,verified
+2025-10-09,Maxi,QC,https://flyers.smartcanucks.ca/canada/maxi-flyer-october-9-to-151,15,11,verified
+2025-10-09,Metro QC,QC,https://flyers.smartcanucks.ca/canada/metro-qc-flyer-october-9-to-152,26,11,verified
+2025-10-09,No Frills,ON,https://flyers.smartcanucks.ca/canada/no-frills-on-flyer-october-9-to-152,20,7,verified
+2025-10-09,RCSS,ON,https://flyers.smartcanucks.ca/canada/real-canadian-superstore-on-flyer-october-9-to-151,33,5,verified
+2025-10-09,Sobeys,ON,https://flyers.smartcanucks.ca/canada/sobeys-on-flyer-october-9-to-152,24,10,verified
+2025-10-09,Super C,QC,https://flyers.smartcanucks.ca/canada/super-c-flyer-october-9-to-151,19,3,verified
+2025-10-09,Walmart,ON,https://flyers.smartcanucks.ca/canada/walmart-on-flyer-october-9-to-151,33,0,verified
+2025-10-16,IGA QC,QC,https://flyers.smartcanucks.ca/canada/iga-qc-flyer-october-16-to-222,29,14,verified
+2025-10-16,Maxi,QC,https://flyers.smartcanucks.ca/canada/maxi-flyer-october-16-to-221,15,12,verified
+2025-10-16,Metro QC,QC,https://flyers.smartcanucks.ca/canada/metro-qc-flyer-october-16-to-222,25,11,verified
+2025-10-16,Super C,QC,https://flyers.smartcanucks.ca/canada/super-c-flyer-october-16-to-221,17,8,verified
+2025-10-23,IGA QC,QC,https://flyers.smartcanucks.ca/canada/iga-qc-flyer-october-23-to-291,27,14,verified
+2025-10-23,Maxi,QC,https://flyers.smartcanucks.ca/canada/maxi-flyer-october-23-to-291,21,11,verified
+2025-10-23,Metro QC,QC,https://flyers.smartcanucks.ca/canada/metro-qc-flyer-october-23-to-291,28,8,verified
+2025-10-23,Super C,QC,https://flyers.smartcanucks.ca/canada/super-c-flyer-october-23-to-291,14,6,verified
+2025-10-30,IGA QC,QC,https://flyers.smartcanucks.ca/canada/iga-qc-flyer-october-30-to-november-51,15,13,verified
+2025-10-30,Maxi,QC,https://flyers.smartcanucks.ca/canada/maxi-flyer-october-30-to-november-51,15,12,verified
+2025-10-30,Metro QC,QC,https://flyers.smartcanucks.ca/canada/metro-qc-flyer-october-30-to-november-51,27,15,verified
+2025-10-30,Super C,QC,https://flyers.smartcanucks.ca/canada/super-c-flyer-october-30-to-november-51,18,4,verified
+2025-11-06,IGA QC,QC,https://flyers.smartcanucks.ca/canada/iga-qc-flyer-november-6-to-121,24,4,verified
+2025-11-06,Maxi,QC,https://flyers.smartcanucks.ca/canada/maxi-flyer-november-6-to-121,14,14,verified
+2025-11-06,Metro QC,QC,https://flyers.smartcanucks.ca/canada/metro-qc-flyer-november-6-to-121,21,20,verified
+2025-11-06,Super C,QC,https://flyers.smartcanucks.ca/canada/super-c-flyer-november-6-to-121,19,6,verified
+2025-11-13,IGA QC,QC,https://flyers.smartcanucks.ca/canada/iga-qc-flyer-november-13-to-192,24,10,verified
+2025-11-13,Maxi,QC,https://flyers.smartcanucks.ca/canada/maxi-flyer-november-13-to-191,17,11,verified
+2025-11-13,Metro QC,QC,https://flyers.smartcanucks.ca/canada/metro-qc-flyer-november-13-to-192,24,10,verified
+2025-11-13,Super C,QC,https://flyers.smartcanucks.ca/canada/super-c-flyer-november-13-to-192,24,5,verified
+2025-11-20,IGA QC,QC,https://flyers.smartcanucks.ca/canada/iga-qc-flyer-november-20-to-261,25,8,verified
+2025-11-20,Maxi,QC,https://flyers.smartcanucks.ca/canada/maxi-flyer-november-20-to-261,18,8,verified
+2025-11-20,Metro QC,QC,https://flyers.smartcanucks.ca/canada/metro-qc-flyer-november-20-to-261,24,10,verified
+2025-11-20,Super C,QC,https://flyers.smartcanucks.ca/canada/super-c-flyer-november-20-to-261,24,8,verified
+2025-11-27,IGA QC,QC,https://flyers.smartcanucks.ca/canada/iga-qc-flyer-november-27-to-december-31,34,9,verified
+2025-11-27,Maxi,QC,https://flyers.smartcanucks.ca/canada/maxi-flyer-november-27-to-december-31,18,7,verified
+2025-11-27,Metro QC,QC,https://flyers.smartcanucks.ca/canada/metro-qc-flyer-november-27-to-december-31,47,12,verified
+2025-11-27,Super C,QC,https://flyers.smartcanucks.ca/canada/super-c-flyer-november-27-to-december-31,26,6,verified
+2025-12-04,IGA QC,QC,https://flyers.smartcanucks.ca/canada/iga-qc-flyer-december-4-to-101,42,9,verified
+2025-12-04,Maxi,QC,https://flyers.smartcanucks.ca/canada/maxi-flyer-december-4-to-101,19,17,verified
+2025-12-04,Metro QC,QC,https://flyers.smartcanucks.ca/canada/metro-qc-flyer-december-4-to-101,49,12,verified
+2025-12-04,Super C,QC,https://flyers.smartcanucks.ca/canada/super-c-flyer-december-4-to-102,29,6,verified
+2025-12-11,IGA QC,QC,https://flyers.smartcanucks.ca/canada/iga-qc-flyer-december-11-to-171,44,13,verified
+2025-12-11,Maxi,QC,https://flyers.smartcanucks.ca/canada/maxi-flyer-december-11-to-171,18,15,verified
+2025-12-11,Metro QC,QC,https://flyers.smartcanucks.ca/canada/metro-qc-flyer-december-11-to-171,51,16,verified
+2025-12-11,Super C,QC,https://flyers.smartcanucks.ca/canada/super-c-flyer-december-11-to-171,29,7,verified
+2025-12-18,IGA QC,QC,https://flyers.smartcanucks.ca/canada/iga-qc-flyer-december-18-to-241,44,10,verified
+2025-12-18,Maxi,QC,https://flyers.smartcanucks.ca/canada/maxi-flyer-december-18-to-241,17,9,verified
+2025-12-18,Metro QC,QC,https://flyers.smartcanucks.ca/canada/metro-qc-flyer-december-18-to-241,48,7,verified
+2025-12-18,Super C,QC,https://flyers.smartcanucks.ca/canada/super-c-flyer-december-18-to-241,29,5,verified
+2025-12-25,IGA QC,QC,https://flyers.smartcanucks.ca/canada/iga-qc-flyer-december-25-to-311,39,6,verified
+2025-12-25,Maxi,QC,https://flyers.smartcanucks.ca/canada/maxi-flyer-december-25-to-31,15,10,verified
+2025-12-25,Metro QC,QC,https://flyers.smartcanucks.ca/canada/metro-qc-flyer-december-25-to-31,36,13,verified
+2025-12-25,Super C,QC,https://flyers.smartcanucks.ca/canada/super-c-flyer-december-25-to-311,22,10,verified
+2026-01-01,IGA QC,QC,https://flyers.smartcanucks.ca/canada/iga-qc-flyer-january-1-to-71,39,12,verified
+2026-01-01,Maxi,QC,https://flyers.smartcanucks.ca/canada/maxi-flyer-january-1-to-71,14,4,verified
+2026-01-01,Metro QC,QC,https://flyers.smartcanucks.ca/canada/metro-qc-flyer-january-1-to-71,17,12,verified
+2026-01-01,Super C,QC,https://flyers.smartcanucks.ca/canada/super-c-flyer-january-1-to-71,13,4,verified
+2026-01-08,IGA QC,QC,https://flyers.smartcanucks.ca/canada/iga-qc-flyer-january-8-to-141,21,14,verified
+2026-01-08,Maxi,QC,https://flyers.smartcanucks.ca/canada/maxi-flyer-january-8-to-141,16,6,verified
+2026-01-08,Metro QC,QC,https://flyers.smartcanucks.ca/canada/metro-qc-flyer-january-8-to-141,25,9,verified
+2026-01-08,Super C,QC,https://flyers.smartcanucks.ca/canada/super-c-flyer-january-8-to-141,18,15,verified
+2026-01-15,IGA QC,QC,https://flyers.smartcanucks.ca/canada/iga-qc-flyer-january-15-to-211,21,14,verified
+2026-01-15,Maxi,QC,https://flyers.smartcanucks.ca/canada/maxi-flyer-january-15-to-211,16,10,verified
+2026-01-15,Metro QC,QC,https://flyers.smartcanucks.ca/canada/metro-qc-flyer-january-15-to-211,23,15,verified
+2026-01-15,Super C,QC,https://flyers.smartcanucks.ca/canada/super-c-flyer-january-15-to-211,20,7,verified
+2026-01-22,IGA QC,QC,https://flyers.smartcanucks.ca/canada/iga-qc-flyer-january-22-to-281,22,15,verified
+2026-01-22,Maxi,QC,https://flyers.smartcanucks.ca/canada/maxi-flyer-january-22-to-281,12,10,verified
+2026-01-22,Metro QC,QC,https://flyers.smartcanucks.ca/canada/metro-qc-flyer-january-22-to-281,25,14,verified
+2026-01-22,Super C,QC,https://flyers.smartcanucks.ca/canada/super-c-flyer-january-22-to-281,17,16,verified
+2026-01-29,IGA QC,QC,https://flyers.smartcanucks.ca/canada/iga-qc-flyer-january-29-to-february-41,24,8,verified
+2026-01-29,Maxi,QC,https://flyers.smartcanucks.ca/canada/maxi-flyer-january-29-to-february-41,18,7,verified
+2026-01-29,Metro QC,QC,https://flyers.smartcanucks.ca/canada/metro-qc-flyer-january-29-to-february-41,28,15,verified
+2026-01-29,Super C,QC,https://flyers.smartcanucks.ca/canada/super-c-flyer-january-29-to-february-42,19,5,verified
+2026-02-05,IGA QC,QC,https://flyers.smartcanucks.ca/canada/iga-qc-flyer-february-5-to-111,16,15,verified
+2026-02-05,Maxi,QC,https://flyers.smartcanucks.ca/canada/maxi-flyer-february-5-to-111,14,14,verified
+2026-02-05,Metro QC,QC,https://flyers.smartcanucks.ca/canada/metro-qc-flyer-february-5-to-111,24,11,verified
+2026-02-05,Super C,QC,https://flyers.smartcanucks.ca/canada/super-c-flyer-february-5-to-111,22,4,verified
+2026-02-12,IGA QC,QC,https://flyers.smartcanucks.ca/canada/iga-qc-flyer-february-12-to-181,14,10,verified
+2026-02-12,Maxi,QC,https://flyers.smartcanucks.ca/canada/maxi-flyer-february-12-to-181,15,17,verified
+2026-02-12,Metro QC,QC,https://flyers.smartcanucks.ca/canada/metro-qc-flyer-february-12-to-181,27,17,verified
+2026-02-12,Super C,QC,https://flyers.smartcanucks.ca/canada/super-c-flyer-february-12-to-181,21,5,verified
+2026-02-19,IGA QC,QC,https://flyers.smartcanucks.ca/canada/iga-qc-flyer-february-19-to-251,17,13,verified
+2026-02-19,Maxi,QC,https://flyers.smartcanucks.ca/canada/maxi-flyer-february-19-to-251,15,12,verified
+2026-02-19,Metro QC,QC,https://flyers.smartcanucks.ca/canada/metro-qc-flyer-february-19-to-251,23,19,verified
+2026-02-19,Super C,QC,https://flyers.smartcanucks.ca/canada/super-c-flyer-february-19-to-251,19,5,verified
+2026-02-26,IGA QC,QC,https://flyers.smartcanucks.ca/canada/iga-qc-flyer-february-26-to-march-41,17,21,verified
+2026-02-26,Maxi,QC,https://flyers.smartcanucks.ca/canada/maxi-flyer-february-26-to-march-41,16,8,verified
+2026-02-26,Metro QC,QC,https://flyers.smartcanucks.ca/canada/metro-qc-flyer-february-26-to-march-41,28,14,verified
+2026-02-26,Super C,QC,https://flyers.smartcanucks.ca/canada/super-c-flyer-february-26-to-march-41,22,9,verified
+2026-03-05,IGA QC,QC,https://flyers.smartcanucks.ca/canada/iga-qc-flyer-march-5-to-112,15,9,verified
+2026-03-05,Maxi,QC,https://flyers.smartcanucks.ca/canada/maxi-flyer-march-5-to-111,15,8,verified
+2026-03-05,Metro QC,QC,https://flyers.smartcanucks.ca/canada/metro-qc-flyer-march-5-to-111,26,10,verified
+2026-03-05,Super C,QC,https://flyers.smartcanucks.ca/canada/super-c-flyer-march-5-to-111,19,9,verified
+2026-03-12,IGA QC,QC,https://flyers.smartcanucks.ca/canada/iga-qc-flyer-march-12-to-182,18,17,verified
+2026-03-12,Maxi,QC,https://flyers.smartcanucks.ca/canada/maxi-flyer-march-12-to-181,18,15,verified
+2026-03-12,Metro QC,QC,https://flyers.smartcanucks.ca/canada/metro-qc-flyer-march-12-to-181,22,9,verified
+2026-03-12,Super C,QC,https://flyers.smartcanucks.ca/canada/super-c-flyer-march-12-to-181,21,3,verified
+2026-03-19,IGA QC,QC,https://flyers.smartcanucks.ca/canada/iga-qc-flyer-march-19-to-251,15,13,verified
+2026-03-19,Maxi,QC,https://flyers.smartcanucks.ca/canada/maxi-flyer-march-19-to-251,16,11,verified
+2026-03-19,Metro QC,QC,https://flyers.smartcanucks.ca/canada/metro-qc-flyer-march-19-to-251,22,20,verified
+2026-03-19,Super C,QC,https://flyers.smartcanucks.ca/canada/super-c-flyer-march-19-to-251,20,3,verified
+2026-03-26,IGA QC,QC,https://flyers.smartcanucks.ca/canada/iga-qc-flyer-march-26-to-april-11,15,11,verified
+2026-03-26,Maxi,QC,https://flyers.smartcanucks.ca/canada/maxi-flyer-march-26-to-april-12,16,9,verified
+2026-03-26,Metro QC,QC,https://flyers.smartcanucks.ca/canada/metro-qc-flyer-march-26-to-april-12,24,9,verified
+2026-03-26,Super C,QC,https://flyers.smartcanucks.ca/canada/super-c-flyer-march-26-to-april-11,19,8,verified
+2026-04-02,IGA QC,QC,https://flyers.smartcanucks.ca/canada/iga-qc-flyer-april-2-to-81,17,9,verified
+2026-04-02,Maxi,QC,https://flyers.smartcanucks.ca/canada/maxi-flyer-april-2-to-82,14,4,verified
+2026-04-02,Metro QC,QC,https://flyers.smartcanucks.ca/canada/metro-qc-flyer-april-2-to-82,24,9,verified
+2026-04-02,Super C,QC,https://flyers.smartcanucks.ca/canada/super-c-flyer-april-2-to-82,19,3,verified
+2026-04-09,IGA QC,QC,https://flyers.smartcanucks.ca/canada/iga-qc-flyer-april-9-to-152,17,16,verified
+2026-04-09,Maxi,QC,https://flyers.smartcanucks.ca/canada/maxi-flyer-april-9-to-152,16,17,verified
+2026-04-09,Metro QC,QC,https://flyers.smartcanucks.ca/canada/metro-qc-flyer-april-9-to-152,24,11,verified
+2026-04-09,Super C,QC,https://flyers.smartcanucks.ca/canada/super-c-flyer-april-9-to-152,17,4,verified
+2026-04-16,IGA QC,QC,https://flyers.smartcanucks.ca/canada/iga-qc-flyer-april-16-to-222,16,11,verified
+2026-04-16,Maxi,QC,https://flyers.smartcanucks.ca/canada/maxi-flyer-april-16-to-222,18,16,verified
+2026-04-16,Metro QC,QC,https://flyers.smartcanucks.ca/canada/metro-qc-flyer-april-16-to-222,27,11,verified
+2026-04-16,Super C,QC,https://flyers.smartcanucks.ca/canada/super-c-flyer-april-16-to-222,15,6,verified
+2026-04-23,IGA QC,QC,https://flyers.smartcanucks.ca/canada/iga-qc-flyer-april-23-to-293,19,8,verified
+2026-04-23,Maxi,QC,https://flyers.smartcanucks.ca/canada/maxi-flyer-april-23-to-292,17,23,verified
+2026-04-23,Metro QC,QC,https://flyers.smartcanucks.ca/canada/metro-qc-flyer-april-23-to-292,35,10,verified
+2026-04-23,Super C,QC,https://flyers.smartcanucks.ca/canada/super-c-flyer-april-23-to-291,19,6,verified
+2026-04-30,IGA QC,QC,https://flyers.smartcanucks.ca/canada/iga-qc-flyer-april-30-to-may-62,26,9,verified
+2026-04-30,Maxi,QC,https://flyers.smartcanucks.ca/canada/maxi-flyer-april-30-to-may-62,16,10,verified
+2026-04-30,Metro QC,QC,https://flyers.smartcanucks.ca/canada/metro-qc-flyer-april-30-to-may-62,29,11,verified
+2026-04-30,Super C,QC,https://flyers.smartcanucks.ca/canada/super-c-flyer-april-30-to-may-62,19,8,verified
+2026-05-07,IGA QC,QC,https://flyers.smartcanucks.ca/canada/iga-qc-flyer-may-7-to-132,25,11,verified
+2026-05-07,Maxi,QC,https://flyers.smartcanucks.ca/canada/maxi-flyer-may-7-to-132,18,11,verified
+2026-05-07,Metro QC,QC,https://flyers.smartcanucks.ca/canada/metro-qc-flyer-may-7-to-132,38,9,verified
+2026-05-07,Super C,QC,https://flyers.smartcanucks.ca/canada/super-c-flyer-may-7-to-132,21,7,verified
+2026-05-14,IGA QC,QC,https://flyers.smartcanucks.ca/canada/iga-qc-flyer-may-14-to-202,33,8,verified
+2026-05-14,Maxi,QC,https://flyers.smartcanucks.ca/canada/maxi-flyer-may-14-to-202,19,5,verified
+2026-05-14,Metro QC,QC,https://flyers.smartcanucks.ca/canada/metro-qc-flyer-may-14-to-202,32,9,verified
+2026-05-14,Super C,QC,https://flyers.smartcanucks.ca/canada/super-c-flyer-may-14-to-202,19,6,verified
+2026-05-21,IGA QC,QC,https://flyers.smartcanucks.ca/canada/iga-qc-flyer-may-21-to-271,24,12,verified
+2026-05-21,Maxi,QC,https://flyers.smartcanucks.ca/canada/maxi-flyer-may-21-to-271,17,11,verified
+2026-05-21,Metro QC,QC,https://flyers.smartcanucks.ca/canada/metro-qc-flyer-may-21-to-271,25,11,verified
+2026-05-21,Super C,QC,https://flyers.smartcanucks.ca/canada/super-c-flyer-may-21-to-272,16,6,verified
+2026-05-28,IGA QC,QC,https://flyers.smartcanucks.ca/canada/iga-qc-flyer-may-28-to-june-32,26,13,verified
+2026-05-28,Maxi,QC,https://flyers.smartcanucks.ca/canada/maxi-flyer-may-28-to-june-32,15,12,verified
+2026-05-28,Metro QC,QC,https://flyers.smartcanucks.ca/canada/metro-qc-flyer-may-28-to-june-32,26,9,verified
+2026-05-28,Super C,QC,https://flyers.smartcanucks.ca/canada/super-c-flyer-may-28-to-june-31,20,6,verified
+2026-06-04,IGA QC,QC,https://flyers.smartcanucks.ca/canada/iga-qc-flyer-june-4-to-101,23,14,verified
+2026-06-04,Maxi,QC,https://flyers.smartcanucks.ca/canada/maxi-flyer-june-4-to-102,16,12,verified
+2026-06-04,Metro QC,QC,https://flyers.smartcanucks.ca/canada/metro-qc-flyer-june-4-to-102,25,7,verified
+2026-06-04,Super C,QC,https://flyers.smartcanucks.ca/canada/super-c-flyer-june-4-to-102,15,4,verified
+2026-06-11,IGA QC,QC,https://flyers.smartcanucks.ca/canada/iga-qc-flyer-june-11-to-173,26,9,verified
+2026-06-11,Maxi,QC,https://flyers.smartcanucks.ca/canada/maxi-flyer-june-11-to-172,14,7,verified
+2026-06-11,Metro QC,QC,https://flyers.smartcanucks.ca/canada/metro-qc-flyer-june-11-to-172,38,11,verified
+2026-06-11,Super C,QC,https://flyers.smartcanucks.ca/canada/super-c-flyer-june-11-to-172,19,12,verified
+2026-06-18,IGA QC,QC,https://flyers.smartcanucks.ca/canada/iga-qc-flyer-june-18-to-242,25,11,verified
+2026-06-18,Maxi,QC,https://flyers.smartcanucks.ca/canada/maxi-flyer-june-18-to-241,20,9,verified
+2026-06-18,Metro QC,QC,https://flyers.smartcanucks.ca/canada/metro-qc-flyer-june-18-to-242,43,7,verified
+2026-06-18,Super C,QC,https://flyers.smartcanucks.ca/canada/super-c-flyer-june-18-to-241,17,4,verified
+2026-06-25,IGA QC,QC,https://flyers.smartcanucks.ca/canada/iga-qc-flyer-june-25-to-july-11,21,10,verified
+2026-06-25,Maxi,QC,https://flyers.smartcanucks.ca/canada/maxi-flyer-june-25-to-july-11,19,8,verified
+2026-06-25,Metro QC,QC,https://flyers.smartcanucks.ca/canada/metro-qc-flyer-june-25-to-july-11,39,4,verified
+2026-06-25,Super C,QC,https://flyers.smartcanucks.ca/canada/super-c-flyer-june-25-to-july-11,21,4,verified
+2026-07-02,IGA QC,QC,https://flyers.smartcanucks.ca/canada/iga-qc-flyer-july-2-to-81,21,10,verified
+2026-07-02,Maxi,QC,https://flyers.smartcanucks.ca/canada/maxi-flyer-july-2-to-81,15,15,verified
+2026-07-02,Metro QC,QC,https://flyers.smartcanucks.ca/canada/metro-qc-flyer-july-2-to-81,30,7,verified
+2026-07-02,Super C,QC,https://flyers.smartcanucks.ca/canada/super-c-flyer-july-2-to-81,19,3,verified
+2026-07-09,IGA QC,QC,https://flyers.smartcanucks.ca/canada/iga-qc-flyer-july-9-to-151,16,10,verified
+2026-07-09,Maxi,QC,https://flyers.smartcanucks.ca/canada/maxi-flyer-july-9-to-151,17,8,verified
+2026-07-09,Metro QC,QC,https://flyers.smartcanucks.ca/canada/metro-qc-flyer-july-9-to-152,32,8,verified
+2026-07-09,Super C,QC,https://flyers.smartcanucks.ca/canada/super-c-flyer-july-9-to-151,20,9,verified
+2026-07-16,IGA QC,QC,https://flyers.smartcanucks.ca/canada/iga-qc-flyer-july-16-to-221,16,13,verified
+2026-07-16,Maxi,QC,https://flyers.smartcanucks.ca/canada/maxi-flyer-july-16-to-221,15,14,verified
+2026-07-16,Metro QC,QC,https://flyers.smartcanucks.ca/canada/metro-qc-flyer-july-16-to-222,26,5,verified
+2026-07-16,Super C,QC,https://flyers.smartcanucks.ca/canada/super-c-flyer-july-16-to-221,22,4,verified
+2026-07-23,IGA QC,QC,https://flyers.smartcanucks.ca/canada/iga-qc-flyer-july-23-to-292,14,9,verified
+2026-07-23,Maxi,QC,https://flyers.smartcanucks.ca/canada/maxi-flyer-july-23-to-291,14,16,verified
+2026-07-23,Metro QC,QC,https://flyers.smartcanucks.ca/canada/metro-qc-flyer-july-23-to-291,26,13,verified_with_source_caveat
+2026-07-23,Super C,QC,https://flyers.smartcanucks.ca/canada/super-c-flyer-july-23-to-292,18,3,verified
+2026-07-30,IGA QC,QC,https://flyers.smartcanucks.ca/canada/iga-qc-flyer-july-30-to-august-51,17,11,verified
+2026-07-30,Maxi,QC,https://flyers.smartcanucks.ca/canada/maxi-flyer-july-30-to-august-51,14,10,verified
+2026-07-30,Metro QC,QC,https://flyers.smartcanucks.ca/canada/metro-qc-flyer-july-30-to-august-51,21,10,verified
+2026-07-30,Super C,QC,https://flyers.smartcanucks.ca/canada/super-c-flyer-july-30-to-august-52,19,5,verified
+2026-08-06,IGA QC,QC,https://flyers.smartcanucks.ca/canada/iga-qc-flyer-august-6-to-121,14,11,verified
+2026-08-06,Maxi,QC,https://flyers.smartcanucks.ca/canada/maxi-flyer-august-6-to-121,12,16,verified
+2026-08-06,Metro QC,QC,https://flyers.smartcanucks.ca/canada/metro-qc-flyer-august-6-to-121,25,10,verified
+2026-08-06,Super C,QC,https://flyers.smartcanucks.ca/canada/super-c-flyer-august-6-to-121,25,10,verified
+2026-08-13,IGA QC,QC,https://flyers.smartcanucks.ca/canada/iga-qc-flyer-august-13-to-191,16,9,verified
+2026-08-13,Maxi,QC,https://flyers.smartcanucks.ca/canada/maxi-flyer-august-13-to-192,13,8,verified
+2026-08-13,Metro QC,QC,https://flyers.smartcanucks.ca/canada/metro-qc-flyer-august-13-to-191,33,9,verified
+2026-08-13,Super C,QC,https://flyers.smartcanucks.ca/canada/super-c-flyer-august-13-to-191,23,6,verified
+2026-08-20,IGA QC,QC,https://flyers.smartcanucks.ca/canada/iga-qc-flyer-august-20-to-261,17,18,verified
+2026-08-20,Maxi,QC,https://flyers.smartcanucks.ca/canada/maxi-flyer-august-20-to-261,13,5,verified
+2026-08-20,Metro QC,QC,https://flyers.smartcanucks.ca/canada/metro-qc-flyer-august-20-to-261,28,13,verified
+2026-08-20,Super C,QC,https://flyers.smartcanucks.ca/canada/super-c-flyer-august-20-to-261,22,10,verified
+2026-08-27,IGA QC,QC,https://flyers.smartcanucks.ca/canada/iga-qc-flyer-august-27-to-september-21,21,10,verified
+2026-08-27,Maxi,QC,https://flyers.smartcanucks.ca/canada/maxi-flyer-august-27-to-september-21,24,10,verified
+2026-08-27,Metro QC,QC,https://flyers.smartcanucks.ca/canada/metro-qc-flyer-august-27-to-september-21,28,9,verified
+2026-08-27,Super C,QC,https://flyers.smartcanucks.ca/canada/super-c-flyer-august-27-to-september-21,20,14,verified
+2026-09-03,IGA QC,QC,https://flyers.smartcanucks.ca/canada/iga-qc-flyer-september-3-to-91,24,15,verified
+2026-09-03,Maxi,QC,https://flyers.smartcanucks.ca/canada/maxi-flyer-september-3-to-91,13,4,verified
+2026-09-03,Metro QC,QC,https://flyers.smartcanucks.ca/canada/metro-qc-flyer-september-3-to-91,36,11,verified
+2026-09-03,Super C,QC,https://flyers.smartcanucks.ca/canada/super-c-flyer-september-3-to-91,31,11,verified
+2026-09-10,IGA QC,QC,https://flyers.smartcanucks.ca/canada/iga-qc-flyer-september-10-to-161,15,13,verified
+2026-09-10,Maxi,QC,https://flyers.smartcanucks.ca/canada/maxi-flyer-september-10-to-161,15,7,verified
+2026-09-10,Metro QC,QC,https://flyers.smartcanucks.ca/canada/metro-qc-flyer-september-10-to-161,27,6,verified
+2026-09-10,Super C,QC,https://flyers.smartcanucks.ca/canada/super-c-flyer-september-10-to-161,26,8,verified
+2026-09-17,IGA QC,QC,https://flyers.smartcanucks.ca/canada/iga-qc-flyer-september-17-to-233,18,14,verified
+2026-09-17,Maxi,QC,https://flyers.smartcanucks.ca/canada/maxi-flyer-september-17-to-231,15,6,verified
+2026-09-17,Metro QC,QC,https://flyers.smartcanucks.ca/canada/metro-qc-flyer-september-17-to-231,31,15,verified
+2026-09-17,Super C,QC,https://flyers.smartcanucks.ca/canada/super-c-flyer-september-17-to-231,21,6,verified
+2026-09-24,IGA QC,QC,https://flyers.smartcanucks.ca/canada/iga-qc-flyer-september-24-to-301,22,13,verified
+2026-09-24,Maxi,QC,https://flyers.smartcanucks.ca/canada/maxi-flyer-september-24-to-301,18,17,verified
+2026-09-24,Metro QC,QC,https://flyers.smartcanucks.ca/canada/metro-qc-flyer-september-24-to-301,29,16,verified
+2026-09-24,Super C,QC,https://flyers.smartcanucks.ca/canada/super-c-flyer-september-24-to-301,18,8,verified
+2026-10-01,IGA QC,QC,https://flyers.smartcanucks.ca/canada/iga-qc-flyer-october-1-to-71,26,22,verified
+2026-10-01,Maxi,QC,https://flyers.smartcanucks.ca/canada/maxi-flyer-october-1-to-71,19,3,verified
+2026-10-01,Metro QC,QC,https://flyers.smartcanucks.ca/canada/metro-qc-flyer-october-1-to-71,33,9,verified
+2026-10-01,Super C,QC,https://flyers.smartcanucks.ca/canada/super-c-flyer-october-1-to-71,20,9,verified
+2026-10-08,Canadian Tire,ON,https://flyers.smartcanucks.ca/canada/canadian-tire-on-flyer-october-9-to-153,14,1,verified
+2026-10-08,Food Basics,ON,https://flyers.smartcanucks.ca/canada/food-basics-flyer-october-8-to-142,17,11,verified
+2026-10-08,FreshCo,ON,https://flyers.smartcanucks.ca/canada/freshco-on-flyer-october-8-to-142,10,11,verified
+2026-10-08,IGA QC,QC,https://flyers.smartcanucks.ca/canada/iga-qc-flyer-october-8-to-141,26,32,verified
+2026-10-08,Loblaws,ON,https://flyers.smartcanucks.ca/canada/loblaws-on-flyer-october-8-to-142,19,3,verified
+2026-10-08,Maxi,QC,https://flyers.smartcanucks.ca/canada/maxi-flyer-october-8-to-141,19,8,verified
+2026-10-08,Metro,ON,https://flyers.smartcanucks.ca/canada/metro-on-flyer-october-8-to-143,20,13,verified
+2026-10-08,Metro QC,QC,https://flyers.smartcanucks.ca/canada/metro-qc-flyer-october-8-to-141,35,9,verified
+2026-10-08,No Frills,ON,https://flyers.smartcanucks.ca/canada/no-frills-on-flyer-october-8-to-142,21,9,verified
+2026-10-08,RCSS,ON,https://flyers.smartcanucks.ca/canada/real-canadian-superstore-on-flyer-october-8-to-142,42,6,verified
+2026-10-08,Sobeys,ON,https://flyers.smartcanucks.ca/canada/sobeys-on-flyer-october-8-to-142,26,12,verified
+2026-10-08,Super C,QC,https://flyers.smartcanucks.ca/canada/super-c-flyer-october-8-to-141,24,8,verified
+2026-10-08,Walmart,ON,https://flyers.smartcanucks.ca/canada/walmart-on-flyer-october-8-to-142,27,6,verified
+2026-10-15,Canadian Tire,ON,https://flyers.smartcanucks.ca/canada/canadian-tire-on-flyer-october-16-to-221,14,3,verified
+2026-10-15,Food Basics,ON,https://flyers.smartcanucks.ca/canada/food-basics-flyer-october-15-to-211,15,9,verified
+2026-10-15,FreshCo,ON,https://flyers.smartcanucks.ca/canada/freshco-on-flyer-october-15-to-212,8,7,verified
+2026-10-15,IGA QC,QC,https://flyers.smartcanucks.ca/canada/iga-qc-flyer-october-15-to-211,17,18,verified
+2026-10-15,Loblaws,ON,https://flyers.smartcanucks.ca/canada/loblaws-on-flyer-october-15-to-211,18,6,verified
+2026-10-15,Maxi,QC,https://flyers.smartcanucks.ca/canada/maxi-flyer-october-15-to-211,17,7,verified
+2026-10-15,Metro,ON,https://flyers.smartcanucks.ca/canada/metro-on-flyer-october-15-to-213,16,9,verified
+2026-10-15,Metro QC,QC,https://flyers.smartcanucks.ca/canada/metro-qc-flyer-october-15-to-211,34,9,verified
+2026-10-15,No Frills,ON,https://flyers.smartcanucks.ca/canada/no-frills-on-flyer-october-15-to-211,24,7,verified
+2026-10-15,RCSS,ON,https://flyers.smartcanucks.ca/canada/real-canadian-superstore-on-flyer-october-15-to-212,47,10,verified
+2026-10-15,Sobeys,ON,https://flyers.smartcanucks.ca/canada/sobeys-on-flyer-october-15-to-211,22,19,verified
+2026-10-15,Super C,QC,https://flyers.smartcanucks.ca/canada/super-c-flyer-october-15-to-211,25,15,verified
+2026-10-15,Walmart,ON,https://flyers.smartcanucks.ca/canada/walmart-on-flyer-october-15-to-212,21,5,verified
+2026-10-22,Canadian Tire,ON,https://flyers.smartcanucks.ca/canada/canadian-tire-on-flyer-october-23-to-292,31,12,verified
+2026-10-22,Food Basics,ON,https://flyers.smartcanucks.ca/canada/food-basics-flyer-october-22-to-281,15,12,verified
+2026-10-22,FreshCo,ON,https://flyers.smartcanucks.ca/canada/freshco-on-flyer-october-22-to-282,11,10,verified
+2026-10-22,IGA QC,QC,https://flyers.smartcanucks.ca/canada/iga-qc-flyer-october-22-to-281,16,11,verified
+2026-10-22,Loblaws,ON,https://flyers.smartcanucks.ca/canada/loblaws-on-flyer-october-22-to-282,17,14,verified
+2026-10-22,Maxi,QC,https://flyers.smartcanucks.ca/canada/maxi-flyer-october-22-to-281,19,9,verified
+2026-10-22,Metro,ON,https://flyers.smartcanucks.ca/canada/metro-on-flyer-october-22-to-282,21,9,verified
+2026-10-22,Metro QC,QC,https://flyers.smartcanucks.ca/canada/metro-qc-flyer-october-22-to-281,20,11,verified
+2026-10-22,No Frills,ON,https://flyers.smartcanucks.ca/canada/no-frills-on-flyer-october-22-to-282,18,12,verified
+2026-10-22,RCSS,ON,https://flyers.smartcanucks.ca/canada/real-canadian-superstore-on-flyer-october-22-to-282,46,9,verified
+2026-10-22,Sobeys,ON,https://flyers.smartcanucks.ca/canada/sobeys-on-flyer-october-22-to-282,25,15,verified
+2026-10-22,Super C,QC,https://flyers.smartcanucks.ca/canada/super-c-flyer-october-22-to-282,19,10,verified
+2026-10-22,Walmart,ON,https://flyers.smartcanucks.ca/canada/walmart-on-flyer-october-22-to-282,20,7,verified
+2026-10-29,Canadian Tire,ON,https://flyers.smartcanucks.ca/canada/canadian-tire-on-flyer-october-30-to-november-51,16,6,verified
+2026-10-29,Food Basics,ON,https://flyers.smartcanucks.ca/canada/food-basics-flyer-october-29-to-november-42,15,9,verified
+2026-10-29,FreshCo,ON,https://flyers.smartcanucks.ca/canada/freshco-on-flyer-october-29-to-november-42,9,6,verified
+2026-10-29,IGA QC,QC,https://flyers.smartcanucks.ca/canada/iga-qc-flyer-october-29-to-november-41,17,10,verified
+2026-10-29,Loblaws,ON,https://flyers.smartcanucks.ca/canada/loblaws-on-flyer-october-29-to-november-42,14,9,verified
+2026-10-29,Maxi,QC,https://flyers.smartcanucks.ca/canada/maxi-flyer-october-29-to-november-41,21,14,verified
+2026-10-29,Metro,ON,https://flyers.smartcanucks.ca/canada/metro-on-flyer-october-29-to-november-42,17,6,verified
+2026-10-29,Metro QC,QC,https://flyers.smartcanucks.ca/canada/metro-qc-flyer-october-29-to-november-41,28,11,verified
+2026-10-29,No Frills,ON,https://flyers.smartcanucks.ca/canada/no-frills-on-flyer-october-29-to-november-41,22,16,verified
+2026-10-29,RCSS,ON,https://flyers.smartcanucks.ca/canada/real-canadian-superstore-on-flyer-october-29-to-november-41,40,10,verified
+2026-10-29,Sobeys,ON,https://flyers.smartcanucks.ca/canada/sobeys-on-flyer-october-29-to-november-42,24,12,verified
+2026-10-29,Super C,QC,https://flyers.smartcanucks.ca/canada/super-c-flyer-october-29-to-november-41,22,12,verified
+2026-10-29,Walmart,ON,https://flyers.smartcanucks.ca/canada/walmart-on-flyer-october-29-to-november-42,15,9,verified
