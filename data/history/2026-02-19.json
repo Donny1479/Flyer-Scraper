@@ -1990,6 +1990,142 @@
           "scan_scope": "all pages, primary Quebec flyer"
         }
       ]
+    },
+    {
+      "name": "Giant Tiger",
+      "flyer_start": "2026-02-18",
+      "flyer_end": "2026-02-24",
+      "scan_status": "verified",
+      "scanned_at": "2026-11-03T12:07:01",
+      "flyers": [
+        {
+          "title": "Giant Tiger (ON) Flyer February 18 to 24",
+          "url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-february-18-to-241",
+          "pages_scanned": 13,
+          "products_found": 2,
+          "flyer_start": "2026-02-18",
+          "flyer_end": "2026-02-24",
+          "unavailable_source_images": []
+        }
+      ],
+      "products": [
+        {
+          "brand": "Tim Hortons",
+          "brand_text_seen": "Tim Hortons",
+          "product_name": "Hot chocolate powder, 500 g",
+          "price": "$6.47",
+          "deal_details": "Each; regular $7.97; save $1.50; printed dates February 18-24, 2026.",
+          "promotion_type": "Price Drop",
+          "umap_price_verifiable": true,
+          "offer_start": "2026-02-18",
+          "offer_end": "2026-02-24",
+          "page_number": 2,
+          "page_url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-february-18-to-241/single/1",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/287104/giant-tiger-on-flyer-february-18-to-241-2.jpg",
+          "source_page_number": 2,
+          "flyer_title": "Giant Tiger (ON) Flyer February 18 to 24",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-february-18-to-241",
+          "source_scan": "competitive_full_flyer_2026_02_19",
+          "scan_scope": "all available pages, primary ON flyer"
+        },
+        {
+          "brand": "Giant Value",
+          "brand_text_seen": "Giant Value",
+          "product_name": "Canned soup, 540 mL",
+          "price": "$2.57",
+          "deal_details": "Each; assorted; Beef Barley pictured; printed dates February 18-24, 2026.",
+          "promotion_type": "Special Price",
+          "umap_price_verifiable": true,
+          "offer_start": "2026-02-18",
+          "offer_end": "2026-02-24",
+          "page_number": 4,
+          "page_url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-february-18-to-241/single/3",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/287104/giant-tiger-on-flyer-february-18-to-241-4.jpg",
+          "source_page_number": 4,
+          "flyer_title": "Giant Tiger (ON) Flyer February 18 to 24",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-february-18-to-241",
+          "source_scan": "competitive_full_flyer_2026_02_19",
+          "scan_scope": "all available pages, primary ON flyer"
+        }
+      ]
+    },
+    {
+      "name": "Save-On-Foods BC",
+      "flyer_start": "2026-02-19",
+      "flyer_end": "2026-02-25",
+      "scan_status": "verified",
+      "scanned_at": "2026-11-03T12:07:01",
+      "flyers": [
+        {
+          "title": "Save On Foods (BC) Flyer February 19 to 25",
+          "url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-february-19-to-25",
+          "pages_scanned": 30,
+          "products_found": 3,
+          "flyer_start": "2026-02-19",
+          "flyer_end": "2026-02-25",
+          "unavailable_source_images": []
+        }
+      ],
+      "products": [
+        {
+          "brand": "Martinson",
+          "brand_text_seen": "Martinson",
+          "product_name": "Bulk coffee pods",
+          "price": "8 for $6",
+          "deal_details": "More Rewards card; selected varieties; brand read from pod lids.",
+          "promotion_type": "Loyalty Offer",
+          "umap_price_verifiable": true,
+          "offer_start": "2026-02-19",
+          "offer_end": "2026-02-25",
+          "page_number": 19,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-february-19-to-25/single/18",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/287236/save-on-foods-bc-flyer-february-19-to-25-19.jpg",
+          "source_page_number": 19,
+          "flyer_title": "Save On Foods (BC) Flyer February 19 to 25",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-february-19-to-25",
+          "source_scan": "competitive_full_flyer_2026_02_19",
+          "scan_scope": "all available pages, primary BC flyer"
+        },
+        {
+          "brand": "Only Goodness",
+          "brand_text_seen": "Only Goodness",
+          "product_name": "Organic fair trade coffee pods 12 count",
+          "price": "$11.99",
+          "deal_details": "More Rewards card; Peruvian pictured.",
+          "promotion_type": "Loyalty Offer",
+          "umap_price_verifiable": true,
+          "offer_start": "2026-02-19",
+          "offer_end": "2026-02-25",
+          "page_number": 20,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-february-19-to-25/single/19",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/287236/save-on-foods-bc-flyer-february-19-to-25-20.jpg",
+          "source_page_number": 20,
+          "flyer_title": "Save On Foods (BC) Flyer February 19 to 25",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-february-19-to-25",
+          "source_scan": "competitive_full_flyer_2026_02_19",
+          "scan_scope": "all available pages, primary BC flyer"
+        },
+        {
+          "brand": "Traditional Medicinals",
+          "brand_text_seen": "Traditional Medicinals",
+          "product_name": "Tea 16 count",
+          "price": "$6.49",
+          "deal_details": "More Rewards card; peppermint pictured.",
+          "promotion_type": "Loyalty Offer",
+          "umap_price_verifiable": true,
+          "offer_start": "2026-02-19",
+          "offer_end": "2026-02-25",
+          "page_number": 20,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-february-19-to-25/single/19",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/287236/save-on-foods-bc-flyer-february-19-to-25-20.jpg",
+          "source_page_number": 20,
+          "flyer_title": "Save On Foods (BC) Flyer February 19 to 25",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-february-19-to-25",
+          "source_scan": "competitive_full_flyer_2026_02_19",
+          "scan_scope": "all available pages, primary BC flyer"
+        }
+      ]
     }
-  ]
+  ],
+  "updated_at": "2026-11-03T12:07:03"
 }

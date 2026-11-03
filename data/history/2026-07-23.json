@@ -1712,6 +1712,142 @@
           "scan_scope": "all pages, primary Quebec flyer"
         }
       ]
+    },
+    {
+      "name": "Giant Tiger",
+      "flyer_start": "2026-07-22",
+      "flyer_end": "2026-07-28",
+      "scan_status": "verified",
+      "scanned_at": "2026-11-03T12:07:01",
+      "flyers": [
+        {
+          "title": "Giant Tiger (ON) Flyer July 22 to 28",
+          "url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-july-22-to-283",
+          "pages_scanned": 2,
+          "products_found": 3,
+          "flyer_start": "2026-07-22",
+          "flyer_end": "2026-07-28",
+          "unavailable_source_images": []
+        }
+      ],
+      "products": [
+        {
+          "brand": "Nescafe",
+          "brand_text_seen": "Nescafe",
+          "product_name": "Rich instant coffee, 100-170 g",
+          "price": "$6.44",
+          "deal_details": "Each; regular $7.94; save $1.50; printed dates July 22-28, 2026.",
+          "promotion_type": "Price Drop",
+          "umap_price_verifiable": true,
+          "offer_start": "2026-07-22",
+          "offer_end": "2026-07-28",
+          "page_number": 1,
+          "page_url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-july-22-to-283/single",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/297638/giant-tiger-on-flyer-july-22-to-283-1.jpg",
+          "source_page_number": 1,
+          "flyer_title": "Giant Tiger (ON) Flyer July 22 to 28",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-july-22-to-283",
+          "source_scan": "competitive_full_flyer_2026_07_23",
+          "scan_scope": "all available pages, primary ON flyer"
+        },
+        {
+          "brand": "Habitant",
+          "brand_text_seen": "Habitant",
+          "product_name": "Canned soup",
+          "price": "$2.25",
+          "deal_details": "Each; assorted; pea soup with smoked ham pictured; shared caption size range 515-796 mL and regular $2.96-$3.31 across Habitant and Campbell's, individual size and regular price not assigned; save up to $1.06; printed dates July 22-28, 2026.",
+          "promotion_type": "Price Drop",
+          "umap_price_verifiable": true,
+          "offer_start": "2026-07-22",
+          "offer_end": "2026-07-28",
+          "page_number": 2,
+          "page_url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-july-22-to-283/single/1",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/297638/giant-tiger-on-flyer-july-22-to-283-2.jpg",
+          "source_page_number": 2,
+          "flyer_title": "Giant Tiger (ON) Flyer July 22 to 28",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-july-22-to-283",
+          "source_scan": "competitive_full_flyer_2026_07_23",
+          "scan_scope": "all available pages, primary ON flyer"
+        },
+        {
+          "brand": "Campbell's",
+          "brand_text_seen": "Campbell's",
+          "product_name": "Chunky canned soup",
+          "price": "$2.25",
+          "deal_details": "Each; assorted; prime rib with vegetables pictured; shared caption size range 515-796 mL and regular $2.96-$3.31 across Habitant and Campbell's, individual size and regular price not assigned; save up to $1.06; printed dates July 22-28, 2026.",
+          "promotion_type": "Price Drop",
+          "umap_price_verifiable": true,
+          "offer_start": "2026-07-22",
+          "offer_end": "2026-07-28",
+          "page_number": 2,
+          "page_url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-july-22-to-283/single/1",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/297638/giant-tiger-on-flyer-july-22-to-283-2.jpg",
+          "source_page_number": 2,
+          "flyer_title": "Giant Tiger (ON) Flyer July 22 to 28",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-july-22-to-283",
+          "source_scan": "competitive_full_flyer_2026_07_23",
+          "scan_scope": "all available pages, primary ON flyer"
+        }
+      ]
+    },
+    {
+      "name": "Save-On-Foods BC",
+      "flyer_start": "2026-07-23",
+      "flyer_end": "2026-07-29",
+      "scan_status": "verified",
+      "scanned_at": "2026-11-03T12:07:01",
+      "flyers": [
+        {
+          "title": "Save On Foods (BC) Flyer July 23 to 29",
+          "url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-july-23-to-291",
+          "pages_scanned": 29,
+          "products_found": 2,
+          "flyer_start": "2026-07-23",
+          "flyer_end": "2026-07-29",
+          "unavailable_source_images": []
+        }
+      ],
+      "products": [
+        {
+          "brand": "Campbell's",
+          "brand_text_seen": "Campbell's",
+          "product_name": "Chunky Canned Soup, 515 mL",
+          "price": "3 for $8",
+          "deal_details": "More Rewards card required.",
+          "promotion_type": "Loyalty Offer",
+          "umap_price_verifiable": true,
+          "offer_start": "2026-07-23",
+          "offer_end": "2026-07-29",
+          "page_number": 4,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-july-23-to-291/single/3",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/297770/save-on-foods-bc-flyer-july-23-to-291-4.jpg",
+          "source_page_number": 4,
+          "flyer_title": "Save On Foods (BC) Flyer July 23 to 29",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-july-23-to-291",
+          "source_scan": "competitive_full_flyer_2026_07_23",
+          "scan_scope": "all available pages, primary BC flyer"
+        },
+        {
+          "brand": "Only Goodness",
+          "brand_text_seen": "Only Goodness",
+          "product_name": "Tea, 20 count",
+          "price": "$3.99",
+          "deal_details": "Selected varieties; More Rewards card required.",
+          "promotion_type": "Loyalty Offer",
+          "umap_price_verifiable": true,
+          "offer_start": "2026-07-23",
+          "offer_end": "2026-07-29",
+          "page_number": 23,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-july-23-to-291/single/22",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/297770/save-on-foods-bc-flyer-july-23-to-291-23.jpg",
+          "source_page_number": 23,
+          "flyer_title": "Save On Foods (BC) Flyer July 23 to 29",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-july-23-to-291",
+          "source_scan": "competitive_full_flyer_2026_07_23",
+          "scan_scope": "all available pages, primary BC flyer"
+        }
+      ]
     }
-  ]
+  ],
+  "updated_at": "2026-11-03T12:07:04"
 }

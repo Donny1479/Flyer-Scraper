@@ -955,6 +955,123 @@
           "scan_scope": "all pages, primary Quebec flyer"
         }
       ]
+    },
+    {
+      "name": "Giant Tiger",
+      "flyer_start": "2025-02-05",
+      "flyer_end": "2025-02-11",
+      "scan_status": "verified",
+      "scanned_at": "2026-11-03T12:07:01",
+      "flyers": [
+        {
+          "title": "Giant Tiger (ON) Flyer February 5 to 11",
+          "url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-february-5-to-111",
+          "pages_scanned": 21,
+          "products_found": 3,
+          "flyer_start": "2025-02-05",
+          "flyer_end": "2025-02-11",
+          "unavailable_source_images": []
+        }
+      ],
+      "products": [
+        {
+          "brand": "Tim Hortons",
+          "brand_text_seen": "Tim Hortons",
+          "product_name": "K-Cup coffee pods, 10-12 pack",
+          "price": "$8.97",
+          "deal_details": "Flyer valid 2025-02-05 to 2025-02-11. Assorted; Original Blend and Decaf pictured; reg. $11.97-$12.47; individual regular price unresolved; save up to $3.50.",
+          "promotion_type": "Price Drop",
+          "umap_price_verifiable": true,
+          "offer_start": "2025-02-05",
+          "offer_end": "2025-02-11",
+          "page_number": 2,
+          "page_url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-february-5-to-111/single/1",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/261189/giant-tiger-on-flyer-february-5-to-111-2.jpg",
+          "source_page_number": 2,
+          "flyer_title": "Giant Tiger (ON) Flyer February 5 to 11",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-february-5-to-111",
+          "source_scan": "competitive_full_flyer_2025_02_06",
+          "scan_scope": "all available pages, primary ON flyer"
+        },
+        {
+          "brand": "Giant Value",
+          "brand_text_seen": "Giant Value",
+          "product_name": "Canned soup, 540 mL",
+          "price": "$2.50",
+          "deal_details": "Flyer valid 2025-02-05 to 2025-02-11. Assorted; Hearty Chicken and Italian-style Wedding pictured; no regular price stated.",
+          "promotion_type": "Special Price",
+          "umap_price_verifiable": true,
+          "offer_start": "2025-02-05",
+          "offer_end": "2025-02-11",
+          "page_number": 5,
+          "page_url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-february-5-to-111/single/4",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/261189/giant-tiger-on-flyer-february-5-to-111-5.jpg",
+          "source_page_number": 5,
+          "flyer_title": "Giant Tiger (ON) Flyer February 5 to 11",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-february-5-to-111",
+          "source_scan": "competitive_full_flyer_2025_02_06",
+          "scan_scope": "all available pages, primary ON flyer"
+        },
+        {
+          "brand": "Campbell's",
+          "brand_text_seen": "Campbell's",
+          "product_name": "Chunky canned soup, 515 mL",
+          "price": "$2.77",
+          "deal_details": "Flyer valid 2025-02-05 to 2025-02-11. Assorted; Prime Rib with Vegetables pictured; reg. $3.47; save $0.70; Claw Back offer valid until March 2, 2025.",
+          "promotion_type": "Price Drop",
+          "umap_price_verifiable": true,
+          "offer_start": "2025-02-05",
+          "offer_end": "2025-02-11",
+          "page_number": 7,
+          "page_url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-february-5-to-111/single/6",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/261189/giant-tiger-on-flyer-february-5-to-111-7.jpg",
+          "source_page_number": 7,
+          "flyer_title": "Giant Tiger (ON) Flyer February 5 to 11",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-february-5-to-111",
+          "source_scan": "competitive_full_flyer_2025_02_06",
+          "scan_scope": "all available pages, primary ON flyer"
+        }
+      ]
+    },
+    {
+      "name": "Save-On-Foods BC",
+      "flyer_start": "2025-02-06",
+      "flyer_end": "2025-02-12",
+      "scan_status": "verified",
+      "scanned_at": "2026-11-03T12:07:01",
+      "flyers": [
+        {
+          "title": "Save On Foods (BC) Flyer February 6 to 12",
+          "url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-february-6-to-121",
+          "pages_scanned": 28,
+          "products_found": 1,
+          "flyer_start": "2025-02-06",
+          "flyer_end": "2025-02-12",
+          "unavailable_source_images": []
+        }
+      ],
+      "products": [
+        {
+          "brand": "Illy",
+          "brand_text_seen": "Illy",
+          "product_name": "Premium Ground Coffee, 250 g",
+          "price": "$11.99",
+          "deal_details": "Intenso espresso preparation ground coffee pictured; selected varieties; More Rewards card required.",
+          "promotion_type": "Loyalty Offer",
+          "umap_price_verifiable": true,
+          "offer_start": "2025-02-06",
+          "offer_end": "2025-02-12",
+          "page_number": 15,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-february-6-to-121/single/14",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/261313/save-on-foods-bc-flyer-february-6-to-121-15.jpg",
+          "source_page_number": 15,
+          "flyer_title": "Save On Foods (BC) Flyer February 6 to 12",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-february-6-to-121",
+          "source_scan": "competitive_full_flyer_2025_02_06",
+          "scan_scope": "all available pages, primary BC flyer"
+        }
+      ]
     }
-  ]
+  ],
+  "updated_at": "2026-11-03T12:07:01"
 }

@@ -1982,6 +1982,161 @@
           "scan_scope": "all pages, primary Quebec flyer"
         }
       ]
+    },
+    {
+      "name": "Giant Tiger",
+      "flyer_start": "2026-09-16",
+      "flyer_end": "2026-09-22",
+      "scan_status": "verified",
+      "scanned_at": "2026-11-03T12:07:01",
+      "flyers": [
+        {
+          "title": "Giant Tiger (ON) Flyer September 16 to 22",
+          "url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-september-16-to-223",
+          "pages_scanned": 2,
+          "products_found": 1,
+          "flyer_start": "2026-09-16",
+          "flyer_end": "2026-09-22",
+          "unavailable_source_images": []
+        }
+      ],
+      "products": [
+        {
+          "brand": "Nabob",
+          "brand_text_seen": "Nabob",
+          "product_name": "Tassimo coffee pods, 109-263 g",
+          "price": "$7.97",
+          "deal_details": "Each; assorted; Nabob Breakfast pictured; caption regular $11.97-$12.47 is a shared range, item-level regular price unresolved; save up to $4.50; printed dates September 16-22, 2026.",
+          "promotion_type": "Price Drop",
+          "umap_price_verifiable": true,
+          "offer_start": "2026-09-16",
+          "offer_end": "2026-09-22",
+          "page_number": 2,
+          "page_url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-september-16-to-223/single/1",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/301537/giant-tiger-on-flyer-september-16-to-223-2.jpg",
+          "source_page_number": 2,
+          "flyer_title": "Giant Tiger (ON) Flyer September 16 to 22",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-september-16-to-223",
+          "source_scan": "competitive_full_flyer_2026_09_17",
+          "scan_scope": "all available pages, primary ON flyer"
+        }
+      ]
+    },
+    {
+      "name": "Save-On-Foods BC",
+      "flyer_start": "2026-09-17",
+      "flyer_end": "2026-09-23",
+      "scan_status": "verified",
+      "scanned_at": "2026-11-03T12:07:01",
+      "flyers": [
+        {
+          "title": "Save On Foods (BC) Flyer September 17 to 23",
+          "url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-september-17-to-231",
+          "pages_scanned": 32,
+          "products_found": 5,
+          "flyer_start": "2026-09-17",
+          "flyer_end": "2026-09-23",
+          "unavailable_source_images": []
+        }
+      ],
+      "products": [
+        {
+          "brand": "Tazo",
+          "brand_text_seen": "Tazo",
+          "product_name": "Chai Latte Tea Beverage, 946 mL",
+          "price": "$6.99",
+          "deal_details": "Selected varieties; chai latte carton pictured; buy 2 earn 500 More Rewards points. More Rewards card required.",
+          "promotion_type": "Loyalty Offer",
+          "umap_price_verifiable": true,
+          "offer_start": "2026-09-17",
+          "offer_end": "2026-09-23",
+          "page_number": 13,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-september-17-to-231/single/12",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/301667/save-on-foods-bc-flyer-september-17-to-231-13.jpg",
+          "source_page_number": 13,
+          "flyer_title": "Save On Foods (BC) Flyer September 17 to 23",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-september-17-to-231",
+          "source_scan": "competitive_full_flyer_2026_09_17",
+          "scan_scope": "all available pages, primary BC flyer"
+        },
+        {
+          "brand": "Campbell's",
+          "brand_text_seen": "Campbell's",
+          "product_name": "Chunky Canned Soup, 515 mL",
+          "price": "2 for $5",
+          "deal_details": "Points Party promotion; no separate item-specific points amount printed. More Rewards card required.",
+          "promotion_type": "Loyalty Offer",
+          "umap_price_verifiable": true,
+          "offer_start": "2026-09-17",
+          "offer_end": "2026-09-23",
+          "page_number": 13,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-september-17-to-231/single/12",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/301667/save-on-foods-bc-flyer-september-17-to-231-13.jpg",
+          "source_page_number": 13,
+          "flyer_title": "Save On Foods (BC) Flyer September 17 to 23",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-september-17-to-231",
+          "source_scan": "competitive_full_flyer_2026_09_17",
+          "scan_scope": "all available pages, primary BC flyer"
+        },
+        {
+          "brand": "Kicking Horse",
+          "brand_text_seen": "Kicking Horse",
+          "product_name": "Organic Whole Bean Coffee, 454 g",
+          "price": "$16.99",
+          "deal_details": "Fair Trade; Three Sisters whole bean pictured. More Rewards card required.",
+          "promotion_type": "Loyalty Offer",
+          "umap_price_verifiable": true,
+          "offer_start": "2026-09-17",
+          "offer_end": "2026-09-23",
+          "page_number": 25,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-september-17-to-231/single/24",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/301667/save-on-foods-bc-flyer-september-17-to-231-25.jpg",
+          "source_page_number": 25,
+          "flyer_title": "Save On Foods (BC) Flyer September 17 to 23",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-september-17-to-231",
+          "source_scan": "competitive_full_flyer_2026_09_17",
+          "scan_scope": "all available pages, primary BC flyer"
+        },
+        {
+          "brand": "Pacific Foods",
+          "brand_text_seen": "Pacific Foods",
+          "product_name": "Organic Canned Soup",
+          "price": "$4.49",
+          "deal_details": "Shared soup/chili caption lists 468 g or 440 mL without assigning individual sizes; size omitted. More Rewards card required.",
+          "promotion_type": "Loyalty Offer",
+          "umap_price_verifiable": true,
+          "offer_start": "2026-09-17",
+          "offer_end": "2026-09-23",
+          "page_number": 25,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-september-17-to-231/single/24",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/301667/save-on-foods-bc-flyer-september-17-to-231-25.jpg",
+          "source_page_number": 25,
+          "flyer_title": "Save On Foods (BC) Flyer September 17 to 23",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-september-17-to-231",
+          "source_scan": "competitive_full_flyer_2026_09_17",
+          "scan_scope": "all available pages, primary BC flyer"
+        },
+        {
+          "brand": "Pacific Foods",
+          "brand_text_seen": "Pacific Foods",
+          "product_name": "Organic Canned Chili",
+          "price": "$4.49",
+          "deal_details": "Explicit caption alternative; shared soup/chili caption lists 468 g or 440 mL without assigning individual sizes; size omitted. More Rewards card required.",
+          "promotion_type": "Loyalty Offer",
+          "umap_price_verifiable": true,
+          "offer_start": "2026-09-17",
+          "offer_end": "2026-09-23",
+          "page_number": 25,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-september-17-to-231/single/24",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/301667/save-on-foods-bc-flyer-september-17-to-231-25.jpg",
+          "source_page_number": 25,
+          "flyer_title": "Save On Foods (BC) Flyer September 17 to 23",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-september-17-to-231",
+          "source_scan": "competitive_full_flyer_2026_09_17",
+          "scan_scope": "all available pages, primary BC flyer"
+        }
+      ]
     }
-  ]
+  ],
+  "updated_at": "2026-11-03T12:07:04"
 }

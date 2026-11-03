@@ -1661,6 +1661,181 @@
           "scan_scope": "all pages, primary Quebec flyer"
         }
       ]
+    },
+    {
+      "name": "Giant Tiger",
+      "flyer_start": "2026-07-29",
+      "flyer_end": "2026-08-04",
+      "scan_status": "verified",
+      "scanned_at": "2026-11-03T12:07:01",
+      "flyers": [
+        {
+          "title": "Giant Tiger (ON) Flyer July 29 to August 4",
+          "url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-july-29-to-august-43",
+          "pages_scanned": 2,
+          "products_found": 0,
+          "flyer_start": "2026-07-29",
+          "flyer_end": "2026-08-04",
+          "unavailable_source_images": []
+        }
+      ],
+      "products": []
+    },
+    {
+      "name": "Save-On-Foods BC",
+      "flyer_start": "2026-07-30",
+      "flyer_end": "2026-08-05",
+      "scan_status": "verified",
+      "scanned_at": "2026-11-03T12:07:01",
+      "flyers": [
+        {
+          "title": "Save On Foods (BC) Flyer July 30 to August 5",
+          "url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-july-30-to-august-51",
+          "pages_scanned": 32,
+          "products_found": 7,
+          "flyer_start": "2026-07-30",
+          "flyer_end": "2026-08-05",
+          "unavailable_source_images": [
+            1
+          ]
+        }
+      ],
+      "products": [
+        {
+          "brand": "Western Family",
+          "brand_text_seen": "Western Family",
+          "product_name": "Signature Whole Bean Coffee, 908 g",
+          "price": "$23.99",
+          "deal_details": "Selected varieties where stated; More Rewards card required.",
+          "promotion_type": "Loyalty Offer",
+          "umap_price_verifiable": true,
+          "offer_start": "2026-07-30",
+          "offer_end": "2026-08-05",
+          "page_number": 15,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-july-30-to-august-51/single/14",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/298254/save-on-foods-bc-flyer-july-30-to-august-51-16.jpg",
+          "source_page_number": 16,
+          "flyer_title": "Save On Foods (BC) Flyer July 30 to August 5",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-july-30-to-august-51",
+          "source_scan": "competitive_full_flyer_2026_07_30",
+          "scan_scope": "all available pages, primary BC flyer"
+        },
+        {
+          "brand": "Starbucks",
+          "brand_text_seen": "Starbucks",
+          "product_name": "Premium Whole Bean Coffee, 907 g",
+          "price": "$25.99",
+          "deal_details": "Selected varieties where stated; More Rewards card required.",
+          "promotion_type": "Loyalty Offer",
+          "umap_price_verifiable": true,
+          "offer_start": "2026-07-30",
+          "offer_end": "2026-08-05",
+          "page_number": 15,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-july-30-to-august-51/single/14",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/298254/save-on-foods-bc-flyer-july-30-to-august-51-16.jpg",
+          "source_page_number": 16,
+          "flyer_title": "Save On Foods (BC) Flyer July 30 to August 5",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-july-30-to-august-51",
+          "source_scan": "competitive_full_flyer_2026_07_30",
+          "scan_scope": "all available pages, primary BC flyer"
+        },
+        {
+          "brand": "Starbucks",
+          "brand_text_seen": "Starbucks",
+          "product_name": "Premium Coffee Pods, 24 count",
+          "price": "$25.99",
+          "deal_details": "Selected varieties where stated; More Rewards card required.",
+          "promotion_type": "Loyalty Offer",
+          "umap_price_verifiable": true,
+          "offer_start": "2026-07-30",
+          "offer_end": "2026-08-05",
+          "page_number": 15,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-july-30-to-august-51/single/14",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/298254/save-on-foods-bc-flyer-july-30-to-august-51-16.jpg",
+          "source_page_number": 16,
+          "flyer_title": "Save On Foods (BC) Flyer July 30 to August 5",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-july-30-to-august-51",
+          "source_scan": "competitive_full_flyer_2026_07_30",
+          "scan_scope": "all available pages, primary BC flyer"
+        },
+        {
+          "brand": "Folgers",
+          "brand_text_seen": "Folgers",
+          "product_name": "Ground Coffee, 816 g",
+          "price": "$17.99",
+          "deal_details": "Selected varieties where stated; More Rewards card required.",
+          "promotion_type": "Loyalty Offer",
+          "umap_price_verifiable": true,
+          "offer_start": "2026-07-30",
+          "offer_end": "2026-08-05",
+          "page_number": 16,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-july-30-to-august-51/single/15",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/298254/save-on-foods-bc-flyer-july-30-to-august-51-17.jpg",
+          "source_page_number": 17,
+          "flyer_title": "Save On Foods (BC) Flyer July 30 to August 5",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-july-30-to-august-51",
+          "source_scan": "competitive_full_flyer_2026_07_30",
+          "scan_scope": "all available pages, primary BC flyer"
+        },
+        {
+          "brand": "Folgers",
+          "brand_text_seen": "Folgers",
+          "product_name": "Coffee Pods, 30 count",
+          "price": "$17.99",
+          "deal_details": "Selected varieties where stated; More Rewards card required.",
+          "promotion_type": "Loyalty Offer",
+          "umap_price_verifiable": true,
+          "offer_start": "2026-07-30",
+          "offer_end": "2026-08-05",
+          "page_number": 16,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-july-30-to-august-51/single/15",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/298254/save-on-foods-bc-flyer-july-30-to-august-51-17.jpg",
+          "source_page_number": 17,
+          "flyer_title": "Save On Foods (BC) Flyer July 30 to August 5",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-july-30-to-august-51",
+          "source_scan": "competitive_full_flyer_2026_07_30",
+          "scan_scope": "all available pages, primary BC flyer"
+        },
+        {
+          "brand": "Tim Hortons",
+          "brand_text_seen": "Tim Hortons",
+          "product_name": "Ready to Serve Canned Soup, 540 mL",
+          "price": "2 for $6",
+          "deal_details": "Selected varieties where stated; More Rewards card required.",
+          "promotion_type": "Loyalty Offer",
+          "umap_price_verifiable": true,
+          "offer_start": "2026-07-30",
+          "offer_end": "2026-08-05",
+          "page_number": 18,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-july-30-to-august-51/single/17",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/298254/save-on-foods-bc-flyer-july-30-to-august-51-19.jpg",
+          "source_page_number": 19,
+          "flyer_title": "Save On Foods (BC) Flyer July 30 to August 5",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-july-30-to-august-51",
+          "source_scan": "competitive_full_flyer_2026_07_30",
+          "scan_scope": "all available pages, primary BC flyer"
+        },
+        {
+          "brand": "Traditional Medicinals",
+          "brand_text_seen": "Traditional Medicinals",
+          "product_name": "Tea, 16 count",
+          "price": "$6.49",
+          "deal_details": "Selected varieties where stated; More Rewards card required.",
+          "promotion_type": "Loyalty Offer",
+          "umap_price_verifiable": true,
+          "offer_start": "2026-07-30",
+          "offer_end": "2026-08-05",
+          "page_number": 26,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-july-30-to-august-51/single/25",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/298254/save-on-foods-bc-flyer-july-30-to-august-51-27.jpg",
+          "source_page_number": 27,
+          "flyer_title": "Save On Foods (BC) Flyer July 30 to August 5",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-july-30-to-august-51",
+          "source_scan": "competitive_full_flyer_2026_07_30",
+          "scan_scope": "all available pages, primary BC flyer"
+        }
+      ]
     }
-  ]
+  ],
+  "updated_at": "2026-11-03T12:07:04"
 }

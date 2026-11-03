@@ -1026,6 +1026,141 @@
           "scan_scope": "all pages, primary Quebec flyer"
         }
       ]
+    },
+    {
+      "name": "Giant Tiger",
+      "flyer_start": "2025-06-25",
+      "flyer_end": "2025-07-01",
+      "scan_status": "verified",
+      "scanned_at": "2026-11-03T12:07:01",
+      "flyers": [
+        {
+          "title": "Giant Tiger (ON) Flyer June 25 to July 1",
+          "url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-june-25-to-july-11",
+          "pages_scanned": 14,
+          "products_found": 0,
+          "flyer_start": "2025-06-25",
+          "flyer_end": "2025-07-01",
+          "unavailable_source_images": []
+        }
+      ],
+      "products": []
+    },
+    {
+      "name": "Save-On-Foods BC",
+      "flyer_start": "2025-06-26",
+      "flyer_end": "2025-07-02",
+      "scan_status": "verified",
+      "scanned_at": "2026-11-03T12:07:01",
+      "flyers": [
+        {
+          "title": "Save On Foods (BC) Flyer June 26 to July 2",
+          "url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-june-26-to-july-2",
+          "pages_scanned": 32,
+          "products_found": 5,
+          "flyer_start": "2025-06-26",
+          "flyer_end": "2025-07-02",
+          "unavailable_source_images": []
+        }
+      ],
+      "products": [
+        {
+          "brand": "Stagg",
+          "brand_text_seen": "Stagg",
+          "product_name": "Canned Chili, 425 g",
+          "price": "2 for $7",
+          "deal_details": "Selected offer; canned chili pictured.",
+          "promotion_type": "Special Price",
+          "umap_price_verifiable": true,
+          "offer_start": "2025-06-26",
+          "offer_end": "2025-07-02",
+          "page_number": 19,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-june-26-to-july-2/single/18",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/271017/save-on-foods-bc-flyer-june-26-to-july-2-19.jpg",
+          "source_page_number": 19,
+          "flyer_title": "Save On Foods (BC) Flyer June 26 to July 2",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-june-26-to-july-2",
+          "source_scan": "competitive_full_flyer_2025_06_26",
+          "scan_scope": "all available pages, primary BC flyer"
+        },
+        {
+          "brand": "McCafe",
+          "brand_text_seen": "McCafe",
+          "product_name": "Premium Roast Ground Coffee, 340 g",
+          "price": "$11.99",
+          "deal_details": "Selected varieties; shared offer with explicitly named pods.",
+          "promotion_type": "Special Price",
+          "umap_price_verifiable": true,
+          "offer_start": "2025-06-26",
+          "offer_end": "2025-07-02",
+          "page_number": 19,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-june-26-to-july-2/single/18",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/271017/save-on-foods-bc-flyer-june-26-to-july-2-19.jpg",
+          "source_page_number": 19,
+          "flyer_title": "Save On Foods (BC) Flyer June 26 to July 2",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-june-26-to-july-2",
+          "source_scan": "competitive_full_flyer_2025_06_26",
+          "scan_scope": "all available pages, primary BC flyer"
+        },
+        {
+          "brand": "McCafe",
+          "brand_text_seen": "McCafe",
+          "product_name": "Coffee Pods, 12-count",
+          "price": "$11.99",
+          "deal_details": "Explicit caption alternative; selected varieties.",
+          "promotion_type": "Special Price",
+          "umap_price_verifiable": true,
+          "offer_start": "2025-06-26",
+          "offer_end": "2025-07-02",
+          "page_number": 19,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-june-26-to-july-2/single/18",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/271017/save-on-foods-bc-flyer-june-26-to-july-2-19.jpg",
+          "source_page_number": 19,
+          "flyer_title": "Save On Foods (BC) Flyer June 26 to July 2",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-june-26-to-july-2",
+          "source_scan": "competitive_full_flyer_2025_06_26",
+          "scan_scope": "all available pages, primary BC flyer"
+        },
+        {
+          "brand": "Stok",
+          "brand_text_seen": "Stok",
+          "product_name": "Cold Brew Coffee, 1.42 L",
+          "price": "$6.99",
+          "deal_details": "Each.",
+          "promotion_type": "Special Price",
+          "umap_price_verifiable": true,
+          "offer_start": "2025-06-26",
+          "offer_end": "2025-07-02",
+          "page_number": 23,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-june-26-to-july-2/single/22",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/271017/save-on-foods-bc-flyer-june-26-to-july-2-23.jpg",
+          "source_page_number": 23,
+          "flyer_title": "Save On Foods (BC) Flyer June 26 to July 2",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-june-26-to-july-2",
+          "source_scan": "competitive_full_flyer_2025_06_26",
+          "scan_scope": "all available pages, primary BC flyer"
+        },
+        {
+          "brand": "Kicking Horse",
+          "brand_text_seen": "Kicking Horse",
+          "product_name": "Organic Ground Coffee, 284 g",
+          "price": "$9.99",
+          "deal_details": "Each.",
+          "promotion_type": "Special Price",
+          "umap_price_verifiable": true,
+          "offer_start": "2025-06-26",
+          "offer_end": "2025-07-02",
+          "page_number": 26,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-june-26-to-july-2/single/25",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/271017/save-on-foods-bc-flyer-june-26-to-july-2-26.jpg",
+          "source_page_number": 26,
+          "flyer_title": "Save On Foods (BC) Flyer June 26 to July 2",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-june-26-to-july-2",
+          "source_scan": "competitive_full_flyer_2025_06_26",
+          "scan_scope": "all available pages, primary BC flyer"
+        }
+      ]
     }
-  ]
+  ],
+  "updated_at": "2026-11-03T12:07:02"
 }

@@ -1372,6 +1372,179 @@
           "scan_scope": "all pages, primary Quebec flyer"
         }
       ]
+    },
+    {
+      "name": "Giant Tiger",
+      "flyer_start": "2026-06-17",
+      "flyer_end": "2026-06-23",
+      "scan_status": "verified",
+      "scanned_at": "2026-11-03T12:07:01",
+      "flyers": [
+        {
+          "title": "Giant Tiger (ON) Flyer June 17 to 23",
+          "url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-june-17-to-233",
+          "pages_scanned": 2,
+          "products_found": 0,
+          "flyer_start": "2026-06-17",
+          "flyer_end": "2026-06-23",
+          "unavailable_source_images": []
+        }
+      ],
+      "products": []
+    },
+    {
+      "name": "Save-On-Foods BC",
+      "flyer_start": "2026-06-18",
+      "flyer_end": "2026-06-24",
+      "scan_status": "verified",
+      "scanned_at": "2026-11-03T12:07:01",
+      "flyers": [
+        {
+          "title": "Save On Foods (BC) Flyer June 18 to 24",
+          "url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-june-18-to-241",
+          "pages_scanned": 30,
+          "products_found": 7,
+          "flyer_start": "2026-06-18",
+          "flyer_end": "2026-06-24",
+          "unavailable_source_images": []
+        }
+      ],
+      "products": [
+        {
+          "brand": "Stagg",
+          "brand_text_seen": "Stagg",
+          "product_name": "Canned chili, 425 g",
+          "price": "2 for $8",
+          "deal_details": "More Rewards card required.",
+          "promotion_type": "Loyalty Offer",
+          "umap_price_verifiable": true,
+          "offer_start": "2026-06-18",
+          "offer_end": "2026-06-24",
+          "page_number": 13,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-june-18-to-241/single/12",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/295357/save-on-foods-bc-flyer-june-18-to-241-13.jpg",
+          "source_page_number": 13,
+          "flyer_title": "Save On Foods (BC) Flyer June 18 to 24",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-june-18-to-241",
+          "source_scan": "competitive_full_flyer_2026_06_18",
+          "scan_scope": "all available pages, primary BC flyer"
+        },
+        {
+          "brand": "Tim Hortons",
+          "brand_text_seen": "Tim Hortons",
+          "product_name": "Coffee pods, 12 count",
+          "price": "$12.99",
+          "deal_details": "More Rewards card required; selected varieties; explicitly named caption alternative.",
+          "promotion_type": "Loyalty Offer",
+          "umap_price_verifiable": true,
+          "offer_start": "2026-06-18",
+          "offer_end": "2026-06-24",
+          "page_number": 14,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-june-18-to-241/single/13",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/295357/save-on-foods-bc-flyer-june-18-to-241-14.jpg",
+          "source_page_number": 14,
+          "flyer_title": "Save On Foods (BC) Flyer June 18 to 24",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-june-18-to-241",
+          "source_scan": "competitive_full_flyer_2026_06_18",
+          "scan_scope": "all available pages, primary BC flyer"
+        },
+        {
+          "brand": "Tim Hortons",
+          "brand_text_seen": "Tim Hortons",
+          "product_name": "Ground coffee, 300 g",
+          "price": "$12.99",
+          "deal_details": "More Rewards card required; selected varieties; explicitly captioned alternative to pods.",
+          "promotion_type": "Loyalty Offer",
+          "umap_price_verifiable": true,
+          "offer_start": "2026-06-18",
+          "offer_end": "2026-06-24",
+          "page_number": 14,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-june-18-to-241/single/13",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/295357/save-on-foods-bc-flyer-june-18-to-241-14.jpg",
+          "source_page_number": 14,
+          "flyer_title": "Save On Foods (BC) Flyer June 18 to 24",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-june-18-to-241",
+          "source_scan": "competitive_full_flyer_2026_06_18",
+          "scan_scope": "all available pages, primary BC flyer"
+        },
+        {
+          "brand": "Lavazza",
+          "brand_text_seen": "Lavazza",
+          "product_name": "Coffee pods, 30 count",
+          "price": "$28.99",
+          "deal_details": "More Rewards card required; selected varieties; Qualita Rossa K-Cups pictured.",
+          "promotion_type": "Loyalty Offer",
+          "umap_price_verifiable": true,
+          "offer_start": "2026-06-18",
+          "offer_end": "2026-06-24",
+          "page_number": 17,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-june-18-to-241/single/16",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/295357/save-on-foods-bc-flyer-june-18-to-241-17.jpg",
+          "source_page_number": 17,
+          "flyer_title": "Save On Foods (BC) Flyer June 18 to 24",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-june-18-to-241",
+          "source_scan": "competitive_full_flyer_2026_06_18",
+          "scan_scope": "all available pages, primary BC flyer"
+        },
+        {
+          "brand": "Van Houtte",
+          "brand_text_seen": "Van Houtte",
+          "product_name": "Premium ground coffee, 908 g",
+          "price": "$28.99",
+          "deal_details": "More Rewards card required; selected varieties; explicitly named caption alternative.",
+          "promotion_type": "Loyalty Offer",
+          "umap_price_verifiable": true,
+          "offer_start": "2026-06-18",
+          "offer_end": "2026-06-24",
+          "page_number": 17,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-june-18-to-241/single/16",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/295357/save-on-foods-bc-flyer-june-18-to-241-17.jpg",
+          "source_page_number": 17,
+          "flyer_title": "Save On Foods (BC) Flyer June 18 to 24",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-june-18-to-241",
+          "source_scan": "competitive_full_flyer_2026_06_18",
+          "scan_scope": "all available pages, primary BC flyer"
+        },
+        {
+          "brand": "Maxwell House",
+          "brand_text_seen": "Maxwell House",
+          "product_name": "Ground coffee, 864 or 900 g",
+          "price": "$15.99",
+          "deal_details": "More Rewards card required; selected varieties; page advertises buy 3 save $5 Kraft Heinz promotion.",
+          "promotion_type": "Loyalty Offer",
+          "umap_price_verifiable": true,
+          "offer_start": "2026-06-18",
+          "offer_end": "2026-06-24",
+          "page_number": 18,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-june-18-to-241/single/17",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/295357/save-on-foods-bc-flyer-june-18-to-241-18.jpg",
+          "source_page_number": 18,
+          "flyer_title": "Save On Foods (BC) Flyer June 18 to 24",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-june-18-to-241",
+          "source_scan": "competitive_full_flyer_2026_06_18",
+          "scan_scope": "all available pages, primary BC flyer"
+        },
+        {
+          "brand": "Stok",
+          "brand_text_seen": "Stok",
+          "product_name": "Cold brew coffee beverage, 1.42 L",
+          "price": "$7.49",
+          "deal_details": "More Rewards card required.",
+          "promotion_type": "Loyalty Offer",
+          "umap_price_verifiable": true,
+          "offer_start": "2026-06-18",
+          "offer_end": "2026-06-24",
+          "page_number": 21,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-june-18-to-241/single/20",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/295357/save-on-foods-bc-flyer-june-18-to-241-21.jpg",
+          "source_page_number": 21,
+          "flyer_title": "Save On Foods (BC) Flyer June 18 to 24",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-june-18-to-241",
+          "source_scan": "competitive_full_flyer_2026_06_18",
+          "scan_scope": "all available pages, primary BC flyer"
+        }
+      ]
     }
-  ]
+  ],
+  "updated_at": "2026-11-03T12:07:04"
 }

@@ -917,6 +917,180 @@
           "scan_scope": "all pages, primary Quebec flyer"
         }
       ]
+    },
+    {
+      "name": "Giant Tiger",
+      "flyer_start": "2025-07-16",
+      "flyer_end": "2025-07-22",
+      "scan_status": "verified",
+      "scanned_at": "2026-11-03T12:07:01",
+      "flyers": [
+        {
+          "title": "Giant Tiger (ON) Flyer July 16 to 22",
+          "url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-july-16-to-22",
+          "pages_scanned": 16,
+          "products_found": 2,
+          "flyer_start": "2025-07-16",
+          "flyer_end": "2025-07-22",
+          "unavailable_source_images": []
+        }
+      ],
+      "products": [
+        {
+          "brand": "Tim Hortons",
+          "brand_text_seen": "Tim Hortons",
+          "product_name": "Ground coffee",
+          "price": "$8.97",
+          "deal_details": "Flyer valid 2025-07-16 to 2025-07-22. Original Blend pictured; shared Tim Hortons or Giant Tiger Marche caption states 300-340 g and reg. $8.97-$10.47; brand-specific size and regular price unresolved; Tim Hortons pack carries save $1.50 bubble.",
+          "promotion_type": "Price Drop",
+          "umap_price_verifiable": true,
+          "offer_start": "2025-07-16",
+          "offer_end": "2025-07-22",
+          "page_number": 2,
+          "page_url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-july-16-to-22/single/1",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/272342/giant-tiger-on-flyer-july-16-to-22-2.jpg",
+          "source_page_number": 2,
+          "flyer_title": "Giant Tiger (ON) Flyer July 16 to 22",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-july-16-to-22",
+          "source_scan": "competitive_full_flyer_2025_07_17",
+          "scan_scope": "all available pages, primary ON flyer"
+        },
+        {
+          "brand": "Giant Tiger Marche",
+          "brand_text_seen": "Giant Tiger Marche",
+          "product_name": "Ground coffee",
+          "price": "$8.97",
+          "deal_details": "Flyer valid 2025-07-16 to 2025-07-22. Colombian roast pictured; shared Tim Hortons or Giant Tiger Marche caption states 300-340 g and reg. $8.97-$10.47; brand-specific size and regular price unresolved; hurry in.",
+          "promotion_type": "Special Price",
+          "umap_price_verifiable": true,
+          "offer_start": "2025-07-16",
+          "offer_end": "2025-07-22",
+          "page_number": 2,
+          "page_url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-july-16-to-22/single/1",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/272342/giant-tiger-on-flyer-july-16-to-22-2.jpg",
+          "source_page_number": 2,
+          "flyer_title": "Giant Tiger (ON) Flyer July 16 to 22",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-july-16-to-22",
+          "source_scan": "competitive_full_flyer_2025_07_17",
+          "scan_scope": "all available pages, primary ON flyer"
+        }
+      ]
+    },
+    {
+      "name": "Save-On-Foods BC",
+      "flyer_start": "2025-07-17",
+      "flyer_end": "2025-07-23",
+      "scan_status": "verified",
+      "scanned_at": "2026-11-03T12:07:01",
+      "flyers": [
+        {
+          "title": "Save On Foods (BC) Flyer July 17 to 23",
+          "url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-july-17-to-23",
+          "pages_scanned": 26,
+          "products_found": 5,
+          "flyer_start": "2025-07-17",
+          "flyer_end": "2025-07-23",
+          "unavailable_source_images": []
+        }
+      ],
+      "products": [
+        {
+          "brand": "Maxwell House",
+          "brand_text_seen": "Maxwell House",
+          "product_name": "Ground Coffee 864 g",
+          "price": "$17.99",
+          "deal_details": "Selected varieties",
+          "promotion_type": "Special Price",
+          "umap_price_verifiable": true,
+          "offer_start": "2025-07-17",
+          "offer_end": "2025-07-23",
+          "page_number": 12,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-july-17-to-23/single/11",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/272496/save-on-foods-bc-flyer-july-17-to-23-12.jpg",
+          "source_page_number": 12,
+          "flyer_title": "Save On Foods (BC) Flyer July 17 to 23",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-july-17-to-23",
+          "source_scan": "competitive_full_flyer_2025_07_17",
+          "scan_scope": "all available pages, primary BC flyer"
+        },
+        {
+          "brand": "Tim Hortons",
+          "brand_text_seen": "Tim Hortons",
+          "product_name": "Canned Soup 540 mL",
+          "price": "2 for $6",
+          "deal_details": "Selected varieties",
+          "promotion_type": "Special Price",
+          "umap_price_verifiable": true,
+          "offer_start": "2025-07-17",
+          "offer_end": "2025-07-23",
+          "page_number": 16,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-july-17-to-23/single/15",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/272496/save-on-foods-bc-flyer-july-17-to-23-16.jpg",
+          "source_page_number": 16,
+          "flyer_title": "Save On Foods (BC) Flyer July 17 to 23",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-july-17-to-23",
+          "source_scan": "competitive_full_flyer_2025_07_17",
+          "scan_scope": "all available pages, primary BC flyer"
+        },
+        {
+          "brand": "Stok",
+          "brand_text_seen": "Stok",
+          "product_name": "Cold Brew Un-Sweet Coffee 1.42 L",
+          "price": "$6.99",
+          "deal_details": "Ready-to-drink beverage",
+          "promotion_type": "Special Price",
+          "umap_price_verifiable": true,
+          "offer_start": "2025-07-17",
+          "offer_end": "2025-07-23",
+          "page_number": 17,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-july-17-to-23/single/16",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/272496/save-on-foods-bc-flyer-july-17-to-23-17.jpg",
+          "source_page_number": 17,
+          "flyer_title": "Save On Foods (BC) Flyer July 17 to 23",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-july-17-to-23",
+          "source_scan": "competitive_full_flyer_2025_07_17",
+          "scan_scope": "all available pages, primary BC flyer"
+        },
+        {
+          "brand": "49th Parallel",
+          "brand_text_seen": "49th Parallel",
+          "product_name": "Organic Coffee 340 g",
+          "price": "$17.99",
+          "deal_details": "Old School Espresso pictured; grind format not legible",
+          "promotion_type": "Special Price",
+          "umap_price_verifiable": true,
+          "offer_start": "2025-07-17",
+          "offer_end": "2025-07-23",
+          "page_number": 20,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-july-17-to-23/single/19",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/272496/save-on-foods-bc-flyer-july-17-to-23-20.jpg",
+          "source_page_number": 20,
+          "flyer_title": "Save On Foods (BC) Flyer July 17 to 23",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-july-17-to-23",
+          "source_scan": "competitive_full_flyer_2025_07_17",
+          "scan_scope": "all available pages, primary BC flyer"
+        },
+        {
+          "brand": "Amy's",
+          "brand_text_seen": "Amy's",
+          "product_name": "Organic Canned Chili 398 mL",
+          "price": "$4.99",
+          "deal_details": "Medium pictured; refried beans alternative excluded",
+          "promotion_type": "Special Price",
+          "umap_price_verifiable": true,
+          "offer_start": "2025-07-17",
+          "offer_end": "2025-07-23",
+          "page_number": 20,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-july-17-to-23/single/19",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/272496/save-on-foods-bc-flyer-july-17-to-23-20.jpg",
+          "source_page_number": 20,
+          "flyer_title": "Save On Foods (BC) Flyer July 17 to 23",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-july-17-to-23",
+          "source_scan": "competitive_full_flyer_2025_07_17",
+          "scan_scope": "all available pages, primary BC flyer"
+        }
+      ]
     }
-  ]
+  ],
+  "updated_at": "2026-11-03T12:07:02"
 }

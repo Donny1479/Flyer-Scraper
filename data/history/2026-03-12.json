@@ -1805,6 +1805,161 @@
           "scan_scope": "all pages, primary Quebec flyer"
         }
       ]
+    },
+    {
+      "name": "Giant Tiger",
+      "flyer_start": "2026-03-11",
+      "flyer_end": "2026-03-17",
+      "scan_status": "verified",
+      "scanned_at": "2026-11-03T12:07:01",
+      "flyers": [
+        {
+          "title": "Giant Tiger (ON) Flyer March 11 to 17",
+          "url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-march-11-to-173",
+          "pages_scanned": 16,
+          "products_found": 1,
+          "flyer_start": "2026-03-11",
+          "flyer_end": "2026-03-17",
+          "unavailable_source_images": []
+        }
+      ],
+      "products": [
+        {
+          "brand": "Campbell's",
+          "brand_text_seen": "Campbell's",
+          "product_name": "Condensed canned soup",
+          "price": "$1.50",
+          "deal_details": "Each; assorted; Cream of Chicken pictured; soup or broth shared caption 250-900 mL, individual soup size unresolved; regular $2.27; save $0.77; broth excluded; printed dates March 11-17, 2026.",
+          "promotion_type": "Price Drop",
+          "umap_price_verifiable": true,
+          "offer_start": "2026-03-11",
+          "offer_end": "2026-03-17",
+          "page_number": 2,
+          "page_url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-march-11-to-173/single/1",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/288528/giant-tiger-on-flyer-march-11-to-173-2.jpg",
+          "source_page_number": 2,
+          "flyer_title": "Giant Tiger (ON) Flyer March 11 to 17",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-march-11-to-173",
+          "source_scan": "competitive_full_flyer_2026_03_12",
+          "scan_scope": "all available pages, primary ON flyer"
+        }
+      ]
+    },
+    {
+      "name": "Save-On-Foods BC",
+      "flyer_start": "2026-03-12",
+      "flyer_end": "2026-03-18",
+      "scan_status": "verified",
+      "scanned_at": "2026-11-03T12:07:01",
+      "flyers": [
+        {
+          "title": "Save On Foods (BC) Flyer March 12 to 18",
+          "url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-march-12-to-181",
+          "pages_scanned": 33,
+          "products_found": 5,
+          "flyer_start": "2026-03-12",
+          "flyer_end": "2026-03-18",
+          "unavailable_source_images": []
+        }
+      ],
+      "products": [
+        {
+          "brand": "Starbucks",
+          "brand_text_seen": "Starbucks",
+          "product_name": "Premium coffee pods 24 count",
+          "price": "$24.99",
+          "deal_details": "More Rewards card; selected varieties.",
+          "promotion_type": "Loyalty Offer",
+          "umap_price_verifiable": true,
+          "offer_start": "2026-03-12",
+          "offer_end": "2026-03-18",
+          "page_number": 1,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-march-12-to-181/single",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/288657/save-on-foods-bc-flyer-march-12-to-181-1.jpg",
+          "source_page_number": 1,
+          "flyer_title": "Save On Foods (BC) Flyer March 12 to 18",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-march-12-to-181",
+          "source_scan": "competitive_full_flyer_2026_03_12",
+          "scan_scope": "all available pages, primary BC flyer"
+        },
+        {
+          "brand": "Starbucks",
+          "brand_text_seen": "Starbucks",
+          "product_name": "Premium ground coffee 793g",
+          "price": "$24.99",
+          "deal_details": "More Rewards card; explicit caption alternative.",
+          "promotion_type": "Loyalty Offer",
+          "umap_price_verifiable": true,
+          "offer_start": "2026-03-12",
+          "offer_end": "2026-03-18",
+          "page_number": 1,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-march-12-to-181/single",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/288657/save-on-foods-bc-flyer-march-12-to-181-1.jpg",
+          "source_page_number": 1,
+          "flyer_title": "Save On Foods (BC) Flyer March 12 to 18",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-march-12-to-181",
+          "source_scan": "competitive_full_flyer_2026_03_12",
+          "scan_scope": "all available pages, primary BC flyer"
+        },
+        {
+          "brand": "Western Family",
+          "brand_text_seen": "Western Family",
+          "product_name": "Hearty ready to serve canned soup 540mL",
+          "price": "$2.29",
+          "deal_details": "More Rewards card; new clam chowder and beef and vegetable pictured.",
+          "promotion_type": "Loyalty Offer",
+          "umap_price_verifiable": true,
+          "offer_start": "2026-03-12",
+          "offer_end": "2026-03-18",
+          "page_number": 12,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-march-12-to-181/single/11",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/288657/save-on-foods-bc-flyer-march-12-to-181-12.jpg",
+          "source_page_number": 12,
+          "flyer_title": "Save On Foods (BC) Flyer March 12 to 18",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-march-12-to-181",
+          "source_scan": "competitive_full_flyer_2026_03_12",
+          "scan_scope": "all available pages, primary BC flyer"
+        },
+        {
+          "brand": "Only Goodness",
+          "brand_text_seen": "Only Goodness",
+          "product_name": "Organic fair trade coffee pods 12 count",
+          "price": "$11.99",
+          "deal_details": "More Rewards card; Peruvian pictured.",
+          "promotion_type": "Loyalty Offer",
+          "umap_price_verifiable": true,
+          "offer_start": "2026-03-12",
+          "offer_end": "2026-03-18",
+          "page_number": 23,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-march-12-to-181/single/22",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/288657/save-on-foods-bc-flyer-march-12-to-181-23.jpg",
+          "source_page_number": 23,
+          "flyer_title": "Save On Foods (BC) Flyer March 12 to 18",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-march-12-to-181",
+          "source_scan": "competitive_full_flyer_2026_03_12",
+          "scan_scope": "all available pages, primary BC flyer"
+        },
+        {
+          "brand": "Campbell's",
+          "brand_text_seen": "Campbell's",
+          "product_name": "Chunky canned soup 515mL",
+          "price": "$3.49",
+          "deal_details": "More Rewards card; alternatively free with 2000 points redeemed; chicken noodle pictured.",
+          "promotion_type": "Loyalty Offer",
+          "umap_price_verifiable": true,
+          "offer_start": "2026-03-12",
+          "offer_end": "2026-03-18",
+          "page_number": 31,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-march-12-to-181/single/30",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/288657/save-on-foods-bc-flyer-march-12-to-181-31.jpg",
+          "source_page_number": 31,
+          "flyer_title": "Save On Foods (BC) Flyer March 12 to 18",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-march-12-to-181",
+          "source_scan": "competitive_full_flyer_2026_03_12",
+          "scan_scope": "all available pages, primary BC flyer"
+        }
+      ]
     }
-  ]
+  ],
+  "updated_at": "2026-11-03T12:07:03"
 }

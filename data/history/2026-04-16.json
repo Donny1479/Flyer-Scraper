@@ -1819,6 +1819,180 @@
           "scan_scope": "all pages, primary Quebec flyer"
         }
       ]
+    },
+    {
+      "name": "Giant Tiger",
+      "flyer_start": "2026-04-15",
+      "flyer_end": "2026-04-21",
+      "scan_status": "verified",
+      "scanned_at": "2026-11-03T12:07:01",
+      "flyers": [
+        {
+          "title": "Giant Tiger (ON) Flyer April 15 to 21",
+          "url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-april-15-to-213",
+          "pages_scanned": 14,
+          "products_found": 3,
+          "flyer_start": "2026-04-15",
+          "flyer_end": "2026-04-21",
+          "unavailable_source_images": []
+        }
+      ],
+      "products": [
+        {
+          "brand": "Tim Hortons",
+          "brand_text_seen": "Tim Hortons",
+          "product_name": "French vanilla cappuccino powder, 454 g",
+          "price": "$7.97",
+          "deal_details": "Each; regular $9.97; save $2; printed dates April 15-21, 2026.",
+          "promotion_type": "Price Drop",
+          "umap_price_verifiable": true,
+          "offer_start": "2026-04-15",
+          "offer_end": "2026-04-21",
+          "page_number": 2,
+          "page_url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-april-15-to-213/single/1",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/290901/giant-tiger-on-flyer-april-15-to-213-2.jpg",
+          "source_page_number": 2,
+          "flyer_title": "Giant Tiger (ON) Flyer April 15 to 21",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-april-15-to-213",
+          "source_scan": "competitive_full_flyer_2026_04_16",
+          "scan_scope": "all available pages, primary ON flyer"
+        },
+        {
+          "brand": "Campbell's",
+          "brand_text_seen": "Campbell's",
+          "product_name": "Chunky canned soup",
+          "price": "$2.37",
+          "deal_details": "Each; assorted; Prime Rib with Vegetables pictured; shared caption 515-796 mL and regular $3.42-$3.47 with Habitant, individual size and regular price unresolved; save up to $1.10; printed dates April 15-21, 2026.",
+          "promotion_type": "Price Drop",
+          "umap_price_verifiable": true,
+          "offer_start": "2026-04-15",
+          "offer_end": "2026-04-21",
+          "page_number": 2,
+          "page_url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-april-15-to-213/single/1",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/290901/giant-tiger-on-flyer-april-15-to-213-2.jpg",
+          "source_page_number": 2,
+          "flyer_title": "Giant Tiger (ON) Flyer April 15 to 21",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-april-15-to-213",
+          "source_scan": "competitive_full_flyer_2026_04_16",
+          "scan_scope": "all available pages, primary ON flyer"
+        },
+        {
+          "brand": "Habitant",
+          "brand_text_seen": "Habitant",
+          "product_name": "Canned soup",
+          "price": "$2.37",
+          "deal_details": "Each; assorted; pea soup with smoked ham pictured; shared caption 515-796 mL and regular $3.42-$3.47 with Campbell's Chunky, individual size and regular price unresolved; save up to $1.10; printed dates April 15-21, 2026.",
+          "promotion_type": "Price Drop",
+          "umap_price_verifiable": true,
+          "offer_start": "2026-04-15",
+          "offer_end": "2026-04-21",
+          "page_number": 2,
+          "page_url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-april-15-to-213/single/1",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/290901/giant-tiger-on-flyer-april-15-to-213-2.jpg",
+          "source_page_number": 2,
+          "flyer_title": "Giant Tiger (ON) Flyer April 15 to 21",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-april-15-to-213",
+          "source_scan": "competitive_full_flyer_2026_04_16",
+          "scan_scope": "all available pages, primary ON flyer"
+        }
+      ]
+    },
+    {
+      "name": "Save-On-Foods BC",
+      "flyer_start": "2026-04-16",
+      "flyer_end": "2026-04-22",
+      "scan_status": "verified",
+      "scanned_at": "2026-11-03T12:07:01",
+      "flyers": [
+        {
+          "title": "Save On Foods (BC) Flyer April 16 to 22",
+          "url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-april-16-to-221",
+          "pages_scanned": 32,
+          "products_found": 4,
+          "flyer_start": "2026-04-16",
+          "flyer_end": "2026-04-22",
+          "unavailable_source_images": []
+        }
+      ],
+      "products": [
+        {
+          "brand": "Other",
+          "brand_text_seen": "Other",
+          "product_name": "Value Priced coffee pods 100 count",
+          "price": "$36.99",
+          "deal_details": "More Rewards card; packaging and caption say Value Priced; no separate brand stated.",
+          "promotion_type": "Loyalty Offer",
+          "umap_price_verifiable": true,
+          "offer_start": "2026-04-16",
+          "offer_end": "2026-04-22",
+          "page_number": 15,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-april-16-to-221/single/14",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/291051/save-on-foods-bc-flyer-april-16-to-221-15.jpg",
+          "source_page_number": 15,
+          "flyer_title": "Save On Foods (BC) Flyer April 16 to 22",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-april-16-to-221",
+          "source_scan": "competitive_full_flyer_2026_04_16",
+          "scan_scope": "all available pages, primary BC flyer"
+        },
+        {
+          "brand": "Western Family",
+          "brand_text_seen": "Western Family",
+          "product_name": "Premium roast ground coffee 300g",
+          "price": "$8.99",
+          "deal_details": "More Rewards card; selected varieties; espresso pictured.",
+          "promotion_type": "Loyalty Offer",
+          "umap_price_verifiable": true,
+          "offer_start": "2026-04-16",
+          "offer_end": "2026-04-22",
+          "page_number": 15,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-april-16-to-221/single/14",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/291051/save-on-foods-bc-flyer-april-16-to-221-15.jpg",
+          "source_page_number": 15,
+          "flyer_title": "Save On Foods (BC) Flyer April 16 to 22",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-april-16-to-221",
+          "source_scan": "competitive_full_flyer_2026_04_16",
+          "scan_scope": "all available pages, primary BC flyer"
+        },
+        {
+          "brand": "Kicking Horse",
+          "brand_text_seen": "Kicking Horse",
+          "product_name": "Organic ground coffee 284g",
+          "price": "$11.99",
+          "deal_details": "More Rewards card; Three Sisters pictured.",
+          "promotion_type": "Loyalty Offer",
+          "umap_price_verifiable": true,
+          "offer_start": "2026-04-16",
+          "offer_end": "2026-04-22",
+          "page_number": 23,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-april-16-to-221/single/22",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/291051/save-on-foods-bc-flyer-april-16-to-221-23.jpg",
+          "source_page_number": 23,
+          "flyer_title": "Save On Foods (BC) Flyer April 16 to 22",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-april-16-to-221",
+          "source_scan": "competitive_full_flyer_2026_04_16",
+          "scan_scope": "all available pages, primary BC flyer"
+        },
+        {
+          "brand": "Only Goodness",
+          "brand_text_seen": "Only Goodness",
+          "product_name": "Organic fair trade coffee pods 12 count",
+          "price": "$11.99",
+          "deal_details": "More Rewards card; selected varieties.",
+          "promotion_type": "Loyalty Offer",
+          "umap_price_verifiable": true,
+          "offer_start": "2026-04-16",
+          "offer_end": "2026-04-22",
+          "page_number": 23,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-april-16-to-221/single/22",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/291051/save-on-foods-bc-flyer-april-16-to-221-23.jpg",
+          "source_page_number": 23,
+          "flyer_title": "Save On Foods (BC) Flyer April 16 to 22",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-april-16-to-221",
+          "source_scan": "competitive_full_flyer_2026_04_16",
+          "scan_scope": "all available pages, primary BC flyer"
+        }
+      ]
     }
-  ]
+  ],
+  "updated_at": "2026-11-03T12:07:03"
 }

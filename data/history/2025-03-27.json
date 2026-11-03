@@ -903,6 +903,180 @@
           "scan_scope": "all pages, primary Quebec flyer"
         }
       ]
+    },
+    {
+      "name": "Giant Tiger",
+      "flyer_start": "2025-03-26",
+      "flyer_end": "2025-04-01",
+      "scan_status": "verified",
+      "scanned_at": "2026-11-03T12:07:01",
+      "flyers": [
+        {
+          "title": "Giant Tiger (ON) Flyer March 26 to April 1",
+          "url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-march-26-to-april-1",
+          "pages_scanned": 16,
+          "products_found": 3,
+          "flyer_start": "2025-03-26",
+          "flyer_end": "2025-04-01",
+          "unavailable_source_images": []
+        }
+      ],
+      "products": [
+        {
+          "brand": "Melitta",
+          "brand_text_seen": "Melitta",
+          "product_name": "Traditional ground coffee, 930 g",
+          "price": "$10.97",
+          "deal_details": "Flyer valid 2025-03-26 to 2025-04-01. Reg. $17.97; save 38%; limit 3.",
+          "promotion_type": "Price Drop",
+          "umap_price_verifiable": true,
+          "offer_start": "2025-03-26",
+          "offer_end": "2025-04-01",
+          "page_number": 1,
+          "page_url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-march-26-to-april-1/single",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/264578/giant-tiger-on-flyer-march-26-to-april-1-1.jpg",
+          "source_page_number": 1,
+          "flyer_title": "Giant Tiger (ON) Flyer March 26 to April 1",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-march-26-to-april-1",
+          "source_scan": "competitive_full_flyer_2025_03_27",
+          "scan_scope": "all available pages, primary ON flyer"
+        },
+        {
+          "brand": "Starbucks",
+          "brand_text_seen": "Starbucks",
+          "product_name": "Iced coffee, ready-to-drink",
+          "price": "$6.68",
+          "deal_details": "Flyer valid 2025-03-26 to 2025-04-01. Black Roast pictured; shared Oasis orange juice or Starbucks iced coffee caption states 1.42-2.5 L and reg. $6.99-$7.98; coffee-specific size and regular price unresolved; save up to $1.30.",
+          "promotion_type": "Price Drop",
+          "umap_price_verifiable": true,
+          "offer_start": "2025-03-26",
+          "offer_end": "2025-04-01",
+          "page_number": 2,
+          "page_url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-march-26-to-april-1/single/1",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/264578/giant-tiger-on-flyer-march-26-to-april-1-2.jpg",
+          "source_page_number": 2,
+          "flyer_title": "Giant Tiger (ON) Flyer March 26 to April 1",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-march-26-to-april-1",
+          "source_scan": "competitive_full_flyer_2025_03_27",
+          "scan_scope": "all available pages, primary ON flyer"
+        },
+        {
+          "brand": "Campbell's",
+          "brand_text_seen": "Campbell's",
+          "product_name": "Condensed canned soup, 284 mL",
+          "price": "$0.88",
+          "deal_details": "Flyer valid 2025-03-26 to 2025-04-01. Assorted; Mushroom and Tomato pictured; reg. $1.47; save $0.59.",
+          "promotion_type": "Price Drop",
+          "umap_price_verifiable": true,
+          "offer_start": "2025-03-26",
+          "offer_end": "2025-04-01",
+          "page_number": 2,
+          "page_url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-march-26-to-april-1/single/1",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/264578/giant-tiger-on-flyer-march-26-to-april-1-2.jpg",
+          "source_page_number": 2,
+          "flyer_title": "Giant Tiger (ON) Flyer March 26 to April 1",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-march-26-to-april-1",
+          "source_scan": "competitive_full_flyer_2025_03_27",
+          "scan_scope": "all available pages, primary ON flyer"
+        }
+      ]
+    },
+    {
+      "name": "Save-On-Foods BC",
+      "flyer_start": "2025-03-27",
+      "flyer_end": "2025-04-02",
+      "scan_status": "verified",
+      "scanned_at": "2026-11-03T12:07:01",
+      "flyers": [
+        {
+          "title": "Save On Foods (BC) Flyer March 27 to April 2",
+          "url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-march-27-to-april-2",
+          "pages_scanned": 25,
+          "products_found": 4,
+          "flyer_start": "2025-03-27",
+          "flyer_end": "2025-04-02",
+          "unavailable_source_images": []
+        }
+      ],
+      "products": [
+        {
+          "brand": "Western Family",
+          "brand_text_seen": "Western Family",
+          "product_name": "Premium Roast Ground Coffee, 300 g",
+          "price": "$8.99",
+          "deal_details": "Selected varieties; More Rewards card required.",
+          "promotion_type": "Loyalty Offer",
+          "umap_price_verifiable": true,
+          "offer_start": "2025-03-27",
+          "offer_end": "2025-04-02",
+          "page_number": 11,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-march-27-to-april-2/single/10",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/264723/save-on-foods-bc-flyer-march-27-to-april-2-11.jpg",
+          "source_page_number": 11,
+          "flyer_title": "Save On Foods (BC) Flyer March 27 to April 2",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-march-27-to-april-2",
+          "source_scan": "competitive_full_flyer_2025_03_27",
+          "scan_scope": "all available pages, primary BC flyer"
+        },
+        {
+          "brand": "McCafe",
+          "brand_text_seen": "McCafe",
+          "product_name": "Premium Roast Ground Coffee, 340 g",
+          "price": "$10.49",
+          "deal_details": "Selected varieties; More Rewards card required.",
+          "promotion_type": "Loyalty Offer",
+          "umap_price_verifiable": true,
+          "offer_start": "2025-03-27",
+          "offer_end": "2025-04-02",
+          "page_number": 11,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-march-27-to-april-2/single/10",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/264723/save-on-foods-bc-flyer-march-27-to-april-2-11.jpg",
+          "source_page_number": 11,
+          "flyer_title": "Save On Foods (BC) Flyer March 27 to April 2",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-march-27-to-april-2",
+          "source_scan": "competitive_full_flyer_2025_03_27",
+          "scan_scope": "all available pages, primary BC flyer"
+        },
+        {
+          "brand": "Tim Hortons",
+          "brand_text_seen": "Tim Hortons",
+          "product_name": "Coffee Pods, 30-count",
+          "price": "$21.99",
+          "deal_details": "Selected varieties; More Rewards card required.",
+          "promotion_type": "Loyalty Offer",
+          "umap_price_verifiable": true,
+          "offer_start": "2025-03-27",
+          "offer_end": "2025-04-02",
+          "page_number": 14,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-march-27-to-april-2/single/13",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/264723/save-on-foods-bc-flyer-march-27-to-april-2-14.jpg",
+          "source_page_number": 14,
+          "flyer_title": "Save On Foods (BC) Flyer March 27 to April 2",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-march-27-to-april-2",
+          "source_scan": "competitive_full_flyer_2025_03_27",
+          "scan_scope": "all available pages, primary BC flyer"
+        },
+        {
+          "brand": "Salt Spring",
+          "brand_text_seen": "Salt Spring",
+          "product_name": "Organic Whole Bean Coffee, 400 g",
+          "price": "$12.99",
+          "deal_details": "Blue Heron pictured; More Rewards card required.",
+          "promotion_type": "Loyalty Offer",
+          "umap_price_verifiable": true,
+          "offer_start": "2025-03-27",
+          "offer_end": "2025-04-02",
+          "page_number": 20,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-march-27-to-april-2/single/19",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/264723/save-on-foods-bc-flyer-march-27-to-april-2-20.jpg",
+          "source_page_number": 20,
+          "flyer_title": "Save On Foods (BC) Flyer March 27 to April 2",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-march-27-to-april-2",
+          "source_scan": "competitive_full_flyer_2025_03_27",
+          "scan_scope": "all available pages, primary BC flyer"
+        }
+      ]
     }
-  ]
+  ],
+  "updated_at": "2026-11-03T12:07:01"
 }

@@ -2107,6 +2107,199 @@
           "scan_scope": "all pages, primary Quebec flyer"
         }
       ]
+    },
+    {
+      "name": "Giant Tiger",
+      "flyer_start": "2026-08-19",
+      "flyer_end": "2026-08-25",
+      "scan_status": "verified",
+      "scanned_at": "2026-11-03T12:07:01",
+      "flyers": [
+        {
+          "title": "Giant Tiger (ON) Flyer August 19 to 25",
+          "url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-august-19-to-253",
+          "pages_scanned": 2,
+          "products_found": 2,
+          "flyer_start": "2026-08-19",
+          "flyer_end": "2026-08-25",
+          "unavailable_source_images": []
+        }
+      ],
+      "products": [
+        {
+          "brand": "Habitant",
+          "brand_text_seen": "Habitant",
+          "product_name": "Canned soup",
+          "price": "$2.25",
+          "deal_details": "Each; assorted; pea soup with smoked ham pictured; shared caption size range 515-796 mL and regular $2.96-$3.24 across Habitant and Campbell's, individual size and regular price not assigned; save up to $0.99; printed dates August 19-25, 2026.",
+          "promotion_type": "Price Drop",
+          "umap_price_verifiable": true,
+          "offer_start": "2026-08-19",
+          "offer_end": "2026-08-25",
+          "page_number": 2,
+          "page_url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-august-19-to-253/single/1",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/299566/giant-tiger-on-flyer-august-19-to-253-2.jpg",
+          "source_page_number": 2,
+          "flyer_title": "Giant Tiger (ON) Flyer August 19 to 25",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-august-19-to-253",
+          "source_scan": "competitive_full_flyer_2026_08_20",
+          "scan_scope": "all available pages, primary ON flyer"
+        },
+        {
+          "brand": "Campbell's",
+          "brand_text_seen": "Campbell's",
+          "product_name": "Chunky canned soup",
+          "price": "$2.25",
+          "deal_details": "Each; assorted; prime rib with vegetables pictured; shared caption size range 515-796 mL and regular $2.96-$3.24 across Habitant and Campbell's, individual size and regular price not assigned; save up to $0.99; printed dates August 19-25, 2026.",
+          "promotion_type": "Price Drop",
+          "umap_price_verifiable": true,
+          "offer_start": "2026-08-19",
+          "offer_end": "2026-08-25",
+          "page_number": 2,
+          "page_url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-august-19-to-253/single/1",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/299566/giant-tiger-on-flyer-august-19-to-253-2.jpg",
+          "source_page_number": 2,
+          "flyer_title": "Giant Tiger (ON) Flyer August 19 to 25",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-august-19-to-253",
+          "source_scan": "competitive_full_flyer_2026_08_20",
+          "scan_scope": "all available pages, primary ON flyer"
+        }
+      ]
+    },
+    {
+      "name": "Save-On-Foods BC",
+      "flyer_start": "2026-08-20",
+      "flyer_end": "2026-08-26",
+      "scan_status": "verified",
+      "scanned_at": "2026-11-03T12:07:01",
+      "flyers": [
+        {
+          "title": "Save On Foods (BC) Flyer August 20 to 26",
+          "url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-august-20-to-261",
+          "pages_scanned": 31,
+          "products_found": 6,
+          "flyer_start": "2026-08-20",
+          "flyer_end": "2026-08-26",
+          "unavailable_source_images": []
+        }
+      ],
+      "products": [
+        {
+          "brand": "Campbell's",
+          "brand_text_seen": "Campbell's",
+          "product_name": "Condensed Canned Soup, 284 mL",
+          "price": "3 for $5",
+          "deal_details": "Selected varieties. More Rewards card required.",
+          "promotion_type": "Loyalty Offer",
+          "umap_price_verifiable": true,
+          "offer_start": "2026-08-20",
+          "offer_end": "2026-08-26",
+          "page_number": 18,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-august-20-to-261/single/17",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/299711/save-on-foods-bc-flyer-august-20-to-261-18.jpg",
+          "source_page_number": 18,
+          "flyer_title": "Save On Foods (BC) Flyer August 20 to 26",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-august-20-to-261",
+          "source_scan": "competitive_full_flyer_2026_08_20",
+          "scan_scope": "all available pages, primary BC flyer"
+        },
+        {
+          "brand": "Campbell's",
+          "brand_text_seen": "Campbell's",
+          "product_name": "Chunky Canned Soup, 515 mL",
+          "price": "2 for $5",
+          "deal_details": "Shared offer with Ready to Serve. More Rewards card required.",
+          "promotion_type": "Loyalty Offer",
+          "umap_price_verifiable": true,
+          "offer_start": "2026-08-20",
+          "offer_end": "2026-08-26",
+          "page_number": 18,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-august-20-to-261/single/17",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/299711/save-on-foods-bc-flyer-august-20-to-261-18.jpg",
+          "source_page_number": 18,
+          "flyer_title": "Save On Foods (BC) Flyer August 20 to 26",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-august-20-to-261",
+          "source_scan": "competitive_full_flyer_2026_08_20",
+          "scan_scope": "all available pages, primary BC flyer"
+        },
+        {
+          "brand": "Campbell's",
+          "brand_text_seen": "Campbell's",
+          "product_name": "Ready to Serve Canned Soup, 515 mL",
+          "price": "2 for $5",
+          "deal_details": "Explicit caption alternative. More Rewards card required.",
+          "promotion_type": "Loyalty Offer",
+          "umap_price_verifiable": true,
+          "offer_start": "2026-08-20",
+          "offer_end": "2026-08-26",
+          "page_number": 18,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-august-20-to-261/single/17",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/299711/save-on-foods-bc-flyer-august-20-to-261-18.jpg",
+          "source_page_number": 18,
+          "flyer_title": "Save On Foods (BC) Flyer August 20 to 26",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-august-20-to-261",
+          "source_scan": "competitive_full_flyer_2026_08_20",
+          "scan_scope": "all available pages, primary BC flyer"
+        },
+        {
+          "brand": "Martinson",
+          "brand_text_seen": "Martinson",
+          "product_name": "Bulk Coffee Pods",
+          "price": "8 for $6",
+          "deal_details": "Brand verified on pictured pods; selected varieties; sold in bulk, no pack size assigned. More Rewards card required.",
+          "promotion_type": "Loyalty Offer",
+          "umap_price_verifiable": true,
+          "offer_start": "2026-08-20",
+          "offer_end": "2026-08-26",
+          "page_number": 21,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-august-20-to-261/single/20",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/299711/save-on-foods-bc-flyer-august-20-to-261-21.jpg",
+          "source_page_number": 21,
+          "flyer_title": "Save On Foods (BC) Flyer August 20 to 26",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-august-20-to-261",
+          "source_scan": "competitive_full_flyer_2026_08_20",
+          "scan_scope": "all available pages, primary BC flyer"
+        },
+        {
+          "brand": "Wolfgang Puck",
+          "brand_text_seen": "Wolfgang Puck",
+          "product_name": "Bulk Coffee Pods",
+          "price": "8 for $6",
+          "deal_details": "Brand verified on pictured After Dark and Breakfast in Bed pods; bulk selected varieties; no pack size assigned. More Rewards card required.",
+          "promotion_type": "Loyalty Offer",
+          "umap_price_verifiable": true,
+          "offer_start": "2026-08-20",
+          "offer_end": "2026-08-26",
+          "page_number": 21,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-august-20-to-261/single/20",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/299711/save-on-foods-bc-flyer-august-20-to-261-21.jpg",
+          "source_page_number": 21,
+          "flyer_title": "Save On Foods (BC) Flyer August 20 to 26",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-august-20-to-261",
+          "source_scan": "competitive_full_flyer_2026_08_20",
+          "scan_scope": "all available pages, primary BC flyer"
+        },
+        {
+          "brand": "Only Goodness",
+          "brand_text_seen": "Only Goodness",
+          "product_name": "Tea, 20 count",
+          "price": "$3.99",
+          "deal_details": "Selected varieties. More Rewards card required.",
+          "promotion_type": "Loyalty Offer",
+          "umap_price_verifiable": true,
+          "offer_start": "2026-08-20",
+          "offer_end": "2026-08-26",
+          "page_number": 22,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-august-20-to-261/single/21",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/299711/save-on-foods-bc-flyer-august-20-to-261-22.jpg",
+          "source_page_number": 22,
+          "flyer_title": "Save On Foods (BC) Flyer August 20 to 26",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-august-20-to-261",
+          "source_scan": "competitive_full_flyer_2026_08_20",
+          "scan_scope": "all available pages, primary BC flyer"
+        }
+      ]
     }
-  ]
+  ],
+  "updated_at": "2026-11-03T12:07:04"
 }

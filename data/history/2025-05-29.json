@@ -895,6 +895,199 @@
           "scan_scope": "all pages, primary Quebec flyer"
         }
       ]
+    },
+    {
+      "name": "Giant Tiger",
+      "flyer_start": "2025-05-28",
+      "flyer_end": "2025-06-03",
+      "scan_status": "verified",
+      "scanned_at": "2026-11-03T12:07:01",
+      "flyers": [
+        {
+          "title": "Giant Tiger (ON) Flyer May 28 to June 3",
+          "url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-may-28-to-june-31",
+          "pages_scanned": 14,
+          "products_found": 2,
+          "flyer_start": "2025-05-28",
+          "flyer_end": "2025-06-03",
+          "unavailable_source_images": []
+        }
+      ],
+      "products": [
+        {
+          "brand": "Nescafe",
+          "brand_text_seen": "Nescafe",
+          "product_name": "Rich instant coffee, 170 g",
+          "price": "$5.94",
+          "deal_details": "Flyer valid 2025-05-28 to 2025-06-03. Reg. $7.47; save $1.53.",
+          "promotion_type": "Price Drop",
+          "umap_price_verifiable": true,
+          "offer_start": "2025-05-28",
+          "offer_end": "2025-06-03",
+          "page_number": 1,
+          "page_url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-may-28-to-june-31/single",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/268946/giant-tiger-on-flyer-may-28-to-june-31-1.jpg",
+          "source_page_number": 1,
+          "flyer_title": "Giant Tiger (ON) Flyer May 28 to June 3",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-may-28-to-june-31",
+          "source_scan": "competitive_full_flyer_2025_05_29",
+          "scan_scope": "all available pages, primary ON flyer"
+        },
+        {
+          "brand": "Giant Value",
+          "brand_text_seen": "Giant Value",
+          "product_name": "Coffee pods, 48 pack",
+          "price": "$17.97",
+          "deal_details": "Flyer valid 2025-05-28 to 2025-06-03. Medium roast pictured; printed 38 cents per pod.",
+          "promotion_type": "Special Price",
+          "umap_price_verifiable": true,
+          "offer_start": "2025-05-28",
+          "offer_end": "2025-06-03",
+          "page_number": 4,
+          "page_url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-may-28-to-june-31/single/3",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/268946/giant-tiger-on-flyer-may-28-to-june-31-4.jpg",
+          "source_page_number": 4,
+          "flyer_title": "Giant Tiger (ON) Flyer May 28 to June 3",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-may-28-to-june-31",
+          "source_scan": "competitive_full_flyer_2025_05_29",
+          "scan_scope": "all available pages, primary ON flyer"
+        }
+      ]
+    },
+    {
+      "name": "Save-On-Foods BC",
+      "flyer_start": "2025-05-29",
+      "flyer_end": "2025-06-04",
+      "scan_status": "verified",
+      "scanned_at": "2026-11-03T12:07:01",
+      "flyers": [
+        {
+          "title": "Save On Foods (BC) Flyer May 29 to June 4",
+          "url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-may-29-to-june-4",
+          "pages_scanned": 31,
+          "products_found": 6,
+          "flyer_start": "2025-05-29",
+          "flyer_end": "2025-06-04",
+          "unavailable_source_images": []
+        }
+      ],
+      "products": [
+        {
+          "brand": "Campbell's",
+          "brand_text_seen": "Campbell's",
+          "product_name": "Chunky Canned Soup, 515 mL",
+          "price": "$2.99",
+          "deal_details": "Chicken Noodle pictured; More Rewards card required.",
+          "promotion_type": "Loyalty Offer",
+          "umap_price_verifiable": true,
+          "offer_start": "2025-05-29",
+          "offer_end": "2025-06-04",
+          "page_number": 2,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-may-29-to-june-4/single/1",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/269102/save-on-foods-bc-flyer-may-29-to-june-4-2.jpg",
+          "source_page_number": 2,
+          "flyer_title": "Save On Foods (BC) Flyer May 29 to June 4",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-may-29-to-june-4",
+          "source_scan": "competitive_full_flyer_2025_05_29",
+          "scan_scope": "all available pages, primary BC flyer"
+        },
+        {
+          "brand": "Starbucks",
+          "brand_text_seen": "Starbucks",
+          "product_name": "Premium Coffee Beverage",
+          "price": "$6.99",
+          "deal_details": "Iced Coffee medium roast unsweetened bottle pictured; caption says 1.18 L but pack says 1.42 L; unresolved size omitted; More Rewards card required.",
+          "promotion_type": "Loyalty Offer",
+          "umap_price_verifiable": true,
+          "offer_start": "2025-05-29",
+          "offer_end": "2025-06-04",
+          "page_number": 19,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-may-29-to-june-4/single/18",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/269102/save-on-foods-bc-flyer-may-29-to-june-4-19.jpg",
+          "source_page_number": 19,
+          "flyer_title": "Save On Foods (BC) Flyer May 29 to June 4",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-may-29-to-june-4",
+          "source_scan": "competitive_full_flyer_2025_05_29",
+          "scan_scope": "all available pages, primary BC flyer"
+        },
+        {
+          "brand": "Western Family",
+          "brand_text_seen": "Western Family",
+          "product_name": "Premium Whole Bean Coffee, 908 g",
+          "price": "$18.99",
+          "deal_details": "Signature French Roast pictured; earn 1000 More Rewards points; selected varieties; More Rewards card required.",
+          "promotion_type": "Loyalty Offer",
+          "umap_price_verifiable": true,
+          "offer_start": "2025-05-29",
+          "offer_end": "2025-06-04",
+          "page_number": 19,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-may-29-to-june-4/single/18",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/269102/save-on-foods-bc-flyer-may-29-to-june-4-19.jpg",
+          "source_page_number": 19,
+          "flyer_title": "Save On Foods (BC) Flyer May 29 to June 4",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-may-29-to-june-4",
+          "source_scan": "competitive_full_flyer_2025_05_29",
+          "scan_scope": "all available pages, primary BC flyer"
+        },
+        {
+          "brand": "Only Goodness",
+          "brand_text_seen": "Only Goodness",
+          "product_name": "Organic Coffee Pods, 12-count",
+          "price": "$9.99",
+          "deal_details": "Peruvian pictured; More Rewards card required.",
+          "promotion_type": "Loyalty Offer",
+          "umap_price_verifiable": true,
+          "offer_start": "2025-05-29",
+          "offer_end": "2025-06-04",
+          "page_number": 24,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-may-29-to-june-4/single/23",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/269102/save-on-foods-bc-flyer-may-29-to-june-4-24.jpg",
+          "source_page_number": 24,
+          "flyer_title": "Save On Foods (BC) Flyer May 29 to June 4",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-may-29-to-june-4",
+          "source_scan": "competitive_full_flyer_2025_05_29",
+          "scan_scope": "all available pages, primary BC flyer"
+        },
+        {
+          "brand": "Only Goodness",
+          "brand_text_seen": "Only Goodness",
+          "product_name": "Organic Whole Bean Coffee, 400 g",
+          "price": "$13.99",
+          "deal_details": "Peruvian Amazonia pictured; selected varieties; More Rewards card required.",
+          "promotion_type": "Loyalty Offer",
+          "umap_price_verifiable": true,
+          "offer_start": "2025-05-29",
+          "offer_end": "2025-06-04",
+          "page_number": 24,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-may-29-to-june-4/single/23",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/269102/save-on-foods-bc-flyer-may-29-to-june-4-24.jpg",
+          "source_page_number": 24,
+          "flyer_title": "Save On Foods (BC) Flyer May 29 to June 4",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-may-29-to-june-4",
+          "source_scan": "competitive_full_flyer_2025_05_29",
+          "scan_scope": "all available pages, primary BC flyer"
+        },
+        {
+          "brand": "Kirin",
+          "brand_text_seen": "Kirin",
+          "product_name": "Milk Tea, 1.5 L",
+          "price": "$3.99",
+          "deal_details": "Bottled milk tea pictured; More Rewards card required.",
+          "promotion_type": "Loyalty Offer",
+          "umap_price_verifiable": true,
+          "offer_start": "2025-05-29",
+          "offer_end": "2025-06-04",
+          "page_number": 31,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-may-29-to-june-4/single/30",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/269102/save-on-foods-bc-flyer-may-29-to-june-4-31.jpg",
+          "source_page_number": 31,
+          "flyer_title": "Save On Foods (BC) Flyer May 29 to June 4",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-may-29-to-june-4",
+          "source_scan": "competitive_full_flyer_2025_05_29",
+          "scan_scope": "all available pages, primary BC flyer"
+        }
+      ]
     }
-  ]
+  ],
+  "updated_at": "2026-11-03T12:07:01"
 }

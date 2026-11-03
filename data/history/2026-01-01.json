@@ -1192,6 +1192,179 @@
           "scan_scope": "all pages, primary Quebec flyer"
         }
       ]
+    },
+    {
+      "name": "Giant Tiger",
+      "flyer_start": "2025-12-31",
+      "flyer_end": "2026-01-06",
+      "scan_status": "verified",
+      "scanned_at": "2026-11-03T12:07:01",
+      "flyers": [
+        {
+          "title": "Giant Tiger (ON) Flyer December 31 to January 6",
+          "url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-december-31-to-january-62",
+          "pages_scanned": 10,
+          "products_found": 0,
+          "flyer_start": "2025-12-31",
+          "flyer_end": "2026-01-06",
+          "unavailable_source_images": []
+        }
+      ],
+      "products": []
+    },
+    {
+      "name": "Save-On-Foods BC",
+      "flyer_start": "2026-01-01",
+      "flyer_end": "2026-01-07",
+      "scan_status": "verified",
+      "scanned_at": "2026-11-03T12:07:01",
+      "flyers": [
+        {
+          "title": "Save On Foods (BC) Flyer January 1 to 7",
+          "url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-january-1-to-7",
+          "pages_scanned": 28,
+          "products_found": 7,
+          "flyer_start": "2026-01-01",
+          "flyer_end": "2026-01-07",
+          "unavailable_source_images": []
+        }
+      ],
+      "products": [
+        {
+          "brand": "Starbucks",
+          "brand_text_seen": "Starbucks",
+          "product_name": "Premium coffee pods 24 count",
+          "price": "$25.99",
+          "deal_details": "More Rewards card; explicit caption alternative.",
+          "promotion_type": "Loyalty Offer",
+          "umap_price_verifiable": true,
+          "offer_start": "2026-01-01",
+          "offer_end": "2026-01-07",
+          "page_number": 1,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-january-1-to-7/single",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/283990/save-on-foods-bc-flyer-january-1-to-7-1.jpg",
+          "source_page_number": 1,
+          "flyer_title": "Save On Foods (BC) Flyer January 1 to 7",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-january-1-to-7",
+          "source_scan": "competitive_full_flyer_2026_01_01",
+          "scan_scope": "all available pages, primary BC flyer"
+        },
+        {
+          "brand": "Starbucks",
+          "brand_text_seen": "Starbucks",
+          "product_name": "Premium whole bean coffee 907g",
+          "price": "$25.99",
+          "deal_details": "More Rewards card; selected varieties; Pike Place pictured.",
+          "promotion_type": "Loyalty Offer",
+          "umap_price_verifiable": true,
+          "offer_start": "2026-01-01",
+          "offer_end": "2026-01-07",
+          "page_number": 1,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-january-1-to-7/single",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/283990/save-on-foods-bc-flyer-january-1-to-7-1.jpg",
+          "source_page_number": 1,
+          "flyer_title": "Save On Foods (BC) Flyer January 1 to 7",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-january-1-to-7",
+          "source_scan": "competitive_full_flyer_2026_01_01",
+          "scan_scope": "all available pages, primary BC flyer"
+        },
+        {
+          "brand": "Campbell's",
+          "brand_text_seen": "Campbell's",
+          "product_name": "Chunky canned chili 425g",
+          "price": "3 for $8",
+          "deal_details": "More Rewards card; explicit caption alternative.",
+          "promotion_type": "Loyalty Offer",
+          "umap_price_verifiable": true,
+          "offer_start": "2026-01-01",
+          "offer_end": "2026-01-07",
+          "page_number": 13,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-january-1-to-7/single/12",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/283990/save-on-foods-bc-flyer-january-1-to-7-13.jpg",
+          "source_page_number": 13,
+          "flyer_title": "Save On Foods (BC) Flyer January 1 to 7",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-january-1-to-7",
+          "source_scan": "competitive_full_flyer_2026_01_01",
+          "scan_scope": "all available pages, primary BC flyer"
+        },
+        {
+          "brand": "Campbell's",
+          "brand_text_seen": "Campbell's",
+          "product_name": "Chunky canned soup 515mL",
+          "price": "3 for $8",
+          "deal_details": "More Rewards card; selected varieties; chicken noodle pictured.",
+          "promotion_type": "Loyalty Offer",
+          "umap_price_verifiable": true,
+          "offer_start": "2026-01-01",
+          "offer_end": "2026-01-07",
+          "page_number": 13,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-january-1-to-7/single/12",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/283990/save-on-foods-bc-flyer-january-1-to-7-13.jpg",
+          "source_page_number": 13,
+          "flyer_title": "Save On Foods (BC) Flyer January 1 to 7",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-january-1-to-7",
+          "source_scan": "competitive_full_flyer_2026_01_01",
+          "scan_scope": "all available pages, primary BC flyer"
+        },
+        {
+          "brand": "Kicking Horse",
+          "brand_text_seen": "Kicking Horse",
+          "product_name": "Organic ground coffee 284g",
+          "price": "$10.99",
+          "deal_details": "More Rewards card; selected varieties; Three Sisters pictured.",
+          "promotion_type": "Loyalty Offer",
+          "umap_price_verifiable": true,
+          "offer_start": "2026-01-01",
+          "offer_end": "2026-01-07",
+          "page_number": 18,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-january-1-to-7/single/17",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/283990/save-on-foods-bc-flyer-january-1-to-7-18.jpg",
+          "source_page_number": 18,
+          "flyer_title": "Save On Foods (BC) Flyer January 1 to 7",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-january-1-to-7",
+          "source_scan": "competitive_full_flyer_2026_01_01",
+          "scan_scope": "all available pages, primary BC flyer"
+        },
+        {
+          "brand": "Western Family",
+          "brand_text_seen": "Western Family",
+          "product_name": "Hot chocolate mix 500g",
+          "price": "Not stated",
+          "deal_details": "Earn 550 More Rewards points; cash price not stated.",
+          "promotion_type": "Loyalty Offer",
+          "umap_price_verifiable": false,
+          "offer_start": "2026-01-01",
+          "offer_end": "2026-01-07",
+          "page_number": 26,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-january-1-to-7/single/25",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/283990/save-on-foods-bc-flyer-january-1-to-7-26.jpg",
+          "source_page_number": 26,
+          "flyer_title": "Save On Foods (BC) Flyer January 1 to 7",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-january-1-to-7",
+          "source_scan": "competitive_full_flyer_2026_01_01",
+          "scan_scope": "all available pages, primary BC flyer"
+        },
+        {
+          "brand": "Western Family",
+          "brand_text_seen": "Western Family",
+          "product_name": "Tea 20 count",
+          "price": "Not stated",
+          "deal_details": "Free with 2600 More Rewards points redeemed; selected varieties; peppermint herbal pictured; cash price not stated.",
+          "promotion_type": "Loyalty Offer",
+          "umap_price_verifiable": false,
+          "offer_start": "2026-01-01",
+          "offer_end": "2026-01-07",
+          "page_number": 26,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-january-1-to-7/single/25",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/283990/save-on-foods-bc-flyer-january-1-to-7-26.jpg",
+          "source_page_number": 26,
+          "flyer_title": "Save On Foods (BC) Flyer January 1 to 7",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-january-1-to-7",
+          "source_scan": "competitive_full_flyer_2026_01_01",
+          "scan_scope": "all available pages, primary BC flyer"
+        }
+      ]
     }
-  ]
+  ],
+  "updated_at": "2026-11-03T12:07:03"
 }

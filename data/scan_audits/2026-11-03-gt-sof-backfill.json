@@ -1,0 +1,91 @@
+{
+  "scan_date": "2026-11-03",
+  "source": "SmartCanucks",
+  "retailers": {
+    "Giant Tiger": 97,
+    "Save-On-Foods BC": 96
+  },
+  "flyers_verified": 193,
+  "pages_scanned": 4101,
+  "offers_verified": 977,
+  "independent_source_image_spotchecks_passed": 8,
+  "tim_hortons_offers": 100,
+  "first_flyer_dates": {
+    "Giant Tiger": "2025-01-01",
+    "Save-On-Foods BC": "2025-01-02"
+  },
+  "latest_flyer_dates": {
+    "Giant Tiger": "2026-11-04",
+    "Save-On-Foods BC": "2026-10-29"
+  },
+  "missing_flyers": [],
+  "source_image_gaps": [
+    {
+      "week_start": "2025-11-20",
+      "retailer": "Save-On-Foods BC",
+      "source_image_numbers": [
+        1
+      ],
+      "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-november-20-to-26"
+    },
+    {
+      "week_start": "2026-07-30",
+      "retailer": "Save-On-Foods BC",
+      "source_image_numbers": [
+        1
+      ],
+      "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-july-30-to-august-51"
+    },
+    {
+      "week_start": "2026-10-22",
+      "retailer": "Save-On-Foods BC",
+      "source_image_numbers": [
+        1
+      ],
+      "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-october-22-to-281"
+    }
+  ],
+  "region_evidence": "Giant Tiger Ontario printed footers and ON archive titles; Save-On-Foods explicit BC archive titles. BC province generally not repeated inside the printed flyer.",
+  "methodology": "All available pages OCR-screened and visually reviewed via page overviews, candidate/category image inspection and source-resolution crops. Product-specific captions and packaging checked; exact live page/image pairs verified for every offer.",
+  "week_alignment": "Giant Tiger Wednesday-Tuesday flyers grouped into the following Thursday review cycle, retaining actual printed offer dates. Existing retailer records unchanged. Pending Flyerseek review not published.",
+  "integrity_checks": {
+    "baseline_offers_preserved": 8187,
+    "baseline_retailer_records_preserved": 1248,
+    "new_flyers": 193,
+    "source_pages": 4101,
+    "new_offers": 977,
+    "offers_by_retailer": {
+      "Giant Tiger": 213,
+      "Save-On-Foods BC": 764
+    },
+    "tim_hortons_offers_by_retailer": {
+      "Giant Tiger": 39,
+      "Save-On-Foods BC": 61
+    },
+    "all_offer_links_live_verified": true,
+    "all_published_page_numbers_match_live_routes": true,
+    "ocr_sources_available_without_error": 4101,
+    "ocr_empty_pages_visually_checked": 14,
+    "ocr_empty_page_review": "All 14 checked from images: floral, produce, home textiles, chips, bakery or meat. Tea Herbs Kit is a growing kit, not packaged tea.",
+    "unpriced_product_specific_offers": 45,
+    "registry_preserved": true,
+    "mirror_matches": true,
+    "prior_flyerseek_preview_imported": false
+  },
+  "app_checks": {
+    "tabs": [
+      "📅  Weekly Review",
+      "🔍  Product History",
+      "📊  Flyer Insights",
+      "⚠️  UMAP Check"
+    ],
+    "retailer_filters_include_new_banners": true,
+    "default_brand_tim_hortons_only": true,
+    "competitor_brand_filter": true,
+    "insights_year_filters": true,
+    "compliant_filter_absent": true,
+    "tims_only_insights_and_umap_count": 850,
+    "all_brand_history_count": 9164,
+    "streamlit_exceptions": 0
+  }
+}

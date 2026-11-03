@@ -943,6 +943,199 @@
           "scan_scope": "all pages, primary Quebec flyer"
         }
       ]
+    },
+    {
+      "name": "Giant Tiger",
+      "flyer_start": "2025-06-11",
+      "flyer_end": "2025-06-17",
+      "scan_status": "verified",
+      "scanned_at": "2026-11-03T12:07:01",
+      "flyers": [
+        {
+          "title": "Giant Tiger (ON) Flyer June 11 to 17",
+          "url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-june-11-to-171",
+          "pages_scanned": 15,
+          "products_found": 5,
+          "flyer_start": "2025-06-11",
+          "flyer_end": "2025-06-17",
+          "unavailable_source_images": []
+        }
+      ],
+      "products": [
+        {
+          "brand": "Giant Value",
+          "brand_text_seen": "Giant Value",
+          "product_name": "Instant coffee, 150 g",
+          "price": "$3.97",
+          "deal_details": "Flyer valid 2025-06-11 to 2025-06-17. No regular price stated.",
+          "promotion_type": "Special Price",
+          "umap_price_verifiable": true,
+          "offer_start": "2025-06-11",
+          "offer_end": "2025-06-17",
+          "page_number": 2,
+          "page_url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-june-11-to-171/single/1",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/269930/giant-tiger-on-flyer-june-11-to-171-2.jpg",
+          "source_page_number": 2,
+          "flyer_title": "Giant Tiger (ON) Flyer June 11 to 17",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-june-11-to-171",
+          "source_scan": "competitive_full_flyer_2025_06_12",
+          "scan_scope": "all available pages, primary ON flyer"
+        },
+        {
+          "brand": "Tim Hortons",
+          "brand_text_seen": "Tim Hortons",
+          "product_name": "Canned soup, 400-540 mL",
+          "price": "$2.67",
+          "deal_details": "Flyer valid 2025-06-11 to 2025-06-17. Assorted; reg. $2.97; save 30 cents.",
+          "promotion_type": "Price Drop",
+          "umap_price_verifiable": true,
+          "offer_start": "2025-06-11",
+          "offer_end": "2025-06-17",
+          "page_number": 2,
+          "page_url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-june-11-to-171/single/1",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/269930/giant-tiger-on-flyer-june-11-to-171-2.jpg",
+          "source_page_number": 2,
+          "flyer_title": "Giant Tiger (ON) Flyer June 11 to 17",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-june-11-to-171",
+          "source_scan": "competitive_full_flyer_2025_06_12",
+          "scan_scope": "all available pages, primary ON flyer"
+        },
+        {
+          "brand": "Nescafe",
+          "brand_text_seen": "Nescafe",
+          "product_name": "Gold Espresso instant coffee, 100 g",
+          "price": "$5.97",
+          "deal_details": "Flyer valid 2025-06-11 to 2025-06-17. Assorted; shared instant coffee caption reg. $7.47-$8.47; product-specific regular price unresolved; save up to $2.50.",
+          "promotion_type": "Price Drop",
+          "umap_price_verifiable": true,
+          "offer_start": "2025-06-11",
+          "offer_end": "2025-06-17",
+          "page_number": 2,
+          "page_url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-june-11-to-171/single/1",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/269930/giant-tiger-on-flyer-june-11-to-171-2.jpg",
+          "source_page_number": 2,
+          "flyer_title": "Giant Tiger (ON) Flyer June 11 to 17",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-june-11-to-171",
+          "source_scan": "competitive_full_flyer_2025_06_12",
+          "scan_scope": "all available pages, primary ON flyer"
+        },
+        {
+          "brand": "Nescafe",
+          "brand_text_seen": "Nescafe",
+          "product_name": "Sweet & Creamy instant coffee sachets, 18 pack",
+          "price": "$5.97",
+          "deal_details": "Flyer valid 2025-06-11 to 2025-06-17. Assorted; shared instant coffee caption reg. $7.47-$8.47; product-specific regular price unresolved; save up to $2.50.",
+          "promotion_type": "Price Drop",
+          "umap_price_verifiable": true,
+          "offer_start": "2025-06-11",
+          "offer_end": "2025-06-17",
+          "page_number": 2,
+          "page_url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-june-11-to-171/single/1",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/269930/giant-tiger-on-flyer-june-11-to-171-2.jpg",
+          "source_page_number": 2,
+          "flyer_title": "Giant Tiger (ON) Flyer June 11 to 17",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-june-11-to-171",
+          "source_scan": "competitive_full_flyer_2025_06_12",
+          "scan_scope": "all available pages, primary ON flyer"
+        },
+        {
+          "brand": "Starbucks",
+          "brand_text_seen": "Starbucks",
+          "product_name": "Ground coffee, 340 g",
+          "price": "$10.47",
+          "deal_details": "Flyer valid 2025-06-11 to 2025-06-17. Assorted; Pike Place pictured; reg. $12.97; save $2.50; Claw Back valid until July 6, 2025.",
+          "promotion_type": "Price Drop",
+          "umap_price_verifiable": true,
+          "offer_start": "2025-06-11",
+          "offer_end": "2025-06-17",
+          "page_number": 6,
+          "page_url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-june-11-to-171/single/5",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/269930/giant-tiger-on-flyer-june-11-to-171-6.jpg",
+          "source_page_number": 6,
+          "flyer_title": "Giant Tiger (ON) Flyer June 11 to 17",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-june-11-to-171",
+          "source_scan": "competitive_full_flyer_2025_06_12",
+          "scan_scope": "all available pages, primary ON flyer"
+        }
+      ]
+    },
+    {
+      "name": "Save-On-Foods BC",
+      "flyer_start": "2025-06-12",
+      "flyer_end": "2025-06-18",
+      "scan_status": "verified",
+      "scanned_at": "2026-11-03T12:07:01",
+      "flyers": [
+        {
+          "title": "Save On Foods (BC) Flyer June 12 to 18",
+          "url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-june-12-to-18",
+          "pages_scanned": 29,
+          "products_found": 3,
+          "flyer_start": "2025-06-12",
+          "flyer_end": "2025-06-18",
+          "unavailable_source_images": []
+        }
+      ],
+      "products": [
+        {
+          "brand": "Starbucks",
+          "brand_text_seen": "Starbucks",
+          "product_name": "Premium Whole Bean Coffee, 907 g",
+          "price": "$22.99",
+          "deal_details": "Pike Place pictured; selected varieties; More Rewards card required.",
+          "promotion_type": "Loyalty Offer",
+          "umap_price_verifiable": true,
+          "offer_start": "2025-06-12",
+          "offer_end": "2025-06-18",
+          "page_number": 17,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-june-12-to-18/single/16",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/270055/save-on-foods-bc-flyer-june-12-to-18-17.jpg",
+          "source_page_number": 17,
+          "flyer_title": "Save On Foods (BC) Flyer June 12 to 18",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-june-12-to-18",
+          "source_scan": "competitive_full_flyer_2025_06_12",
+          "scan_scope": "all available pages, primary BC flyer"
+        },
+        {
+          "brand": "Starbucks",
+          "brand_text_seen": "Starbucks",
+          "product_name": "K-Cup Coffee Pods, 24-count",
+          "price": "$22.99",
+          "deal_details": "Explicit caption alternative; selected varieties; More Rewards card required.",
+          "promotion_type": "Loyalty Offer",
+          "umap_price_verifiable": true,
+          "offer_start": "2025-06-12",
+          "offer_end": "2025-06-18",
+          "page_number": 17,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-june-12-to-18/single/16",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/270055/save-on-foods-bc-flyer-june-12-to-18-17.jpg",
+          "source_page_number": 17,
+          "flyer_title": "Save On Foods (BC) Flyer June 12 to 18",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-june-12-to-18",
+          "source_scan": "competitive_full_flyer_2025_06_12",
+          "scan_scope": "all available pages, primary BC flyer"
+        },
+        {
+          "brand": "Guayaki",
+          "brand_text_seen": "Guayaki",
+          "product_name": "Organic Yerba Mate, 458 mL",
+          "price": "2 for $6",
+          "deal_details": "Lemon Elation ready-to-drink non-sparkling can pictured; More Rewards card required.",
+          "promotion_type": "Loyalty Offer",
+          "umap_price_verifiable": true,
+          "offer_start": "2025-06-12",
+          "offer_end": "2025-06-18",
+          "page_number": 22,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-june-12-to-18/single/21",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/270055/save-on-foods-bc-flyer-june-12-to-18-22.jpg",
+          "source_page_number": 22,
+          "flyer_title": "Save On Foods (BC) Flyer June 12 to 18",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-june-12-to-18",
+          "source_scan": "competitive_full_flyer_2025_06_12",
+          "scan_scope": "all available pages, primary BC flyer"
+        }
+      ]
     }
-  ]
+  ],
+  "updated_at": "2026-11-03T12:07:02"
 }

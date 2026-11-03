@@ -2245,6 +2245,199 @@
           "scan_scope": "all pages, primary Quebec flyer"
         }
       ]
+    },
+    {
+      "name": "Giant Tiger",
+      "flyer_start": "2026-02-11",
+      "flyer_end": "2026-02-17",
+      "scan_status": "verified",
+      "scanned_at": "2026-11-03T12:07:01",
+      "flyers": [
+        {
+          "title": "Giant Tiger (ON) Flyer February 11 to 17",
+          "url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-february-11-to-172",
+          "pages_scanned": 14,
+          "products_found": 3,
+          "flyer_start": "2026-02-11",
+          "flyer_end": "2026-02-17",
+          "unavailable_source_images": []
+        }
+      ],
+      "products": [
+        {
+          "brand": "Stash",
+          "brand_text_seen": "Stash",
+          "product_name": "Tea, 18-20 pack",
+          "price": "$3.47",
+          "deal_details": "Each; assorted; Lemon Ginger herbal tea pictured; regular $3.97-$4.78 shared with pancake mix, individual regular price unresolved; save up to $1.31; printed dates February 11-17, 2026.",
+          "promotion_type": "Price Drop",
+          "umap_price_verifiable": true,
+          "offer_start": "2026-02-11",
+          "offer_end": "2026-02-17",
+          "page_number": 2,
+          "page_url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-february-11-to-172/single/1",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/286644/giant-tiger-on-flyer-february-11-to-172-2.jpg",
+          "source_page_number": 2,
+          "flyer_title": "Giant Tiger (ON) Flyer February 11 to 17",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-february-11-to-172",
+          "source_scan": "competitive_full_flyer_2026_02_12",
+          "scan_scope": "all available pages, primary ON flyer"
+        },
+        {
+          "brand": "Timothy's",
+          "brand_text_seen": "Timothy's",
+          "product_name": "Coffee pods, 30 pack",
+          "price": "$15.97",
+          "deal_details": "Each; assorted; Colombian La Vereda medium roast pictured; regular $22.97; save $7; printed dates February 11-17, 2026.",
+          "promotion_type": "Price Drop",
+          "umap_price_verifiable": true,
+          "offer_start": "2026-02-11",
+          "offer_end": "2026-02-17",
+          "page_number": 2,
+          "page_url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-february-11-to-172/single/1",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/286644/giant-tiger-on-flyer-february-11-to-172-2.jpg",
+          "source_page_number": 2,
+          "flyer_title": "Giant Tiger (ON) Flyer February 11 to 17",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-february-11-to-172",
+          "source_scan": "competitive_full_flyer_2026_02_12",
+          "scan_scope": "all available pages, primary ON flyer"
+        },
+        {
+          "brand": "Maxwell House",
+          "brand_text_seen": "Maxwell House",
+          "product_name": "Coffee pods, 12 pack",
+          "price": "$10.47",
+          "deal_details": "Each; assorted; Original Roast pictured, pictured box 114 g; regular $11.47; save $1; monthly Claw Back insert valid until March 1, 2026, while quantities last; flyer printed dates February 11-17, 2026.",
+          "promotion_type": "Price Drop",
+          "umap_price_verifiable": true,
+          "offer_start": "2026-02-11",
+          "offer_end": "2026-02-17",
+          "page_number": 6,
+          "page_url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-february-11-to-172/single/5",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/286644/giant-tiger-on-flyer-february-11-to-172-6.jpg",
+          "source_page_number": 6,
+          "flyer_title": "Giant Tiger (ON) Flyer February 11 to 17",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-february-11-to-172",
+          "source_scan": "competitive_full_flyer_2026_02_12",
+          "scan_scope": "all available pages, primary ON flyer"
+        }
+      ]
+    },
+    {
+      "name": "Save-On-Foods BC",
+      "flyer_start": "2026-02-12",
+      "flyer_end": "2026-02-18",
+      "scan_status": "verified",
+      "scanned_at": "2026-11-03T12:07:01",
+      "flyers": [
+        {
+          "title": "Save On Foods (BC) Flyer February 12 to 18",
+          "url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-february-12-to-18",
+          "pages_scanned": 31,
+          "products_found": 5,
+          "flyer_start": "2026-02-12",
+          "flyer_end": "2026-02-18",
+          "unavailable_source_images": []
+        }
+      ],
+      "products": [
+        {
+          "brand": "Campbell's",
+          "brand_text_seen": "Campbell's",
+          "product_name": "Condensed canned soup 284mL",
+          "price": "4 for $5",
+          "deal_details": "More Rewards card; selected varieties; tomato pictured.",
+          "promotion_type": "Loyalty Offer",
+          "umap_price_verifiable": true,
+          "offer_start": "2026-02-12",
+          "offer_end": "2026-02-18",
+          "page_number": 12,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-february-12-to-18/single/11",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/286786/save-on-foods-bc-flyer-february-12-to-18-12.jpg",
+          "source_page_number": 12,
+          "flyer_title": "Save On Foods (BC) Flyer February 12 to 18",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-february-12-to-18",
+          "source_scan": "competitive_full_flyer_2026_02_12",
+          "scan_scope": "all available pages, primary BC flyer"
+        },
+        {
+          "brand": "Lavazza",
+          "brand_text_seen": "Lavazza",
+          "product_name": "Premium ground coffee 340g",
+          "price": "$11.99",
+          "deal_details": "More Rewards card; selected varieties; Gran Aroma pictured.",
+          "promotion_type": "Loyalty Offer",
+          "umap_price_verifiable": true,
+          "offer_start": "2026-02-12",
+          "offer_end": "2026-02-18",
+          "page_number": 12,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-february-12-to-18/single/11",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/286786/save-on-foods-bc-flyer-february-12-to-18-12.jpg",
+          "source_page_number": 12,
+          "flyer_title": "Save On Foods (BC) Flyer February 12 to 18",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-february-12-to-18",
+          "source_scan": "competitive_full_flyer_2026_02_12",
+          "scan_scope": "all available pages, primary BC flyer"
+        },
+        {
+          "brand": "Tetley",
+          "brand_text_seen": "Tetley",
+          "product_name": "Tea 20 or 24 count",
+          "price": "2 for $7",
+          "deal_details": "More Rewards card; caption says Herbal Tea while pictured Earl Grey Vanilla is black tea; no subtype chosen.",
+          "promotion_type": "Loyalty Offer",
+          "umap_price_verifiable": true,
+          "offer_start": "2026-02-12",
+          "offer_end": "2026-02-18",
+          "page_number": 12,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-february-12-to-18/single/11",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/286786/save-on-foods-bc-flyer-february-12-to-18-12.jpg",
+          "source_page_number": 12,
+          "flyer_title": "Save On Foods (BC) Flyer February 12 to 18",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-february-12-to-18",
+          "source_scan": "competitive_full_flyer_2026_02_12",
+          "scan_scope": "all available pages, primary BC flyer"
+        },
+        {
+          "brand": "Only Goodness",
+          "brand_text_seen": "Only Goodness",
+          "product_name": "Organic canned soup 398mL",
+          "price": "2 for $8",
+          "deal_details": "More Rewards card; selected varieties; lentil with vegetables pictured.",
+          "promotion_type": "Loyalty Offer",
+          "umap_price_verifiable": true,
+          "offer_start": "2026-02-12",
+          "offer_end": "2026-02-18",
+          "page_number": 21,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-february-12-to-18/single/20",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/286786/save-on-foods-bc-flyer-february-12-to-18-21.jpg",
+          "source_page_number": 21,
+          "flyer_title": "Save On Foods (BC) Flyer February 12 to 18",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-february-12-to-18",
+          "source_scan": "competitive_full_flyer_2026_02_12",
+          "scan_scope": "all available pages, primary BC flyer"
+        },
+        {
+          "brand": "Campbell's",
+          "brand_text_seen": "Campbell's",
+          "product_name": "Chunky canned soup 515mL",
+          "price": "3 for $8",
+          "deal_details": "More Rewards card; selected varieties.",
+          "promotion_type": "Loyalty Offer",
+          "umap_price_verifiable": true,
+          "offer_start": "2026-02-12",
+          "offer_end": "2026-02-18",
+          "page_number": 29,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-february-12-to-18/single/28",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/286786/save-on-foods-bc-flyer-february-12-to-18-29.jpg",
+          "source_page_number": 29,
+          "flyer_title": "Save On Foods (BC) Flyer February 12 to 18",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-february-12-to-18",
+          "source_scan": "competitive_full_flyer_2026_02_12",
+          "scan_scope": "all available pages, primary BC flyer"
+        }
+      ]
     }
-  ]
+  ],
+  "updated_at": "2026-11-03T12:07:03"
 }

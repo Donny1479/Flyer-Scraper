@@ -1106,6 +1106,180 @@
           "scan_scope": "all pages, primary Quebec flyer"
         }
       ]
+    },
+    {
+      "name": "Giant Tiger",
+      "flyer_start": "2025-07-02",
+      "flyer_end": "2025-07-08",
+      "scan_status": "verified",
+      "scanned_at": "2026-11-03T12:07:01",
+      "flyers": [
+        {
+          "title": "Giant Tiger (ON) Flyer July 2 to 8",
+          "url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-july-2-to-81",
+          "pages_scanned": 12,
+          "products_found": 1,
+          "flyer_start": "2025-07-02",
+          "flyer_end": "2025-07-08",
+          "unavailable_source_images": []
+        }
+      ],
+      "products": [
+        {
+          "brand": "Giant Value",
+          "brand_text_seen": "Giant Value",
+          "product_name": "Coffee pods, 48 pack",
+          "price": "$17.97",
+          "deal_details": "Flyer valid 2025-07-02 to 2025-07-08. Assorted; medium roast pictured; our lowest price; printed 37 cents per pod.",
+          "promotion_type": "Special Price",
+          "umap_price_verifiable": true,
+          "offer_start": "2025-07-02",
+          "offer_end": "2025-07-08",
+          "page_number": 2,
+          "page_url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-july-2-to-81/single/1",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/271365/giant-tiger-on-flyer-july-2-to-81-2.jpg",
+          "source_page_number": 2,
+          "flyer_title": "Giant Tiger (ON) Flyer July 2 to 8",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-july-2-to-81",
+          "source_scan": "competitive_full_flyer_2025_07_03",
+          "scan_scope": "all available pages, primary ON flyer"
+        }
+      ]
+    },
+    {
+      "name": "Save-On-Foods BC",
+      "flyer_start": "2025-07-03",
+      "flyer_end": "2025-07-09",
+      "scan_status": "verified",
+      "scanned_at": "2026-11-03T12:07:01",
+      "flyers": [
+        {
+          "title": "Save On Foods (BC) Flyer July 3 to 9",
+          "url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-july-3-to-9",
+          "pages_scanned": 28,
+          "products_found": 6,
+          "flyer_start": "2025-07-03",
+          "flyer_end": "2025-07-09",
+          "unavailable_source_images": []
+        }
+      ],
+      "products": [
+        {
+          "brand": "Nescafe",
+          "brand_text_seen": "Nescafe",
+          "product_name": "Instant Coffee 170 g or 100 g",
+          "price": "$5.99",
+          "deal_details": "Selected varieties; Rich pictured",
+          "promotion_type": "Special Price",
+          "umap_price_verifiable": true,
+          "offer_start": "2025-07-03",
+          "offer_end": "2025-07-09",
+          "page_number": 12,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-july-3-to-9/single/11",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/271648/save-on-foods-bc-flyer-july-3-to-9-12.jpg",
+          "source_page_number": 12,
+          "flyer_title": "Save On Foods (BC) Flyer July 3 to 9",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-july-3-to-9",
+          "source_scan": "competitive_full_flyer_2025_07_03",
+          "scan_scope": "all available pages, primary BC flyer"
+        },
+        {
+          "brand": "Folgers",
+          "brand_text_seen": "Folgers",
+          "product_name": "Ground Coffee 816 g",
+          "price": "$19.99",
+          "deal_details": "Selected varieties; Black Silk and Classic Roast pictured",
+          "promotion_type": "Special Price",
+          "umap_price_verifiable": true,
+          "offer_start": "2025-07-03",
+          "offer_end": "2025-07-09",
+          "page_number": 13,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-july-3-to-9/single/12",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/271648/save-on-foods-bc-flyer-july-3-to-9-13.jpg",
+          "source_page_number": 13,
+          "flyer_title": "Save On Foods (BC) Flyer July 3 to 9",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-july-3-to-9",
+          "source_scan": "competitive_full_flyer_2025_07_03",
+          "scan_scope": "all available pages, primary BC flyer"
+        },
+        {
+          "brand": "Campbell's",
+          "brand_text_seen": "Campbell's",
+          "product_name": "Ready to Serve Canned Soup 515 mL",
+          "price": "3 for $10",
+          "deal_details": "Classic Chicken Noodle pictured",
+          "promotion_type": "Special Price",
+          "umap_price_verifiable": true,
+          "offer_start": "2025-07-03",
+          "offer_end": "2025-07-09",
+          "page_number": 15,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-july-3-to-9/single/14",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/271648/save-on-foods-bc-flyer-july-3-to-9-15.jpg",
+          "source_page_number": 15,
+          "flyer_title": "Save On Foods (BC) Flyer July 3 to 9",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-july-3-to-9",
+          "source_scan": "competitive_full_flyer_2025_07_03",
+          "scan_scope": "all available pages, primary BC flyer"
+        },
+        {
+          "brand": "Martinson",
+          "brand_text_seen": "Martinson",
+          "product_name": "Bulk Coffee Pods",
+          "price": "8 for $6",
+          "deal_details": "Selected varieties; brand verified on pictured pods",
+          "promotion_type": "Special Price",
+          "umap_price_verifiable": true,
+          "offer_start": "2025-07-03",
+          "offer_end": "2025-07-09",
+          "page_number": 19,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-july-3-to-9/single/18",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/271648/save-on-foods-bc-flyer-july-3-to-9-19.jpg",
+          "source_page_number": 19,
+          "flyer_title": "Save On Foods (BC) Flyer July 3 to 9",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-july-3-to-9",
+          "source_scan": "competitive_full_flyer_2025_07_03",
+          "scan_scope": "all available pages, primary BC flyer"
+        },
+        {
+          "brand": "Salt Spring",
+          "brand_text_seen": "Salt Spring",
+          "product_name": "Organic Whole Bean Coffee 400 g",
+          "price": "$16.99",
+          "deal_details": "French Roast pictured; whole-bean label on package",
+          "promotion_type": "Special Price",
+          "umap_price_verifiable": true,
+          "offer_start": "2025-07-03",
+          "offer_end": "2025-07-09",
+          "page_number": 20,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-july-3-to-9/single/19",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/271648/save-on-foods-bc-flyer-july-3-to-9-20.jpg",
+          "source_page_number": 20,
+          "flyer_title": "Save On Foods (BC) Flyer July 3 to 9",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-july-3-to-9",
+          "source_scan": "competitive_full_flyer_2025_07_03",
+          "scan_scope": "all available pages, primary BC flyer"
+        },
+        {
+          "brand": "Only Goodness",
+          "brand_text_seen": "Only Goodness",
+          "product_name": "Organic Coffee Pods 12 count",
+          "price": "$12.99",
+          "deal_details": "Selected varieties; Peruvian pictured",
+          "promotion_type": "Special Price",
+          "umap_price_verifiable": true,
+          "offer_start": "2025-07-03",
+          "offer_end": "2025-07-09",
+          "page_number": 20,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-july-3-to-9/single/19",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/271648/save-on-foods-bc-flyer-july-3-to-9-20.jpg",
+          "source_page_number": 20,
+          "flyer_title": "Save On Foods (BC) Flyer July 3 to 9",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-july-3-to-9",
+          "source_scan": "competitive_full_flyer_2025_07_03",
+          "scan_scope": "all available pages, primary BC flyer"
+        }
+      ]
     }
-  ]
+  ],
+  "updated_at": "2026-11-03T12:07:02"
 }

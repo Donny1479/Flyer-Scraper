@@ -687,6 +687,161 @@
           "scan_scope": "all pages, primary Quebec flyer"
         }
       ]
+    },
+    {
+      "name": "Giant Tiger",
+      "flyer_start": "2025-05-14",
+      "flyer_end": "2025-05-20",
+      "scan_status": "verified",
+      "scanned_at": "2026-11-03T12:07:01",
+      "flyers": [
+        {
+          "title": "Giant Tiger (ON) Flyer May 14 to 20",
+          "url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-may-14-to-201",
+          "pages_scanned": 17,
+          "products_found": 2,
+          "flyer_start": "2025-05-14",
+          "flyer_end": "2025-05-20",
+          "unavailable_source_images": []
+        }
+      ],
+      "products": [
+        {
+          "brand": "Tetley",
+          "brand_text_seen": "Tetley",
+          "product_name": "Tea, 72 pack",
+          "price": "$3.97",
+          "deal_details": "Flyer valid 2025-05-14 to 2025-05-20. Orange Pekoe pictured; shared Tetley or Stash caption states 18-72 pack and reg. $4.78-$5.97; product-specific regular price unresolved; save up to $2.",
+          "promotion_type": "Price Drop",
+          "umap_price_verifiable": true,
+          "offer_start": "2025-05-14",
+          "offer_end": "2025-05-20",
+          "page_number": 2,
+          "page_url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-may-14-to-201/single/1",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/267966/giant-tiger-on-flyer-may-14-to-201-2.jpg",
+          "source_page_number": 2,
+          "flyer_title": "Giant Tiger (ON) Flyer May 14 to 20",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-may-14-to-201",
+          "source_scan": "competitive_full_flyer_2025_05_15",
+          "scan_scope": "all available pages, primary ON flyer"
+        },
+        {
+          "brand": "Stash",
+          "brand_text_seen": "Stash",
+          "product_name": "Tea",
+          "price": "$3.97",
+          "deal_details": "Flyer valid 2025-05-14 to 2025-05-20. Lemon Ginger pictured; shared Tetley or Stash caption states 18-72 pack and reg. $4.78-$5.97; product-specific size and regular price unresolved; save up to $2.",
+          "promotion_type": "Price Drop",
+          "umap_price_verifiable": true,
+          "offer_start": "2025-05-14",
+          "offer_end": "2025-05-20",
+          "page_number": 2,
+          "page_url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-may-14-to-201/single/1",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/267966/giant-tiger-on-flyer-may-14-to-201-2.jpg",
+          "source_page_number": 2,
+          "flyer_title": "Giant Tiger (ON) Flyer May 14 to 20",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-may-14-to-201",
+          "source_scan": "competitive_full_flyer_2025_05_15",
+          "scan_scope": "all available pages, primary ON flyer"
+        }
+      ]
+    },
+    {
+      "name": "Save-On-Foods BC",
+      "flyer_start": "2025-05-15",
+      "flyer_end": "2025-05-21",
+      "scan_status": "verified",
+      "scanned_at": "2026-11-03T12:07:01",
+      "flyers": [
+        {
+          "title": "Save On Foods (BC) Flyer May 15 to 21",
+          "url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-may-15-to-21",
+          "pages_scanned": 29,
+          "products_found": 4,
+          "flyer_start": "2025-05-15",
+          "flyer_end": "2025-05-21",
+          "unavailable_source_images": []
+        }
+      ],
+      "products": [
+        {
+          "brand": "McCafe",
+          "brand_text_seen": "McCafe",
+          "product_name": "Premium Coffee, 875 g or 900 g",
+          "price": "$25.99",
+          "deal_details": "Premium Roast can pictured; caption retains size alternatives without extending a format to an unpictured pack; More Rewards card required.",
+          "promotion_type": "Loyalty Offer",
+          "umap_price_verifiable": true,
+          "offer_start": "2025-05-15",
+          "offer_end": "2025-05-21",
+          "page_number": 14,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-may-15-to-21/single/13",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/268117/save-on-foods-bc-flyer-may-15-to-21-14.jpg",
+          "source_page_number": 14,
+          "flyer_title": "Save On Foods (BC) Flyer May 15 to 21",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-may-15-to-21",
+          "source_scan": "competitive_full_flyer_2025_05_15",
+          "scan_scope": "all available pages, primary BC flyer"
+        },
+        {
+          "brand": "Overwaitea",
+          "brand_text_seen": "Overwaitea",
+          "product_name": "Orange Pekoe Tea, 162-count",
+          "price": "$5.99",
+          "deal_details": "Selected offer; More Rewards card required.",
+          "promotion_type": "Loyalty Offer",
+          "umap_price_verifiable": true,
+          "offer_start": "2025-05-15",
+          "offer_end": "2025-05-21",
+          "page_number": 17,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-may-15-to-21/single/16",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/268117/save-on-foods-bc-flyer-may-15-to-21-17.jpg",
+          "source_page_number": 17,
+          "flyer_title": "Save On Foods (BC) Flyer May 15 to 21",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-may-15-to-21",
+          "source_scan": "competitive_full_flyer_2025_05_15",
+          "scan_scope": "all available pages, primary BC flyer"
+        },
+        {
+          "brand": "Maxwell House",
+          "brand_text_seen": "Maxwell House",
+          "product_name": "Ground Coffee, 864 g",
+          "price": "$14.99",
+          "deal_details": "Original Roast pictured; selected varieties; More Rewards card required.",
+          "promotion_type": "Loyalty Offer",
+          "umap_price_verifiable": true,
+          "offer_start": "2025-05-15",
+          "offer_end": "2025-05-21",
+          "page_number": 18,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-may-15-to-21/single/17",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/268117/save-on-foods-bc-flyer-may-15-to-21-18.jpg",
+          "source_page_number": 18,
+          "flyer_title": "Save On Foods (BC) Flyer May 15 to 21",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-may-15-to-21",
+          "source_scan": "competitive_full_flyer_2025_05_15",
+          "scan_scope": "all available pages, primary BC flyer"
+        },
+        {
+          "brand": "Kirin",
+          "brand_text_seen": "Kirin",
+          "product_name": "Milk Tea, 1.5 L",
+          "price": "$3.99",
+          "deal_details": "Bottled milk tea pictured; More Rewards card required.",
+          "promotion_type": "Loyalty Offer",
+          "umap_price_verifiable": true,
+          "offer_start": "2025-05-15",
+          "offer_end": "2025-05-21",
+          "page_number": 28,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-may-15-to-21/single/27",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/268117/save-on-foods-bc-flyer-may-15-to-21-28.jpg",
+          "source_page_number": 28,
+          "flyer_title": "Save On Foods (BC) Flyer May 15 to 21",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-may-15-to-21",
+          "source_scan": "competitive_full_flyer_2025_05_15",
+          "scan_scope": "all available pages, primary BC flyer"
+        }
+      ]
     }
-  ]
+  ],
+  "updated_at": "2026-11-03T12:07:01"
 }

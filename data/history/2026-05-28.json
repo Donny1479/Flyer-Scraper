@@ -1763,6 +1763,85 @@
           "scan_scope": "all pages, primary Quebec flyer"
         }
       ]
+    },
+    {
+      "name": "Giant Tiger",
+      "flyer_start": "2026-05-27",
+      "flyer_end": "2026-06-02",
+      "scan_status": "verified",
+      "scanned_at": "2026-11-03T12:07:01",
+      "flyers": [
+        {
+          "title": "Giant Tiger (ON) Flyer May 27 to June 2",
+          "url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-may-27-to-june-23",
+          "pages_scanned": 11,
+          "products_found": 1,
+          "flyer_start": "2026-05-27",
+          "flyer_end": "2026-06-02",
+          "unavailable_source_images": []
+        }
+      ],
+      "products": [
+        {
+          "brand": "Campbell's",
+          "brand_text_seen": "Campbell's",
+          "product_name": "Condensed canned soup, 284 mL",
+          "price": "$0.88",
+          "deal_details": "Each; assorted; tomato pictured; printed dates May 27-June 2, 2026.",
+          "promotion_type": "Special Price",
+          "umap_price_verifiable": true,
+          "offer_start": "2026-05-27",
+          "offer_end": "2026-06-02",
+          "page_number": 1,
+          "page_url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-may-27-to-june-23/single",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/293787/giant-tiger-on-flyer-may-27-to-june-23-1.jpg",
+          "source_page_number": 1,
+          "flyer_title": "Giant Tiger (ON) Flyer May 27 to June 2",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-may-27-to-june-23",
+          "source_scan": "competitive_full_flyer_2026_05_28",
+          "scan_scope": "all available pages, primary ON flyer"
+        }
+      ]
+    },
+    {
+      "name": "Save-On-Foods BC",
+      "flyer_start": "2026-05-28",
+      "flyer_end": "2026-06-03",
+      "scan_status": "verified",
+      "scanned_at": "2026-11-03T12:07:01",
+      "flyers": [
+        {
+          "title": "Save On Foods (BC) Flyer May 28 to June 3",
+          "url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-may-28-to-june-31",
+          "pages_scanned": 29,
+          "products_found": 1,
+          "flyer_start": "2026-05-28",
+          "flyer_end": "2026-06-03",
+          "unavailable_source_images": []
+        }
+      ],
+      "products": [
+        {
+          "brand": "Campbell's",
+          "brand_text_seen": "Campbell's",
+          "product_name": "Condensed canned soup, 284 mL",
+          "price": "4 for $6",
+          "deal_details": "More Rewards card required; selected varieties.",
+          "promotion_type": "Loyalty Offer",
+          "umap_price_verifiable": true,
+          "offer_start": "2026-05-28",
+          "offer_end": "2026-06-03",
+          "page_number": 15,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-may-28-to-june-31/single/14",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/293945/save-on-foods-bc-flyer-may-28-to-june-31-15.jpg",
+          "source_page_number": 15,
+          "flyer_title": "Save On Foods (BC) Flyer May 28 to June 3",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-may-28-to-june-31",
+          "source_scan": "competitive_full_flyer_2026_05_28",
+          "scan_scope": "all available pages, primary BC flyer"
+        }
+      ]
     }
-  ]
+  ],
+  "updated_at": "2026-11-03T12:07:04"
 }

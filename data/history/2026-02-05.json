@@ -2000,6 +2000,161 @@
           "scan_scope": "all pages, primary Quebec flyer"
         }
       ]
+    },
+    {
+      "name": "Giant Tiger",
+      "flyer_start": "2026-02-04",
+      "flyer_end": "2026-02-10",
+      "scan_status": "verified",
+      "scanned_at": "2026-11-03T12:07:01",
+      "flyers": [
+        {
+          "title": "Giant Tiger (ON) Flyer February 4 to 10",
+          "url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-february-4-to-102",
+          "pages_scanned": 18,
+          "products_found": 2,
+          "flyer_start": "2026-02-04",
+          "flyer_end": "2026-02-10",
+          "unavailable_source_images": []
+        }
+      ],
+      "products": [
+        {
+          "brand": "Nescafe",
+          "brand_text_seen": "Nescafe",
+          "product_name": "Rich instant coffee, 170 g",
+          "price": "$6.44",
+          "deal_details": "Each; limit 6; regular $7.97; save $1.53; printed dates February 4-10, 2026.",
+          "promotion_type": "Price Drop",
+          "umap_price_verifiable": true,
+          "offer_start": "2026-02-04",
+          "offer_end": "2026-02-10",
+          "page_number": 1,
+          "page_url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-february-4-to-102/single",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/286164/giant-tiger-on-flyer-february-4-to-102-1.jpg",
+          "source_page_number": 1,
+          "flyer_title": "Giant Tiger (ON) Flyer February 4 to 10",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-february-4-to-102",
+          "source_scan": "competitive_full_flyer_2026_02_05",
+          "scan_scope": "all available pages, primary ON flyer"
+        },
+        {
+          "brand": "Maxwell House",
+          "brand_text_seen": "Maxwell House",
+          "product_name": "Coffee pods, 12 pack",
+          "price": "$10.47",
+          "deal_details": "Each; assorted; Original Roast pictured, pictured box 114 g; regular $11.47; save $1; monthly Claw Back insert valid until March 1, 2026, while quantities last; flyer printed dates February 4-10, 2026.",
+          "promotion_type": "Price Drop",
+          "umap_price_verifiable": true,
+          "offer_start": "2026-02-04",
+          "offer_end": "2026-02-10",
+          "page_number": 7,
+          "page_url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-february-4-to-102/single/6",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/286164/giant-tiger-on-flyer-february-4-to-102-7.jpg",
+          "source_page_number": 7,
+          "flyer_title": "Giant Tiger (ON) Flyer February 4 to 10",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-february-4-to-102",
+          "source_scan": "competitive_full_flyer_2026_02_05",
+          "scan_scope": "all available pages, primary ON flyer"
+        }
+      ]
+    },
+    {
+      "name": "Save-On-Foods BC",
+      "flyer_start": "2026-02-05",
+      "flyer_end": "2026-02-11",
+      "scan_status": "verified",
+      "scanned_at": "2026-11-03T12:07:01",
+      "flyers": [
+        {
+          "title": "Save On Foods (BC) Flyer February 5 to 11",
+          "url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-february-5-to-11",
+          "pages_scanned": 34,
+          "products_found": 4,
+          "flyer_start": "2026-02-05",
+          "flyer_end": "2026-02-11",
+          "unavailable_source_images": []
+        }
+      ],
+      "products": [
+        {
+          "brand": "Starbucks",
+          "brand_text_seen": "Starbucks",
+          "product_name": "Premium coffee pods 10 count",
+          "price": "$11.99",
+          "deal_details": "More Rewards card; explicit caption alternative.",
+          "promotion_type": "Loyalty Offer",
+          "umap_price_verifiable": true,
+          "offer_start": "2026-02-05",
+          "offer_end": "2026-02-11",
+          "page_number": 17,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-february-5-to-11/single/16",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/286312/save-on-foods-bc-flyer-february-5-to-11-17.jpg",
+          "source_page_number": 17,
+          "flyer_title": "Save On Foods (BC) Flyer February 5 to 11",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-february-5-to-11",
+          "source_scan": "competitive_full_flyer_2026_02_05",
+          "scan_scope": "all available pages, primary BC flyer"
+        },
+        {
+          "brand": "Starbucks",
+          "brand_text_seen": "Starbucks",
+          "product_name": "Premium ground coffee 340g",
+          "price": "$11.99",
+          "deal_details": "More Rewards card; selected varieties.",
+          "promotion_type": "Loyalty Offer",
+          "umap_price_verifiable": true,
+          "offer_start": "2026-02-05",
+          "offer_end": "2026-02-11",
+          "page_number": 17,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-february-5-to-11/single/16",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/286312/save-on-foods-bc-flyer-february-5-to-11-17.jpg",
+          "source_page_number": 17,
+          "flyer_title": "Save On Foods (BC) Flyer February 5 to 11",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-february-5-to-11",
+          "source_scan": "competitive_full_flyer_2026_02_05",
+          "scan_scope": "all available pages, primary BC flyer"
+        },
+        {
+          "brand": "Kicking Horse",
+          "brand_text_seen": "Kicking Horse",
+          "product_name": "Organic fair trade whole bean coffee 454g",
+          "price": "$16.99",
+          "deal_details": "More Rewards card; Three Sisters pictured.",
+          "promotion_type": "Loyalty Offer",
+          "umap_price_verifiable": true,
+          "offer_start": "2026-02-05",
+          "offer_end": "2026-02-11",
+          "page_number": 26,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-february-5-to-11/single/25",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/286312/save-on-foods-bc-flyer-february-5-to-11-26.jpg",
+          "source_page_number": 26,
+          "flyer_title": "Save On Foods (BC) Flyer February 5 to 11",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-february-5-to-11",
+          "source_scan": "competitive_full_flyer_2026_02_05",
+          "scan_scope": "all available pages, primary BC flyer"
+        },
+        {
+          "brand": "Western Family",
+          "brand_text_seen": "Western Family",
+          "product_name": "Green tea or English Breakfast tea 72 count",
+          "price": "Not stated",
+          "deal_details": "Earn 575 More Rewards points; cash price not stated.",
+          "promotion_type": "Loyalty Offer",
+          "umap_price_verifiable": false,
+          "offer_start": "2026-02-05",
+          "offer_end": "2026-02-11",
+          "page_number": 31,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-february-5-to-11/single/30",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/286312/save-on-foods-bc-flyer-february-5-to-11-31.jpg",
+          "source_page_number": 31,
+          "flyer_title": "Save On Foods (BC) Flyer February 5 to 11",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-february-5-to-11",
+          "source_scan": "competitive_full_flyer_2026_02_05",
+          "scan_scope": "all available pages, primary BC flyer"
+        }
+      ]
     }
-  ]
+  ],
+  "updated_at": "2026-11-03T12:07:03"
 }

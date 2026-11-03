@@ -1319,6 +1319,161 @@
           "scan_scope": "all pages, primary Quebec flyer"
         }
       ]
+    },
+    {
+      "name": "Giant Tiger",
+      "flyer_start": "2025-12-25",
+      "flyer_end": "2025-12-30",
+      "scan_status": "verified",
+      "scanned_at": "2026-11-03T12:07:01",
+      "flyers": [
+        {
+          "title": "Giant Tiger (ON) Flyer December 25 to 30",
+          "url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-december-25-to-30",
+          "pages_scanned": 10,
+          "products_found": 3,
+          "flyer_start": "2025-12-25",
+          "flyer_end": "2025-12-30",
+          "unavailable_source_images": []
+        }
+      ],
+      "products": [
+        {
+          "brand": "Giant Value",
+          "brand_text_seen": "Giant Value",
+          "product_name": "Coffee pods, 48 pack",
+          "price": "$18.97",
+          "deal_details": "Flyer valid 2025-12-25 to 2025-12-30. Assorted; 39 cents per pod; repeated on page 6.",
+          "promotion_type": "Special Price",
+          "umap_price_verifiable": true,
+          "offer_start": "2025-12-25",
+          "offer_end": "2025-12-30",
+          "page_number": 1,
+          "page_url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-december-25-to-30/single",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/283445/giant-tiger-on-flyer-december-25-to-30-1.jpg",
+          "source_page_number": 1,
+          "flyer_title": "Giant Tiger (ON) Flyer December 25 to 30",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-december-25-to-30",
+          "source_scan": "competitive_full_flyer_2025_12_25",
+          "scan_scope": "all available pages, primary ON flyer"
+        },
+        {
+          "brand": "Giant Value",
+          "brand_text_seen": "Giant Value",
+          "product_name": "Canned soup, 540 mL",
+          "price": "$2.77",
+          "deal_details": "Flyer valid 2025-12-25 to 2025-12-30. Assorted; beef barley and Italian-style wedding pictured.",
+          "promotion_type": "Special Price",
+          "umap_price_verifiable": true,
+          "offer_start": "2025-12-25",
+          "offer_end": "2025-12-30",
+          "page_number": 5,
+          "page_url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-december-25-to-30/single/4",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/283445/giant-tiger-on-flyer-december-25-to-30-5.jpg",
+          "source_page_number": 5,
+          "flyer_title": "Giant Tiger (ON) Flyer December 25 to 30",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-december-25-to-30",
+          "source_scan": "competitive_full_flyer_2025_12_25",
+          "scan_scope": "all available pages, primary ON flyer"
+        },
+        {
+          "brand": "Tim Hortons",
+          "brand_text_seen": "Tim Hortons",
+          "product_name": "Original Blend coffee pods, 30 pack",
+          "price": "$24.97",
+          "deal_details": "Flyer valid 2025-12-25 to 2025-12-30. Compare and Save panel explicitly states national brand also sold at Giant Tiger; Giant Value comparison savings are not a Tim Hortons discount.",
+          "promotion_type": "Price Drop",
+          "umap_price_verifiable": true,
+          "offer_start": "2025-12-25",
+          "offer_end": "2025-12-30",
+          "page_number": 6,
+          "page_url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-december-25-to-30/single/5",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/283445/giant-tiger-on-flyer-december-25-to-30-6.jpg",
+          "source_page_number": 6,
+          "flyer_title": "Giant Tiger (ON) Flyer December 25 to 30",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-december-25-to-30",
+          "source_scan": "competitive_full_flyer_2025_12_25",
+          "scan_scope": "all available pages, primary ON flyer"
+        }
+      ]
+    },
+    {
+      "name": "Save-On-Foods BC",
+      "flyer_start": "2025-12-27",
+      "flyer_end": "2025-12-31",
+      "scan_status": "verified",
+      "scanned_at": "2026-11-03T12:07:01",
+      "flyers": [
+        {
+          "title": "Save On Foods (BC) Flyer December 27 to 31",
+          "url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-december-27-to-31",
+          "pages_scanned": 15,
+          "products_found": 3,
+          "flyer_start": "2025-12-27",
+          "flyer_end": "2025-12-31",
+          "unavailable_source_images": []
+        }
+      ],
+      "products": [
+        {
+          "brand": "Lavazza",
+          "brand_text_seen": "Lavazza",
+          "product_name": "Qualita Rossa Whole Bean Coffee 1 kg",
+          "price": "$26.99",
+          "deal_details": "Each; selected varieties; More Rewards card required; printed December 27-31, 2025",
+          "promotion_type": "Loyalty Offer",
+          "umap_price_verifiable": true,
+          "offer_start": "2025-12-27",
+          "offer_end": "2025-12-31",
+          "page_number": 11,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-december-27-to-31/single/10",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/283757/save-on-foods-bc-flyer-december-27-to-31-11.jpg",
+          "source_page_number": 11,
+          "flyer_title": "Save On Foods (BC) Flyer December 27 to 31",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-december-27-to-31",
+          "source_scan": "competitive_full_flyer_2025_12_25",
+          "scan_scope": "all available pages, primary BC flyer"
+        },
+        {
+          "brand": "Kicking Horse",
+          "brand_text_seen": "Kicking Horse",
+          "product_name": "Coffee Pods 24 count",
+          "price": "$26.99",
+          "deal_details": "Each; explicitly named caption alternative; selected varieties; More Rewards card required; printed December 27-31, 2025",
+          "promotion_type": "Loyalty Offer",
+          "umap_price_verifiable": true,
+          "offer_start": "2025-12-27",
+          "offer_end": "2025-12-31",
+          "page_number": 11,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-december-27-to-31/single/10",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/283757/save-on-foods-bc-flyer-december-27-to-31-11.jpg",
+          "source_page_number": 11,
+          "flyer_title": "Save On Foods (BC) Flyer December 27 to 31",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-december-27-to-31",
+          "source_scan": "competitive_full_flyer_2025_12_25",
+          "scan_scope": "all available pages, primary BC flyer"
+        },
+        {
+          "brand": "Martinson",
+          "brand_text_seen": "Martinson",
+          "product_name": "Coffee Pods",
+          "price": "8 for $6",
+          "deal_details": "Bulk individual pods; brand visible on lids; selected varieties; More Rewards card required; printed December 27-31, 2025",
+          "promotion_type": "Loyalty Offer",
+          "umap_price_verifiable": true,
+          "offer_start": "2025-12-27",
+          "offer_end": "2025-12-31",
+          "page_number": 13,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-december-27-to-31/single/12",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/283757/save-on-foods-bc-flyer-december-27-to-31-13.jpg",
+          "source_page_number": 13,
+          "flyer_title": "Save On Foods (BC) Flyer December 27 to 31",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-december-27-to-31",
+          "source_scan": "competitive_full_flyer_2025_12_25",
+          "scan_scope": "all available pages, primary BC flyer"
+        }
+      ]
     }
-  ]
+  ],
+  "updated_at": "2026-11-03T12:07:03"
 }

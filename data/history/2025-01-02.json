@@ -983,6 +983,161 @@
           "scan_scope": "all pages, primary Quebec flyer"
         }
       ]
+    },
+    {
+      "name": "Giant Tiger",
+      "flyer_start": "2025-01-01",
+      "flyer_end": "2025-01-07",
+      "scan_status": "verified",
+      "scanned_at": "2026-11-03T12:07:01",
+      "flyers": [
+        {
+          "title": "Giant Tiger (ON) Flyer January 1 to 7",
+          "url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-january-1-to-71",
+          "pages_scanned": 12,
+          "products_found": 1,
+          "flyer_start": "2025-01-01",
+          "flyer_end": "2025-01-07",
+          "unavailable_source_images": []
+        }
+      ],
+      "products": [
+        {
+          "brand": "Giant Value",
+          "brand_text_seen": "Giant Value",
+          "product_name": "Instant coffee, 150 g",
+          "price": "$3.97",
+          "deal_details": "Flyer valid 2025-01-01 to 2025-01-07. No regular price stated.",
+          "promotion_type": "Special Price",
+          "umap_price_verifiable": true,
+          "offer_start": "2025-01-01",
+          "offer_end": "2025-01-07",
+          "page_number": 3,
+          "page_url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-january-1-to-71/single/2",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/258806/giant-tiger-on-flyer-january-1-to-71-3.jpg",
+          "source_page_number": 3,
+          "flyer_title": "Giant Tiger (ON) Flyer January 1 to 7",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-january-1-to-71",
+          "source_scan": "competitive_full_flyer_2025_01_02",
+          "scan_scope": "all available pages, primary ON flyer"
+        }
+      ]
+    },
+    {
+      "name": "Save-On-Foods BC",
+      "flyer_start": "2025-01-02",
+      "flyer_end": "2025-01-08",
+      "scan_status": "verified",
+      "scanned_at": "2026-11-03T12:07:01",
+      "flyers": [
+        {
+          "title": "Save On Foods (BC) Flyer January 2 to 8",
+          "url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-january-2-to-81",
+          "pages_scanned": 26,
+          "products_found": 5,
+          "flyer_start": "2025-01-02",
+          "flyer_end": "2025-01-08",
+          "unavailable_source_images": []
+        }
+      ],
+      "products": [
+        {
+          "brand": "Western Family",
+          "brand_text_seen": "Western Family",
+          "product_name": "Signature Ground Coffee, 793 g",
+          "price": "$17.99",
+          "deal_details": "Selected varieties; More Rewards card required by flyer footer.",
+          "promotion_type": "Loyalty Offer",
+          "umap_price_verifiable": true,
+          "offer_start": "2025-01-02",
+          "offer_end": "2025-01-08",
+          "page_number": 9,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-january-2-to-81/single/8",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/258948/save-on-foods-bc-flyer-january-2-to-81-9.jpg",
+          "source_page_number": 9,
+          "flyer_title": "Save On Foods (BC) Flyer January 2 to 8",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-january-2-to-81",
+          "source_scan": "competitive_full_flyer_2025_01_02",
+          "scan_scope": "all available pages, primary BC flyer"
+        },
+        {
+          "brand": "Starbucks",
+          "brand_text_seen": "Starbucks",
+          "product_name": "Premium Ground Coffee, 793 g",
+          "price": "$19.99",
+          "deal_details": "Selected varieties; More Rewards card required by flyer footer.",
+          "promotion_type": "Loyalty Offer",
+          "umap_price_verifiable": true,
+          "offer_start": "2025-01-02",
+          "offer_end": "2025-01-08",
+          "page_number": 9,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-january-2-to-81/single/8",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/258948/save-on-foods-bc-flyer-january-2-to-81-9.jpg",
+          "source_page_number": 9,
+          "flyer_title": "Save On Foods (BC) Flyer January 2 to 8",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-january-2-to-81",
+          "source_scan": "competitive_full_flyer_2025_01_02",
+          "scan_scope": "all available pages, primary BC flyer"
+        },
+        {
+          "brand": "Starbucks",
+          "brand_text_seen": "Starbucks",
+          "product_name": "Coffee Beverage",
+          "price": "$6.99",
+          "deal_details": "Caption says Cold Brew Coffee, 1.18 L; pictured bottle says Iced Coffee, 1.42 L; unresolved format and size not assigned; selected varieties; More Rewards card required.",
+          "promotion_type": "Loyalty Offer",
+          "umap_price_verifiable": true,
+          "offer_start": "2025-01-02",
+          "offer_end": "2025-01-08",
+          "page_number": 13,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-january-2-to-81/single/12",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/258948/save-on-foods-bc-flyer-january-2-to-81-13.jpg",
+          "source_page_number": 13,
+          "flyer_title": "Save On Foods (BC) Flyer January 2 to 8",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-january-2-to-81",
+          "source_scan": "competitive_full_flyer_2025_01_02",
+          "scan_scope": "all available pages, primary BC flyer"
+        },
+        {
+          "brand": "49th Parallel",
+          "brand_text_seen": "49th Parallel",
+          "product_name": "Organic Whole Bean Coffee, 340 g",
+          "price": "$15.99",
+          "deal_details": "Selected varieties; whole bean text visible on bag; More Rewards card required.",
+          "promotion_type": "Loyalty Offer",
+          "umap_price_verifiable": true,
+          "offer_start": "2025-01-02",
+          "offer_end": "2025-01-08",
+          "page_number": 18,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-january-2-to-81/single/17",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/258948/save-on-foods-bc-flyer-january-2-to-81-18.jpg",
+          "source_page_number": 18,
+          "flyer_title": "Save On Foods (BC) Flyer January 2 to 8",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-january-2-to-81",
+          "source_scan": "competitive_full_flyer_2025_01_02",
+          "scan_scope": "all available pages, primary BC flyer"
+        },
+        {
+          "brand": "Only Goodness",
+          "brand_text_seen": "Only Goodness",
+          "product_name": "Organic Whole Bean Coffee, 400 g",
+          "price": "$13.99",
+          "deal_details": "Selected varieties; More Rewards card required.",
+          "promotion_type": "Loyalty Offer",
+          "umap_price_verifiable": true,
+          "offer_start": "2025-01-02",
+          "offer_end": "2025-01-08",
+          "page_number": 18,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-january-2-to-81/single/17",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/258948/save-on-foods-bc-flyer-january-2-to-81-18.jpg",
+          "source_page_number": 18,
+          "flyer_title": "Save On Foods (BC) Flyer January 2 to 8",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-january-2-to-81",
+          "source_scan": "competitive_full_flyer_2025_01_02",
+          "scan_scope": "all available pages, primary BC flyer"
+        }
+      ]
     }
-  ]
+  ],
+  "updated_at": "2026-11-03T12:07:01"
 }

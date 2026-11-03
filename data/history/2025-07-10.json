@@ -944,6 +944,180 @@
           "scan_scope": "all pages, primary Quebec flyer"
         }
       ]
+    },
+    {
+      "name": "Giant Tiger",
+      "flyer_start": "2025-07-09",
+      "flyer_end": "2025-07-15",
+      "scan_status": "verified",
+      "scanned_at": "2026-11-03T12:07:01",
+      "flyers": [
+        {
+          "title": "Giant Tiger (ON) Flyer July 9 to 15",
+          "url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-july-9-to-151",
+          "pages_scanned": 12,
+          "products_found": 2,
+          "flyer_start": "2025-07-09",
+          "flyer_end": "2025-07-15",
+          "unavailable_source_images": []
+        }
+      ],
+      "products": [
+        {
+          "brand": "Nescafe",
+          "brand_text_seen": "Nescafe",
+          "product_name": "Gold Espresso instant coffee, 100 g",
+          "price": "$6.97",
+          "deal_details": "Flyer valid 2025-07-09 to 2025-07-15. Assorted; shared Nescafe Gold coffee or Red Rose tea caption reg. $8.47-$9.97; product-specific regular price unresolved; save up to $3.",
+          "promotion_type": "Price Drop",
+          "umap_price_verifiable": true,
+          "offer_start": "2025-07-09",
+          "offer_end": "2025-07-15",
+          "page_number": 2,
+          "page_url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-july-9-to-151/single/1",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/271885/giant-tiger-on-flyer-july-9-to-151-2.jpg",
+          "source_page_number": 2,
+          "flyer_title": "Giant Tiger (ON) Flyer July 9 to 15",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-july-9-to-151",
+          "source_scan": "competitive_full_flyer_2025_07_10",
+          "scan_scope": "all available pages, primary ON flyer"
+        },
+        {
+          "brand": "Red Rose",
+          "brand_text_seen": "Red Rose",
+          "product_name": "Tea, 144 pack",
+          "price": "$6.97",
+          "deal_details": "Flyer valid 2025-07-09 to 2025-07-15. Orange Pekoe pictured; shared Nescafe Gold coffee or Red Rose tea caption reg. $8.47-$9.97; product-specific regular price unresolved; save up to $3.",
+          "promotion_type": "Price Drop",
+          "umap_price_verifiable": true,
+          "offer_start": "2025-07-09",
+          "offer_end": "2025-07-15",
+          "page_number": 2,
+          "page_url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-july-9-to-151/single/1",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/271885/giant-tiger-on-flyer-july-9-to-151-2.jpg",
+          "source_page_number": 2,
+          "flyer_title": "Giant Tiger (ON) Flyer July 9 to 15",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-july-9-to-151",
+          "source_scan": "competitive_full_flyer_2025_07_10",
+          "scan_scope": "all available pages, primary ON flyer"
+        }
+      ]
+    },
+    {
+      "name": "Save-On-Foods BC",
+      "flyer_start": "2025-07-10",
+      "flyer_end": "2025-07-16",
+      "scan_status": "verified",
+      "scanned_at": "2026-11-03T12:07:01",
+      "flyers": [
+        {
+          "title": "Save On Foods (BC) Flyer July 10 to 16",
+          "url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-july-10-to-16",
+          "pages_scanned": 29,
+          "products_found": 5,
+          "flyer_start": "2025-07-10",
+          "flyer_end": "2025-07-16",
+          "unavailable_source_images": []
+        }
+      ],
+      "products": [
+        {
+          "brand": "Melitta",
+          "brand_text_seen": "Melitta",
+          "product_name": "Premium Roast Whole Bean Coffee 907 g",
+          "price": "$24.99",
+          "deal_details": "Explicitly captioned whole-bean alternative",
+          "promotion_type": "Special Price",
+          "umap_price_verifiable": true,
+          "offer_start": "2025-07-10",
+          "offer_end": "2025-07-16",
+          "page_number": 13,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-july-10-to-16/single/12",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/272031/save-on-foods-bc-flyer-july-10-to-16-13.jpg",
+          "source_page_number": 13,
+          "flyer_title": "Save On Foods (BC) Flyer July 10 to 16",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-july-10-to-16",
+          "source_scan": "competitive_full_flyer_2025_07_10",
+          "scan_scope": "all available pages, primary BC flyer"
+        },
+        {
+          "brand": "Melitta",
+          "brand_text_seen": "Melitta",
+          "product_name": "Premium Roast Ground Coffee 930 g",
+          "price": "$24.99",
+          "deal_details": "Selected varieties",
+          "promotion_type": "Special Price",
+          "umap_price_verifiable": true,
+          "offer_start": "2025-07-10",
+          "offer_end": "2025-07-16",
+          "page_number": 13,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-july-10-to-16/single/12",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/272031/save-on-foods-bc-flyer-july-10-to-16-13.jpg",
+          "source_page_number": 13,
+          "flyer_title": "Save On Foods (BC) Flyer July 10 to 16",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-july-10-to-16",
+          "source_scan": "competitive_full_flyer_2025_07_10",
+          "scan_scope": "all available pages, primary BC flyer"
+        },
+        {
+          "brand": "Starbucks",
+          "brand_text_seen": "Starbucks",
+          "product_name": "Premium Ground Coffee 340 g",
+          "price": "$11.99",
+          "deal_details": "Pike Place Roast pictured; selected varieties",
+          "promotion_type": "Special Price",
+          "umap_price_verifiable": true,
+          "offer_start": "2025-07-10",
+          "offer_end": "2025-07-16",
+          "page_number": 13,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-july-10-to-16/single/12",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/272031/save-on-foods-bc-flyer-july-10-to-16-13.jpg",
+          "source_page_number": 13,
+          "flyer_title": "Save On Foods (BC) Flyer July 10 to 16",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-july-10-to-16",
+          "source_scan": "competitive_full_flyer_2025_07_10",
+          "scan_scope": "all available pages, primary BC flyer"
+        },
+        {
+          "brand": "Starbucks",
+          "brand_text_seen": "Starbucks",
+          "product_name": "Premium Coffee Pods 10 count",
+          "price": "$11.99",
+          "deal_details": "Explicitly captioned pod alternative",
+          "promotion_type": "Special Price",
+          "umap_price_verifiable": true,
+          "offer_start": "2025-07-10",
+          "offer_end": "2025-07-16",
+          "page_number": 13,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-july-10-to-16/single/12",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/272031/save-on-foods-bc-flyer-july-10-to-16-13.jpg",
+          "source_page_number": 13,
+          "flyer_title": "Save On Foods (BC) Flyer July 10 to 16",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-july-10-to-16",
+          "source_scan": "competitive_full_flyer_2025_07_10",
+          "scan_scope": "all available pages, primary BC flyer"
+        },
+        {
+          "brand": "Kicking Horse",
+          "brand_text_seen": "Kicking Horse",
+          "product_name": "Organic Fair Trade Whole Bean Coffee 454 g",
+          "price": "$15.99",
+          "deal_details": "Three Sisters pictured",
+          "promotion_type": "Special Price",
+          "umap_price_verifiable": true,
+          "offer_start": "2025-07-10",
+          "offer_end": "2025-07-16",
+          "page_number": 24,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-july-10-to-16/single/23",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/272031/save-on-foods-bc-flyer-july-10-to-16-24.jpg",
+          "source_page_number": 24,
+          "flyer_title": "Save On Foods (BC) Flyer July 10 to 16",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-july-10-to-16",
+          "source_scan": "competitive_full_flyer_2025_07_10",
+          "scan_scope": "all available pages, primary BC flyer"
+        }
+      ]
     }
-  ]
+  ],
+  "updated_at": "2026-11-03T12:07:02"
 }

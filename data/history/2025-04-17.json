@@ -1014,6 +1014,142 @@
           "scan_scope": "all pages, primary Quebec flyer"
         }
       ]
+    },
+    {
+      "name": "Giant Tiger",
+      "flyer_start": "2025-04-16",
+      "flyer_end": "2025-04-22",
+      "scan_status": "verified",
+      "scanned_at": "2026-11-03T12:07:01",
+      "flyers": [
+        {
+          "title": "Giant Tiger (ON) Flyer April 16 to 22",
+          "url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-april-16-to-221",
+          "pages_scanned": 14,
+          "products_found": 3,
+          "flyer_start": "2025-04-16",
+          "flyer_end": "2025-04-22",
+          "unavailable_source_images": []
+        }
+      ],
+      "products": [
+        {
+          "brand": "Nescafe",
+          "brand_text_seen": "Nescafe",
+          "product_name": "Rich instant coffee, 95 g",
+          "price": "$3.97",
+          "deal_details": "Flyer valid 2025-04-16 to 2025-04-22. Shared E.D. Smith spread or Nescafe caption reg. $4.97-$4.99; product-specific regular price unresolved; save up to $1.02.",
+          "promotion_type": "Price Drop",
+          "umap_price_verifiable": true,
+          "offer_start": "2025-04-16",
+          "offer_end": "2025-04-22",
+          "page_number": 2,
+          "page_url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-april-16-to-221/single/1",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/266018/giant-tiger-on-flyer-april-16-to-221-2.jpg",
+          "source_page_number": 2,
+          "flyer_title": "Giant Tiger (ON) Flyer April 16 to 22",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-april-16-to-221",
+          "source_scan": "competitive_full_flyer_2025_04_17",
+          "scan_scope": "all available pages, primary ON flyer"
+        },
+        {
+          "brand": "Tim Hortons",
+          "brand_text_seen": "Tim Hortons",
+          "product_name": "French vanilla cappuccino powder, 454 g",
+          "price": "$6.97",
+          "deal_details": "Flyer valid 2025-04-16 to 2025-04-22. Shared Tim Hortons French vanilla or Red Rose tea caption reg. $8.97-$9.97; product-specific regular price unresolved; save up to $3.",
+          "promotion_type": "Price Drop",
+          "umap_price_verifiable": true,
+          "offer_start": "2025-04-16",
+          "offer_end": "2025-04-22",
+          "page_number": 2,
+          "page_url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-april-16-to-221/single/1",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/266018/giant-tiger-on-flyer-april-16-to-221-2.jpg",
+          "source_page_number": 2,
+          "flyer_title": "Giant Tiger (ON) Flyer April 16 to 22",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-april-16-to-221",
+          "source_scan": "competitive_full_flyer_2025_04_17",
+          "scan_scope": "all available pages, primary ON flyer"
+        },
+        {
+          "brand": "Red Rose",
+          "brand_text_seen": "Red Rose",
+          "product_name": "Tea, 144 pack",
+          "price": "$6.97",
+          "deal_details": "Flyer valid 2025-04-16 to 2025-04-22. Orange Pekoe pictured; shared Tim Hortons French vanilla or Red Rose tea caption reg. $8.97-$9.97; product-specific regular price unresolved; save up to $3.",
+          "promotion_type": "Price Drop",
+          "umap_price_verifiable": true,
+          "offer_start": "2025-04-16",
+          "offer_end": "2025-04-22",
+          "page_number": 2,
+          "page_url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-april-16-to-221/single/1",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/266018/giant-tiger-on-flyer-april-16-to-221-2.jpg",
+          "source_page_number": 2,
+          "flyer_title": "Giant Tiger (ON) Flyer April 16 to 22",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-april-16-to-221",
+          "source_scan": "competitive_full_flyer_2025_04_17",
+          "scan_scope": "all available pages, primary ON flyer"
+        }
+      ]
+    },
+    {
+      "name": "Save-On-Foods BC",
+      "flyer_start": "2025-04-17",
+      "flyer_end": "2025-04-23",
+      "scan_status": "verified",
+      "scanned_at": "2026-11-03T12:07:01",
+      "flyers": [
+        {
+          "title": "Save On Foods (BC) Flyer April 17 to 23",
+          "url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-april-17-to-23",
+          "pages_scanned": 28,
+          "products_found": 2,
+          "flyer_start": "2025-04-17",
+          "flyer_end": "2025-04-23",
+          "unavailable_source_images": []
+        }
+      ],
+      "products": [
+        {
+          "brand": "Western Family",
+          "brand_text_seen": "Western Family",
+          "product_name": "Premium Coffee Pods, 30-count",
+          "price": "$17.99",
+          "deal_details": "Colombian pictured; More Rewards card required.",
+          "promotion_type": "Loyalty Offer",
+          "umap_price_verifiable": true,
+          "offer_start": "2025-04-17",
+          "offer_end": "2025-04-23",
+          "page_number": 13,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-april-17-to-23/single/12",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/266157/save-on-foods-bc-flyer-april-17-to-23-13.jpg",
+          "source_page_number": 13,
+          "flyer_title": "Save On Foods (BC) Flyer April 17 to 23",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-april-17-to-23",
+          "source_scan": "competitive_full_flyer_2025_04_17",
+          "scan_scope": "all available pages, primary BC flyer"
+        },
+        {
+          "brand": "Nabob",
+          "brand_text_seen": "Nabob",
+          "product_name": "Ground Coffee, 915 g or 930 g",
+          "price": "$15.99",
+          "deal_details": "1896 Tradition pictured; selected varieties; More Rewards card required.",
+          "promotion_type": "Loyalty Offer",
+          "umap_price_verifiable": true,
+          "offer_start": "2025-04-17",
+          "offer_end": "2025-04-23",
+          "page_number": 13,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-april-17-to-23/single/12",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/266157/save-on-foods-bc-flyer-april-17-to-23-13.jpg",
+          "source_page_number": 13,
+          "flyer_title": "Save On Foods (BC) Flyer April 17 to 23",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-april-17-to-23",
+          "source_scan": "competitive_full_flyer_2025_04_17",
+          "scan_scope": "all available pages, primary BC flyer"
+        }
+      ]
     }
-  ]
+  ],
+  "updated_at": "2026-11-03T12:07:01"
 }

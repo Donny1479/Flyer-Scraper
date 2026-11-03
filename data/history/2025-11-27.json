@@ -1705,6 +1705,199 @@
           "scan_scope": "all pages, primary Quebec flyer"
         }
       ]
+    },
+    {
+      "name": "Giant Tiger",
+      "flyer_start": "2025-11-26",
+      "flyer_end": "2025-12-02",
+      "scan_status": "verified",
+      "scanned_at": "2026-11-03T12:07:01",
+      "flyers": [
+        {
+          "title": "Giant Tiger (ON) Flyer November 26 to December 2",
+          "url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-november-26-to-december-2",
+          "pages_scanned": 20,
+          "products_found": 2,
+          "flyer_start": "2025-11-26",
+          "flyer_end": "2025-12-02",
+          "unavailable_source_images": []
+        }
+      ],
+      "products": [
+        {
+          "brand": "Giant Value",
+          "brand_text_seen": "Giant Value",
+          "product_name": "Instant coffee, 150 g",
+          "price": "$3.97",
+          "deal_details": "Flyer valid 2025-11-26 to 2025-12-02. Stated shelf offer.",
+          "promotion_type": "Special Price",
+          "umap_price_verifiable": true,
+          "offer_start": "2025-11-26",
+          "offer_end": "2025-12-02",
+          "page_number": 2,
+          "page_url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-november-26-to-december-2/single/1",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/281492/giant-tiger-on-flyer-november-26-to-december-2-2.jpg",
+          "source_page_number": 2,
+          "flyer_title": "Giant Tiger (ON) Flyer November 26 to December 2",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-november-26-to-december-2",
+          "source_scan": "competitive_full_flyer_2025_11_27",
+          "scan_scope": "all available pages, primary ON flyer"
+        },
+        {
+          "brand": "Tim Hortons",
+          "brand_text_seen": "Tim Hortons",
+          "product_name": "Canned soup, 400-540 mL",
+          "price": "$2.67",
+          "deal_details": "Flyer valid 2025-11-26 to 2025-12-02. Assorted; chicken noodle and cream of broccoli pictured; reg. $2.97; save 30 cents.",
+          "promotion_type": "Price Drop",
+          "umap_price_verifiable": true,
+          "offer_start": "2025-11-26",
+          "offer_end": "2025-12-02",
+          "page_number": 2,
+          "page_url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-november-26-to-december-2/single/1",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/281492/giant-tiger-on-flyer-november-26-to-december-2-2.jpg",
+          "source_page_number": 2,
+          "flyer_title": "Giant Tiger (ON) Flyer November 26 to December 2",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-november-26-to-december-2",
+          "source_scan": "competitive_full_flyer_2025_11_27",
+          "scan_scope": "all available pages, primary ON flyer"
+        }
+      ]
+    },
+    {
+      "name": "Save-On-Foods BC",
+      "flyer_start": "2025-11-27",
+      "flyer_end": "2025-12-03",
+      "scan_status": "verified",
+      "scanned_at": "2026-11-03T12:07:01",
+      "flyers": [
+        {
+          "title": "Save On Foods (BC) Flyer November 27 to December 3",
+          "url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-november-27-to-december-3",
+          "pages_scanned": 51,
+          "products_found": 6,
+          "flyer_start": "2025-11-27",
+          "flyer_end": "2025-12-03",
+          "unavailable_source_images": []
+        }
+      ],
+      "products": [
+        {
+          "brand": "Western Family",
+          "brand_text_seen": "Western Family",
+          "product_name": "Hot Chocolate Mix 500 g",
+          "price": "$5.49",
+          "deal_details": "Each; selected varieties; More Rewards card required",
+          "promotion_type": "Loyalty Offer",
+          "umap_price_verifiable": true,
+          "offer_start": "2025-11-27",
+          "offer_end": "2025-12-03",
+          "page_number": 14,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-november-27-to-december-3/single/13",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/281640/save-on-foods-bc-flyer-november-27-to-december-3-14.jpg",
+          "source_page_number": 14,
+          "flyer_title": "Save On Foods (BC) Flyer November 27 to December 3",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-november-27-to-december-3",
+          "source_scan": "competitive_full_flyer_2025_11_27",
+          "scan_scope": "all available pages, primary BC flyer"
+        },
+        {
+          "brand": "Western Family",
+          "brand_text_seen": "Western Family",
+          "product_name": "Premium Roast Ground Coffee 300 g",
+          "price": "$9.99",
+          "deal_details": "Each; selected varieties; More Rewards card required",
+          "promotion_type": "Loyalty Offer",
+          "umap_price_verifiable": true,
+          "offer_start": "2025-11-27",
+          "offer_end": "2025-12-03",
+          "page_number": 14,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-november-27-to-december-3/single/13",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/281640/save-on-foods-bc-flyer-november-27-to-december-3-14.jpg",
+          "source_page_number": 14,
+          "flyer_title": "Save On Foods (BC) Flyer November 27 to December 3",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-november-27-to-december-3",
+          "source_scan": "competitive_full_flyer_2025_11_27",
+          "scan_scope": "all available pages, primary BC flyer"
+        },
+        {
+          "brand": "Western Family",
+          "brand_text_seen": "Western Family",
+          "product_name": "Premium Roast Coffee Pods 12 count",
+          "price": "$9.99",
+          "deal_details": "Each; explicitly named alternative; selected varieties; More Rewards card required",
+          "promotion_type": "Loyalty Offer",
+          "umap_price_verifiable": true,
+          "offer_start": "2025-11-27",
+          "offer_end": "2025-12-03",
+          "page_number": 14,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-november-27-to-december-3/single/13",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/281640/save-on-foods-bc-flyer-november-27-to-december-3-14.jpg",
+          "source_page_number": 14,
+          "flyer_title": "Save On Foods (BC) Flyer November 27 to December 3",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-november-27-to-december-3",
+          "source_scan": "competitive_full_flyer_2025_11_27",
+          "scan_scope": "all available pages, primary BC flyer"
+        },
+        {
+          "brand": "Western Family",
+          "brand_text_seen": "Western Family",
+          "product_name": "Ready to Serve Canned Soup 540 mL",
+          "price": "2 for $5",
+          "deal_details": "More Rewards card required",
+          "promotion_type": "Loyalty Offer",
+          "umap_price_verifiable": true,
+          "offer_start": "2025-11-27",
+          "offer_end": "2025-12-03",
+          "page_number": 17,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-november-27-to-december-3/single/16",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/281640/save-on-foods-bc-flyer-november-27-to-december-3-17.jpg",
+          "source_page_number": 17,
+          "flyer_title": "Save On Foods (BC) Flyer November 27 to December 3",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-november-27-to-december-3",
+          "source_scan": "competitive_full_flyer_2025_11_27",
+          "scan_scope": "all available pages, primary BC flyer"
+        },
+        {
+          "brand": "Western Family",
+          "brand_text_seen": "Western Family",
+          "product_name": "Green Tea or English Breakfast Tea 72 count",
+          "price": "Not stated",
+          "deal_details": "Earn 575 More Rewards points; no dollar price printed",
+          "promotion_type": "Loyalty Offer",
+          "umap_price_verifiable": false,
+          "offer_start": "2025-11-27",
+          "offer_end": "2025-12-03",
+          "page_number": 31,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-november-27-to-december-3/single/30",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/281640/save-on-foods-bc-flyer-november-27-to-december-3-31.jpg",
+          "source_page_number": 31,
+          "flyer_title": "Save On Foods (BC) Flyer November 27 to December 3",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-november-27-to-december-3",
+          "source_scan": "competitive_full_flyer_2025_11_27",
+          "scan_scope": "all available pages, primary BC flyer"
+        },
+        {
+          "brand": "Campbell's",
+          "brand_text_seen": "Campbell's",
+          "product_name": "Chunky Canned Soup 515 mL",
+          "price": "3 for $8",
+          "deal_details": "More Rewards card required",
+          "promotion_type": "Loyalty Offer",
+          "umap_price_verifiable": true,
+          "offer_start": "2025-11-27",
+          "offer_end": "2025-12-03",
+          "page_number": 33,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-november-27-to-december-3/single/32",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/281640/save-on-foods-bc-flyer-november-27-to-december-3-33.jpg",
+          "source_page_number": 33,
+          "flyer_title": "Save On Foods (BC) Flyer November 27 to December 3",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-november-27-to-december-3",
+          "source_scan": "competitive_full_flyer_2025_11_27",
+          "scan_scope": "all available pages, primary BC flyer"
+        }
+      ]
     }
-  ]
+  ],
+  "updated_at": "2026-11-03T12:07:03"
 }

@@ -966,6 +966,142 @@
           "scan_scope": "all pages, primary Quebec flyer"
         }
       ]
+    },
+    {
+      "name": "Giant Tiger",
+      "flyer_start": "2025-04-02",
+      "flyer_end": "2025-04-08",
+      "scan_status": "verified",
+      "scanned_at": "2026-11-03T12:07:01",
+      "flyers": [
+        {
+          "title": "Giant Tiger (ON) Flyer April 2 to 8",
+          "url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-april-2-to-81",
+          "pages_scanned": 15,
+          "products_found": 1,
+          "flyer_start": "2025-04-02",
+          "flyer_end": "2025-04-08",
+          "unavailable_source_images": []
+        }
+      ],
+      "products": [
+        {
+          "brand": "Timothy's",
+          "brand_text_seen": "Timothy's",
+          "product_name": "Coffee pods, 30 pack",
+          "price": "$13.97",
+          "deal_details": "Flyer valid 2025-04-02 to 2025-04-08. Assorted; medium Colombian La Vereda pictured; reg. $21.97; save $8.",
+          "promotion_type": "Price Drop",
+          "umap_price_verifiable": true,
+          "offer_start": "2025-04-02",
+          "offer_end": "2025-04-08",
+          "page_number": 2,
+          "page_url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-april-2-to-81/single/1",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/265070/giant-tiger-on-flyer-april-2-to-81-2.jpg",
+          "source_page_number": 2,
+          "flyer_title": "Giant Tiger (ON) Flyer April 2 to 8",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-april-2-to-81",
+          "source_scan": "competitive_full_flyer_2025_04_03",
+          "scan_scope": "all available pages, primary ON flyer"
+        }
+      ]
+    },
+    {
+      "name": "Save-On-Foods BC",
+      "flyer_start": "2025-04-03",
+      "flyer_end": "2025-04-09",
+      "scan_status": "verified",
+      "scanned_at": "2026-11-03T12:07:01",
+      "flyers": [
+        {
+          "title": "Save On Foods (BC) Flyer April 3 to 9",
+          "url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-april-3-to-9",
+          "pages_scanned": 28,
+          "products_found": 4,
+          "flyer_start": "2025-04-03",
+          "flyer_end": "2025-04-09",
+          "unavailable_source_images": []
+        }
+      ],
+      "products": [
+        {
+          "brand": "Martinson",
+          "brand_text_seen": "Martinson",
+          "product_name": "Bulk Coffee Pods",
+          "price": "4 for $3",
+          "deal_details": "Brand visible on pod lids; selected varieties; More Rewards card required.",
+          "promotion_type": "Loyalty Offer",
+          "umap_price_verifiable": true,
+          "offer_start": "2025-04-03",
+          "offer_end": "2025-04-09",
+          "page_number": 19,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-april-3-to-9/single/18",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/265239/save-on-foods-bc-flyer-april-3-to-9-19.jpg",
+          "source_page_number": 19,
+          "flyer_title": "Save On Foods (BC) Flyer April 3 to 9",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-april-3-to-9",
+          "source_scan": "competitive_full_flyer_2025_04_03",
+          "scan_scope": "all available pages, primary BC flyer"
+        },
+        {
+          "brand": "Copper Moon",
+          "brand_text_seen": "Copper Moon",
+          "product_name": "Bulk Coffee Pods",
+          "price": "4 for $3",
+          "deal_details": "After Dark pictured on pod lid; selected varieties; More Rewards card required.",
+          "promotion_type": "Loyalty Offer",
+          "umap_price_verifiable": true,
+          "offer_start": "2025-04-03",
+          "offer_end": "2025-04-09",
+          "page_number": 19,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-april-3-to-9/single/18",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/265239/save-on-foods-bc-flyer-april-3-to-9-19.jpg",
+          "source_page_number": 19,
+          "flyer_title": "Save On Foods (BC) Flyer April 3 to 9",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-april-3-to-9",
+          "source_scan": "competitive_full_flyer_2025_04_03",
+          "scan_scope": "all available pages, primary BC flyer"
+        },
+        {
+          "brand": "Kicking Horse",
+          "brand_text_seen": "Kicking Horse",
+          "product_name": "Organic Whole Bean Coffee, 454 g",
+          "price": "$14.99 each when buying 2 or more",
+          "deal_details": "Otherwise $15.99 each; Three Sisters pictured; Fair Trade; More Rewards card required.",
+          "promotion_type": "Loyalty Offer",
+          "umap_price_verifiable": true,
+          "offer_start": "2025-04-03",
+          "offer_end": "2025-04-09",
+          "page_number": 20,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-april-3-to-9/single/19",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/265239/save-on-foods-bc-flyer-april-3-to-9-20.jpg",
+          "source_page_number": 20,
+          "flyer_title": "Save On Foods (BC) Flyer April 3 to 9",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-april-3-to-9",
+          "source_scan": "competitive_full_flyer_2025_04_03",
+          "scan_scope": "all available pages, primary BC flyer"
+        },
+        {
+          "brand": "Western Family",
+          "brand_text_seen": "Western Family",
+          "product_name": "Coffee Pods, 30-count",
+          "price": "Not stated",
+          "deal_details": "Earn 600 More Rewards points; Colombian pictured; no cash price stated.",
+          "promotion_type": "Loyalty Offer",
+          "umap_price_verifiable": false,
+          "offer_start": "2025-04-03",
+          "offer_end": "2025-04-09",
+          "page_number": 26,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-april-3-to-9/single/25",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/265239/save-on-foods-bc-flyer-april-3-to-9-26.jpg",
+          "source_page_number": 26,
+          "flyer_title": "Save On Foods (BC) Flyer April 3 to 9",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-april-3-to-9",
+          "source_scan": "competitive_full_flyer_2025_04_03",
+          "scan_scope": "all available pages, primary BC flyer"
+        }
+      ]
     }
-  ]
+  ],
+  "updated_at": "2026-11-03T12:07:01"
 }

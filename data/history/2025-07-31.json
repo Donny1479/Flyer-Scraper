@@ -1173,6 +1173,199 @@
           "scan_scope": "all pages, primary Quebec flyer"
         }
       ]
+    },
+    {
+      "name": "Giant Tiger",
+      "flyer_start": "2025-07-30",
+      "flyer_end": "2025-08-05",
+      "scan_status": "verified",
+      "scanned_at": "2026-11-03T12:07:01",
+      "flyers": [
+        {
+          "title": "Giant Tiger (ON) Flyer July 30 to August 5",
+          "url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-july-30-to-august-52",
+          "pages_scanned": 14,
+          "products_found": 2,
+          "flyer_start": "2025-07-30",
+          "flyer_end": "2025-08-05",
+          "unavailable_source_images": []
+        }
+      ],
+      "products": [
+        {
+          "brand": "Nescafe",
+          "brand_text_seen": "Nescafe",
+          "product_name": "Rich instant coffee, 170 g",
+          "price": "$5.94",
+          "deal_details": "Flyer valid 2025-07-30 to 2025-08-05. Reg. $7.47; save $1.53.",
+          "promotion_type": "Price Drop",
+          "umap_price_verifiable": true,
+          "offer_start": "2025-07-30",
+          "offer_end": "2025-08-05",
+          "page_number": 1,
+          "page_url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-july-30-to-august-52/single",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/273263/giant-tiger-on-flyer-july-30-to-august-52-1.jpg",
+          "source_page_number": 1,
+          "flyer_title": "Giant Tiger (ON) Flyer July 30 to August 5",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-july-30-to-august-52",
+          "source_scan": "competitive_full_flyer_2025_07_31",
+          "scan_scope": "all available pages, primary ON flyer"
+        },
+        {
+          "brand": "Giant Tiger Marche",
+          "brand_text_seen": "Giant Tiger Marche",
+          "product_name": "Coffee pods, 30 pack",
+          "price": "$17.97",
+          "deal_details": "Flyer valid 2025-07-30 to 2025-08-05. Assorted; Canadian Eh? light roast pictured.",
+          "promotion_type": "Special Price",
+          "umap_price_verifiable": true,
+          "offer_start": "2025-07-30",
+          "offer_end": "2025-08-05",
+          "page_number": 5,
+          "page_url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-july-30-to-august-52/single/4",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/273263/giant-tiger-on-flyer-july-30-to-august-52-5.jpg",
+          "source_page_number": 5,
+          "flyer_title": "Giant Tiger (ON) Flyer July 30 to August 5",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-july-30-to-august-52",
+          "source_scan": "competitive_full_flyer_2025_07_31",
+          "scan_scope": "all available pages, primary ON flyer"
+        }
+      ]
+    },
+    {
+      "name": "Save-On-Foods BC",
+      "flyer_start": "2025-07-31",
+      "flyer_end": "2025-08-06",
+      "scan_status": "verified",
+      "scanned_at": "2026-11-03T12:07:01",
+      "flyers": [
+        {
+          "title": "Save On Foods (BC) Flyer July 31 to August 6",
+          "url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-july-31-to-august-6",
+          "pages_scanned": 30,
+          "products_found": 6,
+          "flyer_start": "2025-07-31",
+          "flyer_end": "2025-08-06",
+          "unavailable_source_images": []
+        }
+      ],
+      "products": [
+        {
+          "brand": "Campbell's",
+          "brand_text_seen": "Campbell's",
+          "product_name": "Chunky Canned Soup 515 mL",
+          "price": "$3.19",
+          "deal_details": "Chicken Noodle pictured",
+          "promotion_type": "Special Price",
+          "umap_price_verifiable": true,
+          "offer_start": "2025-07-31",
+          "offer_end": "2025-08-06",
+          "page_number": 12,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-july-31-to-august-6/single/11",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/273414/save-on-foods-bc-flyer-july-31-to-august-6-12.jpg",
+          "source_page_number": 12,
+          "flyer_title": "Save On Foods (BC) Flyer July 31 to August 6",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-july-31-to-august-6",
+          "source_scan": "competitive_full_flyer_2025_07_31",
+          "scan_scope": "all available pages, primary BC flyer"
+        },
+        {
+          "brand": "McCafe",
+          "brand_text_seen": "McCafe",
+          "product_name": "Premium Roast Coffee Pods 12 count",
+          "price": "$11.99",
+          "deal_details": "Selected varieties",
+          "promotion_type": "Special Price",
+          "umap_price_verifiable": true,
+          "offer_start": "2025-07-31",
+          "offer_end": "2025-08-06",
+          "page_number": 14,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-july-31-to-august-6/single/13",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/273414/save-on-foods-bc-flyer-july-31-to-august-6-14.jpg",
+          "source_page_number": 14,
+          "flyer_title": "Save On Foods (BC) Flyer July 31 to August 6",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-july-31-to-august-6",
+          "source_scan": "competitive_full_flyer_2025_07_31",
+          "scan_scope": "all available pages, primary BC flyer"
+        },
+        {
+          "brand": "Nabob",
+          "brand_text_seen": "Nabob",
+          "product_name": "Ground Coffee 340 g",
+          "price": "$9.99",
+          "deal_details": "Selected varieties",
+          "promotion_type": "Special Price",
+          "umap_price_verifiable": true,
+          "offer_start": "2025-07-31",
+          "offer_end": "2025-08-06",
+          "page_number": 15,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-july-31-to-august-6/single/14",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/273414/save-on-foods-bc-flyer-july-31-to-august-6-15.jpg",
+          "source_page_number": 15,
+          "flyer_title": "Save On Foods (BC) Flyer July 31 to August 6",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-july-31-to-august-6",
+          "source_scan": "competitive_full_flyer_2025_07_31",
+          "scan_scope": "all available pages, primary BC flyer"
+        },
+        {
+          "brand": "Folgers",
+          "brand_text_seen": "Folgers",
+          "product_name": "Ground Coffee 816 g",
+          "price": "$19.99",
+          "deal_details": "Selected varieties",
+          "promotion_type": "Special Price",
+          "umap_price_verifiable": true,
+          "offer_start": "2025-07-31",
+          "offer_end": "2025-08-06",
+          "page_number": 20,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-july-31-to-august-6/single/19",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/273414/save-on-foods-bc-flyer-july-31-to-august-6-20.jpg",
+          "source_page_number": 20,
+          "flyer_title": "Save On Foods (BC) Flyer July 31 to August 6",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-july-31-to-august-6",
+          "source_scan": "competitive_full_flyer_2025_07_31",
+          "scan_scope": "all available pages, primary BC flyer"
+        },
+        {
+          "brand": "Folgers",
+          "brand_text_seen": "Folgers",
+          "product_name": "K-Cup Coffee Pods 30 count",
+          "price": "$19.99",
+          "deal_details": "Selected varieties",
+          "promotion_type": "Special Price",
+          "umap_price_verifiable": true,
+          "offer_start": "2025-07-31",
+          "offer_end": "2025-08-06",
+          "page_number": 20,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-july-31-to-august-6/single/19",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/273414/save-on-foods-bc-flyer-july-31-to-august-6-20.jpg",
+          "source_page_number": 20,
+          "flyer_title": "Save On Foods (BC) Flyer July 31 to August 6",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-july-31-to-august-6",
+          "source_scan": "competitive_full_flyer_2025_07_31",
+          "scan_scope": "all available pages, primary BC flyer"
+        },
+        {
+          "brand": "Stok",
+          "brand_text_seen": "Stok",
+          "product_name": "Cold Brew Coffee Beverage 1.42 L",
+          "price": "$6.99",
+          "deal_details": "Unsweet pictured",
+          "promotion_type": "Special Price",
+          "umap_price_verifiable": true,
+          "offer_start": "2025-07-31",
+          "offer_end": "2025-08-06",
+          "page_number": 21,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-july-31-to-august-6/single/20",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/273414/save-on-foods-bc-flyer-july-31-to-august-6-21.jpg",
+          "source_page_number": 21,
+          "flyer_title": "Save On Foods (BC) Flyer July 31 to August 6",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-july-31-to-august-6",
+          "source_scan": "competitive_full_flyer_2025_07_31",
+          "scan_scope": "all available pages, primary BC flyer"
+        }
+      ]
     }
-  ]
+  ],
+  "updated_at": "2026-11-03T12:07:02"
 }

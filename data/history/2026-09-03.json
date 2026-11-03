@@ -2192,6 +2192,180 @@
           "scan_scope": "all pages, primary Quebec flyer"
         }
       ]
+    },
+    {
+      "name": "Giant Tiger",
+      "flyer_start": "2026-09-02",
+      "flyer_end": "2026-09-08",
+      "scan_status": "verified",
+      "scanned_at": "2026-11-03T12:07:01",
+      "flyers": [
+        {
+          "title": "Giant Tiger (ON) Flyer September 2 to 8",
+          "url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-september-2-to-83",
+          "pages_scanned": 2,
+          "products_found": 1,
+          "flyer_start": "2026-09-02",
+          "flyer_end": "2026-09-08",
+          "unavailable_source_images": []
+        }
+      ],
+      "products": [
+        {
+          "brand": "Campbell's",
+          "brand_text_seen": "Campbell's",
+          "product_name": "Condensed canned soup, 284 mL",
+          "price": "$0.88",
+          "deal_details": "Each; assorted; tomato pictured; regular $1.46; save 39%; printed dates September 2-8, 2026.",
+          "promotion_type": "Price Drop",
+          "umap_price_verifiable": true,
+          "offer_start": "2026-09-02",
+          "offer_end": "2026-09-08",
+          "page_number": 1,
+          "page_url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-september-2-to-83/single",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/300565/giant-tiger-on-flyer-september-2-to-83-1.jpg",
+          "source_page_number": 1,
+          "flyer_title": "Giant Tiger (ON) Flyer September 2 to 8",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-september-2-to-83",
+          "source_scan": "competitive_full_flyer_2026_09_03",
+          "scan_scope": "all available pages, primary ON flyer"
+        }
+      ]
+    },
+    {
+      "name": "Save-On-Foods BC",
+      "flyer_start": "2026-09-03",
+      "flyer_end": "2026-09-09",
+      "scan_status": "verified",
+      "scanned_at": "2026-11-03T12:07:01",
+      "flyers": [
+        {
+          "title": "Save On Foods (BC) Flyer September 3 to 9",
+          "url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-september-3-to-91",
+          "pages_scanned": 29,
+          "products_found": 6,
+          "flyer_start": "2026-09-03",
+          "flyer_end": "2026-09-09",
+          "unavailable_source_images": []
+        }
+      ],
+      "products": [
+        {
+          "brand": "Zavida",
+          "brand_text_seen": "Zavida",
+          "product_name": "Fan Favourites K-Cups, 30 count",
+          "price": "$25.99",
+          "deal_details": "Variety pack. More Rewards card required.",
+          "promotion_type": "Loyalty Offer",
+          "umap_price_verifiable": true,
+          "offer_start": "2026-09-03",
+          "offer_end": "2026-09-09",
+          "page_number": 13,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-september-3-to-91/single/12",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/300721/save-on-foods-bc-flyer-september-3-to-91-13.jpg",
+          "source_page_number": 13,
+          "flyer_title": "Save On Foods (BC) Flyer September 3 to 9",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-september-3-to-91",
+          "source_scan": "competitive_full_flyer_2026_09_03",
+          "scan_scope": "all available pages, primary BC flyer"
+        },
+        {
+          "brand": "Lavazza",
+          "brand_text_seen": "Lavazza",
+          "product_name": "Premium Ground Coffee, 340 g",
+          "price": "Not stated",
+          "deal_details": "Buy 1 get 1 free; equal or lesser value; no cash price printed. More Rewards card required.",
+          "promotion_type": "Loyalty Offer",
+          "umap_price_verifiable": false,
+          "offer_start": "2026-09-03",
+          "offer_end": "2026-09-09",
+          "page_number": 13,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-september-3-to-91/single/12",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/300721/save-on-foods-bc-flyer-september-3-to-91-13.jpg",
+          "source_page_number": 13,
+          "flyer_title": "Save On Foods (BC) Flyer September 3 to 9",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-september-3-to-91",
+          "source_scan": "competitive_full_flyer_2026_09_03",
+          "scan_scope": "all available pages, primary BC flyer"
+        },
+        {
+          "brand": "PG Tips",
+          "brand_text_seen": "PG Tips",
+          "product_name": "Tea, 40 count",
+          "price": "$4.49",
+          "deal_details": "Printed box/caption. More Rewards card required.",
+          "promotion_type": "Loyalty Offer",
+          "umap_price_verifiable": true,
+          "offer_start": "2026-09-03",
+          "offer_end": "2026-09-09",
+          "page_number": 15,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-september-3-to-91/single/14",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/300721/save-on-foods-bc-flyer-september-3-to-91-15.jpg",
+          "source_page_number": 15,
+          "flyer_title": "Save On Foods (BC) Flyer September 3 to 9",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-september-3-to-91",
+          "source_scan": "competitive_full_flyer_2026_09_03",
+          "scan_scope": "all available pages, primary BC flyer"
+        },
+        {
+          "brand": "49th Parallel",
+          "brand_text_seen": "49th Parallel",
+          "product_name": "Coffee, 340 g",
+          "price": "$17.99",
+          "deal_details": "Selected varieties; format not specified in caption. More Rewards card required.",
+          "promotion_type": "Loyalty Offer",
+          "umap_price_verifiable": true,
+          "offer_start": "2026-09-03",
+          "offer_end": "2026-09-09",
+          "page_number": 20,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-september-3-to-91/single/19",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/300721/save-on-foods-bc-flyer-september-3-to-91-20.jpg",
+          "source_page_number": 20,
+          "flyer_title": "Save On Foods (BC) Flyer September 3 to 9",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-september-3-to-91",
+          "source_scan": "competitive_full_flyer_2026_09_03",
+          "scan_scope": "all available pages, primary BC flyer"
+        },
+        {
+          "brand": "Pacific Foods",
+          "brand_text_seen": "Pacific Foods",
+          "product_name": "Organic Canned Chili, 468 g",
+          "price": "$4.49",
+          "deal_details": "Buy 2 earn 300 More Rewards points. More Rewards card required.",
+          "promotion_type": "Loyalty Offer",
+          "umap_price_verifiable": true,
+          "offer_start": "2026-09-03",
+          "offer_end": "2026-09-09",
+          "page_number": 23,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-september-3-to-91/single/22",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/300721/save-on-foods-bc-flyer-september-3-to-91-23.jpg",
+          "source_page_number": 23,
+          "flyer_title": "Save On Foods (BC) Flyer September 3 to 9",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-september-3-to-91",
+          "source_scan": "competitive_full_flyer_2026_09_03",
+          "scan_scope": "all available pages, primary BC flyer"
+        },
+        {
+          "brand": "Pacific Foods",
+          "brand_text_seen": "Pacific Foods",
+          "product_name": "Canned Soup, 440 mL",
+          "price": "$4.49",
+          "deal_details": "Buy 2 earn 300 More Rewards points. More Rewards card required.",
+          "promotion_type": "Loyalty Offer",
+          "umap_price_verifiable": true,
+          "offer_start": "2026-09-03",
+          "offer_end": "2026-09-09",
+          "page_number": 23,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-september-3-to-91/single/22",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/300721/save-on-foods-bc-flyer-september-3-to-91-23.jpg",
+          "source_page_number": 23,
+          "flyer_title": "Save On Foods (BC) Flyer September 3 to 9",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-september-3-to-91",
+          "source_scan": "competitive_full_flyer_2026_09_03",
+          "scan_scope": "all available pages, primary BC flyer"
+        }
+      ]
     }
-  ]
+  ],
+  "updated_at": "2026-11-03T12:07:04"
 }

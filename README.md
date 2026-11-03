@@ -1,6 +1,6 @@
 # ☕ Tim Hortons Flyer Scanner
 
-Tracks primary Ontario and Quebec grocery flyers on SmartCanucks.ca, with Tim Hortons and competitive coffee, tea, canned soup, canned chili, and hot beverage offers. The dashboard shows product names, prices, deal details, and direct flyer page links. Competitive offers remain excluded from Tim Hortons UMAP and Flyer Insights.
+Tracks primary Ontario, Quebec and British Columbia grocery flyers on SmartCanucks.ca, with Tim Hortons and competitive coffee, tea, canned soup, canned chili, and hot beverage offers. The dashboard shows product names, prices, deal details, and direct flyer page links. Competitive offers remain excluded from Tim Hortons UMAP and Flyer Insights.
 
 ## Retailers monitored
 
@@ -19,6 +19,10 @@ Tracks primary Ontario and Quebec grocery flyers on SmartCanucks.ca, with Tim Ho
 | IGA QC | QC |
 | Super C | QC |
 | Maxi | QC |
+| Giant Tiger | ON |
+| Save-On-Foods BC | BC |
+
+Giant Tiger's Wednesday-Tuesday flyers are grouped with the following Thursday review cycle. Product History retains the printed sale dates rather than substituting the review-cycle dates. A retailer without a scanned flyer is not presented as having zero offers.
 
 ## How it works
 

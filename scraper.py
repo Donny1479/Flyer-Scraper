@@ -115,6 +115,17 @@ RETAILERS = [
         "listing_url": f"{BASE_URL}/maxi-canada",
         "url_patterns": ["/canada/maxi-flyer-"],
     },
+    {
+        "name": "Giant Tiger",
+        "listing_url": f"{BASE_URL}/giant-tiger-canada",
+        "url_patterns": ["/canada/giant-tiger-on-flyer-"],
+        "start_offset_days": -1,
+    },
+    {
+        "name": "Save-On-Foods BC",
+        "listing_url": f"{BASE_URL}/save-on-foods-canada",
+        "url_patterns": ["/canada/save-on-foods-bc-flyer-"],
+    },
 ]
 
 VISION_MODEL = "claude-sonnet-4-6"
@@ -294,7 +305,7 @@ def get_current_ontario_flyers(
     retailer: dict, week_start: _date | None = None
 ) -> list[dict]:
     """
-    Return Ontario flyers for a retailer for the given week.
+    Return the retailer's selected regional flyers for the given review week.
 
     Strategy:
     1. Scrape the retailer's listing page (works for the most recent 1-2 weeks).
@@ -311,7 +322,11 @@ def get_current_ontario_flyers(
         return []
 
     soup = BeautifulSoup(resp.text, "lxml")
-    date_slug = date_to_url_slug(week_start) if week_start else None
+    flyer_start = (
+        week_start + timedelta(days=retailer.get("start_offset_days", 0))
+        if week_start else None
+    )
+    date_slug = date_to_url_slug(flyer_start) if flyer_start else None
 
     seen_patterns: set[str] = set()
     seen_urls: set[str] = set()
@@ -353,7 +368,7 @@ def get_current_ontario_flyers(
         for pat in retailer["url_patterns"]:
             if pat in matched_via_listing:
                 continue
-            direct_url = _build_direct_flyer_url(pat, week_start)
+            direct_url = _build_direct_flyer_url(pat, flyer_start)
             if direct_url and direct_url not in seen_urls:
                 seen_urls.add(direct_url)
                 slug = direct_url.rstrip("/").split("/")[-1]

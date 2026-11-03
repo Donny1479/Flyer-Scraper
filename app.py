@@ -40,6 +40,8 @@ RETAILER_ACCENTS = {
     "IGA QC":        "#007F3E",
     "Super C":       "#E31B23",
     "Maxi":          "#0055A5",
+    "Giant Tiger":   "#806000",
+    "Save-On-Foods BC": "#087F46",
 }
 
 LOGO_PATH = Path(__file__).parent / "assets" / "tim-hortons-logo.svg"
@@ -465,6 +467,8 @@ def build_full_df(history: list[dict]) -> pd.DataFrame:
             for p in r.get("products", []):
                 name = p.get("product_name", "")
                 brand = offer_brand(p)
+                offer_start = p.get("offer_start") or r.get("flyer_start") or ws
+                offer_end = p.get("offer_end") or r.get("flyer_end") or we
                 rows.append({
                     "week_start": ws,
                     "Week":       lbl,
@@ -475,8 +479,8 @@ def build_full_df(history: list[dict]) -> pd.DataFrame:
                     "Category":   classify(name),
                     "Price":      p.get("price", ""),
                     "Comments":   p.get("deal_details", "") or "—",
-                    "Start":      fmt_date(ws),
-                    "End":        fmt_date(we),
+                    "Start":      fmt_date(offer_start),
+                    "End":        fmt_date(offer_end),
                     "View":       p.get("page_url", p.get("flyer_url", "")),
                     "UMAP Price Verifiable": p.get("umap_price_verifiable", True),
                 })
@@ -992,7 +996,7 @@ with st.sidebar:
         st.info("No history yet. Add weekly JSON files under `data/history` to populate the dashboard.")
 
     st.divider()
-    st.markdown("**Retailers monitored (ON + QC)**")
+    st.markdown("**Retailers monitored (ON + QC + BC)**")
     sidebar_retailers = "".join(
         f'<div class="sidebar-retailer-row">{retailer_label(r["name"])}</div>'
         for r in RETAILERS
@@ -1127,6 +1131,9 @@ with tab_weekly:
         deal_counts[p["Retailer"]] = deal_counts.get(p["Retailer"], 0) + 1
 
     scorecard_items = ""
+    week_scan_records = {
+        r["name"]: r for r in (week_data or {}).get("retailers", [])
+    }
     for r in RETAILERS:
         if r["name"] not in selected_retailers:
             continue
@@ -1136,6 +1143,10 @@ with tab_weekly:
             if n > 0 else
             '<span class="scorecard-none">No deals</span>'
         )
+        scan_record = week_scan_records.get(r["name"], {})
+        if n == 0 and not scan_record.get("flyers"):
+            label = "Unavailable" if scan_record.get("scan_status") == "flyer_not_found" else "Not scanned"
+            badge = f'<span class="scorecard-none">{label}</span>'
         scorecard_items += (
             f'<div class="scorecard">'
             f'  <div class="scorecard-retailer">{retailer_label(r["name"])}</div>'

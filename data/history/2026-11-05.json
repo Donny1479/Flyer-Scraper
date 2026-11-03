@@ -1,0 +1,66 @@
+{
+  "week_start": "2026-11-05",
+  "week_end": "2026-11-11",
+  "scraped_at": "2026-11-03T12:07:05",
+  "retailers": [
+    {
+      "name": "Giant Tiger",
+      "flyer_start": "2026-11-04",
+      "flyer_end": "2026-11-10",
+      "scan_status": "verified",
+      "scanned_at": "2026-11-03T12:07:01",
+      "flyers": [
+        {
+          "title": "Giant Tiger (ON) Flyer November 4 to 10",
+          "url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-november-4-to-103",
+          "pages_scanned": 4,
+          "products_found": 2,
+          "flyer_start": "2026-11-04",
+          "flyer_end": "2026-11-10",
+          "unavailable_source_images": []
+        }
+      ],
+      "products": [
+        {
+          "brand": "Campbell's",
+          "brand_text_seen": "Campbell's",
+          "product_name": "Chunky canned soup",
+          "price": "$1.97",
+          "deal_details": "Each; assorted soup varieties; shared caption size range 515-796 mL across Campbell's and Habitant, individual size not assigned; save up to 39%; printed dates November 4-10, 2026.",
+          "promotion_type": "Price Drop",
+          "umap_price_verifiable": true,
+          "offer_start": "2026-11-04",
+          "offer_end": "2026-11-10",
+          "page_number": 1,
+          "page_url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-november-4-to-103/single",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/304925/giant-tiger-on-flyer-november-4-to-103-1.jpg",
+          "source_page_number": 1,
+          "flyer_title": "Giant Tiger (ON) Flyer November 4 to 10",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-november-4-to-103",
+          "source_scan": "competitive_full_flyer_2026_11_05",
+          "scan_scope": "all available pages, primary ON flyer"
+        },
+        {
+          "brand": "Habitant",
+          "brand_text_seen": "Habitant",
+          "product_name": "Canned soup",
+          "price": "$1.97",
+          "deal_details": "Each; assorted soup varieties; shared caption size range 515-796 mL across Campbell's and Habitant, individual size not assigned; save up to 39%; printed dates November 4-10, 2026.",
+          "promotion_type": "Price Drop",
+          "umap_price_verifiable": true,
+          "offer_start": "2026-11-04",
+          "offer_end": "2026-11-10",
+          "page_number": 1,
+          "page_url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-november-4-to-103/single",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/304925/giant-tiger-on-flyer-november-4-to-103-1.jpg",
+          "source_page_number": 1,
+          "flyer_title": "Giant Tiger (ON) Flyer November 4 to 10",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-november-4-to-103",
+          "source_scan": "competitive_full_flyer_2026_11_05",
+          "scan_scope": "all available pages, primary ON flyer"
+        }
+      ]
+    }
+  ],
+  "updated_at": "2026-11-03T12:07:05"
+}

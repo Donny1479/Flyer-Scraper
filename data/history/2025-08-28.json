@@ -981,6 +981,122 @@
           "scan_scope": "all pages, primary Quebec flyer"
         }
       ]
+    },
+    {
+      "name": "Giant Tiger",
+      "flyer_start": "2025-08-27",
+      "flyer_end": "2025-09-02",
+      "scan_status": "verified",
+      "scanned_at": "2026-11-03T12:07:01",
+      "flyers": [
+        {
+          "title": "Giant Tiger (ON) Flyer August 27 to September 2",
+          "url": "https://flyers.smartcanucks.ca/canada/giant-tiger-on-flyer-august-27-to-september-21",
+          "pages_scanned": 15,
+          "products_found": 0,
+          "flyer_start": "2025-08-27",
+          "flyer_end": "2025-09-02",
+          "unavailable_source_images": []
+        }
+      ],
+      "products": []
+    },
+    {
+      "name": "Save-On-Foods BC",
+      "flyer_start": "2025-08-28",
+      "flyer_end": "2025-09-03",
+      "scan_status": "verified",
+      "scanned_at": "2026-11-03T12:07:01",
+      "flyers": [
+        {
+          "title": "Save On Foods (BC) Flyer August 28 to September 3",
+          "url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-august-28-to-september-3",
+          "pages_scanned": 24,
+          "products_found": 4,
+          "flyer_start": "2025-08-28",
+          "flyer_end": "2025-09-03",
+          "unavailable_source_images": []
+        }
+      ],
+      "products": [
+        {
+          "brand": "Campbell's",
+          "brand_text_seen": "Campbell's",
+          "product_name": "Condensed Canned Soup 12 x 284 mL",
+          "price": "$12.99",
+          "deal_details": "Only with MY OFFERS; first 1; otherwise $14.99",
+          "promotion_type": "Special Price",
+          "umap_price_verifiable": true,
+          "offer_start": "2025-08-28",
+          "offer_end": "2025-09-03",
+          "page_number": 2,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-august-28-to-september-3/single/1",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/275319/save-on-foods-bc-flyer-august-28-to-september-3-2.jpg",
+          "source_page_number": 2,
+          "flyer_title": "Save On Foods (BC) Flyer August 28 to September 3",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-august-28-to-september-3",
+          "source_scan": "competitive_full_flyer_2025_08_28",
+          "scan_scope": "all available pages, primary BC flyer"
+        },
+        {
+          "brand": "McCafe",
+          "brand_text_seen": "McCafe",
+          "product_name": "Premium Roast Coffee Pods 48 count",
+          "price": "$37.99",
+          "deal_details": "Selected varieties; caselot sale",
+          "promotion_type": "Special Price",
+          "umap_price_verifiable": true,
+          "offer_start": "2025-08-28",
+          "offer_end": "2025-09-03",
+          "page_number": 4,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-august-28-to-september-3/single/3",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/275319/save-on-foods-bc-flyer-august-28-to-september-3-4.jpg",
+          "source_page_number": 4,
+          "flyer_title": "Save On Foods (BC) Flyer August 28 to September 3",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-august-28-to-september-3",
+          "source_scan": "competitive_full_flyer_2025_08_28",
+          "scan_scope": "all available pages, primary BC flyer"
+        },
+        {
+          "brand": "Maxwell House",
+          "brand_text_seen": "Maxwell House",
+          "product_name": "Ground Coffee 864 g",
+          "price": "$17.99",
+          "deal_details": "Selected varieties; caselot sale",
+          "promotion_type": "Special Price",
+          "umap_price_verifiable": true,
+          "offer_start": "2025-08-28",
+          "offer_end": "2025-09-03",
+          "page_number": 4,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-august-28-to-september-3/single/3",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/275319/save-on-foods-bc-flyer-august-28-to-september-3-4.jpg",
+          "source_page_number": 4,
+          "flyer_title": "Save On Foods (BC) Flyer August 28 to September 3",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-august-28-to-september-3",
+          "source_scan": "competitive_full_flyer_2025_08_28",
+          "scan_scope": "all available pages, primary BC flyer"
+        },
+        {
+          "brand": "Kicking Horse",
+          "brand_text_seen": "Kicking Horse",
+          "product_name": "Organic Ground Coffee 284 g",
+          "price": "$9.99",
+          "deal_details": "Three Sisters pictured",
+          "promotion_type": "Special Price",
+          "umap_price_verifiable": true,
+          "offer_start": "2025-08-28",
+          "offer_end": "2025-09-03",
+          "page_number": 20,
+          "page_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-august-28-to-september-3/single/19",
+          "image_url": "https://flyers.smartcanucks.ca/uploads/pages/275319/save-on-foods-bc-flyer-august-28-to-september-3-20.jpg",
+          "source_page_number": 20,
+          "flyer_title": "Save On Foods (BC) Flyer August 28 to September 3",
+          "flyer_url": "https://flyers.smartcanucks.ca/canada/save-on-foods-bc-flyer-august-28-to-september-3",
+          "source_scan": "competitive_full_flyer_2025_08_28",
+          "scan_scope": "all available pages, primary BC flyer"
+        }
+      ]
     }
-  ]
+  ],
+  "updated_at": "2026-11-03T12:07:02"
 }
