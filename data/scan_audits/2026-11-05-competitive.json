@@ -1,0 +1,71 @@
+{
+  "scan_date": "2026-11-05",
+  "source": "SmartCanucks",
+  "retailers_verified": 15,
+  "flyers_verified": 15,
+  "pages_available": 332,
+  "pages_newly_reviewed": 328,
+  "pages_reused_unchanged": 4,
+  "offers_total": 174,
+  "new_offers": 172,
+  "tim_hortons_offers": 14,
+  "independent_source_image_spotchecks_passed": 8,
+  "offers_by_retailer": {
+    "Walmart": 4,
+    "RCSS": 15,
+    "No Frills": 25,
+    "Metro": 8,
+    "Food Basics": 12,
+    "Sobeys": 12,
+    "FreshCo": 16,
+    "Loblaws": 10,
+    "Canadian Tire": 6,
+    "Metro QC": 14,
+    "IGA QC": 10,
+    "Super C": 11,
+    "Maxi": 19,
+    "Giant Tiger": 2,
+    "Save-On-Foods BC": 10
+  },
+  "missing_flyers": [],
+  "source_image_gaps": {},
+  "qualification_decisions": [
+    "RCSS p12 explicitly offered chili retained as Brand Other because brand attribution is not shown. No Campbell's/Stagg brand inferred.",
+    "IGA QC p2 hot chocolate explicitly captioned at $10.99, but format/size are unresolved. UMAP comparison disabled for this row to avoid assuming the 500 g tub category."
+  ],
+  "methodology": "All available primary selected regional flyer pages OCR-screened and visually reviewed. Exact live page/main image verified for every offer. Explicit caption alternatives, shared-price conditions and unresolved sizes retained. Competitors excluded from TH UMAP/Insights. Existing Giant Tiger results reused only after every image URL and image SHA256 matched.",
+  "flyerseek_preview_imported": false,
+  "integrity_checks": {
+    "retailers_verified": 15,
+    "source_pages_available": 332,
+    "historical_week_files_unchanged": 96,
+    "baseline_offers_preserved": 9164,
+    "existing_cycle_offers_preserved": 2,
+    "cycle_offers": 174,
+    "new_offers": 172,
+    "cycle_tim_hortons_offers": 14,
+    "all_offer_links_live_verified": true,
+    "all_page_numbers_match_live_routes": true,
+    "unpriced_offers": 9,
+    "app_source_unchanged": true,
+    "registry_existing_order_preserved": true,
+    "mirror_matches": true,
+    "flyerseek_preview_imported": false
+  },
+  "app_checks": {
+    "tabs": [
+      "📅  Weekly Review",
+      "🔍  Product History",
+      "📊  Flyer Insights",
+      "⚠️  UMAP Check"
+    ],
+    "retailer_filters_include_new_banners": true,
+    "default_brand_tim_hortons_only": true,
+    "competitor_brand_filter": true,
+    "insights_year_filters": true,
+    "compliant_filter_absent": true,
+    "tims_only_insights_and_umap_count": 864,
+    "all_brand_history_count": 9336,
+    "streamlit_exceptions": 0
+  }
+}
