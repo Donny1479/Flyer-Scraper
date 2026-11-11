@@ -1,0 +1,83 @@
+{
+  "scan_date": "2026-11-11",
+  "week_start": "2026-11-12",
+  "source": "SmartCanucks",
+  "retailers_verified": 15,
+  "flyers_verified": 15,
+  "pages_available": 353,
+  "offers_total": 155,
+  "new_offers": 155,
+  "tim_hortons_offers": 14,
+  "offers_by_retailer": {
+    "Walmart": 5,
+    "RCSS": 19,
+    "No Frills": 10,
+    "Metro": 10,
+    "Food Basics": 13,
+    "Sobeys": 16,
+    "FreshCo": 5,
+    "Loblaws": 11,
+    "Canadian Tire": 8,
+    "Metro QC": 12,
+    "IGA QC": 13,
+    "Super C": 13,
+    "Maxi": 10,
+    "Giant Tiger": 0,
+    "Save-On-Foods BC": 10
+  },
+  "independent_source_image_spotchecks_passed": 8,
+  "missing_flyers": [],
+  "manual_qualifications": [
+    {
+      "retailer": "Canadian Tire",
+      "page_number": 13,
+      "brand": "Tim Hortons",
+      "product_name": "Medium Roast Coffee",
+      "umap_price_verifiable": false,
+      "reason": "Caption identifies ground coffee 300 g, while pictured Premium jar appears instant-style. Price $16.99 confirmed, product format and size not resolved."
+    }
+  ],
+  "methodology": "All pages OCR-screened and visually reviewed through overviews, broad category panels, candidate sheets and native offer image checks. Each exact live page/main image pair checked. No inferred brand x format products or loyalty-adjusted cash prices. Competitors excluded from TH UMAP/Insights.",
+  "turkey_scan_imported": false,
+  "flyerseek_preview_imported": false,
+  "integrity_checks": {
+    "retailers_verified": 15,
+    "source_pages_available": 353,
+    "historical_week_files_unchanged": 97,
+    "baseline_offers_preserved": 9336,
+    "cycle_offers": 155,
+    "new_offers": 155,
+    "cycle_tim_hortons_offers": 14,
+    "all_offer_links_live_verified": true,
+    "all_page_numbers_match_live_routes": true,
+    "unpriced_offers": 2,
+    "app_source_unchanged": true,
+    "registry_existing_order_preserved": true,
+    "mirror_matches": true,
+    "flyerseek_preview_imported": false,
+    "turkey_scan_imported": false,
+    "source_numbering_gaps": {
+      "Metro": [
+        9,
+        10,
+        11
+      ]
+    }
+  },
+  "app_checks": {
+    "tabs": [
+      "📅  Weekly Review",
+      "🔍  Product History",
+      "📊  Flyer Insights",
+      "⚠️  UMAP Check"
+    ],
+    "retailer_filters_include_new_banners": true,
+    "default_brand_tim_hortons_only": true,
+    "competitor_brand_filter": true,
+    "insights_year_filters": true,
+    "compliant_filter_absent": true,
+    "tims_only_insights_and_umap_count": 878,
+    "all_brand_history_count": 9491,
+    "streamlit_exceptions": 0
+  }
+}
