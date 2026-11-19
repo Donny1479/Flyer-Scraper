@@ -1,0 +1,86 @@
+{
+  "scan_date": "2026-11-19",
+  "week_start": "2026-11-19",
+  "source": "SmartCanucks",
+  "retailers_verified": 15,
+  "flyers_verified": 15,
+  "pages_available": 371,
+  "offers_total": 162,
+  "new_offers": 162,
+  "tim_hortons_offers": 7,
+  "offers_by_retailer": {
+    "Walmart": 12,
+    "RCSS": 22,
+    "No Frills": 12,
+    "Metro": 10,
+    "Food Basics": 8,
+    "Sobeys": 19,
+    "FreshCo": 7,
+    "Loblaws": 3,
+    "Canadian Tire": 9,
+    "Metro QC": 11,
+    "IGA QC": 12,
+    "Super C": 12,
+    "Maxi": 14,
+    "Giant Tiger": 0,
+    "Save-On-Foods BC": 11
+  },
+  "source_image_spotchecks_passed": 8,
+  "reviewer_mode": "single reviewer with separate second-pass source checks",
+  "missing_flyers": [],
+  "manual_qualifications": [
+    {
+      "retailer": "Super C",
+      "page_number": 1,
+      "brand": "Maxwell House",
+      "product_name": "Maxwell House Instant Coffee 150g",
+      "offer_start": "2026-11-19",
+      "offer_end": "2026-11-21",
+      "reason": "Printed three-day Thursday-Friday-Saturday promotion."
+    }
+  ],
+  "methodology": "All pages OCR-screened and visually reviewed through overviews, broad category panels, candidate sheets and native offer image checks. Each exact live page/main image pair checked. No inferred brand x format products or loyalty-adjusted cash prices. Competitors excluded from TH UMAP/Insights.",
+  "turkey_scan_imported": false,
+  "flyerseek_preview_imported": false,
+  "integrity_checks": {
+    "retailers_verified": 15,
+    "source_pages_available": 371,
+    "historical_week_files_unchanged": 98,
+    "baseline_offers_preserved": 9491,
+    "cycle_offers": 162,
+    "new_offers": 162,
+    "cycle_tim_hortons_offers": 7,
+    "all_offer_links_live_verified": true,
+    "all_page_numbers_match_live_routes": true,
+    "unpriced_offers": 2,
+    "app_source_unchanged": true,
+    "registry_existing_order_preserved": true,
+    "mirror_matches": true,
+    "flyerseek_preview_imported": false,
+    "turkey_scan_imported": false,
+    "source_numbering_gaps": {
+      "No Frills": [
+        2
+      ],
+      "Metro": [
+        10
+      ]
+    }
+  },
+  "app_checks": {
+    "tabs": [
+      "📅  Weekly Review",
+      "🔍  Product History",
+      "📊  Flyer Insights",
+      "⚠️  UMAP Check"
+    ],
+    "retailer_filters_include_new_banners": true,
+    "default_brand_tim_hortons_only": true,
+    "competitor_brand_filter": true,
+    "insights_year_filters": true,
+    "compliant_filter_absent": true,
+    "tims_only_insights_and_umap_count": 885,
+    "all_brand_history_count": 9653,
+    "streamlit_exceptions": 0
+  }
+}
